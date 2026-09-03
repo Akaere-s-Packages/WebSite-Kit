@@ -1,6 +1,6 @@
 {
   "name": "rog-control-center",
-  "pkgbase": "rog-control-center",
+  "pkgbase": "asusctl",
   "source_type": "aur",
   "version": "6.4.0-1",
   "description": "Graphical user interface for asusctl",
@@ -10,14 +10,14 @@
   ],
   "maintainer": "mhdi",
   "submitter": "fabiscafe",
-  "packager": "Lilithya",
+  "packager": "Lilithya <me@lilithya.su>",
   "votes": 32,
   "popularity": 1.888905,
   "first_submitted": "2021-09-18T11:01:35Z",
-  "last_updated": "2026-09-03T02:14:00Z",
-  "build_status": "build_failed",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33756036469/job/100657495049",
-  "package_size_bytes": 15420312,
+  "last_updated": "2026-09-03T14:20:28Z",
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100672204192",
+  "package_size_bytes": 31209586,
   "dependencies": [
     {
       "name": "asusctl",
@@ -25,13 +25,38 @@
       "repo": "aur"
     },
     {
-      "name": "gtk4",
+      "name": "fontconfig",
       "type": "depends",
       "repo": "extra"
     },
     {
-      "name": "libadwaita",
+      "name": "glibc",
       "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "hicolor-icon-theme",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libgcc",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "systemd-libs",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "cargo",
+      "type": "makedepends",
+      "repo": "aur"
+    },
+    {
+      "name": "fontconfig",
+      "type": "makedepends",
       "repo": "extra"
     }
   ],
@@ -48,20 +73,172 @@
   ],
   "files": [
     {
-      "path": "usr/bin/rog-control-center",
-      "size_bytes": 12400000
+      "path": "/usr/bin/rog-control-center",
+      "size_bytes": 30396504
     },
     {
-      "path": "usr/share/applications/rog-control-center.desktop",
-      "size_bytes": 1024
+      "path": "/usr/share/applications/org.opengamingcollective.rog-control-center.desktop",
+      "size_bytes": 198
     },
     {
-      "path": "usr/share/icons/hicolor/scalable/apps/rog-control-center.svg",
-      "size_bytes": 4500
+      "path": "/usr/share/icons/hicolor/512x512/apps/asus_notif_blue.png",
+      "size_bytes": 78387
     },
     {
-      "path": "usr/share/licenses/rog-control-center/LICENSE",
-      "size_bytes": 16725
+      "path": "/usr/share/icons/hicolor/512x512/apps/asus_notif_green.png",
+      "size_bytes": 69048
+    },
+    {
+      "path": "/usr/share/icons/hicolor/512x512/apps/asus_notif_orange.png",
+      "size_bytes": 78480
+    },
+    {
+      "path": "/usr/share/icons/hicolor/512x512/apps/asus_notif_red.png",
+      "size_bytes": 76769
+    },
+    {
+      "path": "/usr/share/icons/hicolor/512x512/apps/asus_notif_white.png",
+      "size_bytes": 39011
+    },
+    {
+      "path": "/usr/share/icons/hicolor/512x512/apps/asus_notif_yellow.png",
+      "size_bytes": 76145
+    },
+    {
+      "path": "/usr/share/icons/hicolor/512x512/apps/rog-control-center.png",
+      "size_bytes": 71953
+    },
+    {
+      "path": "/usr/share/icons/hicolor/scalable/status/gpu-compute.svg",
+      "size_bytes": 3916
+    },
+    {
+      "path": "/usr/share/icons/hicolor/scalable/status/gpu-hybrid.svg",
+      "size_bytes": 2976
+    },
+    {
+      "path": "/usr/share/icons/hicolor/scalable/status/gpu-integrated.svg",
+      "size_bytes": 3049
+    },
+    {
+      "path": "/usr/share/icons/hicolor/scalable/status/gpu-nvidia.svg",
+      "size_bytes": 3045
+    },
+    {
+      "path": "/usr/share/icons/hicolor/scalable/status/gpu-vfio.svg",
+      "size_bytes": 3657
+    },
+    {
+      "path": "/usr/share/icons/hicolor/scalable/status/notification-reboot.svg",
+      "size_bytes": 1152
+    },
+    {
+      "path": "/usr/share/locale/az/LC_MESSAGES/rog-control-center.mo",
+      "size_bytes": 14322
+    },
+    {
+      "path": "/usr/share/locale/fr/LC_MESSAGES/rog-control-center.mo",
+      "size_bytes": 17590
+    },
+    {
+      "path": "/usr/share/locale/it/LC_MESSAGES/rog-control-center.mo",
+      "size_bytes": 19966
+    },
+    {
+      "path": "/usr/share/locale/pt_BR/LC_MESSAGES/rog-control-center.mo",
+      "size_bytes": 18369
+    },
+    {
+      "path": "/usr/share/locale/ru/LC_MESSAGES/rog-control-center.mo",
+      "size_bytes": 23651
+    },
+    {
+      "path": "/usr/share/locale/tr/LC_MESSAGES/rog-control-center.mo",
+      "size_bytes": 10949
+    },
+    {
+      "path": "/usr/share/locale/uk_UA/LC_MESSAGES/rog-control-center.mo",
+      "size_bytes": 23334
+    },
+    {
+      "path": "/usr/share/locale/zh_CN/LC_MESSAGES/rog-control-center.mo",
+      "size_bytes": 11771
+    },
+    {
+      "path": "/usr/share/metainfo/org.opengamingcollective.rog-control-center.metainfo.xml",
+      "size_bytes": 1880
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/fa506i_US.ron",
+      "size_bytes": 8589
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/fa507_US.ron",
+      "size_bytes": 8924
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/fa608_US.ron",
+      "size_bytes": 8924
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/fx505d_US.ron",
+      "size_bytes": 7645
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g512_US.ron",
+      "size_bytes": 8346
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g513i-per-key_US.ron",
+      "size_bytes": 9923
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g513i_US.ron",
+      "size_bytes": 9923
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g533q-per-key_US.ron",
+      "size_bytes": 7790
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g533q_US.ron",
+      "size_bytes": 7780
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g614pr-per-key_US.ron",
+      "size_bytes": 9081
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g634j-per-key_US.ron",
+      "size_bytes": 9923
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g635l-per-key_US.ron",
+      "size_bytes": 10135
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g733pz-per-key_US.ron",
+      "size_bytes": 10841
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/g814ji-per-key_US.ron",
+      "size_bytes": 9431
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/ga401q_US.ron",
+      "size_bytes": 7810
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/gl503_US.ron",
+      "size_bytes": 8268
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/gx502_US.ron",
+      "size_bytes": 10580
+    },
+    {
+      "path": "/usr/share/rog-gui/layouts/gx531-per-key_US.ron",
+      "size_bytes": 9551
     }
   ],
   "distro": "archlinux"

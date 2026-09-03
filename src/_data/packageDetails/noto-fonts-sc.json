@@ -13,14 +13,83 @@
   "licenses": [
     "custom: SIL"
   ],
-  "build_status": "build_failed",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538956",
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100662328986",
   "version": "2:20210430-2",
-  "last_updated": null,
-  "packager": null,
+  "last_updated": "2026-09-03T14:20:28Z",
+  "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [],
   "sources": [],
-  "files": [],
-  "package_size_bytes": null,
+  "files": [
+    {
+      "path": "/usr/share/fonts/OTF/NotoSansCJKsc-Black.otf",
+      "size_bytes": 17797908
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSansCJKsc-Bold.otf",
+      "size_bytes": 17002248
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSansCJKsc-DemiLight.otf",
+      "size_bytes": 16414760
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSansCJKsc-Light.otf",
+      "size_bytes": 16329648
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSansCJKsc-Medium.otf",
+      "size_bytes": 16523632
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSansCJKsc-Regular.otf",
+      "size_bytes": 16437364
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSansCJKsc-Thin.otf",
+      "size_bytes": 14896688
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSansMonoCJKsc-Bold.otf",
+      "size_bytes": 16958476
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSansMonoCJKsc-Regular.otf",
+      "size_bytes": 16393784
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSerifCJKsc-Black.otf",
+      "size_bytes": 24004884
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSerifCJKsc-Bold.otf",
+      "size_bytes": 25416232
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSerifCJKsc-ExtraLight.otf",
+      "size_bytes": 21280508
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSerifCJKsc-Light.otf",
+      "size_bytes": 24103052
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSerifCJKsc-Medium.otf",
+      "size_bytes": 24661144
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSerifCJKsc-Regular.otf",
+      "size_bytes": 24429984
+    },
+    {
+      "path": "/usr/share/fonts/OTF/NotoSerifCJKsc-SemiBold.otf",
+      "size_bytes": 24614128
+    },
+    {
+      "path": "/usr/share/licenses/noto-fonts-sc/LICENSE",
+      "size_bytes": 4301
+    }
+  ],
+  "package_size_bytes": 317268741,
   "required_by": []
 }

@@ -13,14 +13,6181 @@
   "licenses": [
     "LicenseRef-QQ"
   ],
-  "build_status": "build_failed",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538931",
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100662328955",
   "version": "5:3.2.33_52892-1",
-  "last_updated": null,
-  "packager": null,
-  "dependencies": [],
+  "last_updated": "2026-09-03T14:20:28Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "nss",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "alsa-lib",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "gtk3",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "gjs",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "at-spi2-core",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "openjpeg2",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "openslide",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libappindicator-gtk3",
+      "type": "optdepends",
+      "repo": "aur",
+      "description": "Allow QQ to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library)."
+    }
+  ],
   "sources": [],
-  "files": [],
-  "package_size_bytes": null,
+  "files": [
+    {
+      "path": "/opt/QQ/LICENSE.electron.txt",
+      "size_bytes": 1096
+    },
+    {
+      "path": "/opt/QQ/LICENSES.chromium.html",
+      "size_bytes": 15700060
+    },
+    {
+      "path": "/opt/QQ/chrome-sandbox",
+      "size_bytes": 15248
+    },
+    {
+      "path": "/opt/QQ/chrome_100_percent.pak",
+      "size_bytes": 115176
+    },
+    {
+      "path": "/opt/QQ/chrome_200_percent.pak",
+      "size_bytes": 188186
+    },
+    {
+      "path": "/opt/QQ/chrome_crashpad_handler",
+      "size_bytes": 1570344
+    },
+    {
+      "path": "/opt/QQ/icudtl.dat",
+      "size_bytes": 10822192
+    },
+    {
+      "path": "/opt/QQ/libEGL.so",
+      "size_bytes": 263944
+    },
+    {
+      "path": "/opt/QQ/libGLESv2.so",
+      "size_bytes": 6331280
+    },
+    {
+      "path": "/opt/QQ/libffmpeg.so",
+      "size_bytes": 2712872
+    },
+    {
+      "path": "/opt/QQ/liblinux_compat.so",
+      "size_bytes": 235576
+    },
+    {
+      "path": "/opt/QQ/libvk_swiftshader.so",
+      "size_bytes": 4706136
+    },
+    {
+      "path": "/opt/QQ/libvulkan.so.1",
+      "size_bytes": 2475352
+    },
+    {
+      "path": "/opt/QQ/libz.so.1",
+      "size_bytes": 113088
+    },
+    {
+      "path": "/opt/QQ/locales/en-US.pak",
+      "size_bytes": 541625
+    },
+    {
+      "path": "/opt/QQ/locales/zh-CN.pak",
+      "size_bytes": 547949
+    },
+    {
+      "path": "/opt/QQ/qq",
+      "size_bytes": 204344328
+    },
+    {
+      "path": "/opt/QQ/resources.pak",
+      "size_bytes": 2949141
+    },
+    {
+      "path": "/opt/QQ/resources/app/AudioFoundation.dylib",
+      "size_bytes": 584096
+    },
+    {
+      "path": "/opt/QQ/resources/app/AudioFoundation.node",
+      "size_bytes": 864848
+    },
+    {
+      "path": "/opt/QQ/resources/app/app_launcher/adm-zip.js",
+      "size_bytes": 57
+    },
+    {
+      "path": "/opt/QQ/resources/app/app_launcher/index.js",
+      "size_bytes": 56
+    },
+    {
+      "path": "/opt/QQ/resources/app/app_launcher/launcher.js",
+      "size_bytes": 59
+    },
+    {
+      "path": "/opt/QQ/resources/app/application.asar",
+      "size_bytes": 30790768
+    },
+    {
+      "path": "/opt/QQ/resources/app/application.json",
+      "size_bytes": 1451
+    },
+    {
+      "path": "/opt/QQ/resources/app/application/.app",
+      "size_bytes": 0
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/Color_ps.glsl",
+      "size_bytes": 131
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/Color_vs.glsl",
+      "size_bytes": 217
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/I420toRGB_r8_ps.glsl",
+      "size_bytes": 1670
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/Lanczos_scale.glsl",
+      "size_bytes": 1676
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/NV12toRGB_cs.glsl",
+      "size_bytes": 1047
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/NV12toRGB_ps.glsl",
+      "size_bytes": 1688
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/NV12toRGB_r8_cs.glsl",
+      "size_bytes": 1205
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/NV12toRGB_r8_ps.glsl",
+      "size_bytes": 1521
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/NV21toRGB_ps.glsl",
+      "size_bytes": 1673
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/PixelShader.glsl",
+      "size_bytes": 210
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/PixelShader_RGB.glsl",
+      "size_bytes": 343
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/PixelShader_copy.glsl",
+      "size_bytes": 453
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoI420_cb_cs.glsl",
+      "size_bytes": 2517
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoNV12_cb_cs.glsl",
+      "size_bytes": 2414
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoNV12_cs.glsl",
+      "size_bytes": 1920
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoNV12_r8_cs.glsl",
+      "size_bytes": 1990
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoNV21_cb_cs.glsl",
+      "size_bytes": 2415
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoP010_cs.glsl",
+      "size_bytes": 1922
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoP010_r16_cs.glsl",
+      "size_bytes": 1799
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoY410_cs.glsl",
+      "size_bytes": 1109
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoY410_r16_cs.glsl",
+      "size_bytes": 1426
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoY444_cb_cs.glsl",
+      "size_bytes": 1332
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoY444_cs.glsl",
+      "size_bytes": 1108
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoY444_r8_cs.glsl",
+      "size_bytes": 1425
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoYUY2_cb_cs.glsl",
+      "size_bytes": 2338
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/RGBtoYV12_cb_cs.glsl",
+      "size_bytes": 2518
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/VertexShader.glsl",
+      "size_bytes": 303
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/Y410toRGB_cs.glsl",
+      "size_bytes": 930
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/Y444toRGB_cs.glsl",
+      "size_bytes": 920
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/Y444toRGB_ps.glsl",
+      "size_bytes": 1218
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/Y444toRGB_r8_cs.glsl",
+      "size_bytes": 1248
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/YUY2toRGB_ps.glsl",
+      "size_bytes": 1864
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/Shader/YV12toRGB_ps.glsl",
+      "size_bytes": 1691
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/broadcast-core.so",
+      "size_bytes": 470240
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/bugly/libbugly.so",
+      "size_bytes": 1377128
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/bugly/libcrbase.so",
+      "size_bytes": 3138664
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/bugly/libunwind-x86_64.so.8",
+      "size_bytes": 923368
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/bugly/libunwind.so.8",
+      "size_bytes": 661672
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/cacert.pem",
+      "size_bytes": 221418
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/libAVSDKPlugin.so",
+      "size_bytes": 33646448
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/libcrypto.so.1.1",
+      "size_bytes": 3207288
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/libfdk-aac.so",
+      "size_bytes": 1670248
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/libmp4v2.so",
+      "size_bytes": 1669032
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/libopenh264.so",
+      "size_bytes": 1500624
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/librtmp.so",
+      "size_bytes": 121864
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/libssl.so.1.1",
+      "size_bytes": 621624
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/ntrtc_gru.bin",
+      "size_bytes": 1401600
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/pub.key",
+      "size_bytes": 271
+    },
+    {
+      "path": "/opt/QQ/resources/app/avsdk/rnnoise.so",
+      "size_bytes": 145824
+    },
+    {
+      "path": "/opt/QQ/resources/app/cacert.pem",
+      "size_bytes": 221418
+    },
+    {
+      "path": "/opt/QQ/resources/app/initIpc_ia32.node",
+      "size_bytes": 534568
+    },
+    {
+      "path": "/opt/QQ/resources/app/initIpc_x64.node",
+      "size_bytes": 692776
+    },
+    {
+      "path": "/opt/QQ/resources/app/iohook.node",
+      "size_bytes": 169472
+    },
+    {
+      "path": "/opt/QQ/resources/app/ipc.node",
+      "size_bytes": 1613296
+    },
+    {
+      "path": "/opt/QQ/resources/app/libbugly.so",
+      "size_bytes": 1377128
+    },
+    {
+      "path": "/opt/QQ/resources/app/libcrbase.so",
+      "size_bytes": 2543712
+    },
+    {
+      "path": "/opt/QQ/resources/app/libparent-ipc-core-x64.so",
+      "size_bytes": 3540512
+    },
+    {
+      "path": "/opt/QQ/resources/app/libunwind-x86_64.so.8",
+      "size_bytes": 923368
+    },
+    {
+      "path": "/opt/QQ/resources/app/libunwind.so.8",
+      "size_bytes": 661672
+    },
+    {
+      "path": "/opt/QQ/resources/app/major.node",
+      "size_bytes": 110468744
+    },
+    {
+      "path": "/opt/QQ/resources/app/package.json",
+      "size_bytes": 2156
+    },
+    {
+      "path": "/opt/QQ/resources/app/pub.key",
+      "size_bytes": 271
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/512x512.png",
+      "size_bytes": 15756
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/chuayixia_bubble_2001/effect/normal.png",
+      "size_bytes": 7448
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/gouyin_bubble_2003/effect/normal.png",
+      "size_bytes": 5021
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/jieyin_bubble_2005/effect/normal.png",
+      "size_bytes": 2031
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/pi_bubble_2009/effect/normal.png",
+      "size_bytes": 2576
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/pokemon_2011/effect/normal.png",
+      "size_bytes": 4204
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/qiaomen_bubble_2000/effect/normal.png",
+      "size_bytes": 4754
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/rose_2007/effect/normal.png",
+      "size_bytes": 3574
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/shoulei_bubble_2004/effect/normal.png",
+      "size_bytes": 2713
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/suiping_bubble_2002/effect/normal.png",
+      "size_bytes": 5671
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/chuo-lottie/zhaohuan_bubble_2006/effect/normal.png",
+      "size_bytes": 5865
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/contact-notify-logo.png",
+      "size_bytes": 2174
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/countdown.mp3",
+      "size_bytes": 2163
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/0.png",
+      "size_bytes": 1531
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/1.png",
+      "size_bytes": 1612
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/10.png",
+      "size_bytes": 1601
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/100.png",
+      "size_bytes": 1842
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/101.png",
+      "size_bytes": 1674
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/102.png",
+      "size_bytes": 1068
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/103.png",
+      "size_bytes": 1062
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/104.png",
+      "size_bytes": 1803
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/105.png",
+      "size_bytes": 1320
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/106.png",
+      "size_bytes": 1260
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/107.png",
+      "size_bytes": 1414
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/108.png",
+      "size_bytes": 1347
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/109.png",
+      "size_bytes": 1385
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/11.png",
+      "size_bytes": 2342
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/110.png",
+      "size_bytes": 1761
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/111.png",
+      "size_bytes": 1871
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/112.png",
+      "size_bytes": 844
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/114.png",
+      "size_bytes": 1118
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/116.png",
+      "size_bytes": 822
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/118.png",
+      "size_bytes": 765
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/119.png",
+      "size_bytes": 780
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/12.png",
+      "size_bytes": 1514
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/120.png",
+      "size_bytes": 867
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/121.png",
+      "size_bytes": 771
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/123.png",
+      "size_bytes": 745
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/124.png",
+      "size_bytes": 850
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/125.png",
+      "size_bytes": 1234
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/129.png",
+      "size_bytes": 1347
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/13.png",
+      "size_bytes": 1502
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/137.png",
+      "size_bytes": 1453
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/14.png",
+      "size_bytes": 1395
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/144.png",
+      "size_bytes": 2486
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/146.png",
+      "size_bytes": 679
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/147.png",
+      "size_bytes": 1885
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/15.png",
+      "size_bytes": 1379
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/16.png",
+      "size_bytes": 1600
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/169.png",
+      "size_bytes": 737
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/171.png",
+      "size_bytes": 1522
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/172.png",
+      "size_bytes": 1446
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/173.png",
+      "size_bytes": 2355
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/174.png",
+      "size_bytes": 1391
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/175.png",
+      "size_bytes": 1552
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/176.png",
+      "size_bytes": 1102
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/177.png",
+      "size_bytes": 1409
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/178.png",
+      "size_bytes": 1469
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/179.png",
+      "size_bytes": 1353
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/18.png",
+      "size_bytes": 1755
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/181.png",
+      "size_bytes": 1114
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/182.png",
+      "size_bytes": 1891
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/183.png",
+      "size_bytes": 1540
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/185.png",
+      "size_bytes": 889
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/187.png",
+      "size_bytes": 822
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/19.png",
+      "size_bytes": 2109
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/2.png",
+      "size_bytes": 1947
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/20.png",
+      "size_bytes": 1252
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/201.png",
+      "size_bytes": 994
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/21.png",
+      "size_bytes": 1190
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/212.png",
+      "size_bytes": 1274
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/22.png",
+      "size_bytes": 1218
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/23.png",
+      "size_bytes": 1195
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/24.png",
+      "size_bytes": 1222
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/25.png",
+      "size_bytes": 1107
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/26.png",
+      "size_bytes": 1728
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/262.png",
+      "size_bytes": 1288
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/263.png",
+      "size_bytes": 1415
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/264.png",
+      "size_bytes": 1859
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/265.png",
+      "size_bytes": 1520
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/266.png",
+      "size_bytes": 1553
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/267.png",
+      "size_bytes": 1397
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/268.png",
+      "size_bytes": 1960
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/269.png",
+      "size_bytes": 1489
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/27.png",
+      "size_bytes": 1277
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/270.png",
+      "size_bytes": 1331
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/271.png",
+      "size_bytes": 1814
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/272.png",
+      "size_bytes": 1128
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/273.png",
+      "size_bytes": 1332
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/277.png",
+      "size_bytes": 1754
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/28.png",
+      "size_bytes": 1567
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/281.png",
+      "size_bytes": 1259
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/282.png",
+      "size_bytes": 1201
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/283.png",
+      "size_bytes": 1620
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/284.png",
+      "size_bytes": 717
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/285.png",
+      "size_bytes": 1779
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/286.png",
+      "size_bytes": 1633
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/287.png",
+      "size_bytes": 1581
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/289.png",
+      "size_bytes": 1830
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/29.png",
+      "size_bytes": 1324
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/293.png",
+      "size_bytes": 2308
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/294.png",
+      "size_bytes": 1954
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/295.png",
+      "size_bytes": 1922
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/297.png",
+      "size_bytes": 1345
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/298.png",
+      "size_bytes": 1269
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/299.png",
+      "size_bytes": 2120
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/3.png",
+      "size_bytes": 1686
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/30.png",
+      "size_bytes": 1751
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/300.png",
+      "size_bytes": 1383
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/302.png",
+      "size_bytes": 1895
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/303.png",
+      "size_bytes": 1821
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/305.png",
+      "size_bytes": 1347
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/306.png",
+      "size_bytes": 1949
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/307.png",
+      "size_bytes": 2001
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/31.png",
+      "size_bytes": 1989
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/311.png",
+      "size_bytes": 3012
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/312.png",
+      "size_bytes": 1477
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/314.png",
+      "size_bytes": 1589
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/317.png",
+      "size_bytes": 2080
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/318.png",
+      "size_bytes": 2309
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/319.png",
+      "size_bytes": 1666
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/32.png",
+      "size_bytes": 1655
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/320.png",
+      "size_bytes": 2038
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/323.png",
+      "size_bytes": 1455
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/324.png",
+      "size_bytes": 1760
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/325.png",
+      "size_bytes": 2274
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/326.png",
+      "size_bytes": 1796
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/33.png",
+      "size_bytes": 1659
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/332.png",
+      "size_bytes": 2564
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/333.png",
+      "size_bytes": 1449
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/334.png",
+      "size_bytes": 2226
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/336.png",
+      "size_bytes": 2306
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/337.png",
+      "size_bytes": 3162
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/338.png",
+      "size_bytes": 1865
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/339.png",
+      "size_bytes": 1849
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/34.png",
+      "size_bytes": 1244
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/341.png",
+      "size_bytes": 2315
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/342.png",
+      "size_bytes": 1946
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/343.png",
+      "size_bytes": 1348
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/344.png",
+      "size_bytes": 2116
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/345.png",
+      "size_bytes": 1956
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/346.png",
+      "size_bytes": 1544
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/347.png",
+      "size_bytes": 1419
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/349.png",
+      "size_bytes": 2385
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/35.png",
+      "size_bytes": 1847
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/350.png",
+      "size_bytes": 1818
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/351.png",
+      "size_bytes": 1545
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/352.png",
+      "size_bytes": 1354
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/353.png",
+      "size_bytes": 1293
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/354.png",
+      "size_bytes": 1764
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/355.png",
+      "size_bytes": 1518
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/356.png",
+      "size_bytes": 1993
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/357.png",
+      "size_bytes": 965
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/358.png",
+      "size_bytes": 930
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/359.png",
+      "size_bytes": 1055
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/36.png",
+      "size_bytes": 1017
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/37.png",
+      "size_bytes": 1115
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/38.png",
+      "size_bytes": 1775
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/39.png",
+      "size_bytes": 1543
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/392.png",
+      "size_bytes": 2864
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/393.png",
+      "size_bytes": 2864
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/394.png",
+      "size_bytes": 2864
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/395.png",
+      "size_bytes": 2231
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/4.png",
+      "size_bytes": 1833
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/41.png",
+      "size_bytes": 1604
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/415.png",
+      "size_bytes": 1526
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/416.png",
+      "size_bytes": 1526
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/417.png",
+      "size_bytes": 1526
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/419.png",
+      "size_bytes": 1596
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/42.png",
+      "size_bytes": 1754
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/420.png",
+      "size_bytes": 1596
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/421.png",
+      "size_bytes": 1596
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/422.png",
+      "size_bytes": 2529
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/423.png",
+      "size_bytes": 981
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/424.png",
+      "size_bytes": 1226
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/425.png",
+      "size_bytes": 1800
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/426.png",
+      "size_bytes": 2203
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/427.png",
+      "size_bytes": 1978
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/428.png",
+      "size_bytes": 1612
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/429.png",
+      "size_bytes": 1485
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/43.png",
+      "size_bytes": 1342
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/430.png",
+      "size_bytes": 1485
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/431.png",
+      "size_bytes": 1485
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/432.png",
+      "size_bytes": 1659
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/46.png",
+      "size_bytes": 952
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/49.png",
+      "size_bytes": 1388
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/5.png",
+      "size_bytes": 2156
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/53.png",
+      "size_bytes": 1584
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/56.png",
+      "size_bytes": 915
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/59.png",
+      "size_bytes": 1299
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/6.png",
+      "size_bytes": 1146
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/60.png",
+      "size_bytes": 1346
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/63.png",
+      "size_bytes": 1457
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/64.png",
+      "size_bytes": 1190
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/66.png",
+      "size_bytes": 787
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/67.png",
+      "size_bytes": 879
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/7.png",
+      "size_bytes": 1646
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/74.png",
+      "size_bytes": 1014
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/75.png",
+      "size_bytes": 1176
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/76.png",
+      "size_bytes": 602
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/77.png",
+      "size_bytes": 643
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/78.png",
+      "size_bytes": 838
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/79.png",
+      "size_bytes": 862
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/8.png",
+      "size_bytes": 1361
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/85.png",
+      "size_bytes": 1335
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/86.png",
+      "size_bytes": 1440
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/89.png",
+      "size_bytes": 1294
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/9.png",
+      "size_bytes": 1399
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/96.png",
+      "size_bytes": 1832
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/97.png",
+      "size_bytes": 1850
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/98.png",
+      "size_bytes": 1399
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/99.png",
+      "size_bytes": 1557
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/default-emojis/default_config.json",
+      "size_bytes": 66517
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/drag.png",
+      "size_bytes": 308
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/ai.png",
+      "size_bytes": 2564
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/apk.png",
+      "size_bytes": 2835
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/audio.png",
+      "size_bytes": 2150
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/bak.png",
+      "size_bytes": 3248
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/code.png",
+      "size_bytes": 2362
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/dmg.png",
+      "size_bytes": 2393
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/doc.png",
+      "size_bytes": 2677
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/exe.png",
+      "size_bytes": 2221
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/fillefolder.png",
+      "size_bytes": 1192
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/folder.png",
+      "size_bytes": 9554
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/font.png",
+      "size_bytes": 2658
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/image.png",
+      "size_bytes": 2254
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/ipa.png",
+      "size_bytes": 2433
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/keynote.png",
+      "size_bytes": 2072
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/link.png",
+      "size_bytes": 2583
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/markdown.png",
+      "size_bytes": 5595
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/mindmap.png",
+      "size_bytes": 2426
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/multi_files.png",
+      "size_bytes": 2172
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/note.png",
+      "size_bytes": 2209
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/numbers.png",
+      "size_bytes": 1990
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/pages.png",
+      "size_bytes": 2594
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/pdf.png",
+      "size_bytes": 2467
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/pkg.png",
+      "size_bytes": 2379
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/ppt.png",
+      "size_bytes": 2247
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/ps.png",
+      "size_bytes": 2549
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/rar.png",
+      "size_bytes": 3527
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/sketch.png",
+      "size_bytes": 2868
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/txt.png",
+      "size_bytes": 2197
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/unknown.png",
+      "size_bytes": 2264
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/video.png",
+      "size_bytes": 2003
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/xls.png",
+      "size_bytes": 2488
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fileIcon/zip.png",
+      "size_bytes": 3016
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fonts/AppleBraille.ttf",
+      "size_bytes": 138012
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fonts/AppleColorEmoji-fix.ttf",
+      "size_bytes": 17164
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fonts/AppleColorEmoji.ttf",
+      "size_bytes": 5238868
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fonts/DIN-Medium.ttf",
+      "size_bytes": 25020
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fonts/DIN-Regular.ttf",
+      "size_bytes": 24676
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fonts/DINNextLTPro-QQ.ttf",
+      "size_bytes": 3824
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/fonts/DINNextLTPro.ttf",
+      "size_bytes": 128992
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/gamecenter.png",
+      "size_bytes": 4721
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/group-default-avatar.png",
+      "size_bytes": 3350
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/guild-avatar.png",
+      "size_bytes": 5614
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_16.svg",
+      "size_bytes": 459
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_24.svg",
+      "size_bytes": 490
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_block_16.svg",
+      "size_bytes": 2463
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_block_24.svg",
+      "size_bytes": 2837
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_chat_24.svg",
+      "size_bytes": 785
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_circle.svg",
+      "size_bytes": 249
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_circle_16.svg",
+      "size_bytes": 277
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_farm_24.svg",
+      "size_bytes": 1111
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_friend_16.svg",
+      "size_bytes": 1116
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_friend_24.svg",
+      "size_bytes": 1021
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_group_16.svg",
+      "size_bytes": 1494
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_group_24.svg",
+      "size_bytes": 1652
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_novel_24.svg",
+      "size_bytes": 770
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/add_web_24.svg",
+      "size_bytes": 711
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/administering_user_16.svg",
+      "size_bytes": 2228
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/administering_user_24.svg",
+      "size_bytes": 2131
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/agent_16.svg",
+      "size_bytes": 1030
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/agent_24.svg",
+      "size_bytes": 1029
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_ask_16.svg",
+      "size_bytes": 2407
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_ask_24.svg",
+      "size_bytes": 2405
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_ask_color_16.svg",
+      "size_bytes": 2408
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_ask_color_24.svg",
+      "size_bytes": 2415
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_label_16.svg",
+      "size_bytes": 1389
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_photo_16.svg",
+      "size_bytes": 1398
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_photo_24.svg",
+      "size_bytes": 1455
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_statement_16.svg",
+      "size_bytes": 1814
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_statement_24.svg",
+      "size_bytes": 1822
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_summary_16.svg",
+      "size_bytes": 3043
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ai_summary_24.svg",
+      "size_bytes": 3124
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/align_center_16.svg",
+      "size_bytes": 549
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/align_center_24.svg",
+      "size_bytes": 596
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/align_left_16.svg",
+      "size_bytes": 390
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/align_left_24.svg",
+      "size_bytes": 438
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/align_right_16.svg",
+      "size_bytes": 392
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/align_right_24.svg",
+      "size_bytes": 440
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/all_16.svg",
+      "size_bytes": 2588
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/announcement_16.svg",
+      "size_bytes": 632
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/announcement_24.svg",
+      "size_bytes": 520
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/applications_16.svg",
+      "size_bytes": 2666
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/applications_24.svg",
+      "size_bytes": 2509
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_down_16.svg",
+      "size_bytes": 215
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_down_24.svg",
+      "size_bytes": 218
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_down_circle_dotted_16.svg",
+      "size_bytes": 712
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_down_circle_dotted_24.svg",
+      "size_bytes": 690
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_down_circle_dotted_new_16.svg",
+      "size_bytes": 669
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_down_circle_dotted_new_24.svg",
+      "size_bytes": 690
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_down_mini_16.svg",
+      "size_bytes": 218
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_down_part_circle_dotted_24.svg",
+      "size_bytes": 999
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_down_small_16.svg",
+      "size_bytes": 215
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_left_16.svg",
+      "size_bytes": 199
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_left_24.svg",
+      "size_bytes": 225
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_left_small_16.svg",
+      "size_bytes": 221
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_right_16.svg",
+      "size_bytes": 199
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_right_24.svg",
+      "size_bytes": 225
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_right_small_16.svg",
+      "size_bytes": 216
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_up_16.svg",
+      "size_bytes": 197
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_up_24.svg",
+      "size_bytes": 223
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_up_right_box_16.svg",
+      "size_bytes": 252
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_up_right_box_24.svg",
+      "size_bytes": 268
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrow_up_small_16.svg",
+      "size_bytes": 213
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrows_16.svg",
+      "size_bytes": 542
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/arrows_24.svg",
+      "size_bytes": 535
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/at_16.svg",
+      "size_bytes": 798
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/at_24.svg",
+      "size_bytes": 707
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/backup_16.svg",
+      "size_bytes": 1382
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/backup_24.svg",
+      "size_bytes": 1397
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/bean_gold_16.svg",
+      "size_bytes": 1211
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/billactivity_16.svg",
+      "size_bytes": 352
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/billactivity_24.svg",
+      "size_bytes": 369
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/blue_company_24.svg",
+      "size_bytes": 1562
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/bold_16.svg",
+      "size_bytes": 841
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/bold_24.svg",
+      "size_bytes": 694
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/box_select_16.svg",
+      "size_bytes": 1255
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/box_select_24.svg",
+      "size_bytes": 1392
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_ai_24.svg",
+      "size_bytes": 1396
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_ai_qq_24.svg",
+      "size_bytes": 1852
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_browser_24.svg",
+      "size_bytes": 2053
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_computer_24.svg",
+      "size_bytes": 840
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_evernote_24.svg",
+      "size_bytes": 2625
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_group_image_24.svg",
+      "size_bytes": 2229
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_mini_program_24.svg",
+      "size_bytes": 670
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_miniprogram_24.svg",
+      "size_bytes": 1407
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_moment_24.svg",
+      "size_bytes": 2021
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_personal_verified_16.svg",
+      "size_bytes": 2083
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_personal_verified_24.svg",
+      "size_bytes": 2103
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_qq_24.svg",
+      "size_bytes": 1045
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_qq_color_24.svg",
+      "size_bytes": 4116
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_qq_logo_24.svg",
+      "size_bytes": 2083
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_qq_outline_16.svg",
+      "size_bytes": 2057
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_qq_outline_24.svg",
+      "size_bytes": 2047
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_qqdocs_24.svg",
+      "size_bytes": 1350
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_qvideo_new_24.svg",
+      "size_bytes": 1732
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_qzone_24.svg",
+      "size_bytes": 2599
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_qzone_image_24.svg",
+      "size_bytes": 1572
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_robot_24.svg",
+      "size_bytes": 1222
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_tencent_chanel_24.svg",
+      "size_bytes": 3143
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_verified_16.svg",
+      "size_bytes": 2349
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_verified_24.svg",
+      "size_bytes": 2206
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_wechat_16.svg",
+      "size_bytes": 2490
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_wechat_filled_24.svg",
+      "size_bytes": 2370
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_wechat_line_24.svg",
+      "size_bytes": 2834
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_wecom_24.svg",
+      "size_bytes": 6479
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_weibo_24.svg",
+      "size_bytes": 2190
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brand_xiaohongshu_24.svg",
+      "size_bytes": 6048
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/browser_16.svg",
+      "size_bytes": 1479
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/browser_24.svg",
+      "size_bytes": 1518
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brush_16.svg",
+      "size_bytes": 1742
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/brush_24.svg",
+      "size_bytes": 1772
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/calendar_16.svg",
+      "size_bytes": 2336
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/calendar_24.svg",
+      "size_bytes": 2306
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/calendar_default_16.svg",
+      "size_bytes": 4335
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/calendar_default_24.svg",
+      "size_bytes": 3790
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/camera_reversed_16.svg",
+      "size_bytes": 2249
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/camera_reversed_24.svg",
+      "size_bytes": 2171
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/caps_lock_16.svg",
+      "size_bytes": 635
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/caps_lock_24.svg",
+      "size_bytes": 666
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/caution_16.svg",
+      "size_bytes": 281
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/caution_24.svg",
+      "size_bytes": 313
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/caution_filled_16.svg",
+      "size_bytes": 686
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/caution_filled_24.svg",
+      "size_bytes": 705
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/caution_filled_new_24.svg",
+      "size_bytes": 766
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/changing_sound_16.svg",
+      "size_bytes": 1206
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/changing_sound_24.svg",
+      "size_bytes": 1210
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_16.svg",
+      "size_bytes": 1481
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_24.svg",
+      "size_bytes": 1451
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_administering_user_24.svg",
+      "size_bytes": 3044
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_arrow_right_16.svg",
+      "size_bytes": 218
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_ban_24.svg",
+      "size_bytes": 1371
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_ban_avatar_16.svg",
+      "size_bytes": 948
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_comic_24.svg",
+      "size_bytes": 2319
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_entertainment_24.svg",
+      "size_bytes": 2775
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_friend_24.svg",
+      "size_bytes": 1698
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_game_24.svg",
+      "size_bytes": 1650
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_knowledge_24.svg",
+      "size_bytes": 1273
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_life_24.svg",
+      "size_bytes": 782
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_music_24.svg",
+      "size_bytes": 1251
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_school_24.svg",
+      "size_bytes": 1129
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_star_24.svg",
+      "size_bytes": 591
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_voice_16.svg",
+      "size_bytes": 1653
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_discover_voice_24.svg",
+      "size_bytes": 1573
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_down_16.svg",
+      "size_bytes": 2316
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_free_speech_16.svg",
+      "size_bytes": 2339
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_free_speech_24.svg",
+      "size_bytes": 2301
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_full_screen_16.svg",
+      "size_bytes": 1086
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_full_screen_24.svg",
+      "size_bytes": 1162
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_handup_speech_24.svg",
+      "size_bytes": 935
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_hashtag_24.svg",
+      "size_bytes": 1485
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_home_day_24.svg",
+      "size_bytes": 794
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_home_night_24.svg",
+      "size_bytes": 547
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_announcement_24.svg",
+      "size_bytes": 979
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_announcement_v1_24.svg",
+      "size_bytes": 962
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_application_24.svg",
+      "size_bytes": 2641
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_application_v1_24.svg",
+      "size_bytes": 2476
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_bbs_24.svg",
+      "size_bytes": 2235
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_bbssquare_24.svg",
+      "size_bytes": 1961
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_camera_16.svg",
+      "size_bytes": 671
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_chat_24.svg",
+      "size_bytes": 1917
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_chat_v1_24.svg",
+      "size_bytes": 684
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_fire_v1_24.svg",
+      "size_bytes": 710
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_vedio_24.svg",
+      "size_bytes": 7297
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_vedio_v1_24.svg",
+      "size_bytes": 6279
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_voice_24.svg",
+      "size_bytes": 652
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_icon_voice_v1_24.svg",
+      "size_bytes": 953
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_kick_red_16.svg",
+      "size_bytes": 646
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_label_16.svg",
+      "size_bytes": 1489
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_line_micro_off_16.svg",
+      "size_bytes": 1441
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_live_16.svg",
+      "size_bytes": 317
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_mail_24.svg",
+      "size_bytes": 2231
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_message_16.svg",
+      "size_bytes": 1997
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_message_24.svg",
+      "size_bytes": 2826
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_micro_exit_24.svg",
+      "size_bytes": 1398
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_mini_screen_16.svg",
+      "size_bytes": 1234
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_mini_screen_24.svg",
+      "size_bytes": 1162
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_more_16.svg",
+      "size_bytes": 275
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_music_16.svg",
+      "size_bytes": 716
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_music_blue_16.svg",
+      "size_bytes": 611
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_music_dark_grey_16.svg",
+      "size_bytes": 800
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_music_white_alpha_16.svg",
+      "size_bytes": 625
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_notice_16.svg",
+      "size_bytes": 1078
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_play_16.svg",
+      "size_bytes": 1314
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_play_blue_16.svg",
+      "size_bytes": 1306
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_q_robot_16.svg",
+      "size_bytes": 1743
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_queue_speech_24.svg",
+      "size_bytes": 1619
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_quit_16.svg",
+      "size_bytes": 762
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_reply_filled_16.svg",
+      "size_bytes": 579
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_robot_24.svg",
+      "size_bytes": 1150
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_screen_16.svg",
+      "size_bytes": 1127
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_screen_blue_16.svg",
+      "size_bytes": 1036
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_screen_dark_16.svg",
+      "size_bytes": 1159
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_screen_grey_16.svg",
+      "size_bytes": 4612
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_screen_light_16.svg",
+      "size_bytes": 1003
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_screen_off_24.svg",
+      "size_bytes": 585
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_screen_up_16.svg",
+      "size_bytes": 361
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_selection_16.svg",
+      "size_bytes": 1130
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_share_16.svg",
+      "size_bytes": 575
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_signal_bad_16.svg",
+      "size_bytes": 373
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_signal_normal_16.svg",
+      "size_bytes": 362
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_silenced_16.svg",
+      "size_bytes": 964
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_silenced_cancel_16.svg",
+      "size_bytes": 1063
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_silenced_cancel_24.svg",
+      "size_bytes": 1074
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_tips_micro_off_16.svg",
+      "size_bytes": 1470
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_tips_micro_on_16.svg",
+      "size_bytes": 1134
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_tips_signal_bad_16.svg",
+      "size_bytes": 379
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_tips_voice_off_16.svg",
+      "size_bytes": 1063
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_tips_voice_on_16.svg",
+      "size_bytes": 1328
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_up_16.svg",
+      "size_bytes": 492
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_voice_16.svg",
+      "size_bytes": 830
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_voice_high_16.svg",
+      "size_bytes": 1154
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channel_withdraw_16.svg",
+      "size_bytes": 487
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/channle_robot_small_16.svg",
+      "size_bytes": 1296
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chat_16.svg",
+      "size_bytes": 834
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chat_24.svg",
+      "size_bytes": 850
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_live_green_24.svg",
+      "size_bytes": 466
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_live_grey_24.svg",
+      "size_bytes": 488
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_music_green_24.svg",
+      "size_bytes": 735
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_music_grey_24.svg",
+      "size_bytes": 826
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_play_green_24.svg",
+      "size_bytes": 1386
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_play_grey_24.svg",
+      "size_bytes": 1406
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_screenshare_green_24.svg",
+      "size_bytes": 1142
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_screenshare_grey_24.svg",
+      "size_bytes": 1141
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_voice_green_24.svg",
+      "size_bytes": 847
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chennel_avatar_voice_grey_24.svg",
+      "size_bytes": 846
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_down_new_16.svg",
+      "size_bytes": 382
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_down_new_24.svg",
+      "size_bytes": 380
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_down_small_new_16.svg",
+      "size_bytes": 373
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_left_fill_24.svg",
+      "size_bytes": 384
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_left_new_16.svg",
+      "size_bytes": 365
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_left_new_24.svg",
+      "size_bytes": 376
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_left_small_new_16.svg",
+      "size_bytes": 381
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_right_new_16.svg",
+      "size_bytes": 364
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_right_new_24.svg",
+      "size_bytes": 389
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_right_small_new_16.svg",
+      "size_bytes": 374
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_up_new_16.svg",
+      "size_bytes": 378
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_up_new_24.svg",
+      "size_bytes": 390
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/chevron_up_small_new_16.svg",
+      "size_bytes": 379
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/circle_16.svg",
+      "size_bytes": 152
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/circle_24.svg",
+      "size_bytes": 173
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/clear_16.svg",
+      "size_bytes": 4821
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/clear_24.svg",
+      "size_bytes": 4921
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/close_16.svg",
+      "size_bytes": 656
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/close_24.svg",
+      "size_bytes": 656
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/close_circle_16.svg",
+      "size_bytes": 241
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/close_circle_24.svg",
+      "size_bytes": 281
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/close_fill_24.svg",
+      "size_bytes": 662
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/close_new_16.svg",
+      "size_bytes": 658
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/close_new_24.svg",
+      "size_bytes": 660
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/close_small_new_16.svg",
+      "size_bytes": 669
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/code_16.svg",
+      "size_bytes": 550
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/collapse_16.svg",
+      "size_bytes": 392
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/collapse_24.svg",
+      "size_bytes": 523
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/collection_16.svg",
+      "size_bytes": 1035
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/collection_24.svg",
+      "size_bytes": 1051
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/combine_forward_16.svg",
+      "size_bytes": 984
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/combine_forward_24.svg",
+      "size_bytes": 989
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/comment_16.svg",
+      "size_bytes": 488
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/comment_24.svg",
+      "size_bytes": 439
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/company_16.svg",
+      "size_bytes": 960
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_backup_24.svg",
+      "size_bytes": 1758
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_empty_24.svg",
+      "size_bytes": 2992
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_fail_24.svg",
+      "size_bytes": 1193
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_lock_24.svg",
+      "size_bytes": 889
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_mac_16.svg",
+      "size_bytes": 1989
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_mac_24.svg",
+      "size_bytes": 1839
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_pc_16.svg",
+      "size_bytes": 1902
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_pc_24.svg",
+      "size_bytes": 1760
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_phone_16.svg",
+      "size_bytes": 2092
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_phone_24.svg",
+      "size_bytes": 1948
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_qq_24.svg",
+      "size_bytes": 2233
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_success_24.svg",
+      "size_bytes": 790
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_to_phone_24.svg",
+      "size_bytes": 1669
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/computer_unlock_24.svg",
+      "size_bytes": 2718
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/copy_16.svg",
+      "size_bytes": 3189
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/copy_24.svg",
+      "size_bytes": 2801
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/cropping_16.svg",
+      "size_bytes": 893
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/cropping_24.svg",
+      "size_bytes": 939
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/cross_device_transfer_24.svg",
+      "size_bytes": 1737
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/data_16.svg",
+      "size_bytes": 1257
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/data_24.svg",
+      "size_bytes": 1276
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/day_mode_16.svg",
+      "size_bytes": 1899
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/day_mode_24.svg",
+      "size_bytes": 1811
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/definition_1080_16.svg",
+      "size_bytes": 5629
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/definition_1080_24.svg",
+      "size_bytes": 5693
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/definition_480_16.svg",
+      "size_bytes": 4701
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/definition_480_24.svg",
+      "size_bytes": 4689
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/definition_720_16.svg",
+      "size_bytes": 3963
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/definition_720_24.svg",
+      "size_bytes": 3948
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/definition_auto_16.svg",
+      "size_bytes": 5344
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/definition_auto_24.svg",
+      "size_bytes": 5344
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/del_16.svg",
+      "size_bytes": 1624
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/del_24.svg",
+      "size_bytes": 1592
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/delete_16.svg",
+      "size_bytes": 743
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/delete_24.svg",
+      "size_bytes": 751
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/delete_fill_16.svg",
+      "size_bytes": 779
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/delete_fill_24.svg",
+      "size_bytes": 786
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/delete_new_16.svg",
+      "size_bytes": 1631
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/delete_new_24.svg",
+      "size_bytes": 1599
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dialog_back_16.svg",
+      "size_bytes": 370
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dialog_back_24.svg",
+      "size_bytes": 388
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dialog_close_16.svg",
+      "size_bytes": 662
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dialog_close_24.svg",
+      "size_bytes": 653
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dialog_history_16.svg",
+      "size_bytes": 294
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dialog_history_24.svg",
+      "size_bytes": 335
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dialog_setting_16.svg",
+      "size_bytes": 1508
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dialog_setting_24.svg",
+      "size_bytes": 1546
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dislike_filled_24.svg",
+      "size_bytes": 702
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/dislike_outline_24.svg",
+      "size_bytes": 1072
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/document_to_computer_24.svg",
+      "size_bytes": 2579
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/download_16.svg",
+      "size_bytes": 1008
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/download_24.svg",
+      "size_bytes": 1000
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/download_circle_mask_16.svg",
+      "size_bytes": 623
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/download_circle_mask_24.svg",
+      "size_bytes": 619
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/download_new_16.svg",
+      "size_bytes": 1012
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/download_new_24.svg",
+      "size_bytes": 998
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/drag_16.svg",
+      "size_bytes": 1977
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/drag_24.svg",
+      "size_bytes": 1775
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/drive_filelook_doc_24.svg",
+      "size_bytes": 4341
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/drive_filelook_slide_24.svg",
+      "size_bytes": 4104
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/drive_filelook_xls_24.svg",
+      "size_bytes": 3762
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/edit_16.svg",
+      "size_bytes": 996
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/edit_24.svg",
+      "size_bytes": 987
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/enlarge_16.svg",
+      "size_bytes": 798
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/enlarge_24.svg",
+      "size_bytes": 693
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/essence_message_16.svg",
+      "size_bytes": 1070
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/essence_message_24.svg",
+      "size_bytes": 1070
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/expand_16.svg",
+      "size_bytes": 435
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/expand_24.svg",
+      "size_bytes": 480
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/export_image_16.svg",
+      "size_bytes": 1168
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/export_image_24.svg",
+      "size_bytes": 1073
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/expression_16.svg",
+      "size_bytes": 628
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/expression_24.svg",
+      "size_bytes": 714
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/expression_add_16.svg",
+      "size_bytes": 1929
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/expression_add_24.svg",
+      "size_bytes": 2008
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/eye_off_16.svg",
+      "size_bytes": 2393
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/eye_off_24.svg",
+      "size_bytes": 2331
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/eye_on_16.svg",
+      "size_bytes": 399
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/eye_on_24.svg",
+      "size_bytes": 311
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/face_to_face_transmit_16.svg",
+      "size_bytes": 1756
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/face_to_face_transmit_24.svg",
+      "size_bytes": 1772
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/fail_plus_16.svg",
+      "size_bytes": 1808
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/fail_plus_24.svg",
+      "size_bytes": 1824
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/fast_folder_16.svg",
+      "size_bytes": 1449
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/fast_folder_24.svg",
+      "size_bytes": 1406
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/fast_folder_color_24.svg",
+      "size_bytes": 1402
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/fast_folder_new_16.svg",
+      "size_bytes": 1453
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/fast_folder_new_24.svg",
+      "size_bytes": 1412
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/female_16.svg",
+      "size_bytes": 728
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_ai_16.svg",
+      "size_bytes": 4513
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_apk_16.svg",
+      "size_bytes": 8505
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_audio_16.svg",
+      "size_bytes": 4058
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_doc_16.svg",
+      "size_bytes": 4330
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_exe_16.svg",
+      "size_bytes": 7584
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_folder_16.svg",
+      "size_bytes": 1403
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_html_16.svg",
+      "size_bytes": 4169
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_image_16.svg",
+      "size_bytes": 3683
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_ipa_16.svg",
+      "size_bytes": 7522
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_link_16.svg",
+      "size_bytes": 4471
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_markdown_16.svg",
+      "size_bytes": 3891
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_multi_files_16.svg",
+      "size_bytes": 1343
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_pdf_16.svg",
+      "size_bytes": 4039
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_ppt_16.svg",
+      "size_bytes": 4098
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_ps_16.svg",
+      "size_bytes": 5703
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_sketch_16.svg",
+      "size_bytes": 4355
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_transmission_file_24.svg",
+      "size_bytes": 1187
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_txt_16.svg",
+      "size_bytes": 6235
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_unknown_16.svg",
+      "size_bytes": 4838
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_video_16.svg",
+      "size_bytes": 3643
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_xls_16.svg",
+      "size_bytes": 3760
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filelook_zip_16.svg",
+      "size_bytes": 3050
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/files_16.svg",
+      "size_bytes": 635
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/files_24.svg",
+      "size_bytes": 688
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/fill_16.svg",
+      "size_bytes": 460
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/fill_24.svg",
+      "size_bytes": 469
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filter_16.svg",
+      "size_bytes": 963
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filter_24.svg",
+      "size_bytes": 948
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filter_fill_16.svg",
+      "size_bytes": 1038
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filter_fill_24.svg",
+      "size_bytes": 1025
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filter_filled_new_16.svg",
+      "size_bytes": 1326
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/filter_filled_new_24.svg",
+      "size_bytes": 1274
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/finger_16.svg",
+      "size_bytes": 979
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/finger_24.svg",
+      "size_bytes": 741
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/folder_16.svg",
+      "size_bytes": 996
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/folder_24.svg",
+      "size_bytes": 960
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/folder_new_16.svg",
+      "size_bytes": 1000
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/folder_new_24.svg",
+      "size_bytes": 964
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/free_cellular_data_16.svg",
+      "size_bytes": 1525
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/free_cellular_data_24.svg",
+      "size_bytes": 1551
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/full_screen_16.svg",
+      "size_bytes": 758
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/full_screen_24.svg",
+      "size_bytes": 682
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/full_screen_off_16.svg",
+      "size_bytes": 762
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/full_screen_off_24.svg",
+      "size_bytes": 686
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/gallery_new_16.svg",
+      "size_bytes": 3461
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/gallery_new_24.svg",
+      "size_bytes": 2965
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/geometry_16.svg",
+      "size_bytes": 630
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/geometry_24.svg",
+      "size_bytes": 564
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/gif_16.svg",
+      "size_bytes": 1263
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/gif_24.svg",
+      "size_bytes": 1292
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/gift_24.svg",
+      "size_bytes": 2868
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/gift_named_24.svg",
+      "size_bytes": 53943
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_16.svg",
+      "size_bytes": 1715
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_24.svg",
+      "size_bytes": 1680
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_application_24.svg",
+      "size_bytes": 2466
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_building_16.svg",
+      "size_bytes": 1250
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_building_24.svg",
+      "size_bytes": 1274
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_class_16.svg",
+      "size_bytes": 2825
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_class_24.svg",
+      "size_bytes": 2818
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_classroom_16.svg",
+      "size_bytes": 2829
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_classroom_24.svg",
+      "size_bytes": 2822
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_close_application_16.svg",
+      "size_bytes": 1357
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_close_application_24.svg",
+      "size_bytes": 1375
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_delete_16.svg",
+      "size_bytes": 1253
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_delete_24.svg",
+      "size_bytes": 1262
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_16.svg",
+      "size_bytes": 6574
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_24.svg",
+      "size_bytes": 6585
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_esc_16.svg",
+      "size_bytes": 628
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_esc_24.svg",
+      "size_bytes": 659
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_notice_16.svg",
+      "size_bytes": 844
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_room_settings_16.svg",
+      "size_bytes": 2167
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_room_settings_24.svg",
+      "size_bytes": 2141
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_rotate_16.svg",
+      "size_bytes": 2660
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_rotate_24.svg",
+      "size_bytes": 2660
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_share_screen_off_16.svg",
+      "size_bytes": 2451
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_share_screen_off_24.svg",
+      "size_bytes": 2320
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_speech_settings_16.svg",
+      "size_bytes": 2515
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_speech_settings_24.svg",
+      "size_bytes": 2317
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_tel_hangup_16.svg",
+      "size_bytes": 802
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_tel_hangup_24.svg",
+      "size_bytes": 820
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_tel_waiting_16.svg",
+      "size_bytes": 2624
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/group_video_tel_waiting_24.svg",
+      "size_bytes": 2481
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/hangup_16.svg",
+      "size_bytes": 1416
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/hangup_24.svg",
+      "size_bytes": 1374
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/hangup_filled_16.svg",
+      "size_bytes": 850
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/hangup_filled_24.svg",
+      "size_bytes": 831
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/hd_16.svg",
+      "size_bytes": 944
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/hd_24.svg",
+      "size_bytes": 966
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/heart_active_16.svg",
+      "size_bytes": 550
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/highlight_16.svg",
+      "size_bytes": 649
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/highlight_24.svg",
+      "size_bytes": 603
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/history_record_16.svg",
+      "size_bytes": 295
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/home_16.svg",
+      "size_bytes": 995
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/home_24.svg",
+      "size_bytes": 991
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/huangzuan_24.svg",
+      "size_bytes": 2515
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/icon_reply_16.svg",
+      "size_bytes": 660
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/image_16.svg",
+      "size_bytes": 2818
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/image_24.svg",
+      "size_bytes": 2688
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/import_to_computer_24.svg",
+      "size_bytes": 2348
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/income_24.svg",
+      "size_bytes": 708
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/income_circle_24.svg",
+      "size_bytes": 617
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/info_circle_16.svg",
+      "size_bytes": 729
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/info_circle_24.svg",
+      "size_bytes": 741
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ipad_16.svg",
+      "size_bytes": 285
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ipad_24.svg",
+      "size_bytes": 303
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/italic_16.svg",
+      "size_bytes": 544
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/italic_24.svg",
+      "size_bytes": 473
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/keyboard_16.svg",
+      "size_bytes": 3273
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/keyboard_24.svg",
+      "size_bytes": 2487
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/label_16.svg",
+      "size_bytes": 602
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/label_24.svg",
+      "size_bytes": 635
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/laser_pointer_16.svg",
+      "size_bytes": 1673
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/laser_pointer_24.svg",
+      "size_bytes": 1729
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/like_16.svg",
+      "size_bytes": 578
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/like_24.svg",
+      "size_bytes": 583
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/like_filled_24.svg",
+      "size_bytes": 700
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/like_outline_16.svg",
+      "size_bytes": 1085
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/like_outline_24.svg",
+      "size_bytes": 1075
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/line_16.svg",
+      "size_bytes": 209
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/line_24.svg",
+      "size_bytes": 229
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/link_16.svg",
+      "size_bytes": 590
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/link_24.svg",
+      "size_bytes": 630
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/link_new_16.svg",
+      "size_bytes": 597
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/link_new_24.svg",
+      "size_bytes": 634
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/live_16.svg",
+      "size_bytes": 397
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/live_24.svg",
+      "size_bytes": 401
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/location_16.svg",
+      "size_bytes": 403
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/location_24.svg",
+      "size_bytes": 448
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/lock_16.svg",
+      "size_bytes": 2362
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/lock_24.svg",
+      "size_bytes": 2308
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/long_screenshot_16.svg",
+      "size_bytes": 1195
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/long_screenshot_24.svg",
+      "size_bytes": 1236
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/lucky_money_16.svg",
+      "size_bytes": 1557
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/lucky_money_24.svg",
+      "size_bytes": 1168
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mail_16.svg",
+      "size_bytes": 2282
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mail_24.svg",
+      "size_bytes": 2223
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/male_16.svg",
+      "size_bytes": 867
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mark_16.svg",
+      "size_bytes": 1305
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mark_24.svg",
+      "size_bytes": 1110
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/marker_pen_new_16.svg",
+      "size_bytes": 884
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/marker_pen_new_24.svg",
+      "size_bytes": 883
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/max_16.svg",
+      "size_bytes": 195
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/max_24.svg",
+      "size_bytes": 192
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/max_new_16.svg",
+      "size_bytes": 198
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/max_new_24.svg",
+      "size_bytes": 202
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_caution_24.svg",
+      "size_bytes": 615
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_close_24.svg",
+      "size_bytes": 599
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_close_no_circle_24.svg",
+      "size_bytes": 302
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_download_24.svg",
+      "size_bytes": 633
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_download_no_circle_24.svg",
+      "size_bytes": 420
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_play_24.svg",
+      "size_bytes": 965
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_play_no_circle_24.svg",
+      "size_bytes": 669
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_select_24.svg",
+      "size_bytes": 424
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_suspend_no_circle_24.svg",
+      "size_bytes": 578
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_upload_24.svg",
+      "size_bytes": 474
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/media_upload_no_circle_24.svg",
+      "size_bytes": 418
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/memory_16.svg",
+      "size_bytes": 681
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/memory_24.svg",
+      "size_bytes": 702
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/menu_16.svg",
+      "size_bytes": 332
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/menu_24.svg",
+      "size_bytes": 360
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/message_16.svg",
+      "size_bytes": 786
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/message_24.svg",
+      "size_bytes": 805
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/message_ai_24.svg",
+      "size_bytes": 2483
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/message_off_16.svg",
+      "size_bytes": 1874
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/message_off_24.svg",
+      "size_bytes": 1783
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/message_read_16.svg",
+      "size_bytes": 916
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/message_read_24.svg",
+      "size_bytes": 938
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/message_unread_16.svg",
+      "size_bytes": 1503
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/message_unread_24.svg",
+      "size_bytes": 1520
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/microphone_off_16.svg",
+      "size_bytes": 1336
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/microphone_off_24.svg",
+      "size_bytes": 1128
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/microphone_on_16.svg",
+      "size_bytes": 1117
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/microphone_on_24.svg",
+      "size_bytes": 945
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mini_program_24.svg",
+      "size_bytes": 607
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/minimize_16.svg",
+      "size_bytes": 176
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/minimize_24.svg",
+      "size_bytes": 196
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/miniwindow_16.svg",
+      "size_bytes": 720
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/miniwindow_24.svg",
+      "size_bytes": 814
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/minus_circle.svg",
+      "size_bytes": 204
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/minus_circle_16.svg",
+      "size_bytes": 319
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mobile_phone_16.svg",
+      "size_bytes": 647
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mobile_phone_24.svg",
+      "size_bytes": 567
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/more_16.svg",
+      "size_bytes": 273
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/more_24.svg",
+      "size_bytes": 273
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/more_new_16.svg",
+      "size_bytes": 277
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/more_new_24.svg",
+      "size_bytes": 277
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/more_upright_new_16.svg",
+      "size_bytes": 391
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/more_upright_new_24.svg",
+      "size_bytes": 371
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mosaic_16.svg",
+      "size_bytes": 474
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mosaic_24.svg",
+      "size_bytes": 395
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mouse_16.svg",
+      "size_bytes": 474
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/mouse_24.svg",
+      "size_bytes": 482
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/music_box_16.svg",
+      "size_bytes": 1137
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/music_box_24.svg",
+      "size_bytes": 1146
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/namecard_16.svg",
+      "size_bytes": 2814
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_application_normal_24.svg",
+      "size_bytes": 1398
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_channel_active_16.svg",
+      "size_bytes": 2170
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_channel_active_24.svg",
+      "size_bytes": 2191
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_channel_normal_16.svg",
+      "size_bytes": 1494
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_channel_normal_24.svg",
+      "size_bytes": 1462
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_cloudy_night_normal_16.svg",
+      "size_bytes": 1959
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_cloudy_night_normal_24.svg",
+      "size_bytes": 1901
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_cloudy_normal_16.svg",
+      "size_bytes": 3126
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_cloudy_normal_24.svg",
+      "size_bytes": 3220
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_contact_active_24.svg",
+      "size_bytes": 4769
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_contact_normal_24.svg",
+      "size_bytes": 4749
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_dust_normal_16.svg",
+      "size_bytes": 731
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_dust_normal_24.svg",
+      "size_bytes": 849
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_fog_normal_16.svg",
+      "size_bytes": 437
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_fog_normal_24.svg",
+      "size_bytes": 462
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_freezing_rain_normal_16.svg",
+      "size_bytes": 3855
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_freezing_rain_normal_24.svg",
+      "size_bytes": 3873
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_game_normal_16.svg",
+      "size_bytes": 1024
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_game_normal_24.svg",
+      "size_bytes": 1012
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_heavy_haze_normal_16.svg",
+      "size_bytes": 1071
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_heavy_haze_normal_24.svg",
+      "size_bytes": 1080
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_heavy_rain_normal_16.svg",
+      "size_bytes": 1933
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_heavy_rain_normal_24.svg",
+      "size_bytes": 946
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_heavy_snow_normal_16.svg",
+      "size_bytes": 3432
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_heavy_snow_normal_24.svg",
+      "size_bytes": 3409
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_light_haze_normal_16.svg",
+      "size_bytes": 854
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_light_haze_normal_24.svg",
+      "size_bytes": 985
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_light_rain_normal_16.svg",
+      "size_bytes": 690
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_light_rain_normal_24.svg",
+      "size_bytes": 692
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_light_snow_normal_16.svg",
+      "size_bytes": 1371
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_light_snow_normal_24.svg",
+      "size_bytes": 1351
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_limoderate_haze_normal_24.svg",
+      "size_bytes": 992
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_message_active_24.svg",
+      "size_bytes": 1277
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_message_normal_24.svg",
+      "size_bytes": 714
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_moderate_haze_normal_16.svg",
+      "size_bytes": 998
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_moderate_rain_normal_16.svg",
+      "size_bytes": 1683
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_moderate_rain_normal_24.svg",
+      "size_bytes": 1681
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_moderate_snow_normal_16.svg",
+      "size_bytes": 2683
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_moderate_snow_normal_24.svg",
+      "size_bytes": 2697
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_overcast_normal_16.svg",
+      "size_bytes": 2127
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_overcast_normal_24.svg",
+      "size_bytes": 2131
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qq_farm_normal_16.svg",
+      "size_bytes": 1733
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qq_farm_normal_24.svg",
+      "size_bytes": 1720
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qq_zone_normal_16.svg",
+      "size_bytes": 1795
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qq_zone_normal_24.svg",
+      "size_bytes": 1785
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qqdocs_normal_16.svg",
+      "size_bytes": 872
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qqdocs_normal_24.svg",
+      "size_bytes": 889
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qqmusic_normal_16.svg",
+      "size_bytes": 1163
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qqmusic_normal_24.svg",
+      "size_bytes": 1119
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qqpet_normal_16.svg",
+      "size_bytes": 2983
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qqpet_normal_24.svg",
+      "size_bytes": 3043
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qqvideo_normal_16.svg",
+      "size_bytes": 1466
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_qqvideo_normal_24.svg",
+      "size_bytes": 1451
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_robot_normal_24.svg",
+      "size_bytes": 1153
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_sand_normal_16.svg",
+      "size_bytes": 1844
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_sand_normal_24.svg",
+      "size_bytes": 1824
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_setting_normal_16.svg",
+      "size_bytes": 2190
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_skin_normal_16.svg",
+      "size_bytes": 799
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_skin_normal_24.svg",
+      "size_bytes": 821
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_sleet_normal_16.svg",
+      "size_bytes": 1539
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_sleet_normal_24.svg",
+      "size_bytes": 1528
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_small_world_normal_16.svg",
+      "size_bytes": 750
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_small_world_normal_24.svg",
+      "size_bytes": 701
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_stock_normal_16.svg",
+      "size_bytes": 1226
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_stock_normal_24.svg",
+      "size_bytes": 1108
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_sunny_night_normal_16.svg",
+      "size_bytes": 1563
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_sunny_night_normal_24.svg",
+      "size_bytes": 1605
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_sunny_normal_16.svg",
+      "size_bytes": 1926
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_sunny_normal_24.svg",
+      "size_bytes": 1819
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_super_member_normal_16.svg",
+      "size_bytes": 3981
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_super_member_normal_24.svg",
+      "size_bytes": 3933
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_super_qq_show_active_24.svg",
+      "size_bytes": 1903
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_super_qq_show_normal_16.svg",
+      "size_bytes": 2762
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_super_qq_show_normal_24.svg",
+      "size_bytes": 2684
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_tencentvideo_normal_16.svg",
+      "size_bytes": 965
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_tencentvideo_normal_24.svg",
+      "size_bytes": 1006
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_thunder_shower_normal_16.svg",
+      "size_bytes": 2093
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_thunder_shower_normal_24.svg",
+      "size_bytes": 2070
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_torrential_rain_normal_16.svg",
+      "size_bytes": 2404
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_torrential_rain_normal_24.svg",
+      "size_bytes": 2374
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_torrential_snow_normal_16.svg",
+      "size_bytes": 4926
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_torrential_snow_normal_24.svg",
+      "size_bytes": 4843
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_weiyun_normal_16.svg",
+      "size_bytes": 2365
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_weiyun_normal_24.svg",
+      "size_bytes": 2375
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_xiaowo_active_24.svg",
+      "size_bytes": 837
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_xiaowo_normal_16.svg",
+      "size_bytes": 1371
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_xiaowo_normal_24.svg",
+      "size_bytes": 1387
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_xinwen_normal_16.svg",
+      "size_bytes": 6132
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nav_xinwen_normal_24.svg",
+      "size_bytes": 6117
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/new_dialogue_16.svg",
+      "size_bytes": 2260
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/new_dialogue_24.svg",
+      "size_bytes": 2296
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nice_air_16.svg",
+      "size_bytes": 1509
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/nice_air_24.svg",
+      "size_bytes": 1531
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/night_mode_16.svg",
+      "size_bytes": 1745
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/night_mode_24.svg",
+      "size_bytes": 1542
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/noise_reduction_16.svg",
+      "size_bytes": 488
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/noise_reduction_24.svg",
+      "size_bytes": 586
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/noise_reduction_off_16.svg",
+      "size_bytes": 1090
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/noise_reduction_off_24.svg",
+      "size_bytes": 956
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/notes_16.svg",
+      "size_bytes": 2203
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/notification_down_16.svg",
+      "size_bytes": 581
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/notification_up_16.svg",
+      "size_bytes": 581
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/offline_file_16.svg",
+      "size_bytes": 1130
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/offline_file_24.svg",
+      "size_bytes": 1194
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_account_24.svg",
+      "size_bytes": 2444
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_calendar_24.svg",
+      "size_bytes": 1557
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_close_16.svg",
+      "size_bytes": 661
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_foldgroup_24.svg",
+      "size_bytes": 2404
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_help_24.svg",
+      "size_bytes": 3470
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_max_16.svg",
+      "size_bytes": 405
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_minimize_16.svg",
+      "size_bytes": 187
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_mycomputer_24.svg",
+      "size_bytes": 757
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_mypad_24.svg",
+      "size_bytes": 748
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_myphone_24.svg",
+      "size_bytes": 754
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_newgroup_24.svg",
+      "size_bytes": 1276
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_notice_24.svg",
+      "size_bytes": 2036
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_public_24.svg",
+      "size_bytes": 1866
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_qqemail_24.svg",
+      "size_bytes": 434
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_qqgame_24.svg",
+      "size_bytes": 1542
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_qqmoney_24.svg",
+      "size_bytes": 1508
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oh_shrink_16.svg",
+      "size_bytes": 396
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Add.svg",
+      "size_bytes": 368
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/AddFace.svg",
+      "size_bytes": 1243
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/AlignCenter.svg",
+      "size_bytes": 233
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/AlignLeft.svg",
+      "size_bytes": 224
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/AlignRight.svg",
+      "size_bytes": 226
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Anonymous.svg",
+      "size_bytes": 1573
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ApplicationCenter.svg",
+      "size_bytes": 319
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Arrows.svg",
+      "size_bytes": 511
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/At.svg",
+      "size_bytes": 1963
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Back.svg",
+      "size_bytes": 268
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Block.svg",
+      "size_bytes": 557
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Bold.svg",
+      "size_bytes": 483
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Camera.svg",
+      "size_bytes": 1052
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/CancelReminder.svg",
+      "size_bytes": 745
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/CancelStar.svg",
+      "size_bytes": 1476
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Cellphone.svg",
+      "size_bytes": 326
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ChannelForum.svg",
+      "size_bytes": 1028
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ChannelLive.svg",
+      "size_bytes": 1253
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ChannelTextNotice.svg",
+      "size_bytes": 984
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ChannelTextRaiders.svg",
+      "size_bytes": 860
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ChannelVoice.svg",
+      "size_bytes": 508
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Check.svg",
+      "size_bytes": 565
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Clear.svg",
+      "size_bytes": 1122
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Close.svg",
+      "size_bytes": 293
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/CloseFilled.svg",
+      "size_bytes": 498
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/CloseOff.svg",
+      "size_bytes": 233
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ClosePrivateMessage.svg",
+      "size_bytes": 828
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/CloseScreenShare.svg",
+      "size_bytes": 650
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/CoachMark.svg",
+      "size_bytes": 429
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Code.svg",
+      "size_bytes": 313
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/CombineForward.svg",
+      "size_bytes": 553
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Comment.svg",
+      "size_bytes": 403
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Computer.svg",
+      "size_bytes": 410
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Contact.svg",
+      "size_bytes": 593
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Copy.svg",
+      "size_bytes": 1129
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/CreateGroupChat.svg",
+      "size_bytes": 454
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/DanMu.svg",
+      "size_bytes": 2079
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/DanMuClose.svg",
+      "size_bytes": 4992
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/DayMode.svg",
+      "size_bytes": 1094
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/DeNoiseMode.svg",
+      "size_bytes": 1024
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/DefaultMode.svg",
+      "size_bytes": 380
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Delete.svg",
+      "size_bytes": 397
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Download.svg",
+      "size_bytes": 324
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/DropDown.svg",
+      "size_bytes": 288
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/DropDownSolid.svg",
+      "size_bytes": 383
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/DropUp.svg",
+      "size_bytes": 289
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Edit.svg",
+      "size_bytes": 647
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/EditOff.svg",
+      "size_bytes": 1566
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/EditOn.svg",
+      "size_bytes": 1577
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Enlarge.svg",
+      "size_bytes": 495
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Essence.svg",
+      "size_bytes": 1185
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Expression.svg",
+      "size_bytes": 2259
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Female.svg",
+      "size_bytes": 1068
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Filter.svg",
+      "size_bytes": 569
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/FindByMember.svg",
+      "size_bytes": 1576
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/FindByTime.svg",
+      "size_bytes": 540
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/FindMember.svg",
+      "size_bytes": 1582
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Fit.svg",
+      "size_bytes": 1313
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Float.svg",
+      "size_bytes": 784
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Folder.svg",
+      "size_bytes": 485
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/FullScreen.svg",
+      "size_bytes": 574
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/GIF.svg",
+      "size_bytes": 453
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Game.svg",
+      "size_bytes": 1176
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Gift.svg",
+      "size_bytes": 610
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Grid.svg",
+      "size_bytes": 2098
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Hang.svg",
+      "size_bytes": 3359
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Heart.svg",
+      "size_bytes": 1077
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Hi.svg",
+      "size_bytes": 757
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Hide.svg",
+      "size_bytes": 1378
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/IPad.svg",
+      "size_bytes": 325
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Invite.svg",
+      "size_bytes": 661
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Italic.svg",
+      "size_bytes": 259
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/KickOut.svg",
+      "size_bytes": 966
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Like.svg",
+      "size_bytes": 805
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/LikeFilled.svg",
+      "size_bytes": 660
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Link.svg",
+      "size_bytes": 963
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/LuckyMoney.svg",
+      "size_bytes": 533
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Magnify.svg",
+      "size_bytes": 658
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Male.svg",
+      "size_bytes": 956
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Max.svg",
+      "size_bytes": 351
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/MessageRecord.svg",
+      "size_bytes": 524
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Microphone.svg",
+      "size_bytes": 669
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/MicrophoneOff.svg",
+      "size_bytes": 482
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/MicrophoneOn.svg",
+      "size_bytes": 1283
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/MicrophoneTurnOff.svg",
+      "size_bytes": 1263
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Minimize.svg",
+      "size_bytes": 166
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/More.svg",
+      "size_bytes": 198
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/More2.svg",
+      "size_bytes": 484
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/MusicMode.svg",
+      "size_bytes": 840
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Mute.svg",
+      "size_bytes": 712
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Mute2.svg",
+      "size_bytes": 1309
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Next.svg",
+      "size_bytes": 237
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Notification.svg",
+      "size_bytes": 873
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/OnebyOneForward.svg",
+      "size_bytes": 479
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Pause.svg",
+      "size_bytes": 184
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/PauseOff.svg",
+      "size_bytes": 212
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/PauseOn.svg",
+      "size_bytes": 305
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Phone.svg",
+      "size_bytes": 5153
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/PhoneFilled.svg",
+      "size_bytes": 917
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Photo.svg",
+      "size_bytes": 526
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/PhotoBreak.svg",
+      "size_bytes": 878
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/PhotoWall.svg",
+      "size_bytes": 799
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Play.svg",
+      "size_bytes": 209
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/PlaySolid.svg",
+      "size_bytes": 194
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Post.svg",
+      "size_bytes": 651
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/QQAvatar.svg",
+      "size_bytes": 1112
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/QQLogo.svg",
+      "size_bytes": 1075
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Quit.svg",
+      "size_bytes": 395
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/RealTimeRefresh.svg",
+      "size_bytes": 896
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/RecordOff.svg",
+      "size_bytes": 216
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/RecordOn.svg",
+      "size_bytes": 212
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Rectangle.svg",
+      "size_bytes": 194
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Refresh.svg",
+      "size_bytes": 793
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Remind.svg",
+      "size_bytes": 514
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Reply.svg",
+      "size_bytes": 747
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ReplyOutline.svg",
+      "size_bytes": 798
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Report.svg",
+      "size_bytes": 592
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Rotate.svg",
+      "size_bytes": 624
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Scan.svg",
+      "size_bytes": 377
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ScreenShare.svg",
+      "size_bytes": 760
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ScreenShareFilled.svg",
+      "size_bytes": 708
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Screenshot.svg",
+      "size_bytes": 1208
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Search.svg",
+      "size_bytes": 496
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/SearchBySubChannel.svg",
+      "size_bytes": 761
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Setting.svg",
+      "size_bytes": 663
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Share.svg",
+      "size_bytes": 1358
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Shield.svg",
+      "size_bytes": 1622
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Shock.svg",
+      "size_bytes": 935
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Shrink.svg",
+      "size_bytes": 610
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Star.svg",
+      "size_bytes": 1228
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Statistics.svg",
+      "size_bytes": 1492
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/StickyOnTop.svg",
+      "size_bytes": 286
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Switch.svg",
+      "size_bytes": 391
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/TargetToChat.svg",
+      "size_bytes": 868
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/TeamUp.svg",
+      "size_bytes": 713
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Text.svg",
+      "size_bytes": 308
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/TextChannel.svg",
+      "size_bytes": 381
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Tick.svg",
+      "size_bytes": 286
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/TipsNormal.svg",
+      "size_bytes": 343
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/TipsOutlined.svg",
+      "size_bytes": 438
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/TipsSuccess.svg",
+      "size_bytes": 436
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/TipsWarning.svg",
+      "size_bytes": 346
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Top.svg",
+      "size_bytes": 846
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Topic.svg",
+      "size_bytes": 480
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/TransferOff.svg",
+      "size_bytes": 276
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Underline.svg",
+      "size_bytes": 342
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Unhide.svg",
+      "size_bytes": 1006
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Unmaximize.svg",
+      "size_bytes": 431
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Unpinned.svg",
+      "size_bytes": 899
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Video.svg",
+      "size_bytes": 486
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Video2.svg",
+      "size_bytes": 358
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/VideoOff.svg",
+      "size_bytes": 1316
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/VideoOn.svg",
+      "size_bytes": 928
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/VideoPlay.svg",
+      "size_bytes": 306
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Voice.svg",
+      "size_bytes": 529
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/VoiceBig.svg",
+      "size_bytes": 534
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/VoiceSetting.svg",
+      "size_bytes": 632
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/VoiceSmall.svg",
+      "size_bytes": 400
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/WaterDrop.svg",
+      "size_bytes": 594
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Window.svg",
+      "size_bytes": 521
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/Withdraw.svg",
+      "size_bytes": 556
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ZoomIn.svg",
+      "size_bytes": 526
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/ZoomOut.svg",
+      "size_bytes": 1018
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/oldIcons/channel.svg",
+      "size_bytes": 874
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/one_by_one_forward_16.svg",
+      "size_bytes": 1373
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/one_by_one_forward_24.svg",
+      "size_bytes": 753
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/one_circle_16.svg",
+      "size_bytes": 282
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/one_circle_24.svg",
+      "size_bytes": 302
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_boardmix_16.svg",
+      "size_bytes": 1828
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_boardmix_24.svg",
+      "size_bytes": 1828
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_doc_16.svg",
+      "size_bytes": 1688
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_flowchart_16.svg",
+      "size_bytes": 2644
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_form_16.svg",
+      "size_bytes": 1923
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_mindmap_16.svg",
+      "size_bytes": 2369
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_pdf_16.svg",
+      "size_bytes": 2264
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_slide_16.svg",
+      "size_bytes": 2439
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_smartcanvas_16.svg",
+      "size_bytes": 2037
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_smartcanvas_24.svg",
+      "size_bytes": 2037
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_smartdoc_16.svg",
+      "size_bytes": 1855
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_unknown_16.svg",
+      "size_bytes": 3186
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_voicenote_16.svg",
+      "size_bytes": 1953
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/online_filelook_xls_16.svg",
+      "size_bytes": 1861
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/open_file_16.svg",
+      "size_bytes": 3337
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/open_file_24.svg",
+      "size_bytes": 4084
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ordered_grid_16.svg",
+      "size_bytes": 2567
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ordered_grid_24.svg",
+      "size_bytes": 2303
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ordered_grid_new_16.svg",
+      "size_bytes": 2571
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ordered_grid_new_24.svg",
+      "size_bytes": 2307
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ordered_list_16.svg",
+      "size_bytes": 1719
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ordered_list_24.svg",
+      "size_bytes": 1565
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ordered_list_new_16.svg",
+      "size_bytes": 1723
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/ordered_list_new_24.svg",
+      "size_bytes": 1569
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/original_size_16.svg",
+      "size_bytes": 619
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/original_size_24.svg",
+      "size_bytes": 597
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/paint_bucket_16.svg",
+      "size_bytes": 772
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/paint_bucket_24.svg",
+      "size_bytes": 767
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/palette_16.svg",
+      "size_bytes": 977
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/palette_24.svg",
+      "size_bytes": 1022
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/paste_16.svg",
+      "size_bytes": 3347
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/paste_24.svg",
+      "size_bytes": 3067
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pause_16.svg",
+      "size_bytes": 702
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pause_24.svg",
+      "size_bytes": 535
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pause_circle_16.svg",
+      "size_bytes": 325
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pause_circle_24.svg",
+      "size_bytes": 375
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pause_circle_filled_16.svg",
+      "size_bytes": 805
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pause_circle_filled_24.svg",
+      "size_bytes": 629
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pause_filled_new_16.svg",
+      "size_bytes": 713
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pause_filled_new_24.svg",
+      "size_bytes": 546
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/payassist_16.svg",
+      "size_bytes": 2597
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/payassist_24.svg",
+      "size_bytes": 2634
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_16.svg",
+      "size_bytes": 778
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_24.svg",
+      "size_bytes": 802
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_backup_24.svg",
+      "size_bytes": 1458
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_color_16.svg",
+      "size_bytes": 857
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_color_24.svg",
+      "size_bytes": 857
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_fail_24.svg",
+      "size_bytes": 804
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_lock_24.svg",
+      "size_bytes": 621
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_qq_24.svg",
+      "size_bytes": 2188
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_success_24.svg",
+      "size_bytes": 807
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_to_computer_24.svg",
+      "size_bytes": 1718
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_to_phone_24.svg",
+      "size_bytes": 1667
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/phone_unlock_24.svg",
+      "size_bytes": 638
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/photos_feed_two_16.svg",
+      "size_bytes": 700
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/photos_feed_two_24.svg",
+      "size_bytes": 674
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/photos_wall_16.svg",
+      "size_bytes": 758
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/photos_wall_24.svg",
+      "size_bytes": 715
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/picture_in_picture_16.svg",
+      "size_bytes": 2490
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/picture_in_picture_24.svg",
+      "size_bytes": 2492
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pin_16.svg",
+      "size_bytes": 710
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pin_24.svg",
+      "size_bytes": 653
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/pitu_24.svg",
+      "size_bytes": 871
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_circle_16.svg",
+      "size_bytes": 689
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_circle_24.svg",
+      "size_bytes": 685
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_circle_filled_16.svg",
+      "size_bytes": 807
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_circle_filled_24.svg",
+      "size_bytes": 772
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_circle_mask_16.svg",
+      "size_bytes": 734
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_circle_mask_24.svg",
+      "size_bytes": 730
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_circle_stop_16.svg",
+      "size_bytes": 961
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_circle_stop_24.svg",
+      "size_bytes": 828
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_fill_16.svg",
+      "size_bytes": 590
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_fill_24.svg",
+      "size_bytes": 592
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_new_16.svg",
+      "size_bytes": 619
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_new_24.svg",
+      "size_bytes": 665
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_stroke_16.svg",
+      "size_bytes": 622
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/play_stroke_24.svg",
+      "size_bytes": 668
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/plugin_boardmix_16.svg",
+      "size_bytes": 3406
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/plugin_pixso_16.svg",
+      "size_bytes": 4441
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/plugin_processon_flowchart_16.svg",
+      "size_bytes": 2212
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/plugin_processon_mindmap_16.svg",
+      "size_bytes": 2449
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/plugin_videoclip_16.svg",
+      "size_bytes": 1993
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/poke_16.svg",
+      "size_bytes": 684
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/poke_24.svg",
+      "size_bytes": 731
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/position_slash_16.svg",
+      "size_bytes": 2212
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/position_slash_24.svg",
+      "size_bytes": 2130
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/printer_16.svg",
+      "size_bytes": 2799
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/printer_24.svg",
+      "size_bytes": 2519
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_game_16.svg",
+      "size_bytes": 1485
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_game_24.svg",
+      "size_bytes": 1630
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_sport_16.svg",
+      "size_bytes": 1303
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_sport_24.svg",
+      "size_bytes": 1250
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_super member_16.svg",
+      "size_bytes": 642
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_super member_24.svg",
+      "size_bytes": 659
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_wallet_16.svg",
+      "size_bytes": 2207
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_wallet_24.svg",
+      "size_bytes": 2160
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_zone_16.svg",
+      "size_bytes": 1782
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qq_zone_24.svg",
+      "size_bytes": 1778
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqagent_16.svg",
+      "size_bytes": 844
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqagent_24.svg",
+      "size_bytes": 865
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqdocs_16.svg",
+      "size_bytes": 861
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqdocs_24.svg",
+      "size_bytes": 879
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqfarm_16.svg",
+      "size_bytes": 1055
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqfarm_24.svg",
+      "size_bytes": 1135
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqnovel_16.svg",
+      "size_bytes": 716
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqnovel_24.svg",
+      "size_bytes": 768
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqstatus_16.svg",
+      "size_bytes": 1997
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qqstatus_24.svg",
+      "size_bytes": 2003
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qrcode_16.svg",
+      "size_bytes": 3464
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qrcode_24.svg",
+      "size_bytes": 2960
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/question_mark_circle_16.svg",
+      "size_bytes": 523
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/question_mark_circle_24.svg",
+      "size_bytes": 525
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/quick_game_16.svg",
+      "size_bytes": 517
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/quit_16.svg",
+      "size_bytes": 753
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/quit_24.svg",
+      "size_bytes": 714
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/quote_16.svg",
+      "size_bytes": 2016
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/quote_24.svg",
+      "size_bytes": 2037
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/qzone_reprint_24.svg",
+      "size_bytes": 3106
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/range_16.svg",
+      "size_bytes": 4262
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/range_24.svg",
+      "size_bytes": 4257
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/reading_24.svg",
+      "size_bytes": 1318
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/recall_16.svg",
+      "size_bytes": 759
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/recall_24.svg",
+      "size_bytes": 689
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/record_16.svg",
+      "size_bytes": 227
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/record_24.svg",
+      "size_bytes": 232
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/rectangle_16.svg",
+      "size_bytes": 200
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/rectangle_24.svg",
+      "size_bytes": 196
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/red_packet_16.svg",
+      "size_bytes": 3511
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/refresh_16.svg",
+      "size_bytes": 1260
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/refresh_24.svg",
+      "size_bytes": 1273
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remark_16.svg",
+      "size_bytes": 1342
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remark_24.svg",
+      "size_bytes": 1276
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remind_16.svg",
+      "size_bytes": 1441
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remind_24.svg",
+      "size_bytes": 1476
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remind_mute_16.svg",
+      "size_bytes": 1616
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remind_mute_24.svg",
+      "size_bytes": 1667
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remote_control_16.svg",
+      "size_bytes": 3788
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remote_control_24.svg",
+      "size_bytes": 3626
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remote_control_active_16.svg",
+      "size_bytes": 4274
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remote_control_active_24.svg",
+      "size_bytes": 4050
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remote_control_passive_16.svg",
+      "size_bytes": 4264
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remote_control_passive_24.svg",
+      "size_bytes": 4017
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remove_user_16.svg",
+      "size_bytes": 1262
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/remove_user_24.svg",
+      "size_bytes": 1207
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/reply_filled_16.svg",
+      "size_bytes": 574
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/reply_filled_24.svg",
+      "size_bytes": 573
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/report_16.svg",
+      "size_bytes": 728
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/report_24.svg",
+      "size_bytes": 786
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/robot_add_16.svg",
+      "size_bytes": 1766
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/robot_add_24.svg",
+      "size_bytes": 1640
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/robot_label_16.svg",
+      "size_bytes": 1202
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/safe_16.svg",
+      "size_bytes": 804
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/safe_24.svg",
+      "size_bytes": 796
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/safety_info_16.svg",
+      "size_bytes": 1325
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/safety_info_24.svg",
+      "size_bytes": 1187
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/safety_info_slash_16.svg",
+      "size_bytes": 1930
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/safety_info_slash_24.svg",
+      "size_bytes": 1929
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/save_as_16.svg",
+      "size_bytes": 1387
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/save_as_24.svg",
+      "size_bytes": 1323
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/scan_16.svg",
+      "size_bytes": 831
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/scan_24.svg",
+      "size_bytes": 765
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/screen_layout_16.svg",
+      "size_bytes": 2001
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/screen_layout_24.svg",
+      "size_bytes": 2051
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/screen_transfer_16.svg",
+      "size_bytes": 2036
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/screen_transfer_24.svg",
+      "size_bytes": 2104
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/screenshot_16.svg",
+      "size_bytes": 1262
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/screenshot_24.svg",
+      "size_bytes": 1111
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/sd_16.svg",
+      "size_bytes": 880
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/sd_24.svg",
+      "size_bytes": 831
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/search_16.svg",
+      "size_bytes": 568
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/search_24.svg",
+      "size_bytes": 627
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/self_adapting_16.svg",
+      "size_bytes": 622
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/self_adapting_24.svg",
+      "size_bytes": 684
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/send_16.svg",
+      "size_bytes": 1068
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/send_24.svg",
+      "size_bytes": 1020
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/service_16.svg",
+      "size_bytes": 1486
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/service_24.svg",
+      "size_bytes": 1352
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/set_top_off_16.svg",
+      "size_bytes": 790
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/set_top_off_24.svg",
+      "size_bytes": 784
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/setting_16.svg",
+      "size_bytes": 2179
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/setting_24.svg",
+      "size_bytes": 2211
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/shake_16.svg",
+      "size_bytes": 508
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/shake_24.svg",
+      "size_bytes": 467
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/share_16.svg",
+      "size_bytes": 2011
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/share_24.svg",
+      "size_bytes": 1870
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/share_new_16.svg",
+      "size_bytes": 2015
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/share_new_24.svg",
+      "size_bytes": 1945
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/share_screen_16.svg",
+      "size_bytes": 2319
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/share_screen_24.svg",
+      "size_bytes": 2184
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/shield_16.svg",
+      "size_bytes": 542
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/shield_24.svg",
+      "size_bytes": 575
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/shrink_16.svg",
+      "size_bytes": 699
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/shrink_24.svg",
+      "size_bytes": 796
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/sidebar_16.svg",
+      "size_bytes": 394
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/sidebar_24.svg",
+      "size_bytes": 434
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/sift_new_16.svg",
+      "size_bytes": 957
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/sift_new_24.svg",
+      "size_bytes": 934
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/sound_quality_24.svg",
+      "size_bytes": 538
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/special_effect_16.svg",
+      "size_bytes": 883
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/special_effect_24.svg",
+      "size_bytes": 918
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/speech_to_text_16.svg",
+      "size_bytes": 3815
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/speech_to_text_24.svg",
+      "size_bytes": 3668
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/split_screen_16.svg",
+      "size_bytes": 2034
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/split_screen_24.svg",
+      "size_bytes": 2024
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/star_16.svg",
+      "size_bytes": 570
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/star_24.svg",
+      "size_bytes": 574
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/stop_record_16.svg",
+      "size_bytes": 255
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/stop_record_24.svg",
+      "size_bytes": 257
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/storage_16.svg",
+      "size_bytes": 888
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/storage_24.svg",
+      "size_bytes": 857
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/stroke_16.svg",
+      "size_bytes": 150
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/stroke_24.svg",
+      "size_bytes": 154
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/subscription_16.svg",
+      "size_bytes": 974
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/subscription_24.svg",
+      "size_bytes": 929
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/subtitle_off_16.svg",
+      "size_bytes": 1524
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/subtitle_off_24.svg",
+      "size_bytes": 1299
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/subtitle_on_16.svg",
+      "size_bytes": 919
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/subtitle_on_24.svg",
+      "size_bytes": 806
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/switch_panel_16.svg",
+      "size_bytes": 557
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/switch_panel_24.svg",
+      "size_bytes": 487
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/switch_panel_left_16.svg",
+      "size_bytes": 997
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/switch_panel_left_24.svg",
+      "size_bytes": 855
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/switch_panel_right_16.svg",
+      "size_bytes": 987
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/switch_panel_right_24.svg",
+      "size_bytes": 836
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/target_to_chat_16.svg",
+      "size_bytes": 552
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/target_to_chat_24.svg",
+      "size_bytes": 543
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/telephone_16.svg",
+      "size_bytes": 782
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/telephone_24.svg",
+      "size_bytes": 806
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/telephone_filled_16.svg",
+      "size_bytes": 694
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/telephone_filled_24.svg",
+      "size_bytes": 693
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/telephone_wave_filled_16.svg",
+      "size_bytes": 1913
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/telephone_wave_filled_24.svg",
+      "size_bytes": 1723
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/text_16.svg",
+      "size_bytes": 574
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/text_24.svg",
+      "size_bytes": 568
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/textextract_16.svg",
+      "size_bytes": 956
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/textextract_24.svg",
+      "size_bytes": 902
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tick_16.svg",
+      "size_bytes": 348
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tick_24.svg",
+      "size_bytes": 366
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tick_circle_16.svg",
+      "size_bytes": 330
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tick_circle_24.svg",
+      "size_bytes": 359
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tick_circle_new_24.svg",
+      "size_bytes": 455
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tick_square_16.svg",
+      "size_bytes": 378
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tick_square_24.svg",
+      "size_bytes": 397
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/time_16.svg",
+      "size_bytes": 283
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/time_24.svg",
+      "size_bytes": 304
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/time_new_16.svg",
+      "size_bytes": 287
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/time_new_24.svg",
+      "size_bytes": 308
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tips_done.svg",
+      "size_bytes": 268
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tips_done_16.svg",
+      "size_bytes": 294
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tips_fail_16.svg",
+      "size_bytes": 650
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tips_noraml.svg",
+      "size_bytes": 260
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tips_noraml_16.svg",
+      "size_bytes": 825
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tips_warning.svg",
+      "size_bytes": 262
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tips_warning_16.svg",
+      "size_bytes": 653
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/top_16.svg",
+      "size_bytes": 778
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/top_24.svg",
+      "size_bytes": 728
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transfer_16.svg",
+      "size_bytes": 444
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transfer_24.svg",
+      "size_bytes": 435
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transfer_circle_16.svg",
+      "size_bytes": 409
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transfer_circle_24.svg",
+      "size_bytes": 435
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transfer_screen_16.svg",
+      "size_bytes": 2072
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transfer_screen_24.svg",
+      "size_bytes": 2199
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/translate_16.svg",
+      "size_bytes": 1663
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/translate_24.svg",
+      "size_bytes": 1677
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transmission_file_16.svg",
+      "size_bytes": 1103
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transmission_file_24.svg",
+      "size_bytes": 1155
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transmission_list_16.svg",
+      "size_bytes": 639
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/transmission_list_24.svg",
+      "size_bytes": 655
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tuning_16.svg",
+      "size_bytes": 1211
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/tuning_24.svg",
+      "size_bytes": 1150
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/underline_16.svg",
+      "size_bytes": 367
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/underline_24.svg",
+      "size_bytes": 359
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/unfollow_16.svg",
+      "size_bytes": 1040
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/unfollow_24.svg",
+      "size_bytes": 1057
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/unordered_list_16.svg",
+      "size_bytes": 361
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/unordered_list_24.svg",
+      "size_bytes": 417
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/unpinned_16.svg",
+      "size_bytes": 817
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/unpinned_24.svg",
+      "size_bytes": 780
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/up_16.svg",
+      "size_bytes": 529
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/update_16.svg",
+      "size_bytes": 604
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/update_24.svg",
+      "size_bytes": 624
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/upload_16.svg",
+      "size_bytes": 1008
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/upload_24.svg",
+      "size_bytes": 1005
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/user_16.svg",
+      "size_bytes": 4508
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/user_24.svg",
+      "size_bytes": 4480
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/vacuum_pen_16.svg",
+      "size_bytes": 985
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/vacuum_pen_24.svg",
+      "size_bytes": 889
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/video_16.svg",
+      "size_bytes": 6363
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/video_24.svg",
+      "size_bytes": 6314
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/video_color_16.svg",
+      "size_bytes": 1593
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/video_color_24.svg",
+      "size_bytes": 1539
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/video_filled_16.svg",
+      "size_bytes": 1590
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/video_off_16.svg",
+      "size_bytes": 3164
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/video_off_24.svg",
+      "size_bytes": 3120
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/video_on_16.svg",
+      "size_bytes": 6370
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/video_on_24.svg",
+      "size_bytes": 6317
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/view_context_16.svg",
+      "size_bytes": 1175
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/view_context_24.svg",
+      "size_bytes": 1114
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/voice_high_16.svg",
+      "size_bytes": 1071
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/voice_high_24.svg",
+      "size_bytes": 1106
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/voice_low_16.svg",
+      "size_bytes": 898
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/voice_low_24.svg",
+      "size_bytes": 918
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/voice_mute_16.svg",
+      "size_bytes": 1419
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/voice_mute_24.svg",
+      "size_bytes": 1420
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/watch_16.svg",
+      "size_bytes": 2277
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/watch_24.svg",
+      "size_bytes": 2348
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/water_drop_16.svg",
+      "size_bytes": 520
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/water_drop_24.svg",
+      "size_bytes": 565
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/watermark_16.svg",
+      "size_bytes": 585
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/watermark_24.svg",
+      "size_bytes": 684
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/xiaowo_16.svg",
+      "size_bytes": 1359
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/xiaowo_24.svg",
+      "size_bytes": 1376
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/yellow_diamond_16.svg",
+      "size_bytes": 872
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/zoom_in_16.svg",
+      "size_bytes": 901
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/zoom_in_24.svg",
+      "size_bytes": 897
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/zoom_out_16.svg",
+      "size_bytes": 1227
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/zoom_out_24.svg",
+      "size_bytes": 1707
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-common-mm.png",
+      "size_bytes": 2365
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-common.png",
+      "size_bytes": 2649
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-leave-mm.png",
+      "size_bytes": 3226
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-leave.png",
+      "size_bytes": 6649
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-new-mm.png",
+      "size_bytes": 2657
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-new.png",
+      "size_bytes": 6732
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-offline-mm.png",
+      "size_bytes": 2727
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-offline.png",
+      "size_bytes": 2673
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-online-mm.png",
+      "size_bytes": 3242
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-online.png",
+      "size_bytes": 7922
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-reclusion-mm.png",
+      "size_bytes": 3110
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/linux-favicon-reclusion.png",
+      "size_bytes": 6337
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/miniapp/miniapp_add.svg",
+      "size_bytes": 792
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/miniapp/miniapp_desktop.svg",
+      "size_bytes": 474
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/miniapp/miniapp_remove.svg",
+      "size_bytes": 809
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/miniapp/miniapp_share.svg",
+      "size_bytes": 725
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/msg.wav",
+      "size_bytes": 156628
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/qbao-logo.png",
+      "size_bytes": 9389
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/qqb/icon.ico",
+      "size_bytes": 117101
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/ringtone-accept.mp3",
+      "size_bytes": 3118
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/ringtone-callee.mp3",
+      "size_bytes": 29647
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/ringtone-caller.mp3",
+      "size_bytes": 31502
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/ringtone-hangup.mp3",
+      "size_bytes": 4941
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/service-notify.png",
+      "size_bytes": 3331
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/system.wav",
+      "size_bytes": 6947
+    },
+    {
+      "path": "/opt/QQ/resources/app/rsds.log",
+      "size_bytes": 618
+    },
+    {
+      "path": "/opt/QQ/resources/app/screencast.gjs",
+      "size_bytes": 7952
+    },
+    {
+      "path": "/opt/QQ/resources/app/sharp-lib/libvips-cpp.so.42",
+      "size_bytes": 16707440
+    },
+    {
+      "path": "/opt/QQ/resources/app/sharp-linux-x64.node",
+      "size_bytes": 268808
+    },
+    {
+      "path": "/opt/QQ/resources/app/wrapper.node",
+      "size_bytes": 151382944
+    },
+    {
+      "path": "/opt/QQ/snapshot_blob.bin",
+      "size_bytes": 339863
+    },
+    {
+      "path": "/opt/QQ/v8_context_snapshot.bin",
+      "size_bytes": 713034
+    },
+    {
+      "path": "/opt/QQ/version.json",
+      "size_bytes": 353
+    },
+    {
+      "path": "/opt/QQ/vk_swiftshader_icd.json",
+      "size_bytes": 107
+    },
+    {
+      "path": "/usr/bin/linuxqq",
+      "size_bytes": 439
+    },
+    {
+      "path": "/usr/share/applications/qq.desktop",
+      "size_bytes": 129
+    },
+    {
+      "path": "/usr/share/doc/linuxqq/changelog.gz",
+      "size_bytes": 150
+    },
+    {
+      "path": "/usr/share/icons/hicolor/512x512/apps/qq.png",
+      "size_bytes": 15756
+    },
+    {
+      "path": "/usr/share/licenses/linuxqq/LICENSE.electron.txt",
+      "size_bytes": 1096
+    },
+    {
+      "path": "/usr/share/licenses/linuxqq/LICENSES.chromium.html",
+      "size_bytes": 15700060
+    }
+  ],
+  "package_size_bytes": 652749079,
   "required_by": []
 }

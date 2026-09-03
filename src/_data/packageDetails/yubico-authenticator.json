@@ -13,14 +13,556 @@
   "licenses": [
     "Apache-2.0"
   ],
-  "build_status": "build_failed",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33756036469/job/100657494975",
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100672204223",
   "version": "7.4.1-2",
-  "last_updated": null,
-  "packager": null,
-  "dependencies": [],
+  "last_updated": "2026-09-03T14:20:28Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "ccid",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "gtk3",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libayatana-appindicator",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libnotify",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "pcsclite",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-click",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-fido2",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-mss",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-pillow",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-pyscard",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-zxing-cpp",
+      "type": "depends",
+      "repo": "aur"
+    },
+    {
+      "name": "yubikey-manager",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "clang",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "cmake",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "desktop-file-utils",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "fvm",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "git",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "imagemagick",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "ninja",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "patchelf",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-build",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-installer",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-poetry-core",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-wheel",
+      "type": "makedepends",
+      "repo": "extra"
+    }
+  ],
   "sources": [],
-  "files": [],
-  "package_size_bytes": null,
+  "files": [
+    {
+      "path": "/opt/yubico-authenticator/authenticator",
+      "size_bytes": 18848
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/AssetManifest.bin",
+      "size_bytes": 3900
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/FontManifest.json",
+      "size_bytes": 807
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/NOTICES.Z",
+      "size_bytes": 124116
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/NativeAssetsManifest.json",
+      "size_bytes": 45
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/fonts/Roboto-Bold.ttf",
+      "size_bytes": 167336
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/fonts/Roboto-Light.ttf",
+      "size_bytes": 167000
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/fonts/Roboto-Regular.ttf",
+      "size_bytes": 168260
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/fonts/Roboto-Thin.ttf",
+      "size_bytes": 168488
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/graphics/app-icon.png",
+      "size_bytes": 6063
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/graphics/no-key.png",
+      "size_bytes": 4012
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/graphics/passkey-outline.svg",
+      "size_bytes": 812
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/graphics/passkey.svg",
+      "size_bytes": 562
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/graphics/yubico-green.png",
+      "size_bytes": 11198
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/graphics/yubico-white.png",
+      "size_bytes": 6611
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/l10n/status.json",
+      "size_bytes": 1318
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/licenses/.gitignore",
+      "size_bytes": 12
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/licenses/raw/.gitignore",
+      "size_bytes": 41
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/licenses/raw/apache-2.0.txt",
+      "size_bytes": 11359
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/licenses/raw/python.txt",
+      "size_bytes": 2414
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/generic.png",
+      "size_bytes": 12837
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/neo.png",
+      "size_bytes": 55101
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/sky1.png",
+      "size_bytes": 50389
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/sky2.png",
+      "size_bytes": 49912
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/sky3.png",
+      "size_bytes": 82720
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/skycnfc.png",
+      "size_bytes": 77848
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/standard.png",
+      "size_bytes": 53885
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/yk4.png",
+      "size_bytes": 49927
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/yk4series.png",
+      "size_bytes": 46791
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/yk5c.png",
+      "size_bytes": 58840
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/yk5ci.png",
+      "size_bytes": 47683
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/yk5cnano.png",
+      "size_bytes": 73804
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/yk5cnfc.png",
+      "size_bytes": 51504
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/yk5nano.png",
+      "size_bytes": 71133
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/yk5nfc.png",
+      "size_bytes": 49510
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/ykbioa.png",
+      "size_bytes": 54445
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/ykbioc.png",
+      "size_bytes": 55673
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/ykedge.png",
+      "size_bytes": 51627
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/assets/product-images/ykplus.png",
+      "size_bytes": 27609
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/fonts/MaterialIcons-Regular.otf",
+      "size_bytes": 1645184
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/packages/material_symbols_icons/lib/fonts/MaterialSymbolsOutlined.ttf",
+      "size_bytes": 10610968
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/packages/material_symbols_icons/lib/fonts/MaterialSymbolsRounded.ttf",
+      "size_bytes": 15036080
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/packages/material_symbols_icons/lib/fonts/MaterialSymbolsSharp.ttf",
+      "size_bytes": 8814220
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/resources/icons/com.yubico.yubioath-1000x1000.png",
+      "size_bytes": 36969
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/resources/icons/com.yubico.yubioath-32x32.png",
+      "size_bytes": 979
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/resources/icons/com.yubico.yubioath.ico",
+      "size_bytes": 16606
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/resources/icons/com.yubico.yubioath.png",
+      "size_bytes": 6630
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/resources/icons/dmg-background.png",
+      "size_bytes": 166832
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/resources/icons/systray-template.eps",
+      "size_bytes": 5417
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/resources/icons/systray-template.png",
+      "size_bytes": 7665
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/resources/icons/yubico-msi-background.png",
+      "size_bytes": 6859
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/resources/icons/yubico-msi-y-banner.png",
+      "size_bytes": 2643
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/shaders/ink_sparkle.frag",
+      "size_bytes": 21856
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/shaders/stretch_effect.frag",
+      "size_bytes": 17624
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/flutter_assets/version.json",
+      "size_bytes": 114
+    },
+    {
+      "path": "/opt/yubico-authenticator/data/icudtl.dat",
+      "size_bytes": 862304
+    },
+    {
+      "path": "/opt/yubico-authenticator/helper/authenticator-helper",
+      "size_bytes": 1350
+    },
+    {
+      "path": "/opt/yubico-authenticator/helper/shell.py",
+      "size_bytes": 7885
+    },
+    {
+      "path": "/opt/yubico-authenticator/lib/libapp.so",
+      "size_bytes": 11928560
+    },
+    {
+      "path": "/opt/yubico-authenticator/lib/libdesktop_drop_plugin.so",
+      "size_bytes": 18624
+    },
+    {
+      "path": "/opt/yubico-authenticator/lib/libflutter_linux_gtk.so",
+      "size_bytes": 16988624
+    },
+    {
+      "path": "/opt/yubico-authenticator/lib/liblocal_notifier_plugin.so",
+      "size_bytes": 22728
+    },
+    {
+      "path": "/opt/yubico-authenticator/lib/libscreen_retriever_linux_plugin.so",
+      "size_bytes": 18640
+    },
+    {
+      "path": "/opt/yubico-authenticator/lib/libtray_manager_plugin.so",
+      "size_bytes": 18624
+    },
+    {
+      "path": "/opt/yubico-authenticator/lib/liburl_launcher_linux_plugin.so",
+      "size_bytes": 22744
+    },
+    {
+      "path": "/opt/yubico-authenticator/lib/libwindow_manager_plugin.so",
+      "size_bytes": 51400
+    },
+    {
+      "path": "/usr/bin/yubico-authenticator -> /opt/yubico-authenticator/authenticator",
+      "size_bytes": 0
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/authenticator_helper-0.1.0.dist-info/METADATA",
+      "size_bytes": 706
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/authenticator_helper-0.1.0.dist-info/RECORD",
+      "size_bytes": 899
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/authenticator_helper-0.1.0.dist-info/WHEEL",
+      "size_bytes": 88
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__init__.py",
+      "size_bytes": 5521
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/__init__.cpython-314.opt-1.pyc",
+      "size_bytes": 10142
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/__init__.cpython-314.pyc",
+      "size_bytes": 10142
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/base.cpython-314.opt-1.pyc",
+      "size_bytes": 13159
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/base.cpython-314.pyc",
+      "size_bytes": 13159
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/device.cpython-314.opt-1.pyc",
+      "size_bytes": 38746
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/device.cpython-314.pyc",
+      "size_bytes": 38825
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/fido.cpython-314.opt-1.pyc",
+      "size_bytes": 26915
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/fido.cpython-314.pyc",
+      "size_bytes": 26947
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/management.cpython-314.opt-1.pyc",
+      "size_bytes": 6480
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/management.cpython-314.pyc",
+      "size_bytes": 6480
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/oath.cpython-314.opt-1.pyc",
+      "size_bytes": 21791
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/oath.cpython-314.pyc",
+      "size_bytes": 21791
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/piv.cpython-314.opt-1.pyc",
+      "size_bytes": 31381
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/piv.cpython-314.pyc",
+      "size_bytes": 31523
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/qr.cpython-314.opt-1.pyc",
+      "size_bytes": 3949
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/qr.cpython-314.pyc",
+      "size_bytes": 3949
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/yubiotp.cpython-314.opt-1.pyc",
+      "size_bytes": 13116
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/__pycache__/yubiotp.cpython-314.pyc",
+      "size_bytes": 13116
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/base.py",
+      "size_bytes": 7882
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/device.py",
+      "size_bytes": 22613
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/fido.py",
+      "size_bytes": 14785
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/management.py",
+      "size_bytes": 4482
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/oath.py",
+      "size_bytes": 11595
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/piv.py",
+      "size_bytes": 20015
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/qr.py",
+      "size_bytes": 3015
+    },
+    {
+      "path": "/usr/lib/python3.14/site-packages/helper/yubiotp.py",
+      "size_bytes": 7893
+    },
+    {
+      "path": "/usr/share/applications/com.yubico.yubioath.desktop",
+      "size_bytes": 230
+    },
+    {
+      "path": "/usr/share/icons/hicolor/128x128/apps/com.yubico.yubioath.png",
+      "size_bytes": 7288
+    },
+    {
+      "path": "/usr/share/icons/hicolor/16x16/apps/com.yubico.yubioath.png",
+      "size_bytes": 2588
+    },
+    {
+      "path": "/usr/share/icons/hicolor/256x256/apps/com.yubico.yubioath.png",
+      "size_bytes": 12945
+    },
+    {
+      "path": "/usr/share/icons/hicolor/32x32/apps/com.yubico.yubioath.png",
+      "size_bytes": 3054
+    },
+    {
+      "path": "/usr/share/icons/hicolor/48x48/apps/com.yubico.yubioath.png",
+      "size_bytes": 3885
+    },
+    {
+      "path": "/usr/share/icons/hicolor/512x512/apps/com.yubico.yubioath.png",
+      "size_bytes": 24724
+    },
+    {
+      "path": "/usr/share/icons/hicolor/64x64/apps/com.yubico.yubioath.png",
+      "size_bytes": 4568
+    }
+  ],
+  "package_size_bytes": 68712956,
   "required_by": []
 }
