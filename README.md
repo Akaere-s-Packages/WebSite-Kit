@@ -23,6 +23,7 @@ WebSite-Kit/
 │   │   ├── css/              # Upstream archweb.css, aurweb.css, archnavbar.css
 │   │   ├── images/           # Favicon, SVG icons, logos
 │   │   └── js/               # Upstream copy.js
+│   ├── CNAME                 # Custom domain configuration for GitHub Pages
 │   ├── index.njk             # Homepage & package search/filter list (/)
 │   └── packages/
 │       ├── index.njk         # Package search page (/packages/)

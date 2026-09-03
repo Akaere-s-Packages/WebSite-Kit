@@ -4,6 +4,9 @@ import path from "node:path";
 export default function (eleventyConfig) {
   // Passthrough static assets
   eleventyConfig.addPassthroughCopy({ "src/static": "static" });
+  // Passthrough CNAME for custom domain on GitHub Pages
+  eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
+
 
   // Expose JSON data at published endpoints for PR preview / public API consumption
   // docs 01/05/06 require packageDetails/<name>.json and data/packageDetails/<name>.json
