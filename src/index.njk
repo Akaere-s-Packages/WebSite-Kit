@@ -23,6 +23,31 @@ permalink: "index.html"
             </p>
         </div>
 
+        <div id="getting-started" class="box">
+            <h2>Getting Started</h2>
+            <p>
+                This is a GPG-signed <a href="https://wiki.archlinux.org/title/Pacman" target="_blank" rel="noopener">pacman</a> binary repository. Unlike the AUR itself, packages here install directly; no local build is required.
+            </p>
+
+            <h4>1. Add the repository</h4>
+            <p>Append the following section to <code>/etc/pacman.conf</code>:</p>
+            <pre><code>[akaere]
+SigLevel = Required
+Server = https://repo.lilithya.su/archlinux/$arch</code></pre>
+
+            <h4>2. Import the signing key</h4>
+            <p>Download the repository public key, add it to pacman's keyring, and locally sign it:</p>
+            <pre><code>curl -fO https://repo.lilithya.su/akaere.gpg
+sudo pacman-key --add akaere.gpg
+fingerprint="$(gpg --show-keys --with-colons akaere.gpg |
+  awk -F: '$1 == "fpr" { print $10; exit }')"
+sudo pacman-key --lsign-key "$fingerprint"</code></pre>
+
+            <h4>3. Refresh and install</h4>
+            <pre><code>sudo pacman -Syu
+sudo pacman -S &lt;package-name&gt;</code></pre>
+        </div>
+
         <div id="news">
             <h3><a>Support</a><span class="arrow"></span></h3>
             <h4>Package Requests</h4>
