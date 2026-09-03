@@ -1,6 +1,6 @@
 # WebSite-Kit
 
-An official [aurweb](https://gitlab.archlinux.org/archlinux/aurweb) / Arch Linux styled AUR static site generator for **Akaere's Packages**, built with [Eleventy](https://www.11ty.dev/) running on [Deno](https://deno.com/).
+An official [aurweb](https://gitlab.archlinux.org/archlinux/aurweb) / Arch Linux styled AUR static site generator for **Akaere's User Repo**, built with [Eleventy](https://www.11ty.dev/) running on [Deno](https://deno.com/).
 
 All stylesheets, layout hierarchy, navigation bars, colors, and components strictly adhere to the official Arch Linux and AUR upstream design systems (`archweb.css`, `aurweb.css`, `archnavbar`).
 
@@ -52,4 +52,4 @@ deno task build
 
 - This project incorporates stylesheets (`archweb.css`, `aurweb.css`, `archnavbar.css`) and scripts (`copy.js`) derived from the official [aurweb](https://gitlab.archlinux.org/archlinux/aurweb) and [archweb](https://gitlab.archlinux.org/archlinux/archweb) projects, Copyright (C) 2004-2026 aurweb Development Team, licensed under the [GNU General Public License v2.0](LICENSE) (GPL-2.0).
 - Icons in `src/static/images/` originate from the Open Iconic project, Copyright (c) 2014 Waybury, licensed under the [MIT License](src/static/images/ICON-LICENSE).
-- The mascot logo used in this project is an independent custom creation for Akaere's Packages.
+- The mascot logo used in this project is an independent custom creation for Akaere's User Repo.
