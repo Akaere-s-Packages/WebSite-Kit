@@ -19,7 +19,7 @@
     "version": "6.4.0-1",
     "description": "An utility for Linux to control many aspects of various ASUS laptops",
     "maintainer": "mhdi",
-    "last_updated": "2026-09-03T12:24:56Z",
+    "last_updated": "2026-09-03T12:58:51Z",
     "build_status": "published",
     "detail_url": "/packages/asusctl/"
   },
@@ -163,7 +163,7 @@
     "version": "3.1.1-2",
     "description": "Python bindings for zxing-cpp",
     "maintainer": "yochananmarqos",
-    "last_updated": "2026-09-03T12:24:56Z",
+    "last_updated": "2026-09-03T12:58:51Z",
     "build_status": "published",
     "detail_url": "/packages/python-zxing-cpp/"
   },

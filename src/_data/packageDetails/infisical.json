@@ -11,7 +11,7 @@
   "description": "Fetch and inject secrets into any framework in local development",
   "url": "https://github.com/Infisical/cli",
   "licenses": [
-    "LicenseRef-Custom"
+    "LicenseRef-custom"
   ],
   "build_status": "published",
   "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33751438609/job/100635725749",

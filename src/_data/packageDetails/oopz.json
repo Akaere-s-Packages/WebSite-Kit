@@ -11,7 +11,7 @@
   "description": "OOPZ desktop client - third-party Electron package for the free online voice platform",
   "url": "https://git.pysio.online/pysio/linux_oopz",
   "licenses": [
-    "LicenseRef-proprietary"
+    "LicenseRef-Proprietary"
   ],
   "build_status": "published",
   "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33751438609/job/100635725785",
