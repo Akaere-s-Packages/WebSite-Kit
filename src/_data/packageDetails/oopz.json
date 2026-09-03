@@ -14,9 +14,9 @@
     "LicenseRef-proprietary"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538902",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33751438609/job/100635725785",
   "version": "1.0.0-1",
-  "last_updated": "2026-09-03T10:48:51Z",
+  "last_updated": "2026-09-03T12:24:56Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -28,23 +28,23 @@
   "package_size_bytes": 25884,
   "files": [
     {
-      "path": "opt/oopz/icon.png",
+      "path": "/opt/oopz/icon.png",
       "size_bytes": 12141
     },
     {
-      "path": "opt/oopz/main.js",
+      "path": "/opt/oopz/main.js",
       "size_bytes": 770
     },
     {
-      "path": "usr/bin/oopz",
+      "path": "/usr/bin/oopz",
       "size_bytes": 606
     },
     {
-      "path": "usr/share/applications/oopz.desktop",
+      "path": "/usr/share/applications/oopz.desktop",
       "size_bytes": 226
     },
     {
-      "path": "usr/share/icons/hicolor/256x256/apps/oopz.png",
+      "path": "/usr/share/icons/hicolor/256x256/apps/oopz.png",
       "size_bytes": 12141
     }
   ],

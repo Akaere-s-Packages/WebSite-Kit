@@ -14,9 +14,9 @@
     "LicenseRef-Custom"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538946",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33751438609/job/100635725749",
   "version": "0.43.127-1",
-  "last_updated": "2026-09-03T10:48:51Z",
+  "last_updated": "2026-09-03T12:24:56Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -33,39 +33,39 @@
   "package_size_bytes": 76692637,
   "files": [
     {
-      "path": "usr/bin/infisical",
+      "path": "/usr/bin/infisical",
       "size_bytes": 76646960
     },
     {
-      "path": "usr/share/bash-completion/completions/infisical",
+      "path": "/usr/share/bash-completion/completions/infisical",
       "size_bytes": 11344
     },
     {
-      "path": "usr/share/doc/infisical/CODE_OF_CONDUCT.md",
+      "path": "/usr/share/doc/infisical/CODE_OF_CONDUCT.md",
       "size_bytes": 5220
     },
     {
-      "path": "usr/share/doc/infisical/CONTRIBUTING.md",
+      "path": "/usr/share/doc/infisical/CONTRIBUTING.md",
       "size_bytes": 349
     },
     {
-      "path": "usr/share/doc/infisical/README.md",
+      "path": "/usr/share/doc/infisical/README.md",
       "size_bytes": 3601
     },
     {
-      "path": "usr/share/fish/vendor_completions.d/infisical.fish",
+      "path": "/usr/share/fish/vendor_completions.d/infisical.fish",
       "size_bytes": 7168
     },
     {
-      "path": "usr/share/licenses/infisical/LICENSE",
+      "path": "/usr/share/licenses/infisical/LICENSE",
       "size_bytes": 1565
     },
     {
-      "path": "usr/share/man/man1/infisical.1.gz",
+      "path": "/usr/share/man/man1/infisical.1.gz",
       "size_bytes": 8815
     },
     {
-      "path": "usr/share/zsh/site-functions/_infisical",
+      "path": "/usr/share/zsh/site-functions/_infisical",
       "size_bytes": 7615
     }
   ],

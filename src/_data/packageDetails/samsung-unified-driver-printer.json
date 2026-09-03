@@ -13,15 +13,880 @@
   "licenses": [
     "custom:samsung"
   ],
-  "build_status": "build_failed",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100616015752",
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33751438609/job/100645193968",
   "version": "1.00.39-11",
-  "last_updated": null,
-  "packager": null,
-  "dependencies": [],
+  "last_updated": "2026-09-03T12:24:56Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "samsung-unified-driver-common",
+      "type": "depends",
+      "repo": "aur"
+    },
+    {
+      "name": "cups",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "ghostscript",
+      "type": "depends",
+      "repo": "extra"
+    }
+  ],
   "sources": [],
-  "files": [],
-  "package_size_bytes": null,
+  "files": [
+    {
+      "path": "/opt/smfp-common/printer/lib -> /usr/lib",
+      "size_bytes": 0
+    },
+    {
+      "path": "/usr/lib/cups/backend/smfpnetdiscovery",
+      "size_bytes": 1272728
+    },
+    {
+      "path": "/usr/lib/cups/filter/pstosecps",
+      "size_bytes": 59392
+    },
+    {
+      "path": "/usr/lib/cups/filter/rastertospl",
+      "size_bytes": 92384
+    },
+    {
+      "path": "/usr/lib/cups/filter/rastertosplc -> rastertospl",
+      "size_bytes": 0
+    },
+    {
+      "path": "/usr/lib/libscmssc.so",
+      "size_bytes": 2841035
+    },
+    {
+      "path": "/usr/share/cups/model/uld-samsung -> ../../ppd/suld",
+      "size_bytes": 0
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C140x_Series.ppd.gz",
+      "size_bytes": 8255
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C145x_Series.ppd.gz",
+      "size_bytes": 8255
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C1810_Series.ppd.gz",
+      "size_bytes": 8255
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C1860_Series.ppd.gz",
+      "size_bytes": 8255
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C2620_Series.ppd.gz",
+      "size_bytes": 12740
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C2670_Series.ppd.gz",
+      "size_bytes": 12900
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C268x_Series.ppd.gz",
+      "size_bytes": 12978
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C3010_Series.ppd.gz",
+      "size_bytes": 12282
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C3060_Series.ppd.gz",
+      "size_bytes": 12807
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C351x_Series.ppd.gz",
+      "size_bytes": 11145
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C401x_Series.ppd.gz",
+      "size_bytes": 11143
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C406x_Series.ppd.gz",
+      "size_bytes": 11320
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C410_Series.ppd.gz",
+      "size_bytes": 4323
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C420_Series.ppd.gz",
+      "size_bytes": 4324
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C43x_Series.ppd.gz",
+      "size_bytes": 4462
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C460_Series.ppd.gz",
+      "size_bytes": 5415
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C470_Series.ppd.gz",
+      "size_bytes": 5414
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C4820_Series.ppd.gz",
+      "size_bytes": 13115
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_C48x_Series.ppd.gz",
+      "size_bytes": 5531
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-300_Series.ppd.gz",
+      "size_bytes": 2701
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-310_Series.ppd.gz",
+      "size_bytes": 4981
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-320_Series.ppd.gz",
+      "size_bytes": 6638
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-350_Series.ppd.gz",
+      "size_bytes": 6922
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-360_Series.ppd.gz",
+      "size_bytes": 3842
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-410_Series.ppd.gz",
+      "size_bytes": 8286
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-600_Series.ppd.gz",
+      "size_bytes": 2722
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-610_Series.ppd.gz",
+      "size_bytes": 6300
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-620_Series.ppd.gz",
+      "size_bytes": 9696
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-660_Series.ppd.gz",
+      "size_bytes": 7199
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-670_Series.ppd.gz",
+      "size_bytes": 11386
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-680_Series.ppd.gz",
+      "size_bytes": 12545
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-770_Series.ppd.gz",
+      "size_bytes": 8964
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLP-775_Series.ppd.gz",
+      "size_bytes": 8600
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-216x_Series.ppd.gz",
+      "size_bytes": 2651
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-3160_Series.ppd.gz",
+      "size_bytes": 2766
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-3170_Series.ppd.gz",
+      "size_bytes": 4993
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-3180_Series.ppd.gz",
+      "size_bytes": 6644
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-3300_Series.ppd.gz",
+      "size_bytes": 5424
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-4190_Series.ppd.gz",
+      "size_bytes": 8287
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-6200_Series.ppd.gz",
+      "size_bytes": 7161
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-6220_Series.ppd.gz",
+      "size_bytes": 11439
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-6240_Series.ppd.gz",
+      "size_bytes": 7161
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-6250_Series.ppd.gz",
+      "size_bytes": 11448
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-6260_Series.ppd.gz",
+      "size_bytes": 12543
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-8380_Series.ppd.gz",
+      "size_bytes": 10757
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-8385X_Series.ppd.gz",
+      "size_bytes": 11372
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-8385_Series.ppd.gz",
+      "size_bytes": 11370
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-8540_Series.ppd.gz",
+      "size_bytes": 11368
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-8640_8650_Series.ppd.gz",
+      "size_bytes": 14486
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-9250_9350_Series.ppd.gz",
+      "size_bytes": 21896
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-9252_9352_Series.ppd.gz",
+      "size_bytes": 23481
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-92x1_93x1_Series.ppd.gz",
+      "size_bytes": 14878
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-981x_Series.ppd.gz",
+      "size_bytes": 14875
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_CLX-982x_Series.ppd.gz",
+      "size_bytes": 23478
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_K2200_Series.ppd.gz",
+      "size_bytes": 3212
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_K302_Series.ppd.gz",
+      "size_bytes": 15258
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_K3250_Series.ppd.gz",
+      "size_bytes": 15259
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_K401_Series.ppd.gz",
+      "size_bytes": 14786
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_K4350_Series.ppd.gz",
+      "size_bytes": 14787
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_K703_Series.ppd.gz",
+      "size_bytes": 23514
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_K7600_Series.ppd.gz",
+      "size_bytes": 23517
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M2020_Series.ppd.gz",
+      "size_bytes": 4386
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M2070_Series.ppd.gz",
+      "size_bytes": 4387
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M262x_282x_Series.ppd.gz",
+      "size_bytes": 5464
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M267x_287x_Series.ppd.gz",
+      "size_bytes": 5469
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M283x_Series.ppd.gz",
+      "size_bytes": 5453
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M288x_Series.ppd.gz",
+      "size_bytes": 5454
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M301x_Series.ppd.gz",
+      "size_bytes": 5557
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M306x_Series.ppd.gz",
+      "size_bytes": 5558
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M332x_382x_402x_Series.ppd.gz",
+      "size_bytes": 9568
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M337x_387x_407x_Series.ppd.gz",
+      "size_bytes": 9568
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M403x_Series.ppd.gz",
+      "size_bytes": 8098
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M408x_Series.ppd.gz",
+      "size_bytes": 8199
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M4370_5370_Series.ppd.gz",
+      "size_bytes": 10175
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M453x_Series.ppd.gz",
+      "size_bytes": 10771
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M458x_Series.ppd.gz",
+      "size_bytes": 9199
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M5270_Series.ppd.gz",
+      "size_bytes": 12053
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_M536x_Series.ppd.gz",
+      "size_bytes": 12979
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_MFP_560_Series.ppd.gz",
+      "size_bytes": 2111
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_MFP_65x_Series.ppd.gz",
+      "size_bytes": 4633
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_MFP_750_Series.ppd.gz",
+      "size_bytes": 2128
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1520_Series.ppd.gz",
+      "size_bytes": 2453
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1610_Series.ppd.gz",
+      "size_bytes": 2386
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1630W_Series.ppd.gz",
+      "size_bytes": 2020
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1630_Series.ppd.gz",
+      "size_bytes": 2019
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1640_Series.ppd.gz",
+      "size_bytes": 3661
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1660_Series.ppd.gz",
+      "size_bytes": 5047
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1670_Series.ppd.gz",
+      "size_bytes": 5145
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1710_Series.ppd.gz",
+      "size_bytes": 2458
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1740_Series.ppd.gz",
+      "size_bytes": 2461
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1860_Series.ppd.gz",
+      "size_bytes": 5143
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-1865W_Series.ppd.gz",
+      "size_bytes": 4789
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-191x_Series.ppd.gz",
+      "size_bytes": 5002
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2010_Series.ppd.gz",
+      "size_bytes": 2392
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2150_Series.ppd.gz",
+      "size_bytes": 4691
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2160_Series.ppd.gz",
+      "size_bytes": 4260
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2240_Series.ppd.gz",
+      "size_bytes": 3671
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2245_Series.ppd.gz",
+      "size_bytes": 3665
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2250_Series.ppd.gz",
+      "size_bytes": 2371
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2510_Series.ppd.gz",
+      "size_bytes": 2619
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2525W_Series.ppd.gz",
+      "size_bytes": 5163
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2540_Series.ppd.gz",
+      "size_bytes": 5412
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2550_Series.ppd.gz",
+      "size_bytes": 4662
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2570_Series.ppd.gz",
+      "size_bytes": 4207
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2580_Series.ppd.gz",
+      "size_bytes": 5163
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2850_Series.ppd.gz",
+      "size_bytes": 5981
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2853_Series.ppd.gz",
+      "size_bytes": 5981
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2855_Series.ppd.gz",
+      "size_bytes": 6729
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-2950_Series.ppd.gz",
+      "size_bytes": 5804
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-3050_Series.ppd.gz",
+      "size_bytes": 2736
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-3300_Series.ppd.gz",
+      "size_bytes": 5125
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-331x_Series.ppd.gz",
+      "size_bytes": 5905
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-3470_Series.ppd.gz",
+      "size_bytes": 6647
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-3475_Series.ppd.gz",
+      "size_bytes": 6647
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-3560_Series.ppd.gz",
+      "size_bytes": 2999
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-371x_Series.ppd.gz",
+      "size_bytes": 7697
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-375x_Series.ppd.gz",
+      "size_bytes": 7696
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-4050_Series.ppd.gz",
+      "size_bytes": 4579
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-4055_Series.ppd.gz",
+      "size_bytes": 4579
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-451x_501x_Series.ppd.gz",
+      "size_bytes": 9383
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-4550_Series.ppd.gz",
+      "size_bytes": 4699
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-4555_Series.ppd.gz",
+      "size_bytes": 4699
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-551x_651x_Series.ppd.gz",
+      "size_bytes": 9787
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-8850_8950_Series.ppd.gz",
+      "size_bytes": 9443
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_ML-8x00_Series.ppd.gz",
+      "size_bytes": 4074
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-3200_Series.ppd.gz",
+      "size_bytes": 3891
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-3400_Series.ppd.gz",
+      "size_bytes": 4368
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4100_Series.ppd.gz",
+      "size_bytes": 2180
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4200_Series.ppd.gz",
+      "size_bytes": 2255
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4300_Series.ppd.gz",
+      "size_bytes": 3496
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4500W_Series.ppd.gz",
+      "size_bytes": 1911
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4500_Series.ppd.gz",
+      "size_bytes": 1880
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4600_Series.ppd.gz",
+      "size_bytes": 4650
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4623FW_Series.ppd.gz",
+      "size_bytes": 4652
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4623_Series.ppd.gz",
+      "size_bytes": 4650
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4650_4x21S_Series.ppd.gz",
+      "size_bytes": 4351
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-470x_Series.ppd.gz",
+      "size_bytes": 5914
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4725_Series.ppd.gz",
+      "size_bytes": 2317
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-472x_Series.ppd.gz",
+      "size_bytes": 5914
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-483x_5x3x_Series.ppd.gz",
+      "size_bytes": 10384
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4x16_Series.ppd.gz",
+      "size_bytes": 2119
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4x20_Series.ppd.gz",
+      "size_bytes": 2365
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4x21_Series.ppd.gz",
+      "size_bytes": 2180
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4x24_Series.ppd.gz",
+      "size_bytes": 4397
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4x25_Series.ppd.gz",
+      "size_bytes": 5190
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4x26_Series.ppd.gz",
+      "size_bytes": 5124
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-4x28_Series.ppd.gz",
+      "size_bytes": 7353
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-5635_Series.ppd.gz",
+      "size_bytes": 7156
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-5835_5935X_Series.ppd.gz",
+      "size_bytes": 7272
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-5835_5935_Series.ppd.gz",
+      "size_bytes": 7268
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-5x30_Series.ppd.gz",
+      "size_bytes": 2697
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-6545X_Series.ppd.gz",
+      "size_bytes": 9533
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-6545_Series.ppd.gz",
+      "size_bytes": 9090
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-681x_Series.ppd.gz",
+      "size_bytes": 8892
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-6x20_Series.ppd.gz",
+      "size_bytes": 4586
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-6x22_Series.ppd.gz",
+      "size_bytes": 4260
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-6x45_Series.ppd.gz",
+      "size_bytes": 5762
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-6x55X_Series.ppd.gz",
+      "size_bytes": 9047
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-6x55_Series.ppd.gz",
+      "size_bytes": 9047
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-8030_8040_Series.ppd.gz",
+      "size_bytes": 20317
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-8123_8128_Series.ppd.gz",
+      "size_bytes": 13019
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-8230_8240_Series.ppd.gz",
+      "size_bytes": 21676
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-881x_Series.ppd.gz",
+      "size_bytes": 13017
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SCX-882x_Series.ppd.gz",
+      "size_bytes": 21672
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_SF-760_Series.ppd.gz",
+      "size_bytes": 4366
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_X3220_Series.ppd.gz",
+      "size_bytes": 16624
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_X401_Series.ppd.gz",
+      "size_bytes": 16099
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_X4300_Series.ppd.gz",
+      "size_bytes": 16099
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_X703_Series.ppd.gz",
+      "size_bytes": 25294
+    },
+    {
+      "path": "/usr/share/ppd/suld/Samsung_X7600_Series.ppd.gz",
+      "size_bytes": 25297
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/C410sc.cts",
+      "size_bytes": 1353288
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/C420sc.cts",
+      "size_bytes": 1353288
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/C43xsc.cts",
+      "size_bytes": 1240844
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLP-300sc.cts",
+      "size_bytes": 281658
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLP-310sc.cts",
+      "size_bytes": 2058733
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLP-320sc.cts",
+      "size_bytes": 2621289
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLP-360sc.cts",
+      "size_bytes": 1353288
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLP-600sc.cts",
+      "size_bytes": 266834
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLP-610sc.cts",
+      "size_bytes": 549515
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLP-620sc.cts",
+      "size_bytes": 2524995
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLP-660sc.cts",
+      "size_bytes": 549515
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLX-216xsc.cts",
+      "size_bytes": 282342
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLX-3160sc.cts",
+      "size_bytes": 281658
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLX-3170sc.cts",
+      "size_bytes": 2058733
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLX-3180sc.cts",
+      "size_bytes": 2621801
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/CLX-6220sc.cts",
+      "size_bytes": 2526019
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/K2200sc.cts",
+      "size_bytes": 133760
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M2020sc.cts",
+      "size_bytes": 45057
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M2070sc.cts",
+      "size_bytes": 45057
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M262xsc.cts",
+      "size_bytes": 45313
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M267xsc.cts",
+      "size_bytes": 45313
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M283xsc.cts",
+      "size_bytes": 45313
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M288xsc.cts",
+      "size_bytes": 45313
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M301xsc.cts",
+      "size_bytes": 45796
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M306xsc.cts",
+      "size_bytes": 45796
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M332xsc.cts",
+      "size_bytes": 96304
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/M337xsc.cts",
+      "size_bytes": 96304
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/ML-2160sc.cts",
+      "size_bytes": 88659
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/ML-2540sc.cts",
+      "size_bytes": 51952
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/ML-2950sc.cts",
+      "size_bytes": 254275
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/SCX-3400sc.cts",
+      "size_bytes": 88659
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/SCX-4650sc.cts",
+      "size_bytes": 69715
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/SCX-470xsc.cts",
+      "size_bytes": 254275
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/SCX-472xsc.cts",
+      "size_bytes": 254275
+    },
+    {
+      "path": "/usr/share/ppd/suld/cms/SF-760sc.cts",
+      "size_bytes": 88659
+    }
+  ],
+  "package_size_bytes": 29374537,
   "required_by": [
     {
       "name": "samsung-unified-driver"

@@ -14,9 +14,9 @@
     "Apache-2.0"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538991",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33751438609/job/100635725820",
   "version": "3.1.1-2",
-  "last_updated": "2026-09-03T10:48:51Z",
+  "last_updated": "2026-09-03T12:24:56Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -63,39 +63,39 @@
   "package_size_bytes": 1644405,
   "files": [
     {
-      "path": "usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/METADATA",
+      "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/METADATA",
       "size_bytes": 2322
     },
     {
-      "path": "usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/RECORD",
+      "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/RECORD",
       "size_bytes": 525
     },
     {
-      "path": "usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/WHEEL",
+      "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/WHEEL",
       "size_bytes": 108
     },
     {
-      "path": "usr/lib/python3.14/site-packages/zxingcpp/__init__.py",
+      "path": "/usr/lib/python3.14/site-packages/zxingcpp/__init__.py",
       "size_bytes": 190
     },
     {
-      "path": "usr/lib/python3.14/site-packages/zxingcpp/__pycache__/__init__.cpython-314.opt-1.pyc",
+      "path": "/usr/lib/python3.14/site-packages/zxingcpp/__pycache__/__init__.cpython-314.opt-1.pyc",
       "size_bytes": 185
     },
     {
-      "path": "usr/lib/python3.14/site-packages/zxingcpp/__pycache__/__init__.cpython-314.pyc",
+      "path": "/usr/lib/python3.14/site-packages/zxingcpp/__pycache__/__init__.cpython-314.pyc",
       "size_bytes": 185
     },
     {
-      "path": "usr/lib/python3.14/site-packages/zxingcpp/py.typed",
+      "path": "/usr/lib/python3.14/site-packages/zxingcpp/py.typed",
       "size_bytes": 0
     },
     {
-      "path": "usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.abi3.so",
+      "path": "/usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.abi3.so",
       "size_bytes": 1620768
     },
     {
-      "path": "usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.pyi",
+      "path": "/usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.pyi",
       "size_bytes": 20122
     }
   ],

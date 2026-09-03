@@ -13,15 +13,77 @@
   "licenses": [
     "custom:samsung"
   ],
-  "build_status": "build_failed",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100616015930",
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33751438609/job/100645193942",
   "version": "1.00.39-11",
-  "last_updated": null,
-  "packager": null,
-  "dependencies": [],
+  "last_updated": "2026-09-03T12:24:56Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "samsung-unified-driver-common",
+      "type": "depends",
+      "repo": "aur"
+    },
+    {
+      "name": "libxml2-legacy",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libusb-compat",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "sane",
+      "type": "depends",
+      "repo": "extra"
+    }
+  ],
   "sources": [],
-  "files": [],
-  "package_size_bytes": null,
+  "files": [
+    {
+      "path": "/etc/sane.d/dll.d/smfp-scanner",
+      "size_bytes": 5
+    },
+    {
+      "path": "/etc/sane.d/dll.d/smfp-scanner-fix",
+      "size_bytes": 15
+    },
+    {
+      "path": "/etc/sane.d/smfp.conf",
+      "size_bytes": 11193
+    },
+    {
+      "path": "/etc/sane.d/xerox_mfp-smfp.conf",
+      "size_bytes": 909
+    },
+    {
+      "path": "/opt/samsung/scanner/share/oem.conf",
+      "size_bytes": 501
+    },
+    {
+      "path": "/usr/lib/sane/libsane-smfp.so -> libsane-smfp.so.1",
+      "size_bytes": 0
+    },
+    {
+      "path": "/usr/lib/sane/libsane-smfp.so.1 -> libsane-smfp.so.1.0.1",
+      "size_bytes": 0
+    },
+    {
+      "path": "/usr/lib/sane/libsane-smfp.so.1.0.1",
+      "size_bytes": 2287256
+    },
+    {
+      "path": "/usr/lib/udev/rules.d/60_smfp_samsung.rules",
+      "size_bytes": 5666
+    },
+    {
+      "path": "/usr/share/locale/fr/LC_MESSAGES/sane-smfp.mo",
+      "size_bytes": 3903
+    }
+  ],
+  "package_size_bytes": 2309448,
   "required_by": [
     {
       "name": "samsung-unified-driver"

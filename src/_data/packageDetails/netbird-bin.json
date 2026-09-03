@@ -14,9 +14,9 @@
     "BSD-3-Clause"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538990",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33751438609/job/100635725678",
   "version": "0.77.1-1",
-  "last_updated": "2026-09-03T10:48:51Z",
+  "last_updated": "2026-09-03T12:24:56Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -34,31 +34,31 @@
   "package_size_bytes": 41384381,
   "files": [
     {
-      "path": "etc/default/netbird",
+      "path": "/etc/default/netbird",
       "size_bytes": 61
     },
     {
-      "path": "usr/bin/netbird",
+      "path": "/usr/bin/netbird",
       "size_bytes": 41347760
     },
     {
-      "path": "usr/lib/systemd/system/netbird@.service",
+      "path": "/usr/lib/systemd/system/netbird@.service",
       "size_bytes": 991
     },
     {
-      "path": "usr/share/bash-completion/completions/netbird",
+      "path": "/usr/share/bash-completion/completions/netbird",
       "size_bytes": 16213
     },
     {
-      "path": "usr/share/fish/vendor_completions.d/netbird.fish",
+      "path": "/usr/share/fish/vendor_completions.d/netbird.fish",
       "size_bytes": 9785
     },
     {
-      "path": "usr/share/licenses/netbird/LICENSE",
+      "path": "/usr/share/licenses/netbird/LICENSE",
       "size_bytes": 1787
     },
     {
-      "path": "usr/share/zsh/site-functions/_netbird",
+      "path": "/usr/share/zsh/site-functions/_netbird",
       "size_bytes": 7784
     }
   ],

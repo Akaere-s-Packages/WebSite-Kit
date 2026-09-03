@@ -10,17 +10,22 @@
   ],
   "maintainer": "mhdi",
   "submitter": "fabiscafe",
-  "packager": "Lilithya",
+  "packager": "Lilithya <me@lilithya.su>",
   "votes": 32,
   "popularity": 1.888905,
   "first_submitted": "2021-09-18T11:01:35Z",
-  "last_updated": "2026-09-03T02:14:00Z",
-  "build_status": "build_failed",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538979",
-  "package_size_bytes": 4404019,
+  "last_updated": "2026-09-03T12:24:56Z",
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33751438609/job/100635725729",
+  "package_size_bytes": 29029449,
   "dependencies": [
     {
-      "name": "systemd",
+      "name": "glibc",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "libgcc",
       "type": "depends",
       "repo": "core"
     },
@@ -30,14 +35,43 @@
       "repo": "core"
     },
     {
-      "name": "udev",
+      "name": "systemd-libs",
       "type": "depends",
       "repo": "core"
     },
     {
-      "name": "seatd",
+      "name": "acpi_call",
       "type": "optdepends",
-      "description": "for logind integration without systemd"
+      "repo": "extra",
+      "description": "fan control"
+    },
+    {
+      "name": "asusctltray",
+      "type": "optdepends",
+      "repo": "aur",
+      "description": "tray profile switcher"
+    },
+    {
+      "name": "rog-control-center",
+      "type": "optdepends",
+      "repo": "aur",
+      "description": "graphical user interface for asusctl"
+    },
+    {
+      "name": "supergfxctl",
+      "type": "optdepends",
+      "repo": "aur",
+      "description": "hybrid GPU control"
+    },
+    {
+      "name": "cargo",
+      "type": "makedepends",
+      "repo": "aur"
+    },
+    {
+      "name": "fontconfig",
+      "type": "makedepends",
+      "repo": "extra"
     }
   ],
   "required_by": [
@@ -53,40 +87,236 @@
   ],
   "files": [
     {
-      "path": "usr/bin/asusctl",
-      "size_bytes": 812345
+      "path": "/usr/bin/asus-shutdown",
+      "size_bytes": 4637464
     },
     {
-      "path": "usr/bin/asusd",
-      "size_bytes": 1420100
+      "path": "/usr/bin/asusctl",
+      "size_bytes": 5040352
     },
     {
-      "path": "usr/lib/libasusctl.so",
-      "size_bytes": 204800
+      "path": "/usr/bin/asusd",
+      "size_bytes": 8585752
     },
     {
-      "path": "usr/lib/systemd/system/asusd.service",
-      "size_bytes": 450
+      "path": "/usr/bin/asusd-user",
+      "size_bytes": 6060592
     },
     {
-      "path": "usr/lib/systemd/user/asusctl-user.service",
-      "size_bytes": 380
+      "path": "/usr/lib/systemd/system/asus-shutdown.service",
+      "size_bytes": 1451
     },
     {
-      "path": "usr/share/asusctl/asusd.ron",
-      "size_bytes": 10240
+      "path": "/usr/lib/systemd/system/asusd.service",
+      "size_bytes": 2085
     },
     {
-      "path": "usr/share/dbus-1/system.d/org.asuslinux.Daemon.conf",
-      "size_bytes": 620
+      "path": "/usr/lib/udev/rules.d/99-asusd.rules",
+      "size_bytes": 1070
     },
     {
-      "path": "usr/share/licenses/asusctl/LICENSE",
-      "size_bytes": 16725
+      "path": "/usr/share/asusd/anime/asus/festive/Cupid.gif",
+      "size_bytes": 74038
     },
     {
-      "path": "usr/share/man/man1/asusctl.1.gz",
-      "size_bytes": 4120
+      "path": "/usr/share/asusd/anime/asus/festive/Firework.gif",
+      "size_bytes": 62627
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/festive/Halloween.gif",
+      "size_bytes": 140288
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/festive/Happy Holiday.gif",
+      "size_bytes": 112039
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/festive/Happy new year.gif",
+      "size_bytes": 101397
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/festive/Lantern.gif",
+      "size_bytes": 86745
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/festive/Love u mom.gif",
+      "size_bytes": 156884
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/festive/Mother's day.gif",
+      "size_bytes": 98584
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/festive/Valentine's Day.gif",
+      "size_bytes": 49443
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/festive/Year of the Ox.gif",
+      "size_bytes": 61111
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/gaming/Bird.gif",
+      "size_bytes": 98234
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/gaming/Controller.gif",
+      "size_bytes": 33167
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/gaming/FPS.gif",
+      "size_bytes": 55070
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/gaming/Fight.gif",
+      "size_bytes": 239336
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/gaming/Keyboard.gif",
+      "size_bytes": 34464
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/gaming/MOBA.gif",
+      "size_bytes": 50372
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/gaming/UFO.gif",
+      "size_bytes": 64318
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/music/DJ.gif",
+      "size_bytes": 121740
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/music/Diamond.gif",
+      "size_bytes": 131281
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/music/Music-player.gif",
+      "size_bytes": 135017
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/For-those-who-dare.gif",
+      "size_bytes": 91694
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/For-those-who-dare_2.gif",
+      "size_bytes": 65590
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/Fragment.gif",
+      "size_bytes": 16905
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/Infinite-triangle.gif",
+      "size_bytes": 57482
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/Kaleidoscope1.gif",
+      "size_bytes": 31995
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/Kaleidoscope2.gif",
+      "size_bytes": 47647
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/Kaleidoscope2.png",
+      "size_bytes": 7932
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/ROG city.gif",
+      "size_bytes": 110779
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/ROG glitch.gif",
+      "size_bytes": 40734
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/rog/Sunset.gif",
+      "size_bytes": 40406
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/trend/Dog.gif",
+      "size_bytes": 122569
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/trend/Hero.gif",
+      "size_bytes": 109829
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/trend/Ski.gif",
+      "size_bytes": 114767
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/trend/The scream.gif",
+      "size_bytes": 174569
+    },
+    {
+      "path": "/usr/share/asusd/anime/asus/trend/Wave.gif",
+      "size_bytes": 74950
+    },
+    {
+      "path": "/usr/share/asusd/anime/custom/cross.png",
+      "size_bytes": 4530
+    },
+    {
+      "path": "/usr/share/asusd/anime/custom/diagonal-template.png",
+      "size_bytes": 7326
+    },
+    {
+      "path": "/usr/share/asusd/anime/custom/nyancat_zombie.gif",
+      "size_bytes": 19669
+    },
+    {
+      "path": "/usr/share/asusd/anime/custom/rust.png",
+      "size_bytes": 29814
+    },
+    {
+      "path": "/usr/share/asusd/anime/custom/sonic-run.gif",
+      "size_bytes": 155854
+    },
+    {
+      "path": "/usr/share/asusd/anime/custom/sonic-wait.gif",
+      "size_bytes": 28358
+    },
+    {
+      "path": "/usr/share/asusd/anime/gu604/Fighting Games 2022_GU604.gif",
+      "size_bytes": 320142
+    },
+    {
+      "path": "/usr/share/asusd/anime/gu604/Halloween II_GU604.gif",
+      "size_bytes": 235666
+    },
+    {
+      "path": "/usr/share/asusd/anime/gu604/Infinite triangle_GU604.gif",
+      "size_bytes": 73605
+    },
+    {
+      "path": "/usr/share/asusd/anime/gu604/Lunar new year dragon dance_GU604.gif",
+      "size_bytes": 234270
+    },
+    {
+      "path": "/usr/share/asusd/anime/gu604/OMNI_GU604.gif",
+      "size_bytes": 116738
+    },
+    {
+      "path": "/usr/share/asusd/anime/gu604/PInball_GU604.gif",
+      "size_bytes": 186432
+    },
+    {
+      "path": "/usr/share/asusd/anime/gu604/ROG glitch_GU604.gif",
+      "size_bytes": 79620
+    },
+    {
+      "path": "/usr/share/asusd/anime/gu604/Wizard_GU604.gif",
+      "size_bytes": 153503
+    },
+    {
+      "path": "/usr/share/asusd/aura_support.ron",
+      "size_bytes": 40204
+    },
+    {
+      "path": "/usr/share/dbus-1/system.d/asusd.conf",
+      "size_bytes": 949
     }
   ],
   "distro": "archlinux"

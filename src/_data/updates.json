@@ -1,102 +1,102 @@
 [
   {
-    "name": "1password",
-    "version": "8.12.34-34",
-    "date": "2026-09-03T10:48:51Z"
+    "name": "asusctl",
+    "version": "6.4.0-1",
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "claude-code",
     "version": "2.1.259-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "github-copilot-cli",
     "version": "1.0.82-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "google-chrome",
     "version": "152.0.7977.75-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "infisical",
     "version": "0.43.127-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "netbird-bin",
     "version": "0.77.1-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "oh-my-pi-bin",
     "version": "18.1.5-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "oopz",
     "version": "1.0.0-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "opencode-bin",
     "version": "1.18.27-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "paru",
     "version": "2.1.0-2",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "python-zxing-cpp",
     "version": "3.1.1-2",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "repoq",
     "version": "0.2.1-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
+  },
+  {
+    "name": "samsung-unified-driver",
+    "version": "1.00.39-11",
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "samsung-unified-driver-common",
     "version": "1.00.39-11",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
+  },
+  {
+    "name": "samsung-unified-driver-printer",
+    "version": "1.00.39-11",
+    "date": "2026-09-03T12:24:56Z"
+  },
+  {
+    "name": "samsung-unified-driver-scanner",
+    "version": "1.00.39-11",
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "sparkle-bin",
     "version": "1.26.7-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "supergfxctl",
     "version": "5.2.7-2",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "visual-studio-code-bin",
     "version": "1.136.0-1",
-    "date": "2026-09-03T10:48:51Z"
+    "date": "2026-09-03T12:24:56Z"
   },
   {
     "name": "zulu-17-bin",
     "version": "17.0.20-1",
-    "date": "2026-09-03T10:48:51Z"
-  },
-  {
-    "name": "zulu-21-bin",
-    "version": "21.0.12.1-1",
-    "date": "2026-09-03T10:48:51Z"
-  },
-  {
-    "name": "asusctl",
-    "version": "6.4.0-1",
-    "date": "2026-09-03T02:14:00Z"
-  },
-  {
-    "name": "rog-control-center",
-    "version": "6.4.0-1",
-    "date": "2026-09-03T02:14:00Z"
+    "date": "2026-09-03T12:24:56Z"
   }
 ]
