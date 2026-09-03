@@ -1,0 +1,267 @@
+---
+layout: base.njk
+title: "Packages"
+permalink: "packages/index.html"
+---
+
+<div id="pkglist-search" class="box filter-criteria">
+    <h2>Search Criteria</h2>
+    <form id="pkglist-search-form" action="" method="get">
+        <fieldset>
+            <legend>Enter search criteria</legend>
+            <div class="filter-row primary-row">
+                <div class="filter-group">
+                    <label for="id_seb">Search by</label>
+                    <select id="id_seb" name="SeB">
+                        <option value="nd" selected>Name, Description</option>
+                        <option value="n">Name Only</option>
+                        <option value="b">Package Base</option>
+                        <option value="m">Maintainer</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="id_q">Keywords</label>
+                    <input type="text" id="id_q" name="K" size="30" value="" maxlength="35" autofocus autocomplete="off">
+                </div>
+                <div class="filter-group buttons">
+                    <button type="submit" class="button" name="submit" value="Go">Go</button>
+                    <button type="button" class="button" id="btn-reset">Reset</button>
+                </div>
+            </div>
+            <div class="filter-row secondary-row">
+                <div class="filter-group">
+                    <label for="id_status">Status</label>
+                    <select id="id_status" name="status">
+                        <option value="" selected>All</option>
+                        <option value="published">Published</option>
+                        <option value="failed">Failed</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="id_sort_by">Sort by</label>
+                    <select id="id_sort_by" name="SB">
+                        <option value="n">Name</option>
+                        <option value="l" selected>Last modified</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="id_order_by">Sort order</label>
+                    <select id="id_order_by" name="SO">
+                        <option value="a">Ascending</option>
+                        <option value="d" selected>Descending</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<div id="pkglist-results" class="box">
+    <div class="pkglist-stats">
+        <p><span id="pkg-count">{{ packages.length }}</span> packages found.</p>
+    </div>
+
+    <table id="pkglist-table" class="results">
+        <thead>
+            <tr>
+                <th><a href="#" class="sort-header" data-sort="n">Name</a></th>
+                <th>Version</th>
+                <th>Description</th>
+                <th><a href="#" class="sort-header" data-sort="m">Maintainer</a></th>
+                <th><a href="#" class="sort-header" data-sort="l">Last Updated</a></th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="pkglist-tbody">
+            {% for pkg in packages %}
+            <tr class="pkg-row"
+                data-name="{{ pkg.name }}"
+                data-pkgbase="{{ pkg.pkgbase or pkg.name }}"
+                data-version="{{ pkg.version }}"
+                data-description="{{ pkg.description or '' }}"
+                data-maintainer="{{ pkg.maintainer or 'Lilithya' }}"
+                data-updated="{{ pkg.last_updated }}"
+                data-status="{{ pkg.build_status }}">
+                <td><a href="/packages/{{ pkg.name }}/">{{ pkg.name }}</a></td>
+                <td>{{ pkg.version }}</td>
+                <td class="wrap">{{ pkg.description or '' }}</td>
+                <td>{{ pkg.maintainer or 'Lilithya' }}</td>
+                <td>{{ pkg.last_updated | formatDate }}</td>
+                <td>
+                    {% if pkg.build_status == 'published' %}
+                        <span style="color: #080; font-weight: bold;">published</span>
+                    {% else %}
+                        <span class="flagged" style="font-weight: bold;">{{ pkg.build_status }}</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+            <tr id="empty-row" class="empty" style="display: none;">
+                <td colspan="6">No packages matched your search criteria.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+(function() {
+    const form = document.getElementById('pkglist-search-form');
+    const qInput = document.getElementById('id_q');
+    const sebSelect = document.getElementById('id_seb');
+    const statusSelect = document.getElementById('id_status');
+    const sbSelect = document.getElementById('id_sort_by');
+    const soSelect = document.getElementById('id_order_by');
+    const btnReset = document.getElementById('btn-reset');
+    const countSpan = document.getElementById('pkg-count');
+    const emptyRow = document.getElementById('empty-row');
+    const tbody = document.getElementById('pkglist-tbody');
+    const rows = Array.from(tbody.querySelectorAll('.pkg-row'));
+
+    function updateUrl(params) {
+        const newSearch = params.toString();
+        const url = new URL(window.location);
+        url.search = newSearch ? '?' + newSearch : '';
+        window.history.replaceState({}, '', url);
+    }
+
+    function applyFilterAndSort(syncUrl = true) {
+        const rawQuery = (qInput.value || '').trim();
+        const query = rawQuery.toLowerCase();
+        const terms = query ? query.split(/\s+/).filter(Boolean) : [];
+        const seb = sebSelect.value;
+        const status = statusSelect.value;
+        const sb = sbSelect.value;
+        const so = soSelect.value;
+
+        let visibleCount = 0;
+        const visibleRows = [];
+
+        rows.forEach(row => {
+            const name = (row.dataset.name || '').toLowerCase();
+            const pkgbase = (row.dataset.pkgbase || '').toLowerCase();
+            const desc = (row.dataset.description || '').toLowerCase();
+            const maintainer = (row.dataset.maintainer || '').toLowerCase();
+            const rowStatus = (row.dataset.status || '').toLowerCase();
+
+            // Normalized with spaces to support hyphenated matches like 'rog control'
+            const nameNormalized = name.replace(/[-_.]/g, ' ');
+            const pkgbaseNormalized = pkgbase.replace(/[-_.]/g, ' ');
+
+            // Status filter
+            let matchStatus = true;
+            if (status === 'published') {
+                matchStatus = rowStatus === 'published';
+            } else if (status === 'failed') {
+                matchStatus = rowStatus !== 'published';
+            }
+
+            // Keyword filter: ALL terms must match
+            let matchKeyword = true;
+            if (terms.length > 0) {
+                matchKeyword = terms.every(term => {
+                    if (seb === 'n') {
+                        return name.includes(term) || nameNormalized.includes(term);
+                    } else if (seb === 'b') {
+                        return pkgbase.includes(term) || pkgbaseNormalized.includes(term);
+                    } else if (seb === 'm') {
+                        return maintainer.includes(term);
+                    } else { // 'nd'
+                        return (
+                            name.includes(term) ||
+                            nameNormalized.includes(term) ||
+                            desc.includes(term)
+                        );
+                    }
+                });
+            }
+
+            if (matchStatus && matchKeyword) {
+                row.style.display = '';
+                visibleRows.push(row);
+                visibleCount++;
+            } else {
+                row.style.display = 'none';
+            }
+        });
+
+        // Sorting
+        visibleRows.sort((a, b) => {
+            let valA, valB;
+            if (sb === 'n') {
+                valA = a.dataset.name.toLowerCase();
+                valB = b.dataset.name.toLowerCase();
+                return so === 'a' ? valA.localeCompare(valB) : valB.localeCompare(valA);
+            } else if (sb === 'm') {
+                valA = a.dataset.maintainer.toLowerCase();
+                valB = b.dataset.maintainer.toLowerCase();
+                return so === 'a' ? valA.localeCompare(valB) : valB.localeCompare(valA);
+            } else { // 'l' last updated
+                valA = new Date(a.dataset.updated).getTime() || 0;
+                valB = new Date(b.dataset.updated).getTime() || 0;
+            }
+            return so === 'a' ? valA - valB : valB - valA;
+        });
+
+        visibleRows.forEach(r => tbody.appendChild(r));
+        tbody.appendChild(emptyRow);
+
+        countSpan.textContent = visibleCount;
+        emptyRow.style.display = visibleCount === 0 ? '' : 'none';
+
+        if (syncUrl) {
+            const params = new URLSearchParams();
+            if (rawQuery) params.set('K', rawQuery);
+            if (seb && seb !== 'nd') params.set('SeB', seb);
+            if (status) params.set('status', status);
+            if (sb && sb !== 'l') params.set('SB', sb);
+            if (so && so !== 'd') params.set('SO', so);
+            updateUrl(params);
+        }
+    }
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        applyFilterAndSort(true);
+    });
+
+    qInput.addEventListener('input', () => applyFilterAndSort(true));
+    sebSelect.addEventListener('change', () => applyFilterAndSort(true));
+    statusSelect.addEventListener('change', () => applyFilterAndSort(true));
+    sbSelect.addEventListener('change', () => applyFilterAndSort(true));
+    soSelect.addEventListener('change', () => applyFilterAndSort(true));
+
+    btnReset.addEventListener('click', function() {
+        qInput.value = '';
+        sebSelect.value = 'nd';
+        statusSelect.value = '';
+        sbSelect.value = 'l';
+        soSelect.value = 'd';
+        applyFilterAndSort(true);
+        qInput.focus();
+    });
+
+    document.querySelectorAll('.sort-header').forEach(header => {
+        header.addEventListener('click', function(e) {
+            e.preventDefault();
+            const sortKey = this.dataset.sort;
+            if (sbSelect.value === sortKey) {
+                soSelect.value = soSelect.value === 'a' ? 'd' : 'a';
+            } else {
+                sbSelect.value = sortKey;
+                soSelect.value = (sortKey === 'n' || sortKey === 'm') ? 'a' : 'd';
+            }
+            applyFilterAndSort(true);
+        });
+    });
+
+    // Parse URL params on page load
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('K')) qInput.value = params.get('K');
+    if (params.has('SeB')) sebSelect.value = params.get('SeB');
+    if (params.has('status')) statusSelect.value = params.get('status');
+    if (params.has('SB')) sbSelect.value = params.get('SB');
+    if (params.has('SO')) soSelect.value = params.get('SO');
+
+    applyFilterAndSort(false);
+})();
+</script>

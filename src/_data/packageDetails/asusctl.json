@@ -1,0 +1,42 @@
+{
+  "name": "asusctl",
+  "pkgbase": "asusctl",
+  "source_type": "aur",
+  "version": "6.4.0-1",
+  "description": "A CLI tool to control various aspects of ASUS ROG laptops",
+  "url": "https://gitlab.com/asus-linux/asusctl",
+  "licenses": ["MPL-2.0"],
+  "maintainer": "Lilithya",
+  "submitter": "Lilithya",
+  "packager": "Lilithya",
+  "votes": 142,
+  "popularity": 3.85,
+  "first_submitted": "2024-01-15T08:30:00Z",
+  "last_updated": "2026-09-03T02:14:00Z",
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/123456789/job/987654321",
+  "package_size_bytes": 4404019,
+  "dependencies": [
+    { "name": "systemd", "type": "depends", "repo": "core" },
+    { "name": "libusb", "type": "depends", "repo": "core" },
+    { "name": "udev", "type": "depends", "repo": "core" },
+    { "name": "seatd", "type": "optdepends", "description": "for logind integration without systemd" }
+  ],
+  "required_by": [
+    { "name": "rog-control-center" }
+  ],
+  "sources": [
+    { "name": "asusctl-6.4.0.tar.gz", "url": "https://gitlab.com/asus-linux/asusctl/-/archive/6.4.0/asusctl-6.4.0.tar.gz" }
+  ],
+  "files": [
+    { "path": "usr/bin/asusctl", "size_bytes": 812345 },
+    { "path": "usr/bin/asusd", "size_bytes": 1420100 },
+    { "path": "usr/lib/libasusctl.so", "size_bytes": 204800 },
+    { "path": "usr/lib/systemd/system/asusd.service", "size_bytes": 450 },
+    { "path": "usr/lib/systemd/user/asusctl-user.service", "size_bytes": 380 },
+    { "path": "usr/share/asusctl/asusd.ron", "size_bytes": 10240 },
+    { "path": "usr/share/dbus-1/system.d/org.asuslinux.Daemon.conf", "size_bytes": 620 },
+    { "path": "usr/share/licenses/asusctl/LICENSE", "size_bytes": 16725 },
+    { "path": "usr/share/man/man1/asusctl.1.gz", "size_bytes": 4120 }
+  ]
+}

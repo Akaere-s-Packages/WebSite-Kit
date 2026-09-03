@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <meta name="supported-color-schemes" content="light">
+    <style>
+        :root, html, body {
+            color-scheme: light !important;
+            background-color: #f6f9fc !important;
+            color: #222222 !important;
+        }
+    </style>
+    <title>{% if title %}{{ title }}{% else %}AUR (en) - {{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="/static/css/archweb.css">
+    <link rel="stylesheet" href="/static/css/aurweb.css">
+    <link rel="shortcut icon" href="/static/images/favicon.ico">
+</head>
+<body>
+    <div id="archnavbar" class="anb-aur">
+        <div id="archnavbarlogo">
+            <h1>
+                <a href="/" title="Return to the main page">Arch Linux User Repository</a>
+            </h1>
+        </div>
+        <div id="archnavbarmenu">
+            <ul id="archnavbarlist">
+                <li id="anb-home"><a href="/" title="Akaere's Packages Home">Home</a></li>
+                <li id="anb-packages"><a href="/packages/" title="Package Database">Packages</a></li>
+                <li id="anb-registry"><a href="https://github.com/Akaere-s-Packages/Registry" target="_blank" rel="noopener" title="Registry Specification Repository">Registry</a></li>
+                <li id="anb-buildkit"><a href="https://github.com/Akaere-s-Packages/workflow-build-kit" target="_blank" rel="noopener" title="Workflow Build Kit">Build Kit</a></li>
+                <li id="anb-issues"><a href="https://github.com/Akaere-s-Packages/Registry/issues" target="_blank" rel="noopener" title="Report Issues and Requests">Issues</a></li>
+                <li id="anb-github"><a href="https://github.com/Akaere-s-Packages" target="_blank" rel="noopener" title="GitHub Organization">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="archdev-navbar">
+            <ul>
+                <li><a href="/">AUR Home</a></li>
+                <li><a href="/packages/">Packages</a></li>
+            </ul>
+        </div>
+
+        {{ content | safe }}
+
+        <div id="footer">
+            <p>Registry repository available at <a href="{{ site.githubRepo }}" target="_blank" rel="noopener">{{ site.githubRepo }}</a>.</p>
+            <p>AUR packages are user produced content. Any use of the provided files is at your own risk.</p>
+        </div>
+    </div>
+</body>
+</html>

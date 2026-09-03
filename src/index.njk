@@ -1,0 +1,158 @@
+---
+layout: base.njk
+title: "Home"
+permalink: "index.html"
+---
+
+<div id="content-left-wrapper">
+    <div id="content-left">
+        <div id="intro" class="box">
+            <h2>AUR Home</h2>
+            <p>
+                Welcome to the <strong>{{ site.title }}</strong>!
+                This repository provides automated package builds for Arch Linux, compiled in clean <code>archlinux:base-devel</code> containers using <code>makepkg</code> via GitHub Actions, signed with GPG, and published to our pacman repository.
+            </p>
+            <p>
+                Please read the <a href="https://wiki.archlinux.org/title/AUR_User_Guidelines" target="_blank" rel="noopener">AUR User Guidelines</a> for more information and the <a href="https://wiki.archlinux.org/title/Arch_Packaging_Standards" target="_blank" rel="noopener">Arch Packaging Standards</a> for PKGBUILD specifications.
+            </p>
+            <p class="important">
+                DISCLAIMER: AUR packages are user produced content. Any use of the provided files is at your own risk.
+            </p>
+            <p class="readmore">
+                <a href="/packages/">View all packages...</a>
+            </p>
+        </div>
+
+        <div id="news">
+            <h3><a>Support</a><span class="arrow"></span></h3>
+            <h4>Package Requests</h4>
+            <div class="article-content">
+                <p>
+                    There are three types of requests that can be filed in the <var>Package Actions</var> box on the package details page:
+                </p>
+                <ul>
+                    <li><em>Orphan Request</em>: Request a package to be disowned, e.g. when the maintainer is inactive.</li>
+                    <li><em>Deletion Request</em>: Request a package to be removed from the repository.</li>
+                    <li><em>Merge Request</em>: Request a package to be merged into another one.</li>
+                </ul>
+            </div>
+            <h4>Submitting Packages</h4>
+            <div class="article-content">
+                <p>
+                    All package recipes are maintained via the <a href="{{ site.githubRepo }}" target="_blank" rel="noopener">Registry</a> repository.
+                    Pull requests trigger automated dry-run builds and package file diff previews.
+                </p>
+            </div>
+            <h4>Discussion &amp; Issues</h4>
+            <div class="article-content">
+                <p>
+                    For questions, requests, or bug reports regarding packages or build infrastructure, please file an issue on our <a href="{{ site.githubRepo }}/issues" target="_blank" rel="noopener">Issue Tracker</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="content-right">
+    <div id="pkgsearch" class="widget">
+        <form id="pkgsearch-form" method="get" action="/packages/">
+            <fieldset>
+                <label for="pkgsearch-field">Package Search:</label>
+                <input id="pkgsearch-field"
+                       type="text"
+                       name="K"
+                       size="30"
+                       maxlength="35"
+                       autocomplete="off" />
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="pkg-updates" class="widget box">
+        <h3>
+            Recent Updates
+            <span class="more">
+                (<a href="/packages/?SB=l&amp;SO=d">more</a>)
+            </span>
+        </h3>
+        <a class="rss-icon latest" href="/packages/" title="RSS Feed">
+            <img src="/static/images/rss.svg" alt="RSS Feed" />
+        </a>
+        <a class="rss-icon" href="/packages/" title="RSS Feed">
+            <img src="/static/images/rss.svg" alt="RSS Feed" />
+        </a>
+
+        <table>
+            <tbody>
+                {% for item in updates %}
+                <tr>
+                    <td class="pkg-name">
+                        <a href="/packages/{{ item.name }}/">
+                            {{ item.name }} {{ item.version }}
+                        </a>
+                    </td>
+                    <td class="pkg-date">
+                        {{ item.date }}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div id="pkg-stats" class="widget box">
+        <h3>Statistics</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="stat-desc">Packages</td>
+                    <td>{{ stats.packages }}</td>
+                </tr>
+                <tr>
+                    <td class="stat-desc">Orphan Packages</td>
+                    <td>{{ stats.orphan_packages }}</td>
+                </tr>
+                <tr>
+                    <td class="stat-desc">Packages added in the past 7 days</td>
+                    <td>{{ stats.added_7_days }}</td>
+                </tr>
+                <tr>
+                    <td class="stat-desc">Packages updated in the past 7 days</td>
+                    <td>{{ stats.updated_7_days }}</td>
+                </tr>
+                <tr>
+                    <td class="stat-desc">Packages updated in the past year</td>
+                    <td>{{ stats.updated_year }}</td>
+                </tr>
+                <tr>
+                    <td class="stat-desc">Packages never updated</td>
+                    <td>{{ stats.never_updated }}</td>
+                </tr>
+                <tr>
+                    <td class="stat-desc">Registered Users</td>
+                    <td>{{ stats.registered_users }}</td>
+                </tr>
+                <tr>
+                    <td class="stat-desc">Package Maintainers</td>
+                    <td>{{ stats.package_maintainers }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="my-stats" class="widget box">
+        <h3>My Statistics</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td><a href="/packages/?SeB=m&amp;K=Lilithya">Packages</a></td>
+                    <td>{{ stats.my_packages }}</td>
+                </tr>
+                <tr>
+                    <td><a href="/packages/?status=failed">Out of Date</a></td>
+                    <td>{{ stats.my_outdated }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

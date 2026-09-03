@@ -1,0 +1,24 @@
+[
+  {
+    "name": "asusctl",
+    "pkgbase": "asusctl",
+    "source_type": "aur",
+    "version": "6.4.0-1",
+    "description": "CLI control daemon and utility for ASUS gaming laptops",
+    "maintainer": "Lilithya",
+    "last_updated": "2026-09-03T02:14:00Z",
+    "build_status": "published",
+    "detail_url": "/packages/asusctl/"
+  },
+  {
+    "name": "rog-control-center",
+    "pkgbase": "rog-control-center",
+    "source_type": "aur",
+    "version": "6.4.0-1",
+    "description": "Desktop GUI application for controlling ROG hardware settings",
+    "maintainer": "Lilithya",
+    "last_updated": "2026-09-03T02:14:00Z",
+    "build_status": "published",
+    "detail_url": "/packages/rog-control-center/"
+  }
+]

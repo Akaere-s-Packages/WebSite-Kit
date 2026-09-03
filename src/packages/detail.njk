@@ -1,0 +1,233 @@
+---
+pagination:
+  data: packages
+  size: 1
+  alias: pkg
+permalink: "packages/{{ pkg.name }}/index.html"
+layout: base.njk
+eleventyComputed:
+  title: "AUR (en) - {{ pkg.name }}"
+---
+
+{% set details = packageDetails[pkg.name] or pkg %}
+
+<div id="pkglist-search" class="box filter-criteria">
+    <h2>Search Criteria</h2>
+    <form id="pkglist-search-form" action="/packages/" method="get">
+        <fieldset>
+            <legend>Enter search criteria</legend>
+            <div class="filter-row primary-row">
+                <div class="filter-group">
+                    <label for="id_seb">Search by</label>
+                    <select id="id_seb" name="SeB">
+                        <option value="nd" selected>Name, Description</option>
+                        <option value="n">Name Only</option>
+                        <option value="b">Package Base</option>
+                        <option value="m">Maintainer</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="id_q">Keywords</label>
+                    <input type="text" id="id_q" name="K" size="30" value="" maxlength="35" autocomplete="off">
+                </div>
+                <div class="filter-group buttons">
+                    <button type="submit" class="button" name="submit" value="Go">Go</button>
+                    <button type="reset" class="button" id="btn-reset">Reset</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+<div id="pkgdetails" class="box">
+    <h2>Package Details: {{ details.name }} {{ details.version }}</h2>
+
+    <div id="detailslinks" class="listing">
+        <div id="actionlist">
+            <h4>Package Actions</h4>
+            <ul class="small">
+                <li>
+                    <a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h={{ details.pkgbase or details.name }}" target="_blank" rel="noopener">
+                        View PKGBUILD
+                    </a>
+                    /
+                    <a href="https://aur.archlinux.org/cgit/aur.git/log/?h={{ details.pkgbase or details.name }}" target="_blank" rel="noopener">
+                        View Changes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://aur.archlinux.org/cgit/aur.git/snapshot/{{ details.pkgbase or details.name }}.tar.gz">
+                        Download snapshot
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wiki.archlinux.org/title/Special:Search?search={{ details.pkgbase or details.name }}" target="_blank" rel="noopener">
+                        Search wiki
+                    </a>
+                </li>
+                {% if details.build_run_url %}
+                <li>
+                    <a href="{{ details.build_run_url }}" target="_blank" rel="noopener">
+                        View Build Job (CI)
+                    </a>
+                </li>
+                {% endif %}
+                <li>
+                    <a href="https://github.com/Akaere-s-Packages/Registry/blob/main/aur/{{ details.name }}/{{ details.name }}.toml" target="_blank" rel="noopener">
+                        Registry TOML
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <table id="pkginfo">
+        <tr>
+            <th>Git Clone URL:</th>
+            <td>
+                <a class="copy" href="https://aur.archlinux.org/{{ details.pkgbase or details.name }}.git">https://aur.archlinux.org/{{ details.pkgbase or details.name }}.git</a> (read-only, click to copy)
+            </td>
+        </tr>
+        <tr>
+            <th>Package Base:</th>
+            <td class="wrap">
+                <a href="https://aur.archlinux.org/pkgbase/{{ details.pkgbase or details.name }}/" target="_blank" rel="noopener">
+                    {{ details.pkgbase or details.name }}
+                </a>
+            </td>
+        </tr>
+        <tr id="pkg-description">
+            <th>Description:</th>
+            <td class="wrap">{{ details.description or pkg.description }}</td>
+        </tr>
+        <tr>
+            <th>Upstream URL:</th>
+            <td class="wrap">
+                {% if details.url %}
+                    <a href="{{ details.url }}" target="_blank" rel="noopener">{{ details.url }}</a>
+                {% else %}
+                    None
+                {% endif %}
+            </td>
+        </tr>
+        {% if details.licenses and details.licenses.length %}
+        <tr id="licenses">
+            <th>Licenses:</th>
+            <td>{{ details.licenses | join(', ') }}</td>
+        </tr>
+        {% endif %}
+        <tr>
+            <th>Submitter:</th>
+            <td>{{ details.submitter or "Lilithya" }}</td>
+        </tr>
+        <tr class="pkgmaint">
+            <th>Maintainer:</th>
+            <td>{{ details.maintainer or pkg.maintainer or "Lilithya" }}</td>
+        </tr>
+        <tr>
+            <th>Last Packager:</th>
+            <td>{{ details.packager or "Lilithya" }}</td>
+        </tr>
+        <tr>
+            <th>Build Status:</th>
+            <td>
+                {% if (details.build_status or pkg.build_status) == 'published' %}
+                    <span style="color: #080; font-weight: bold;">published</span>
+                {% else %}
+                    <span class="flagged" style="font-weight: bold;">{{ details.build_status or pkg.build_status }}</span>
+                {% endif %}
+                {% if details.build_run_url %}
+                    (<a href="{{ details.build_run_url }}" target="_blank" rel="noopener">build job</a>)
+                {% endif %}
+            </td>
+        </tr>
+        {% if details.package_size_bytes %}
+        <tr>
+            <th>Package Size:</th>
+            <td>{{ details.package_size_bytes | formatBytes }}</td>
+        </tr>
+        {% endif %}
+        {% if details.first_submitted %}
+        <tr>
+            <th>First Submitted:</th>
+            <td>{{ details.first_submitted | formatDate }}</td>
+        </tr>
+        {% endif %}
+        <tr>
+            <th>Last Updated:</th>
+            <td>{{ (details.last_updated or pkg.last_updated) | formatDate }}</td>
+        </tr>
+    </table>
+
+    <div id="metadata">
+        <div id="pkgdeps" class="listing">
+            <h3>Dependencies ({{ (details.dependencies or []).length }})</h3>
+            <ul id="pkgdepslist">
+                {% for dep in details.dependencies %}
+                <li>
+                    <a href="https://archlinux.org/packages/?q={{ dep.name }}" target="_blank" rel="noopener">{{ dep.name }}</a>
+                    {% if dep.repo == "aur" %}<sup><small>AUR</small></sup>{% endif %}
+                    {% if dep.description %}<em>({{ dep.description }})</em>{% endif %}
+                </li>
+                {% else %}
+                <li><em>None</em></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div id="pkgreqs" class="listing">
+            <h3>Required by ({{ (details.required_by or []).length }})</h3>
+            <ul id="pkgreqslist">
+                {% for req in details.required_by %}
+                <li>
+                    <a href="/packages/{{ req.name }}/">{{ req.name }}</a>
+                </li>
+                {% else %}
+                <li><em>None</em></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div id="pkgfiles" class="listing">
+            <h3>Sources ({{ (details.sources or []).length }})</h3>
+            <ul id="pkgsrcslist">
+                {% for src in details.sources %}
+                <li>
+                    <a href="{{ src.url }}" target="_blank" rel="noopener">{{ src.name }}</a>
+                </li>
+                {% else %}
+                <li><em>None</em></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div id="pkgfilelist-section" class="listing" style="clear: both; padding-top: 1.5em;">
+            <h3>Package Files ({{ (details.files or []).length }})</h3>
+            <p style="margin-bottom: 0.5em; color: #666; font-size: 0.9em;">
+                Files extracted from built package artifact via <code>bsdtar -tf</code>.
+            </p>
+            <table class="results" style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th>File Path</th>
+                        <th style="width: 140px; text-align: right;">Size</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for f in details.files %}
+                    <tr>
+                        <td style="font-family: monospace;">{{ f.path }}</td>
+                        <td style="text-align: right; font-family: monospace;">{{ f.size_bytes | formatBytes }}</td>
+                    </tr>
+                    {% else %}
+                    <tr class="empty">
+                        <td colspan="2">No files available</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/static/js/copy.js"></script>
