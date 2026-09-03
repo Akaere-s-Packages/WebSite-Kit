@@ -1,0 +1,80 @@
+{
+  "name": "supergfxctl",
+  "pkgbase": "supergfxctl",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "ModYokosuka",
+  "submitter": "ModYokosuka",
+  "votes": 15,
+  "popularity": 0.577096,
+  "first_submitted": "2022-02-07T17:19:31Z",
+  "description": "A utility for Linux graphics switching on Intel/AMD iGPU + nVidia dGPU laptops",
+  "url": "https://gitlab.com/asus-linux/supergfxctl",
+  "licenses": [
+    "MPL-2.0"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538909",
+  "version": "5.2.7-2",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "gcc-libs",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "systemd",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "lsof",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "rust",
+      "type": "makedepends",
+      "repo": "extra"
+    }
+  ],
+  "package_size_bytes": 5591847,
+  "files": [
+    {
+      "path": "usr/bin/supergfxctl",
+      "size_bytes": 1796752
+    },
+    {
+      "path": "usr/bin/supergfxd",
+      "size_bytes": 3792792
+    },
+    {
+      "path": "usr/lib/systemd/system-preset/supergfxd.preset",
+      "size_bytes": 25
+    },
+    {
+      "path": "usr/lib/systemd/system/supergfxd.service",
+      "size_bytes": 494
+    },
+    {
+      "path": "usr/lib/udev/rules.d/90-supergfxd-nvidia-pm.rules",
+      "size_bytes": 680
+    },
+    {
+      "path": "usr/share/X11/xorg.conf.d/90-nvidia-screen-G05.conf",
+      "size_bytes": 89
+    },
+    {
+      "path": "usr/share/dbus-1/system.d/org.supergfxctl.Daemon.conf",
+      "size_bytes": 1015
+    }
+  ],
+  "sources": [],
+  "required_by": [
+    {
+      "name": "asusctl"
+    }
+  ]
+}

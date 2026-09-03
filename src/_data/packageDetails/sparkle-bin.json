@@ -1,0 +1,1181 @@
+{
+  "name": "sparkle-bin",
+  "pkgbase": "sparkle-bin",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "xhuohai",
+  "submitter": "xhuohai",
+  "votes": 3,
+  "popularity": 0.052379,
+  "first_submitted": "2025-06-03T08:32:15Z",
+  "description": "Another Mihomo GUI",
+  "url": "https://github.com/xishang0128/sparkle",
+  "licenses": [
+    "GPL-3.0-only"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538930",
+  "version": "1.26.7-1",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "libxrandr",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libxcb",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "mesa",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libxdamage",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libcups",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "dbus",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "alsa-lib",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "pango",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "glibc",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "gtk3",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "nspr",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "gcc-libs",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "cairo",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "at-spi2-core",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "expat",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "libxkbcommon",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "glib2",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "libxcomposite",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libxext",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libx11",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "nss",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "systemd-libs",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "libxfixes",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "binutils",
+      "type": "makedepends",
+      "repo": "core"
+    },
+    {
+      "name": "tar",
+      "type": "makedepends",
+      "repo": "core"
+    }
+  ],
+  "package_size_bytes": 859870336,
+  "files": [
+    {
+      "path": "opt/sparkle/LICENSE.electron.txt",
+      "size_bytes": 1096
+    },
+    {
+      "path": "opt/sparkle/LICENSES.chromium.html",
+      "size_bytes": 19956019
+    },
+    {
+      "path": "opt/sparkle/chrome-sandbox",
+      "size_bytes": 15232
+    },
+    {
+      "path": "opt/sparkle/chrome_100_percent.pak",
+      "size_bytes": 120300
+    },
+    {
+      "path": "opt/sparkle/chrome_200_percent.pak",
+      "size_bytes": 198617
+    },
+    {
+      "path": "opt/sparkle/chrome_crashpad_handler",
+      "size_bytes": 1853008
+    },
+    {
+      "path": "opt/sparkle/icudtl.dat",
+      "size_bytes": 10876560
+    },
+    {
+      "path": "opt/sparkle/libEGL.so",
+      "size_bytes": 259592
+    },
+    {
+      "path": "opt/sparkle/libGLESv2.so",
+      "size_bytes": 6444240
+    },
+    {
+      "path": "opt/sparkle/libffmpeg.so",
+      "size_bytes": 2731256
+    },
+    {
+      "path": "opt/sparkle/libvk_swiftshader.so",
+      "size_bytes": 4652216
+    },
+    {
+      "path": "opt/sparkle/libvulkan.so.1",
+      "size_bytes": 649456
+    },
+    {
+      "path": "opt/sparkle/locales/af.pak",
+      "size_bytes": 603460
+    },
+    {
+      "path": "opt/sparkle/locales/am.pak",
+      "size_bytes": 978874
+    },
+    {
+      "path": "opt/sparkle/locales/ar.pak",
+      "size_bytes": 1081125
+    },
+    {
+      "path": "opt/sparkle/locales/bg.pak",
+      "size_bytes": 1118549
+    },
+    {
+      "path": "opt/sparkle/locales/bn.pak",
+      "size_bytes": 1436894
+    },
+    {
+      "path": "opt/sparkle/locales/ca.pak",
+      "size_bytes": 680716
+    },
+    {
+      "path": "opt/sparkle/locales/cs.pak",
+      "size_bytes": 707166
+    },
+    {
+      "path": "opt/sparkle/locales/da.pak",
+      "size_bytes": 634163
+    },
+    {
+      "path": "opt/sparkle/locales/de.pak",
+      "size_bytes": 681684
+    },
+    {
+      "path": "opt/sparkle/locales/el.pak",
+      "size_bytes": 1229786
+    },
+    {
+      "path": "opt/sparkle/locales/en-GB.pak",
+      "size_bytes": 550242
+    },
+    {
+      "path": "opt/sparkle/locales/en-US.pak",
+      "size_bytes": 556477
+    },
+    {
+      "path": "opt/sparkle/locales/es-419.pak",
+      "size_bytes": 671760
+    },
+    {
+      "path": "opt/sparkle/locales/es.pak",
+      "size_bytes": 668117
+    },
+    {
+      "path": "opt/sparkle/locales/et.pak",
+      "size_bytes": 610028
+    },
+    {
+      "path": "opt/sparkle/locales/fa.pak",
+      "size_bytes": 1010868
+    },
+    {
+      "path": "opt/sparkle/locales/fi.pak",
+      "size_bytes": 621887
+    },
+    {
+      "path": "opt/sparkle/locales/fil.pak",
+      "size_bytes": 704164
+    },
+    {
+      "path": "opt/sparkle/locales/fr.pak",
+      "size_bytes": 726255
+    },
+    {
+      "path": "opt/sparkle/locales/gu.pak",
+      "size_bytes": 1419305
+    },
+    {
+      "path": "opt/sparkle/locales/he.pak",
+      "size_bytes": 885577
+    },
+    {
+      "path": "opt/sparkle/locales/hi.pak",
+      "size_bytes": 1504622
+    },
+    {
+      "path": "opt/sparkle/locales/hr.pak",
+      "size_bytes": 680158
+    },
+    {
+      "path": "opt/sparkle/locales/hu.pak",
+      "size_bytes": 726196
+    },
+    {
+      "path": "opt/sparkle/locales/id.pak",
+      "size_bytes": 602258
+    },
+    {
+      "path": "opt/sparkle/locales/it.pak",
+      "size_bytes": 657696
+    },
+    {
+      "path": "opt/sparkle/locales/ja.pak",
+      "size_bytes": 801184
+    },
+    {
+      "path": "opt/sparkle/locales/kn.pak",
+      "size_bytes": 1633940
+    },
+    {
+      "path": "opt/sparkle/locales/ko.pak",
+      "size_bytes": 682253
+    },
+    {
+      "path": "opt/sparkle/locales/lt.pak",
+      "size_bytes": 740613
+    },
+    {
+      "path": "opt/sparkle/locales/lv.pak",
+      "size_bytes": 736727
+    },
+    {
+      "path": "opt/sparkle/locales/ml.pak",
+      "size_bytes": 1676419
+    },
+    {
+      "path": "opt/sparkle/locales/mr.pak",
+      "size_bytes": 1391020
+    },
+    {
+      "path": "opt/sparkle/locales/ms.pak",
+      "size_bytes": 633845
+    },
+    {
+      "path": "opt/sparkle/locales/nb.pak",
+      "size_bytes": 605595
+    },
+    {
+      "path": "opt/sparkle/locales/nl.pak",
+      "size_bytes": 631485
+    },
+    {
+      "path": "opt/sparkle/locales/pl.pak",
+      "size_bytes": 705913
+    },
+    {
+      "path": "opt/sparkle/locales/pt-BR.pak",
+      "size_bytes": 661948
+    },
+    {
+      "path": "opt/sparkle/locales/pt-PT.pak",
+      "size_bytes": 665594
+    },
+    {
+      "path": "opt/sparkle/locales/ro.pak",
+      "size_bytes": 690876
+    },
+    {
+      "path": "opt/sparkle/locales/ru.pak",
+      "size_bytes": 1145976
+    },
+    {
+      "path": "opt/sparkle/locales/sk.pak",
+      "size_bytes": 718704
+    },
+    {
+      "path": "opt/sparkle/locales/sl.pak",
+      "size_bytes": 688210
+    },
+    {
+      "path": "opt/sparkle/locales/sr.pak",
+      "size_bytes": 1058269
+    },
+    {
+      "path": "opt/sparkle/locales/sv.pak",
+      "size_bytes": 613510
+    },
+    {
+      "path": "opt/sparkle/locales/sw.pak",
+      "size_bytes": 649753
+    },
+    {
+      "path": "opt/sparkle/locales/ta.pak",
+      "size_bytes": 1669751
+    },
+    {
+      "path": "opt/sparkle/locales/te.pak",
+      "size_bytes": 1544500
+    },
+    {
+      "path": "opt/sparkle/locales/th.pak",
+      "size_bytes": 1298306
+    },
+    {
+      "path": "opt/sparkle/locales/tr.pak",
+      "size_bytes": 661212
+    },
+    {
+      "path": "opt/sparkle/locales/uk.pak",
+      "size_bytes": 1154908
+    },
+    {
+      "path": "opt/sparkle/locales/ur.pak",
+      "size_bytes": 993066
+    },
+    {
+      "path": "opt/sparkle/locales/vi.pak",
+      "size_bytes": 786662
+    },
+    {
+      "path": "opt/sparkle/locales/zh-CN.pak",
+      "size_bytes": 562641
+    },
+    {
+      "path": "opt/sparkle/locales/zh-TW.pak",
+      "size_bytes": 555153
+    },
+    {
+      "path": "opt/sparkle/resources.pak",
+      "size_bytes": 7332094
+    },
+    {
+      "path": "opt/sparkle/resources/app-update.yml",
+      "size_bytes": 87
+    },
+    {
+      "path": "opt/sparkle/resources/app.asar",
+      "size_bytes": 354339453
+    },
+    {
+      "path": "opt/sparkle/resources/app.asar.unpacked/node_modules/@tailwindcss/oxide-linux-x64-gnu/LICENSE",
+      "size_bytes": 1071
+    },
+    {
+      "path": "opt/sparkle/resources/app.asar.unpacked/node_modules/@tailwindcss/oxide-linux-x64-gnu/package.json",
+      "size_bytes": 553
+    },
+    {
+      "path": "opt/sparkle/resources/app.asar.unpacked/node_modules/@tailwindcss/oxide-linux-x64-gnu/tailwindcss-oxide.linux-x64-gnu.node",
+      "size_bytes": 2993408
+    },
+    {
+      "path": "opt/sparkle/resources/app.asar.unpacked/node_modules/@uruhalushia/sparkle-native-linux-x64-gnu/package.json",
+      "size_bytes": 597
+    },
+    {
+      "path": "opt/sparkle/resources/app.asar.unpacked/node_modules/@uruhalushia/sparkle-native-linux-x64-gnu/sparkle-native.linux-x64-gnu.node",
+      "size_bytes": 1242272
+    },
+    {
+      "path": "opt/sparkle/resources/app.asar.unpacked/node_modules/lightningcss-linux-x64-gnu/LICENSE",
+      "size_bytes": 15648
+    },
+    {
+      "path": "opt/sparkle/resources/app.asar.unpacked/node_modules/lightningcss-linux-x64-gnu/lightningcss.linux-x64-gnu.node",
+      "size_bytes": 10040576
+    },
+    {
+      "path": "opt/sparkle/resources/app.asar.unpacked/node_modules/lightningcss-linux-x64-gnu/package.json",
+      "size_bytes": 745
+    },
+    {
+      "path": "opt/sparkle/resources/apparmor-profile",
+      "size_bytes": 225
+    },
+    {
+      "path": "opt/sparkle/resources/files/ASN.mmdb",
+      "size_bytes": 12059794
+    },
+    {
+      "path": "opt/sparkle/resources/files/BundleMRS.7z",
+      "size_bytes": 9156890
+    },
+    {
+      "path": "opt/sparkle/resources/files/country.mmdb",
+      "size_bytes": 389754
+    },
+    {
+      "path": "opt/sparkle/resources/files/geoip.dat",
+      "size_bytes": 17483060
+    },
+    {
+      "path": "opt/sparkle/resources/files/geoip.metadb",
+      "size_bytes": 8677748
+    },
+    {
+      "path": "opt/sparkle/resources/files/geosite.dat",
+      "size_bytes": 4239988
+    },
+    {
+      "path": "opt/sparkle/resources/files/sparkle-service",
+      "size_bytes": 9195200
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/144x144.png",
+      "size_bytes": 8051
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/168x168.png",
+      "size_bytes": 9889
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/192x192.png",
+      "size_bytes": 11962
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/256x256.png",
+      "size_bytes": 17788
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/48x48.png",
+      "size_bytes": 2141
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/512x512.png",
+      "size_bytes": 50584
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/72x72.png",
+      "size_bytes": 3413
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/96x96.png",
+      "size_bytes": 5036
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/apple-touch-icon.png",
+      "size_bytes": 11069
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/APISetting-398ff0e6.js",
+      "size_bytes": 13393
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/APISetting-398ff0e6.js.gz",
+      "size_bytes": 4371
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/AboutUs-a0549ce0.js",
+      "size_bytes": 2848
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/Archive-321834fc.js",
+      "size_bytes": 24780
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/Archive-321834fc.js.gz",
+      "size_bytes": 6522
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/FileEditor-06ffd3a6.js",
+      "size_bytes": 27291
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/FileEditor-06ffd3a6.js.gz",
+      "size_bytes": 8372
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/Logs-ebbade46.js",
+      "size_bytes": 307
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/NotFound-aa1af902.js",
+      "size_bytes": 743
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/Share-72352e60.js",
+      "size_bytes": 23739
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/Share-72352e60.js.gz",
+      "size_bytes": 7162
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/ShareEditorPage-32983f10.js",
+      "size_bytes": 29828
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/ShareEditorPage-32983f10.js.gz",
+      "size_bytes": 9298
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/SubEditor-4f9fcaea.js",
+      "size_bytes": 39640
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/SubEditor-4f9fcaea.js.gz",
+      "size_bytes": 12307
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/SyncEditor-495ce78b.js",
+      "size_bytes": 16217
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/SyncEditor-495ce78b.js.gz",
+      "size_bytes": 5344
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/actionsToPorcess-751addf3.js",
+      "size_bytes": 52836
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/actionsToPorcess-751addf3.js.gz",
+      "size_bytes": 15027
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/core-bdfb7bbc.js",
+      "size_bytes": 116963
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/core-bdfb7bbc.js.gz",
+      "size_bytes": 36041
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/datepicker-17929360.js",
+      "size_bytes": 187234
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/datepicker-17929360.js.gz",
+      "size_bytes": 51003
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/editor-3f6229b5.js",
+      "size_bytes": 581156
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/editor-3f6229b5.js.gz",
+      "size_bytes": 186651
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/editorTabState-c8526e39.js",
+      "size_bytes": 15691
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/editorTabState-c8526e39.js.gz",
+      "size_bytes": 5293
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/editorTabValidation-f55eba00.js",
+      "size_bytes": 252
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/engine-javascript-751dd70f.js",
+      "size_bytes": 61513
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/engine-javascript-751dd70f.js.gz",
+      "size_bytes": 21041
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/i18n-10d7f773.js",
+      "size_bytes": 48866
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/i18n-10d7f773.js.gz",
+      "size_bytes": 16532
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/icons-a9e74bdd.js",
+      "size_bytes": 87644
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/icons-a9e74bdd.js.gz",
+      "size_bytes": 27771
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/index-6a8abdff.js",
+      "size_bytes": 26950
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/index-6a8abdff.js.gz",
+      "size_bytes": 7568
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/index-dcb11ae0.js",
+      "size_bytes": 1541
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/ini-d556ebf0.js",
+      "size_bytes": 1523
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/javascript-3f0c3992.js",
+      "size_bytes": 174824
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/javascript-3f0c3992.js.gz",
+      "size_bytes": 16134
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/json-e64f6f4e.js",
+      "size_bytes": 2820
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/json5-e1df1a68.js",
+      "size_bytes": 3252
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/main-cad263e4.js",
+      "size_bytes": 826137
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/main-cad263e4.js.gz",
+      "size_bytes": 259756
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/moreSetting-eab3a7fb.js",
+      "size_bytes": 17161
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/moreSetting-eab3a7fb.js.gz",
+      "size_bytes": 3959
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/nutui-5eaa1228.js",
+      "size_bytes": 118967
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/nutui-5eaa1228.js.gz",
+      "size_bytes": 34137
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/useListViewModeSelectionLock-d13d5ecd.js",
+      "size_bytes": 269
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/vue-vendor-a18076f8.js",
+      "size_bytes": 244211
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/vue-vendor-a18076f8.js.gz",
+      "size_bytes": 89661
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/yaml-5cd2c3da.js",
+      "size_bytes": 10507
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/chunks/yaml-5cd2c3da.js.gz",
+      "size_bytes": 2259
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/clash.png",
+      "size_bytes": 2530
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/APISetting.css",
+      "size_bytes": 5339
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/AboutUs.css",
+      "size_bytes": 1750
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/Archive.css",
+      "size_bytes": 8172
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/FileEditor.css",
+      "size_bytes": 6097
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/NotFound.css",
+      "size_bytes": 208
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/Share.css",
+      "size_bytes": 11415
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/Share.css.gz",
+      "size_bytes": 2201
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/ShareEditorPage.css",
+      "size_bytes": 10032
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/SubEditor.css",
+      "size_bytes": 13146
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/SubEditor.css.gz",
+      "size_bytes": 2300
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/SyncEditor.css",
+      "size_bytes": 4237
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/actionsToPorcess.css",
+      "size_bytes": 22573
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/actionsToPorcess.css.gz",
+      "size_bytes": 3631
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/datepicker.css",
+      "size_bytes": 23547
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/datepicker.css.gz",
+      "size_bytes": 4439
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/editorTabState.css",
+      "size_bytes": 6011
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/main.css",
+      "size_bytes": 122238
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/main.css.gz",
+      "size_bytes": 17068
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/moreSetting.css",
+      "size_bytes": 4471
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/nutui.css",
+      "size_bytes": 51298
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/css/nutui.css.gz",
+      "size_bytes": 8949
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/favicon.ico",
+      "size_bytes": 15406
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/favicon.svg",
+      "size_bytes": 4414
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/fonts/3x_static_iconfont.ttf",
+      "size_bytes": 30276
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/fonts/3x_static_iconfont.woff",
+      "size_bytes": 18188
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/fonts/3x_static_iconfont.woff2",
+      "size_bytes": 15624
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/fonts/jetbrainsmononl-regular.woff",
+      "size_bytes": 28172
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/fonts/jetbrainsmononl-regular.woff2",
+      "size_bytes": 20916
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/fonts/roboto-bold.woff",
+      "size_bytes": 26584
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/fonts/roboto-bold.woff2",
+      "size_bytes": 19676
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/fonts/roboto-light.woff",
+      "size_bytes": 25840
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/fonts/roboto-light.woff2",
+      "size_bytes": 19092
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/avatar.svg",
+      "size_bytes": 3871
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/clash.png",
+      "size_bytes": 2530
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/clash_color.png",
+      "size_bytes": 16648
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/clashmeta.png",
+      "size_bytes": 2938
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/clashmeta_color.png",
+      "size_bytes": 13004
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/concurrency.svg",
+      "size_bytes": 1493
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/copy.svg",
+      "size_bytes": 1147
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/del.svg",
+      "size_bytes": 818
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/egern.png",
+      "size_bytes": 12307
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/egern_color.png",
+      "size_bytes": 61657
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/encryption.svg",
+      "size_bytes": 666
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/format.svg",
+      "size_bytes": 703
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/gist-upload.svg",
+      "size_bytes": 569
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/githubProxy.svg",
+      "size_bytes": 2044
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/headersCacheTtl.svg",
+      "size_bytes": 971
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/json.svg",
+      "size_bytes": 24111
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/key-solid.svg",
+      "size_bytes": 940
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/logo-red.png",
+      "size_bytes": 23653
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/logo.png",
+      "size_bytes": 15402
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/logsMaxCount.svg",
+      "size_bytes": 526
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/loon.png",
+      "size_bytes": 2728
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/loon_color.png",
+      "size_bytes": 12520
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/max.svg",
+      "size_bytes": 1651
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/more.svg",
+      "size_bytes": 622
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/node.svg",
+      "size_bytes": 5873
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/proxy.svg",
+      "size_bytes": 2057
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/quanx_color.png",
+      "size_bytes": 13863
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/redo.svg",
+      "size_bytes": 700
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/resourceCacheTtl.svg",
+      "size_bytes": 1460
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/scriptCacheTtl.svg",
+      "size_bytes": 683
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/search.svg",
+      "size_bytes": 910
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/shadowrocket.png",
+      "size_bytes": 2564
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/shadowrocket_color.png",
+      "size_bytes": 17635
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/sing-box.png",
+      "size_bytes": 2690
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/sing-box_color.png",
+      "size_bytes": 11330
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/stash.png",
+      "size_bytes": 2915
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/stash_color.png",
+      "size_bytes": 27667
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/surfboard.png",
+      "size_bytes": 3108
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/surfboard_color.png",
+      "size_bytes": 10229
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/surge_color.png",
+      "size_bytes": 12877
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/surgeformac_text_color.png",
+      "size_bytes": 5395
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/timeout.svg",
+      "size_bytes": 2787
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/tw.png",
+      "size_bytes": 10299
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/undo.svg",
+      "size_bytes": 698
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/uri.svg",
+      "size_bytes": 4398
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/user-agent.svg",
+      "size_bytes": 1330
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/user-solid.svg",
+      "size_bytes": 728
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/v2ray.png",
+      "size_bytes": 3821
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/v2ray_color.png",
+      "size_bytes": 7118
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/images/zt.svg",
+      "size_bytes": 971
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/index.html",
+      "size_bytes": 1982
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/index.js",
+      "size_bytes": 1750
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/logo.png",
+      "size_bytes": 7257
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/loon.png",
+      "size_bytes": 2728
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/manifest.webmanifest",
+      "size_bytes": 557
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/manifests.json",
+      "size_bytes": 705
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/quanx.png",
+      "size_bytes": 1407
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/registerSW.js",
+      "size_bytes": 134
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/shadowrocket.png",
+      "size_bytes": 2564
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/stash.png",
+      "size_bytes": 2590
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/surge.png",
+      "size_bytes": 1251
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/sw.js",
+      "size_bytes": 10424
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/v2ray.png",
+      "size_bytes": 3821
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/vercel.json",
+      "size_bytes": 110
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store-frontend/workbox-0e56c8ee.js",
+      "size_bytes": 15671
+    },
+    {
+      "path": "opt/sparkle/resources/files/sub-store.bundle.js",
+      "size_bytes": 3097123
+    },
+    {
+      "path": "opt/sparkle/resources/package-type",
+      "size_bytes": 3
+    },
+    {
+      "path": "opt/sparkle/resources/sidecar/mihomo",
+      "size_bytes": 48314040
+    },
+    {
+      "path": "opt/sparkle/resources/sidecar/mihomo-alpha",
+      "size_bytes": 49795328
+    },
+    {
+      "path": "opt/sparkle/snapshot_blob.bin",
+      "size_bytes": 365488
+    },
+    {
+      "path": "opt/sparkle/sparkle",
+      "size_bytes": 219811064
+    },
+    {
+      "path": "opt/sparkle/v8_context_snapshot.bin",
+      "size_bytes": 740048
+    },
+    {
+      "path": "opt/sparkle/vk_swiftshader_icd.json",
+      "size_bytes": 107
+    },
+    {
+      "path": "usr/share/applications/sparkle.desktop",
+      "size_bytes": 244
+    },
+    {
+      "path": "usr/share/doc/sparkle/changelog.gz",
+      "size_bytes": 143
+    },
+    {
+      "path": "usr/share/icons/hicolor/512x512/apps/sparkle.png",
+      "size_bytes": 42272
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}

@@ -1,0 +1,42 @@
+{
+  "name": "samsung-unified-driver-common",
+  "pkgbase": "samsung-unified-driver",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "christoph.gysin",
+  "submitter": "ptb",
+  "votes": 227,
+  "popularity": 0.053275,
+  "first_submitted": "2010-12-06T00:01:35Z",
+  "description": "Samsung Unified Linux Driver (common files)",
+  "url": "http://www.samsung.com",
+  "licenses": [
+    "custom:samsung"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538910",
+  "version": "1.00.39-11",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [],
+  "package_size_bytes": 21273,
+  "files": [
+    {
+      "path": "usr/share/licenses/samsung-unified-driver/LICENSE",
+      "size_bytes": 9832
+    },
+    {
+      "path": "usr/share/licenses/samsung-unified-driver/eula-fr.txt",
+      "size_bytes": 11441
+    }
+  ],
+  "sources": [],
+  "required_by": [
+    {
+      "name": "samsung-unified-driver-printer"
+    },
+    {
+      "name": "samsung-unified-driver-scanner"
+    }
+  ]
+}

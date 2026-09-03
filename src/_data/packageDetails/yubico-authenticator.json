@@ -1,0 +1,26 @@
+{
+  "name": "yubico-authenticator",
+  "pkgbase": "yubico-authenticator",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "yochananmarqos",
+  "submitter": "yochananmarqos",
+  "votes": 14,
+  "popularity": 0.023,
+  "first_submitted": "2024-02-20T16:39:49Z",
+  "description": "Yubico Authenticator for Desktop",
+  "url": "https://developers.yubico.com/yubioath-flutter",
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "build_status": "build_failed",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100616015774",
+  "version": "7.4.1-2",
+  "last_updated": null,
+  "packager": null,
+  "dependencies": [],
+  "sources": [],
+  "files": [],
+  "package_size_bytes": null,
+  "required_by": []
+}

@@ -1,0 +1,53 @@
+{
+  "name": "oopz",
+  "pkgbase": "oopz",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "Pysio",
+  "submitter": "Pysio",
+  "votes": 2,
+  "popularity": 0.176224,
+  "first_submitted": "2026-02-15T19:06:37Z",
+  "description": "OOPZ desktop client - third-party Electron package for the free online voice platform",
+  "url": "https://git.pysio.online/pysio/linux_oopz",
+  "licenses": [
+    "LicenseRef-proprietary"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538902",
+  "version": "1.0.0-1",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "electron39",
+      "type": "depends",
+      "repo": "extra"
+    }
+  ],
+  "package_size_bytes": 25884,
+  "files": [
+    {
+      "path": "opt/oopz/icon.png",
+      "size_bytes": 12141
+    },
+    {
+      "path": "opt/oopz/main.js",
+      "size_bytes": 770
+    },
+    {
+      "path": "usr/bin/oopz",
+      "size_bytes": 606
+    },
+    {
+      "path": "usr/share/applications/oopz.desktop",
+      "size_bytes": 226
+    },
+    {
+      "path": "usr/share/icons/hicolor/256x256/apps/oopz.png",
+      "size_bytes": 12141
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}

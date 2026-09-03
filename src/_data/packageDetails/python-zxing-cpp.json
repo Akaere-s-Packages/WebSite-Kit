@@ -1,0 +1,108 @@
+{
+  "name": "python-zxing-cpp",
+  "pkgbase": "python-zxing-cpp",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "yochananmarqos",
+  "submitter": "yochananmarqos",
+  "votes": 5,
+  "popularity": 0.835741,
+  "first_submitted": "2024-05-09T23:49:13Z",
+  "description": "Python bindings for zxing-cpp",
+  "url": "https://github.com/zxing-cpp/zxing-cpp",
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538991",
+  "version": "3.1.1-2",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "python",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "zxing-cpp",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "cmake",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "nanobind",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-build",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-installer",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-scikit-build-core",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "python-wheel",
+      "type": "makedepends",
+      "repo": "extra"
+    }
+  ],
+  "package_size_bytes": 1644405,
+  "files": [
+    {
+      "path": "usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/METADATA",
+      "size_bytes": 2322
+    },
+    {
+      "path": "usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/RECORD",
+      "size_bytes": 525
+    },
+    {
+      "path": "usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/WHEEL",
+      "size_bytes": 108
+    },
+    {
+      "path": "usr/lib/python3.14/site-packages/zxingcpp/__init__.py",
+      "size_bytes": 190
+    },
+    {
+      "path": "usr/lib/python3.14/site-packages/zxingcpp/__pycache__/__init__.cpython-314.opt-1.pyc",
+      "size_bytes": 185
+    },
+    {
+      "path": "usr/lib/python3.14/site-packages/zxingcpp/__pycache__/__init__.cpython-314.pyc",
+      "size_bytes": 185
+    },
+    {
+      "path": "usr/lib/python3.14/site-packages/zxingcpp/py.typed",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.abi3.so",
+      "size_bytes": 1620768
+    },
+    {
+      "path": "usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.pyi",
+      "size_bytes": 20122
+    }
+  ],
+  "sources": [],
+  "required_by": [
+    {
+      "name": "yubico-authenticator"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "linuxqq",
+  "pkgbase": "linuxqq",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "Integral",
+  "submitter": "redchenjs",
+  "votes": 111,
+  "popularity": 1.235987,
+  "first_submitted": "2019-10-24T14:27:34Z",
+  "description": "New Linux QQ based on Electron",
+  "url": "https://im.qq.com/linuxqq",
+  "licenses": [
+    "LicenseRef-QQ"
+  ],
+  "build_status": "build_failed",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538931",
+  "version": "5:3.2.33_52892-1",
+  "last_updated": null,
+  "packager": null,
+  "dependencies": [],
+  "sources": [],
+  "files": [],
+  "package_size_bytes": null,
+  "required_by": []
+}

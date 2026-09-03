@@ -1,0 +1,26 @@
+{
+  "name": "noto-fonts-sc",
+  "pkgbase": "noto-fonts-sc",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "xuanruiqi",
+  "submitter": "halflife",
+  "votes": 10,
+  "popularity": 0.652871,
+  "first_submitted": "2016-04-12T06:57:49Z",
+  "description": "Noto CJK-SC fonts for Simplified Chinese",
+  "url": "https://www.google.com/get/noto/help/cjk/",
+  "licenses": [
+    "custom: SIL"
+  ],
+  "build_status": "build_failed",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538956",
+  "version": "2:20210430-2",
+  "last_updated": null,
+  "packager": null,
+  "dependencies": [],
+  "sources": [],
+  "files": [],
+  "package_size_bytes": null,
+  "required_by": []
+}

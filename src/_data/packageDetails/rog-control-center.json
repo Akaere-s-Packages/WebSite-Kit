@@ -3,32 +3,66 @@
   "pkgbase": "rog-control-center",
   "source_type": "aur",
   "version": "6.4.0-1",
-  "description": "A GUI tool to control ASUS ROG laptops",
-  "url": "https://gitlab.com/asus-linux/rog-control-center",
-  "licenses": ["MPL-2.0"],
-  "maintainer": "Lilithya",
-  "submitter": "Lilithya",
+  "description": "Graphical user interface for asusctl",
+  "url": "https://asus-linux.org",
+  "licenses": [
+    "MPL-2.0"
+  ],
+  "maintainer": "mhdi",
+  "submitter": "fabiscafe",
   "packager": "Lilithya",
-  "votes": 98,
-  "popularity": 2.14,
-  "first_submitted": "2024-02-10T14:20:00Z",
+  "votes": 32,
+  "popularity": 1.888905,
+  "first_submitted": "2021-09-18T11:01:35Z",
   "last_updated": "2026-09-03T02:14:00Z",
-  "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/123456789/job/987654322",
+  "build_status": "build_failed",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100616015772",
   "package_size_bytes": 15420312,
   "dependencies": [
-    { "name": "asusctl", "type": "depends", "repo": "aur" },
-    { "name": "gtk4", "type": "depends", "repo": "extra" },
-    { "name": "libadwaita", "type": "depends", "repo": "extra" }
+    {
+      "name": "asusctl",
+      "type": "depends",
+      "repo": "aur"
+    },
+    {
+      "name": "gtk4",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "libadwaita",
+      "type": "depends",
+      "repo": "extra"
+    }
   ],
-  "required_by": [],
+  "required_by": [
+    {
+      "name": "asusctl"
+    }
+  ],
   "sources": [
-    { "name": "rog-control-center-6.4.0.tar.gz", "url": "https://gitlab.com/asus-linux/rog-control-center/-/archive/6.4.0/rog-control-center-6.4.0.tar.gz" }
+    {
+      "name": "rog-control-center-6.4.0.tar.gz",
+      "url": "https://gitlab.com/asus-linux/rog-control-center/-/archive/6.4.0/rog-control-center-6.4.0.tar.gz"
+    }
   ],
   "files": [
-    { "path": "usr/bin/rog-control-center", "size_bytes": 12400000 },
-    { "path": "usr/share/applications/rog-control-center.desktop", "size_bytes": 1024 },
-    { "path": "usr/share/icons/hicolor/scalable/apps/rog-control-center.svg", "size_bytes": 4500 },
-    { "path": "usr/share/licenses/rog-control-center/LICENSE", "size_bytes": 16725 }
-  ]
+    {
+      "path": "usr/bin/rog-control-center",
+      "size_bytes": 12400000
+    },
+    {
+      "path": "usr/share/applications/rog-control-center.desktop",
+      "size_bytes": 1024
+    },
+    {
+      "path": "usr/share/icons/hicolor/scalable/apps/rog-control-center.svg",
+      "size_bytes": 4500
+    },
+    {
+      "path": "usr/share/licenses/rog-control-center/LICENSE",
+      "size_bytes": 16725
+    }
+  ],
+  "distro": "archlinux"
 }

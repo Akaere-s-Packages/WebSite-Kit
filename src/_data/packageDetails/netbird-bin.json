@@ -1,0 +1,67 @@
+{
+  "name": "netbird-bin",
+  "pkgbase": "netbird-bin",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "tarball",
+  "submitter": "tarball",
+  "votes": 14,
+  "popularity": 1.055607,
+  "first_submitted": "2022-05-30T19:47:48Z",
+  "description": "WireGuard-based mesh network",
+  "url": "https://netbird.io",
+  "licenses": [
+    "BSD-3-Clause"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538990",
+  "version": "0.77.1-1",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "glibc",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "resolvconf",
+      "type": "optdepends",
+      "repo": "aur",
+      "description": "Private DNS"
+    }
+  ],
+  "package_size_bytes": 41384381,
+  "files": [
+    {
+      "path": "etc/default/netbird",
+      "size_bytes": 61
+    },
+    {
+      "path": "usr/bin/netbird",
+      "size_bytes": 41347760
+    },
+    {
+      "path": "usr/lib/systemd/system/netbird@.service",
+      "size_bytes": 991
+    },
+    {
+      "path": "usr/share/bash-completion/completions/netbird",
+      "size_bytes": 16213
+    },
+    {
+      "path": "usr/share/fish/vendor_completions.d/netbird.fish",
+      "size_bytes": 9785
+    },
+    {
+      "path": "usr/share/licenses/netbird/LICENSE",
+      "size_bytes": 1787
+    },
+    {
+      "path": "usr/share/zsh/site-functions/_netbird",
+      "size_bytes": 7784
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}

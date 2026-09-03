@@ -1,0 +1,49 @@
+{
+  "name": "repoq",
+  "pkgbase": "repoq",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "Pysio",
+  "submitter": "Pysio",
+  "votes": 2,
+  "popularity": 1.995142,
+  "first_submitted": "2026-09-01T08:30:40Z",
+  "description": "A lightweight command-line client for the Repology API",
+  "url": "https://github.com/pysio2007/repoq",
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613539059",
+  "version": "0.2.1-1",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "curl",
+      "type": "depends",
+      "repo": "core"
+    }
+  ],
+  "package_size_bytes": 70713,
+  "files": [
+    {
+      "path": "usr/bin/repoq",
+      "size_bytes": 55736
+    },
+    {
+      "path": "usr/share/doc/repoq/README.md",
+      "size_bytes": 2217
+    },
+    {
+      "path": "usr/share/licenses/repoq/LICENSE",
+      "size_bytes": 11339
+    },
+    {
+      "path": "usr/share/man/man1/repoq.1.gz",
+      "size_bytes": 1421
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}

@@ -1,0 +1,180 @@
+{
+  "name": "paru",
+  "pkgbase": "paru",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "Morganamilo",
+  "submitter": "Morganamilo",
+  "votes": 1253,
+  "popularity": 28.589089,
+  "first_submitted": "2020-10-19T00:43:50Z",
+  "description": "Feature packed AUR helper",
+  "url": "https://github.com/morganamilo/paru",
+  "licenses": [
+    "GPL-3.0-or-later"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538937",
+  "version": "2.1.0-2",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "git",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "pacman",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "libalpm.so",
+      "type": "depends",
+      "repo": "aur"
+    },
+    {
+      "name": "bat",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "colored pkgbuild printing"
+    },
+    {
+      "name": "devtools",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "build in chroot and downloading pkgbuilds"
+    },
+    {
+      "name": "cargo",
+      "type": "makedepends",
+      "repo": "aur"
+    }
+  ],
+  "package_size_bytes": 8433308,
+  "files": [
+    {
+      "path": "etc/paru.conf",
+      "size_bytes": 479
+    },
+    {
+      "path": "usr/bin/paru",
+      "size_bytes": 7853760
+    },
+    {
+      "path": "usr/share/bash-completion/completions/paru.bash",
+      "size_bytes": 4412
+    },
+    {
+      "path": "usr/share/fish/vendor_completions.d/paru.fish",
+      "size_bytes": 18651
+    },
+    {
+      "path": "usr/share/locale/ca/LC_MESSAGES/paru.mo",
+      "size_bytes": 26364
+    },
+    {
+      "path": "usr/share/locale/cs/LC_MESSAGES/paru.mo",
+      "size_bytes": 26833
+    },
+    {
+      "path": "usr/share/locale/de/LC_MESSAGES/paru.mo",
+      "size_bytes": 24792
+    },
+    {
+      "path": "usr/share/locale/es/LC_MESSAGES/paru.mo",
+      "size_bytes": 27259
+    },
+    {
+      "path": "usr/share/locale/fi/LC_MESSAGES/paru.mo",
+      "size_bytes": 11303
+    },
+    {
+      "path": "usr/share/locale/fr/LC_MESSAGES/paru.mo",
+      "size_bytes": 25788
+    },
+    {
+      "path": "usr/share/locale/hi/LC_MESSAGES/paru.mo",
+      "size_bytes": 15743
+    },
+    {
+      "path": "usr/share/locale/hr/LC_MESSAGES/paru.mo",
+      "size_bytes": 20524
+    },
+    {
+      "path": "usr/share/locale/hu/LC_MESSAGES/paru.mo",
+      "size_bytes": 29015
+    },
+    {
+      "path": "usr/share/locale/it/LC_MESSAGES/paru.mo",
+      "size_bytes": 11767
+    },
+    {
+      "path": "usr/share/locale/ja/LC_MESSAGES/paru.mo",
+      "size_bytes": 26103
+    },
+    {
+      "path": "usr/share/locale/ko/LC_MESSAGES/paru.mo",
+      "size_bytes": 22131
+    },
+    {
+      "path": "usr/share/locale/nl/LC_MESSAGES/paru.mo",
+      "size_bytes": 25046
+    },
+    {
+      "path": "usr/share/locale/pt/LC_MESSAGES/paru.mo",
+      "size_bytes": 27110
+    },
+    {
+      "path": "usr/share/locale/pt_BR/LC_MESSAGES/paru.mo",
+      "size_bytes": 27106
+    },
+    {
+      "path": "usr/share/locale/ro/LC_MESSAGES/paru.mo",
+      "size_bytes": 11389
+    },
+    {
+      "path": "usr/share/locale/ru/LC_MESSAGES/paru.mo",
+      "size_bytes": 14439
+    },
+    {
+      "path": "usr/share/locale/sk/LC_MESSAGES/paru.mo",
+      "size_bytes": 27234
+    },
+    {
+      "path": "usr/share/locale/sv/LC_MESSAGES/paru.mo",
+      "size_bytes": 26541
+    },
+    {
+      "path": "usr/share/locale/tr/LC_MESSAGES/paru.mo",
+      "size_bytes": 11033
+    },
+    {
+      "path": "usr/share/locale/uk/LC_MESSAGES/paru.mo",
+      "size_bytes": 33201
+    },
+    {
+      "path": "usr/share/locale/zh_CN/LC_MESSAGES/paru.mo",
+      "size_bytes": 25727
+    },
+    {
+      "path": "usr/share/locale/zh_TW/LC_MESSAGES/paru.mo",
+      "size_bytes": 25600
+    },
+    {
+      "path": "usr/share/man/man5/paru.conf.5.gz",
+      "size_bytes": 4748
+    },
+    {
+      "path": "usr/share/man/man8/paru.8.gz",
+      "size_bytes": 7849
+    },
+    {
+      "path": "usr/share/zsh/site-functions/_paru",
+      "size_bytes": 21361
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}

@@ -1,0 +1,113 @@
+{
+  "name": "oh-my-pi-bin",
+  "pkgbase": "oh-my-pi-bin",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "bjin",
+  "submitter": "bjin",
+  "votes": 7,
+  "popularity": 2.524954,
+  "first_submitted": "2026-03-23T09:35:56Z",
+  "description": "A coding agent with the IDE wired in (release binary)",
+  "url": "https://omp.sh/",
+  "licenses": [
+    "MIT"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538923",
+  "version": "18.1.5-1",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "glibc",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "alsa-lib",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "ALSA fallback for live voice, STT, and TTS"
+    },
+    {
+      "name": "at-spi2-core",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "Linux accessibility backend for the computer tool"
+    },
+    {
+      "name": "chromium",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "system browser for the browser tool"
+    },
+    {
+      "name": "git",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "repository integration and isolated task worktrees"
+    },
+    {
+      "name": "julia",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "Julia eval backend"
+    },
+    {
+      "name": "libpulse",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "PulseAudio/PipeWire-Pulse client backend for live voice, STT, and TTS"
+    },
+    {
+      "name": "python",
+      "type": "optdepends",
+      "repo": "core",
+      "description": "Python 3.10+ eval backend"
+    },
+    {
+      "name": "sshfs",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "mount SSH remote workspaces"
+    },
+    {
+      "name": "xdg-desktop-portal",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "Wayland RemoteDesktop portal fallback for computer tool input"
+    },
+    {
+      "name": "xdg-desktop-portal-impl",
+      "type": "optdepends",
+      "repo": "aur",
+      "description": "compositor-specific backend for Wayland computer tool input"
+    }
+  ],
+  "package_size_bytes": 197598194,
+  "files": [
+    {
+      "path": "usr/bin/omp",
+      "size_bytes": 197506248
+    },
+    {
+      "path": "usr/share/bash-completion/completions/omp",
+      "size_bytes": 23315
+    },
+    {
+      "path": "usr/share/fish/vendor_completions.d/omp.fish",
+      "size_bytes": 39196
+    },
+    {
+      "path": "usr/share/licenses/oh-my-pi-bin/LICENSE",
+      "size_bytes": 1144
+    },
+    {
+      "path": "usr/share/zsh/site-functions/_omp",
+      "size_bytes": 28291
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}

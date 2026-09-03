@@ -1,0 +1,2195 @@
+{
+  "name": "zulu-21-bin",
+  "pkgbase": "zulu-21-bin",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "xiaoranya",
+  "submitter": "guymers",
+  "votes": 6,
+  "popularity": 0.279297,
+  "first_submitted": "2023-09-20T10:32:34Z",
+  "description": "Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK.",
+  "url": "https://www.azul.com/downloads/",
+  "licenses": [
+    "custom"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538925",
+  "version": "21.0.12.1-1",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "java-environment-common",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "java-runtime-common",
+      "type": "depends",
+      "repo": "extra"
+    },
+    {
+      "name": "ca-certificates-utils",
+      "type": "depends",
+      "repo": "core"
+    }
+  ],
+  "package_size_bytes": 360321256,
+  "files": [
+    {
+      "path": "etc/zulu-21/jaxp.properties",
+      "size_bytes": 7302
+    },
+    {
+      "path": "etc/zulu-21/logging.properties",
+      "size_bytes": 2732
+    },
+    {
+      "path": "etc/zulu-21/management/jmxremote.access",
+      "size_bytes": 3997
+    },
+    {
+      "path": "etc/zulu-21/management/jmxremote.password.template",
+      "size_bytes": 5690
+    },
+    {
+      "path": "etc/zulu-21/management/management.properties",
+      "size_bytes": 14988
+    },
+    {
+      "path": "etc/zulu-21/net.properties",
+      "size_bytes": 7441
+    },
+    {
+      "path": "etc/zulu-21/sdp/sdp.conf.template",
+      "size_bytes": 1455
+    },
+    {
+      "path": "etc/zulu-21/security/java.policy",
+      "size_bytes": 2294
+    },
+    {
+      "path": "etc/zulu-21/security/java.security",
+      "size_bytes": 71386
+    },
+    {
+      "path": "etc/zulu-21/security/policy/README.txt",
+      "size_bytes": 2390
+    },
+    {
+      "path": "etc/zulu-21/security/policy/limited/default_US_export.policy",
+      "size_bytes": 146
+    },
+    {
+      "path": "etc/zulu-21/security/policy/limited/default_local.policy",
+      "size_bytes": 647
+    },
+    {
+      "path": "etc/zulu-21/security/policy/limited/exempt_local.policy",
+      "size_bytes": 566
+    },
+    {
+      "path": "etc/zulu-21/security/policy/unlimited/default_US_export.policy",
+      "size_bytes": 146
+    },
+    {
+      "path": "etc/zulu-21/security/policy/unlimited/default_local.policy",
+      "size_bytes": 193
+    },
+    {
+      "path": "etc/zulu-21/sound.properties",
+      "size_bytes": 1210
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/DISCLAIMER",
+      "size_bytes": 2765
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/Welcome.html",
+      "size_bytes": 1186
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jar",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jarsigner",
+      "size_bytes": 10632
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/java",
+      "size_bytes": 10600
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/javac",
+      "size_bytes": 10656
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/javadoc",
+      "size_bytes": 10664
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/javap",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jcmd",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jconsole",
+      "size_bytes": 10696
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jdb",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jdeprscan",
+      "size_bytes": 10632
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jdeps",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jfr",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jhsdb",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jimage",
+      "size_bytes": 10632
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jinfo",
+      "size_bytes": 10656
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jlink",
+      "size_bytes": 10656
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jmap",
+      "size_bytes": 10656
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jmod",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jpackage",
+      "size_bytes": 10632
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jps",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jrunscript",
+      "size_bytes": 10664
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jshell",
+      "size_bytes": 10632
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jstack",
+      "size_bytes": 10664
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jstat",
+      "size_bytes": 10624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jstatd",
+      "size_bytes": 10632
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/jwebserver",
+      "size_bytes": 10632
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/keytool",
+      "size_bytes": 10632
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/rmiregistry",
+      "size_bytes": 10656
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/bin/serialver",
+      "size_bytes": 10632
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/conf -> /etc/zulu-21",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/README",
+      "size_bytes": 326
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/CodePointIM/CodePointIM.jar",
+      "size_bytes": 16731
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/CodePointIM/README.html",
+      "size_bytes": 3230
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/CodePointIM/README_ja.html",
+      "size_bytes": 4499
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/CodePointIM/README_zh_CN.html",
+      "size_bytes": 3041
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/CodePointIM/src.zip",
+      "size_bytes": 18060
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/FileChooserDemo/FileChooserDemo.jar",
+      "size_bytes": 22239
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/FileChooserDemo/README.txt",
+      "size_bytes": 586
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/FileChooserDemo/src.zip",
+      "size_bytes": 14986
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Font2DTest/Font2DTest.jar",
+      "size_bytes": 53289
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Font2DTest/README.txt",
+      "size_bytes": 5357
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Font2DTest/src.zip",
+      "size_bytes": 29441
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/J2Ddemo/J2Ddemo.jar",
+      "size_bytes": 955057
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/J2Ddemo/README.txt",
+      "size_bytes": 4275
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/J2Ddemo/src.zip",
+      "size_bytes": 835466
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Metalworks/Metalworks.jar",
+      "size_bytes": 48936
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Metalworks/README.txt",
+      "size_bytes": 2083
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Metalworks/src.zip",
+      "size_bytes": 42430
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Notepad/Notepad.jar",
+      "size_bytes": 46037
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Notepad/README.txt",
+      "size_bytes": 356
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Notepad/src.zip",
+      "size_bytes": 24782
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/SampleTree/README.txt",
+      "size_bytes": 952
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/SampleTree/SampleTree.jar",
+      "size_bytes": 22621
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/SampleTree/src.zip",
+      "size_bytes": 16122
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Stylepad/README.txt",
+      "size_bytes": 358
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Stylepad/Stylepad.jar",
+      "size_bytes": 122724
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/Stylepad/src.zip",
+      "size_bytes": 91802
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/SwingSet2/README.txt",
+      "size_bytes": 1648
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/SwingSet2/SwingSet2.jar",
+      "size_bytes": 1661669
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/SwingSet2/src.zip",
+      "size_bytes": 1487331
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/TableExample/README.txt",
+      "size_bytes": 1718
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/TableExample/TableExample.jar",
+      "size_bytes": 30831
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/TableExample/src.zip",
+      "size_bytes": 24728
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/TransparentRuler/README.txt",
+      "size_bytes": 362
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/TransparentRuler/TransparentRuler.jar",
+      "size_bytes": 8617
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/jfc/TransparentRuler/src.zip",
+      "size_bytes": 3915
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/README.txt",
+      "size_bytes": 1291
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/FileChooserDemo/build.properties",
+      "size_bytes": 407
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/FileChooserDemo/build.xml",
+      "size_bytes": 3575
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/FileChooserDemo/nbproject/file-targets.xml",
+      "size_bytes": 2051
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/FileChooserDemo/nbproject/jdk.xml",
+      "size_bytes": 4218
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/FileChooserDemo/nbproject/netbeans-targets.xml",
+      "size_bytes": 3512
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/FileChooserDemo/nbproject/project.xml",
+      "size_bytes": 7450
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Font2DTest/build.properties",
+      "size_bytes": 433
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Font2DTest/build.xml",
+      "size_bytes": 3874
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Font2DTest/nbproject/file-targets.xml",
+      "size_bytes": 2046
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Font2DTest/nbproject/jdk.xml",
+      "size_bytes": 4218
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Font2DTest/nbproject/netbeans-targets.xml",
+      "size_bytes": 3502
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Font2DTest/nbproject/project.xml",
+      "size_bytes": 7746
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Metalworks/build.properties",
+      "size_bytes": 392
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Metalworks/build.xml",
+      "size_bytes": 3570
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Metalworks/nbproject/file-targets.xml",
+      "size_bytes": 2046
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Metalworks/nbproject/jdk.xml",
+      "size_bytes": 4218
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Metalworks/nbproject/netbeans-targets.xml",
+      "size_bytes": 3502
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Metalworks/nbproject/project.xml",
+      "size_bytes": 7445
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Notepad/build.properties",
+      "size_bytes": 383
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Notepad/build.xml",
+      "size_bytes": 3567
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Notepad/nbproject/file-targets.xml",
+      "size_bytes": 2043
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Notepad/nbproject/jdk.xml",
+      "size_bytes": 4218
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Notepad/nbproject/netbeans-targets.xml",
+      "size_bytes": 3496
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/Notepad/nbproject/project.xml",
+      "size_bytes": 7442
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/SampleTree/build.properties",
+      "size_bytes": 392
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/SampleTree/build.xml",
+      "size_bytes": 3570
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/SampleTree/nbproject/file-targets.xml",
+      "size_bytes": 2046
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/SampleTree/nbproject/jdk.xml",
+      "size_bytes": 4218
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/SampleTree/nbproject/netbeans-targets.xml",
+      "size_bytes": 3502
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/SampleTree/nbproject/project.xml",
+      "size_bytes": 7445
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TableExample/build.properties",
+      "size_bytes": 398
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TableExample/build.xml",
+      "size_bytes": 3572
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TableExample/nbproject/file-targets.xml",
+      "size_bytes": 2048
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TableExample/nbproject/jdk.xml",
+      "size_bytes": 4218
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TableExample/nbproject/netbeans-targets.xml",
+      "size_bytes": 3506
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TableExample/nbproject/project.xml",
+      "size_bytes": 7447
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TransparentRuler/build.properties",
+      "size_bytes": 416
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TransparentRuler/build.xml",
+      "size_bytes": 3576
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TransparentRuler/nbproject/file-targets.xml",
+      "size_bytes": 2052
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TransparentRuler/nbproject/jdk.xml",
+      "size_bytes": 4218
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TransparentRuler/nbproject/netbeans-targets.xml",
+      "size_bytes": 3514
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/jfc/TransparentRuler/nbproject/project.xml",
+      "size_bytes": 7451
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/demo/nbproject/project.xml",
+      "size_bytes": 3002
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/include/classfile_constants.h",
+      "size_bytes": 22155
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/include/jawt.h",
+      "size_bytes": 12458
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/include/jdwpTransport.h",
+      "size_bytes": 8166
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/include/jni.h",
+      "size_bytes": 76018
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/include/jvmti.h",
+      "size_bytes": 83067
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/include/jvmticmlr.h",
+      "size_bytes": 4771
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/include/linux/jawt_md.h",
+      "size_bytes": 1965
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/include/linux/jni_md.h",
+      "size_bytes": 2208
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.base.jmod",
+      "size_bytes": 24434540
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.compiler.jmod",
+      "size_bytes": 132036
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.datatransfer.jmod",
+      "size_bytes": 59308
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.desktop.jmod",
+      "size_bytes": 14147073
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.instrument.jmod",
+      "size_bytes": 50955
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.logging.jmod",
+      "size_bytes": 129985
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.management.jmod",
+      "size_bytes": 900363
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.management.rmi.jmod",
+      "size_bytes": 98813
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.naming.jmod",
+      "size_bytes": 483439
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.net.http.jmod",
+      "size_bytes": 787316
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.prefs.jmod",
+      "size_bytes": 70352
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.rmi.jmod",
+      "size_bytes": 273711
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.scripting.jmod",
+      "size_bytes": 48263
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.se.jmod",
+      "size_bytes": 9869
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.security.jgss.jmod",
+      "size_bytes": 598541
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.security.sasl.jmod",
+      "size_bytes": 89346
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.smartcardio.jmod",
+      "size_bytes": 63613
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.sql.jmod",
+      "size_bytes": 83900
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.sql.rowset.jmod",
+      "size_bytes": 221368
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.transaction.xa.jmod",
+      "size_bytes": 11682
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.xml.crypto.jmod",
+      "size_bytes": 707634
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/java.xml.jmod",
+      "size_bytes": 5241053
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.accessibility.jmod",
+      "size_bytes": 57681
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.attach.jmod",
+      "size_bytes": 40639
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.charsets.jmod",
+      "size_bytes": 1248673
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.compiler.jmod",
+      "size_bytes": 10902532
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.crypto.cryptoki.jmod",
+      "size_bytes": 423213
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.crypto.ec.jmod",
+      "size_bytes": 146481
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.dynalink.jmod",
+      "size_bytes": 163992
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.editpad.jmod",
+      "size_bytes": 15305
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.hotspot.agent.jmod",
+      "size_bytes": 2314183
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.httpserver.jmod",
+      "size_bytes": 166571
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.incubator.vector.jmod",
+      "size_bytes": 1167790
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.internal.ed.jmod",
+      "size_bytes": 15168
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.internal.jvmstat.jmod",
+      "size_bytes": 96064
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.internal.le.jmod",
+      "size_bytes": 536226
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.internal.opt.jmod",
+      "size_bytes": 95613
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.internal.vm.ci.jmod",
+      "size_bytes": 501979
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.internal.vm.compiler.jmod",
+      "size_bytes": 9657
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.internal.vm.compiler.management.jmod",
+      "size_bytes": 9666
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jartool.jmod",
+      "size_bytes": 283603
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.javadoc.jmod",
+      "size_bytes": 1584634
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jcmd.jmod",
+      "size_bytes": 140802
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jconsole.jmod",
+      "size_bytes": 485000
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jdeps.jmod",
+      "size_bytes": 761287
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jdi.jmod",
+      "size_bytes": 877278
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jdwp.agent.jmod",
+      "size_bytes": 154253
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jfr.jmod",
+      "size_bytes": 881471
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jlink.jmod",
+      "size_bytes": 456882
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jpackage.jmod",
+      "size_bytes": 770258
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jshell.jmod",
+      "size_bytes": 768452
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jsobject.jmod",
+      "size_bytes": 10752
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.jstatd.jmod",
+      "size_bytes": 37680
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.localedata.jmod",
+      "size_bytes": 11949326
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.management.agent.jmod",
+      "size_bytes": 96617
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.management.jfr.jmod",
+      "size_bytes": 62347
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.management.jmod",
+      "size_bytes": 80686
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.naming.dns.jmod",
+      "size_bytes": 72510
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.naming.rmi.jmod",
+      "size_bytes": 31008
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.net.jmod",
+      "size_bytes": 32441
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.nio.mapmode.jmod",
+      "size_bytes": 10221
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.random.jmod",
+      "size_bytes": 29477
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.sctp.jmod",
+      "size_bytes": 93477
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.security.auth.jmod",
+      "size_bytes": 75130
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.security.jgss.jmod",
+      "size_bytes": 32879
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.unsupported.desktop.jmod",
+      "size_bytes": 21752
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.unsupported.jmod",
+      "size_bytes": 25230
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.xml.dom.jmod",
+      "size_bytes": 49965
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/jmods/jdk.zipfs.jmod",
+      "size_bytes": 112752
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/legal -> /usr/share/licenses/zulu-21",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/classlist",
+      "size_bytes": 77098
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/ct.sym",
+      "size_bytes": 10715134
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/jexec",
+      "size_bytes": 10600
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/jfr/default.jfc",
+      "size_bytes": 37449
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/jfr/profile.jfc",
+      "size_bytes": 37401
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/jrt-fs.jar",
+      "size_bytes": 110125
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/jspawnhelper",
+      "size_bytes": 14784
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/jvm.cfg",
+      "size_bytes": 29
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libattach.so",
+      "size_bytes": 10528
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libawt.so",
+      "size_bytes": 757976
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libawt_headless.so",
+      "size_bytes": 31160
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libawt_xawt.so",
+      "size_bytes": 505032
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libdt_socket.so",
+      "size_bytes": 22848
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libextnet.so",
+      "size_bytes": 10528
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libfontmanager.so",
+      "size_bytes": 1771320
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libfreetype.so",
+      "size_bytes": 678344
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libinstrument.so",
+      "size_bytes": 47408
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libj2gss.so",
+      "size_bytes": 39200
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libj2pcsc.so",
+      "size_bytes": 14624
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libj2pkcs11.so",
+      "size_bytes": 80168
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjaas.so",
+      "size_bytes": 10528
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjava.so",
+      "size_bytes": 141584
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjavajpeg.so",
+      "size_bytes": 219512
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjawt.so",
+      "size_bytes": 6360
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjdwp.so",
+      "size_bytes": 270776
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjimage.so",
+      "size_bytes": 121960
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjli.so",
+      "size_bytes": 67968
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjsig.so",
+      "size_bytes": 10528
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjsound.so",
+      "size_bytes": 63776
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libjsvml.so",
+      "size_bytes": 846240
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/liblcms.so",
+      "size_bytes": 558584
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/lible.so",
+      "size_bytes": 109640
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libmanagement.so",
+      "size_bytes": 18728
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libmanagement_agent.so",
+      "size_bytes": 6448
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libmanagement_ext.so",
+      "size_bytes": 26920
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libmlib_image.so",
+      "size_bytes": 596336
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libnet.so",
+      "size_bytes": 51488
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libnio.so",
+      "size_bytes": 84264
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libprefs.so",
+      "size_bytes": 10456
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/librmi.so",
+      "size_bytes": 6360
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libsaproc.so",
+      "size_bytes": 154848
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libsctp.so",
+      "size_bytes": 22824
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libsplashscreen.so",
+      "size_bytes": 256464
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libsyslookup.so",
+      "size_bytes": 6440
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libverify.so",
+      "size_bytes": 59768
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/libzip.so",
+      "size_bytes": 35104
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/modules",
+      "size_bytes": 142257890
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/psfont.properties.ja",
+      "size_bytes": 3793
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/psfontj2d.properties",
+      "size_bytes": 11390
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/security/blocked.certs",
+      "size_bytes": 2488
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/security/cacerts -> /etc/ssl/certs/java/cacerts",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/security/default.policy",
+      "size_bytes": 10773
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/security/public_suffix_list.dat",
+      "size_bytes": 227396
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/server/classes.jsa",
+      "size_bytes": 14598144
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/server/classes_nocoops.jsa",
+      "size_bytes": 14999552
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/server/libjsig.so",
+      "size_bytes": 10528
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/server/libjvm.so",
+      "size_bytes": 22238936
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/src.zip",
+      "size_bytes": 53600960
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/lib/tzdb.dat",
+      "size_bytes": 102956
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/man -> /usr/share/man",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/readme.txt",
+      "size_bytes": 838
+    },
+    {
+      "path": "usr/lib/jvm/zulu-21/release",
+      "size_bytes": 1268
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 2114
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 1514
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/LICENSE",
+      "size_bytes": 19274
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/aes.md",
+      "size_bytes": 1444
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/asm.md",
+      "size_bytes": 1582
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/c-libutl.md",
+      "size_bytes": 1556
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/cldr.md",
+      "size_bytes": 9601
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/gcc.md",
+      "size_bytes": 128099
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/icu.md",
+      "size_bytes": 30197
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/public_suffix.md",
+      "size_bytes": 17783
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/siphash.md",
+      "size_bytes": 8256
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.base/unicode.md",
+      "size_bytes": 9078
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.compiler/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.compiler/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.compiler/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.datatransfer/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.datatransfer/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.datatransfer/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/colorimaging.md",
+      "size_bytes": 742
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/freetype.md",
+      "size_bytes": 30465
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/giflib.md",
+      "size_bytes": 1689
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/harfbuzz.md",
+      "size_bytes": 3629
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/jpeg.md",
+      "size_bytes": 3474
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/lcms.md",
+      "size_bytes": 2654
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/libpng.md",
+      "size_bytes": 7519
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/mesa3d.md",
+      "size_bytes": 5732
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/pipewire.md",
+      "size_bytes": 1479
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.desktop/xwd.md",
+      "size_bytes": 1348
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.instrument/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.instrument/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.instrument/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.logging/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.logging/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.logging/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.management.rmi/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.management.rmi/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.management.rmi/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.management/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.management/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.management/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.naming/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.naming/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.naming/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.net.http/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.net.http/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.net.http/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.prefs/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.prefs/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.prefs/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.rmi/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.rmi/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.rmi/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.scripting/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.scripting/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.scripting/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.se/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.se/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.se/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.security.jgss/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.security.jgss/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.security.jgss/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.security.sasl/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.security.sasl/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.security.sasl/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.smartcardio/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.smartcardio/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.smartcardio/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.smartcardio/pcsclite.md",
+      "size_bytes": 2155
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.sql.rowset/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.sql.rowset/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.sql.rowset/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.sql/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.sql/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.sql/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.transaction.xa/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.transaction.xa/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.transaction.xa/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml.crypto/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml.crypto/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml.crypto/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml.crypto/santuario.md",
+      "size_bytes": 11505
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml/bcel.md",
+      "size_bytes": 11196
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml/dom.md",
+      "size_bytes": 3761
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml/jcup.md",
+      "size_bytes": 1448
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml/xalan.md",
+      "size_bytes": 13477
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/java.xml/xerces.md",
+      "size_bytes": 11848
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.accessibility/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.accessibility/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.accessibility/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.attach/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.attach/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.attach/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.charsets/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.charsets/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.charsets/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.compiler/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.compiler/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.compiler/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.crypto.cryptoki/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.crypto.cryptoki/pkcs11cryptotoken.md",
+      "size_bytes": 4095
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.crypto.cryptoki/pkcs11wrapper.md",
+      "size_bytes": 2131
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.crypto.ec/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.crypto.ec/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.dynalink/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.dynalink/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.dynalink/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.dynalink/dynalink.md",
+      "size_bytes": 1502
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.editpad/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.editpad/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.editpad/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.hotspot.agent/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.hotspot.agent/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.httpserver/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.httpserver/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.httpserver/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.incubator.vector/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.incubator.vector/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.ed/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.ed/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.ed/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.jvmstat/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.le/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.le/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.le/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.le/jline.md",
+      "size_bytes": 1579
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.opt/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.opt/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.opt/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.opt/jopt-simple.md",
+      "size_bytes": 1122
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.vm.ci/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.vm.compiler.management/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.internal.vm.compiler/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jartool/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jartool/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jartool/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.javadoc/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.javadoc/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.javadoc/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.javadoc/jquery.md",
+      "size_bytes": 1157
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.javadoc/jqueryUI.md",
+      "size_bytes": 1871
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jcmd/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jcmd/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jcmd/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jconsole/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jconsole/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jconsole/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jdeps/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jdeps/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jdeps/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jdi/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jdi/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jdi/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jdwp.agent/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jdwp.agent/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jfr/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jfr/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jfr/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jlink/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jlink/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jlink/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jpackage/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jpackage/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jpackage/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jshell/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jshell/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jshell/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jsobject/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jsobject/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jsobject/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jstatd/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jstatd/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.jstatd/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.localedata/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.localedata/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.localedata/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.localedata/cldr.md -> ../java.base/cldr.md",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.localedata/thaidict.md",
+      "size_bytes": 1346
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.management.agent/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.management.agent/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.management.agent/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.management.jfr/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.management.jfr/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.management.jfr/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.management/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.management/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.management/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.naming.dns/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.naming.dns/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.naming.dns/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.naming.rmi/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.naming.rmi/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.net/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.net/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.net/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.nio.mapmode/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.nio.mapmode/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.random/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.random/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.random/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.sctp/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.sctp/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.sctp/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.security.auth/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.security.auth/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.security.auth/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.security.jgss/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.security.jgss/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.security.jgss/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.unsupported.desktop/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.unsupported/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.unsupported/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.unsupported/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.xml.dom/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.xml.dom/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.xml.dom/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.zipfs/ADDITIONAL_LICENSE_INFO -> ../java.base/ADDITIONAL_LICENSE_INFO",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.zipfs/ASSEMBLY_EXCEPTION -> ../java.base/ASSEMBLY_EXCEPTION",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/licenses/zulu-21/jdk.zipfs/LICENSE -> ../java.base/LICENSE",
+      "size_bytes": 0
+    },
+    {
+      "path": "usr/share/man/man1/jar-zulu-21.1.gz",
+      "size_bytes": 4219
+    },
+    {
+      "path": "usr/share/man/man1/jarsigner-zulu-21.1.gz",
+      "size_bytes": 14235
+    },
+    {
+      "path": "usr/share/man/man1/java-zulu-21.1.gz",
+      "size_bytes": 48629
+    },
+    {
+      "path": "usr/share/man/man1/javac-zulu-21.1.gz",
+      "size_bytes": 22761
+    },
+    {
+      "path": "usr/share/man/man1/javadoc-zulu-21.1.gz",
+      "size_bytes": 16369
+    },
+    {
+      "path": "usr/share/man/man1/javap-zulu-21.1.gz",
+      "size_bytes": 2729
+    },
+    {
+      "path": "usr/share/man/man1/jcmd-zulu-21.1.gz",
+      "size_bytes": 8403
+    },
+    {
+      "path": "usr/share/man/man1/jconsole-zulu-21.1.gz",
+      "size_bytes": 1723
+    },
+    {
+      "path": "usr/share/man/man1/jdb-zulu-21.1.gz",
+      "size_bytes": 3850
+    },
+    {
+      "path": "usr/share/man/man1/jdeprscan-zulu-21.1.gz",
+      "size_bytes": 3090
+    },
+    {
+      "path": "usr/share/man/man1/jdeps-zulu-21.1.gz",
+      "size_bytes": 3686
+    },
+    {
+      "path": "usr/share/man/man1/jfr-zulu-21.1.gz",
+      "size_bytes": 4201
+    },
+    {
+      "path": "usr/share/man/man1/jhsdb-zulu-21.1.gz",
+      "size_bytes": 2324
+    },
+    {
+      "path": "usr/share/man/man1/jinfo-zulu-21.1.gz",
+      "size_bytes": 1640
+    },
+    {
+      "path": "usr/share/man/man1/jlink-zulu-21.1.gz",
+      "size_bytes": 3881
+    },
+    {
+      "path": "usr/share/man/man1/jmap-zulu-21.1.gz",
+      "size_bytes": 1660
+    },
+    {
+      "path": "usr/share/man/man1/jmod-zulu-21.1.gz",
+      "size_bytes": 4198
+    },
+    {
+      "path": "usr/share/man/man1/jpackage-zulu-21.1.gz",
+      "size_bytes": 5757
+    },
+    {
+      "path": "usr/share/man/man1/jps-zulu-21.1.gz",
+      "size_bytes": 3072
+    },
+    {
+      "path": "usr/share/man/man1/jrunscript-zulu-21.1.gz",
+      "size_bytes": 2249
+    },
+    {
+      "path": "usr/share/man/man1/jshell-zulu-21.1.gz",
+      "size_bytes": 9678
+    },
+    {
+      "path": "usr/share/man/man1/jstack-zulu-21.1.gz",
+      "size_bytes": 1589
+    },
+    {
+      "path": "usr/share/man/man1/jstat-zulu-21.1.gz",
+      "size_bytes": 6135
+    },
+    {
+      "path": "usr/share/man/man1/jstatd-zulu-21.1.gz",
+      "size_bytes": 2875
+    },
+    {
+      "path": "usr/share/man/man1/jwebserver-zulu-21.1.gz",
+      "size_bytes": 2638
+    },
+    {
+      "path": "usr/share/man/man1/keytool-zulu-21.1.gz",
+      "size_bytes": 26192
+    },
+    {
+      "path": "usr/share/man/man1/rmiregistry-zulu-21.1.gz",
+      "size_bytes": 1582
+    },
+    {
+      "path": "usr/share/man/man1/serialver-zulu-21.1.gz",
+      "size_bytes": 1455
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}

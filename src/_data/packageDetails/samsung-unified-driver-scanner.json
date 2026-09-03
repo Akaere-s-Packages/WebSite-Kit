@@ -1,0 +1,30 @@
+{
+  "name": "samsung-unified-driver-scanner",
+  "pkgbase": "samsung-unified-driver",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "christoph.gysin",
+  "submitter": "ptb",
+  "votes": 227,
+  "popularity": 0.053275,
+  "first_submitted": "2010-12-06T00:01:35Z",
+  "description": "Samsung Unified Linux Driver for scanners.",
+  "url": "http://www.samsung.com",
+  "licenses": [
+    "custom:samsung"
+  ],
+  "build_status": "build_failed",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100616015930",
+  "version": "1.00.39-11",
+  "last_updated": null,
+  "packager": null,
+  "dependencies": [],
+  "sources": [],
+  "files": [],
+  "package_size_bytes": null,
+  "required_by": [
+    {
+      "name": "samsung-unified-driver"
+    }
+  ]
+}

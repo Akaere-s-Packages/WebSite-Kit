@@ -1,0 +1,74 @@
+{
+  "name": "infisical",
+  "pkgbase": "infisical",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "lucashubner",
+  "submitter": "carsme",
+  "votes": 0,
+  "popularity": 0,
+  "first_submitted": "2023-12-30T09:51:04Z",
+  "description": "Fetch and inject secrets into any framework in local development",
+  "url": "https://github.com/Infisical/cli",
+  "licenses": [
+    "LicenseRef-Custom"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538946",
+  "version": "0.43.127-1",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "glibc",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "go",
+      "type": "makedepends",
+      "repo": "extra"
+    }
+  ],
+  "package_size_bytes": 76692637,
+  "files": [
+    {
+      "path": "usr/bin/infisical",
+      "size_bytes": 76646960
+    },
+    {
+      "path": "usr/share/bash-completion/completions/infisical",
+      "size_bytes": 11344
+    },
+    {
+      "path": "usr/share/doc/infisical/CODE_OF_CONDUCT.md",
+      "size_bytes": 5220
+    },
+    {
+      "path": "usr/share/doc/infisical/CONTRIBUTING.md",
+      "size_bytes": 349
+    },
+    {
+      "path": "usr/share/doc/infisical/README.md",
+      "size_bytes": 3601
+    },
+    {
+      "path": "usr/share/fish/vendor_completions.d/infisical.fish",
+      "size_bytes": 7168
+    },
+    {
+      "path": "usr/share/licenses/infisical/LICENSE",
+      "size_bytes": 1565
+    },
+    {
+      "path": "usr/share/man/man1/infisical.1.gz",
+      "size_bytes": 8815
+    },
+    {
+      "path": "usr/share/zsh/site-functions/_infisical",
+      "size_bytes": 7615
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}

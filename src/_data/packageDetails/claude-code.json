@@ -1,0 +1,87 @@
+{
+  "name": "claude-code",
+  "pkgbase": "claude-code",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "cg505",
+  "submitter": "cg505",
+  "votes": 92,
+  "popularity": 11.527563,
+  "first_submitted": "2025-02-24T19:35:58Z",
+  "description": "An agentic coding tool that lives in your terminal",
+  "url": "https://github.com/anthropics/claude-code",
+  "licenses": [
+    "LicenseRef-claude-code"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538872",
+  "version": "2.1.259-1",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "bash",
+      "type": "depends",
+      "repo": "core"
+    },
+    {
+      "name": "git",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "allow Claude to use git"
+    },
+    {
+      "name": "github-cli",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "interact with GitHub"
+    },
+    {
+      "name": "glab",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "interact with GitLab"
+    },
+    {
+      "name": "ripgrep",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "enhanced file search"
+    },
+    {
+      "name": "tmux",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "agent team split panes"
+    },
+    {
+      "name": "bubblewrap",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "sandboxing"
+    },
+    {
+      "name": "socat",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "sandboxing"
+    }
+  ],
+  "package_size_bytes": 216684043,
+  "files": [
+    {
+      "path": "opt/claude-code/bin/claude",
+      "size_bytes": 216677784
+    },
+    {
+      "path": "usr/bin/claude",
+      "size_bytes": 110
+    },
+    {
+      "path": "usr/share/licenses/claude-code/LICENSE",
+      "size_bytes": 6149
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}

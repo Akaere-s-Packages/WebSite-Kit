@@ -1,0 +1,37 @@
+{
+  "name": "opencode-bin",
+  "pkgbase": "opencode-bin",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "thdxr",
+  "submitter": "thdxr",
+  "votes": 50,
+  "popularity": 2.774613,
+  "first_submitted": "2025-04-22T00:53:05Z",
+  "description": "The AI coding agent built for the terminal.",
+  "url": "https://github.com/anomalyco/opencode",
+  "licenses": [
+    "MIT"
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33744400650/job/100613538981",
+  "version": "1.18.27-1",
+  "last_updated": "2026-09-03T10:48:51Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "ripgrep",
+      "type": "depends",
+      "repo": "extra"
+    }
+  ],
+  "package_size_bytes": 184633472,
+  "files": [
+    {
+      "path": "usr/bin/opencode",
+      "size_bytes": 184633472
+    }
+  ],
+  "sources": [],
+  "required_by": []
+}
