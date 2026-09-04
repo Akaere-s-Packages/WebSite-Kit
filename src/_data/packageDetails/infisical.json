@@ -11,12 +11,12 @@
   "description": "Fetch and inject secrets into any framework in local development",
   "url": "https://github.com/Infisical/cli",
   "licenses": [
-    "LicenseRef-custom"
+    "LicenseRef-Custom"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539757",
-  "version": "0.43.127-1",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33885232529/job/101063323639",
+  "version": "0.43.129-1",
+  "last_updated": "2026-09-04T14:47:16Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -30,11 +30,11 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 76692636,
+  "package_size_bytes": 76754395,
   "files": [
     {
       "path": "/usr/bin/infisical",
-      "size_bytes": 76646960
+      "size_bytes": 76708656
     },
     {
       "path": "/usr/share/bash-completion/completions/infisical",
@@ -62,7 +62,7 @@
     },
     {
       "path": "/usr/share/man/man1/infisical.1.gz",
-      "size_bytes": 8814
+      "size_bytes": 8877
     },
     {
       "path": "/usr/share/zsh/site-functions/_infisical",
@@ -76,6 +76,6 @@
     }
   ],
   "required_by": [],
-  "filename": "infisical-0.43.127-1-x86_64.pkg.tar.zst",
-  "sha256": "629172b8bd3e3423378935172d8a8a3e32e5fedaccf3760fd0d7952da646cc60"
+  "filename": "infisical-0.43.129-1-x86_64.pkg.tar.zst",
+  "sha256": "43c1fdbd71b59f58ab27b47b8efaa51933e79bd2f74012b341fc1f1e0b19658b"
 }

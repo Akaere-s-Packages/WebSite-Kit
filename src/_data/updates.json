@@ -1,5 +1,10 @@
 [
   {
+    "name": "infisical",
+    "version": "0.43.129-1",
+    "date": "2026-09-04T14:47:16Z"
+  },
+  {
     "name": "lolia-cli",
     "version": "0.71.0-1",
     "date": "2026-09-04T10:48:35Z"
@@ -92,11 +97,6 @@
   {
     "name": "noto-fonts-sc",
     "version": "2:20210430-2",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "netbird-bin",
-    "version": "0.78.0-1",
     "date": "2026-09-04T03:57:20Z"
   }
 ]
