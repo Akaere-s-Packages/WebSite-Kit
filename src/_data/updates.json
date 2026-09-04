@@ -1,91 +1,36 @@
 [
   {
-    "name": "1password",
-    "version": "8.12.34-34",
+    "name": "zulu-21-bin",
+    "version": "21.0.12.1-1",
     "date": "2026-09-04T03:57:20Z"
   },
   {
-    "name": "asusctl",
-    "version": "6.4.0-1",
+    "name": "zulu-17-bin",
+    "version": "17.0.20-1",
     "date": "2026-09-04T03:57:20Z"
   },
   {
-    "name": "claude-code",
-    "version": "2.1.260-1",
+    "name": "yubico-authenticator",
+    "version": "7.4.1-2",
     "date": "2026-09-04T03:57:20Z"
   },
   {
-    "name": "github-copilot-cli",
-    "version": "1.0.82-1",
+    "name": "visual-studio-code-bin",
+    "version": "1.136.1-1",
     "date": "2026-09-04T03:57:20Z"
   },
   {
-    "name": "google-chrome",
-    "version": "152.0.7977.82-1",
+    "name": "supergfxctl",
+    "version": "5.2.7-2",
     "date": "2026-09-04T03:57:20Z"
   },
   {
-    "name": "infisical",
-    "version": "0.43.127-1",
+    "name": "sparkle-bin",
+    "version": "1.26.7-1",
     "date": "2026-09-04T03:57:20Z"
   },
   {
-    "name": "linuxqq",
-    "version": "5:3.2.33_52892-1",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "netbird-bin",
-    "version": "0.78.0-1",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "noto-fonts-sc",
-    "version": "2:20210430-2",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.1.8-1",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "oopz",
-    "version": "1.0.0-1",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "opencode-bin",
-    "version": "1.18.27-1",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "paru",
-    "version": "2.1.0-2",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "python-zxing-cpp",
-    "version": "3.1.1-2",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "repoq",
-    "version": "0.2.1-1",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "rog-control-center",
-    "version": "6.4.0-1",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "samsung-unified-driver",
-    "version": "1.00.39-11",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "samsung-unified-driver-common",
+    "name": "samsung-unified-driver-scanner",
     "version": "1.00.39-11",
     "date": "2026-09-04T03:57:20Z"
   },
@@ -95,8 +40,63 @@
     "date": "2026-09-04T03:57:20Z"
   },
   {
-    "name": "samsung-unified-driver-scanner",
+    "name": "samsung-unified-driver-common",
     "version": "1.00.39-11",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "samsung-unified-driver",
+    "version": "1.00.39-11",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "rog-control-center",
+    "version": "6.4.0-1",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "repoq",
+    "version": "0.2.1-1",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "python-zxing-cpp",
+    "version": "3.1.1-2",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "paru",
+    "version": "2.1.0-2",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "opencode-bin",
+    "version": "1.18.27-1",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "oopz",
+    "version": "1.0.0-1",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "oh-my-pi-bin",
+    "version": "18.1.8-1",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "noto-fonts-sc",
+    "version": "2:20210430-2",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "netbird-bin",
+    "version": "0.78.0-1",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "linuxqq",
+    "version": "5:3.2.33_52892-1",
     "date": "2026-09-04T03:57:20Z"
   }
 ]

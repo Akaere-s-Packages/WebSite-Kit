@@ -1,0 +1,32 @@
+{
+  "name": "loliashizuku-git",
+  "pkgbase": "loliashizuku-git",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "Pysio",
+  "submitter": "Pysio",
+  "votes": 1,
+  "popularity": 0.018489,
+  "first_submitted": "2026-02-15T20:08:02Z",
+  "description": "Wails-powered third-party desktop client for Lolia FRP",
+  "url": "https://github.com/Mxmilu666/LoliaShizuku",
+  "licenses": [
+    "MIT"
+  ],
+  "sources": [
+    {
+      "name": "loliashizuku-git",
+      "url": "https://github.com/Mxmilu666/LoliaShizuku.git#tag=v0.0.2"
+    }
+  ],
+  "build_status": "build_failed",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33853211558/job/100960534883",
+  "version": "0.0.2-1",
+  "last_updated": null,
+  "packager": null,
+  "dependencies": [],
+  "files": [],
+  "package_size_bytes": null,
+  "filename": null,
+  "sha256": null
+}

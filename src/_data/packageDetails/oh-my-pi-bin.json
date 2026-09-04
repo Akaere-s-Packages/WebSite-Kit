@@ -110,16 +110,16 @@
   ],
   "sources": [
     {
-      "name": "LICENSE-18.1.8",
-      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.1.8/LICENSE"
+      "name": "LICENSE-18.1.9",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.1.9/LICENSE"
     },
     {
-      "name": "omp-18.1.8",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.8/omp-linux-x64"
+      "name": "omp-18.1.9",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.9/omp-linux-x64"
     },
     {
-      "name": "omp-18.1.8",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.8/omp-linux-arm64"
+      "name": "omp-18.1.9",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.9/omp-linux-arm64"
     }
   ],
   "required_by": [],

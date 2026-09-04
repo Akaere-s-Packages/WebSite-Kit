@@ -1,0 +1,32 @@
+{
+  "name": "lolia-cli",
+  "pkgbase": "lolia-cli",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "Pysio",
+  "submitter": "Pysio",
+  "votes": 1,
+  "popularity": 0.018488,
+  "first_submitted": "2026-02-09T18:32:32Z",
+  "description": "Fast, simple, and elegant one-click launch for LoliaFRP",
+  "url": "https://github.com/Lolia-FRP/lolia-frp",
+  "licenses": [
+    "Apache"
+  ],
+  "sources": [
+    {
+      "name": "lolia-cli-0.71.0.tar.gz",
+      "url": "https://github.com/Lolia-FRP/lolia-frp/archive/v0.71.0.tar.gz"
+    }
+  ],
+  "build_status": "build_failed",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33853211558/job/100960534987",
+  "version": "0.71.0-1",
+  "last_updated": null,
+  "packager": null,
+  "dependencies": [],
+  "files": [],
+  "package_size_bytes": null,
+  "filename": null,
+  "sha256": null
+}
