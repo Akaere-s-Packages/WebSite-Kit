@@ -88,12 +88,12 @@
       "url": "https://code.claude.com/docs/en/legal-and-compliance.md"
     },
     {
-      "name": "claude-2.1.260-x86_64",
-      "url": "https://downloads.claude.ai/claude-code-releases/2.1.260/linux-x64/claude"
+      "name": "claude-2.1.261-x86_64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.261/linux-x64/claude"
     },
     {
-      "name": "claude-2.1.260-aarch64",
-      "url": "https://downloads.claude.ai/claude-code-releases/2.1.260/linux-arm64/claude"
+      "name": "claude-2.1.261-aarch64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.261/linux-arm64/claude"
     }
   ],
   "required_by": [],
