@@ -91,8 +91,8 @@
     "version": "0.71.0-1",
     "description": "Fast, simple, and elegant one-click launch for LoliaFRP",
     "maintainer": "Pysio",
-    "last_updated": null,
-    "build_status": "build_failed",
+    "last_updated": "2026-09-04T10:48:35Z",
+    "build_status": "published",
     "detail_url": "/packages/lolia-cli/"
   },
   {

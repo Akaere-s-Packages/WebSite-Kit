@@ -19,14 +19,39 @@
       "url": "https://github.com/Lolia-FRP/lolia-frp/archive/v0.71.0.tar.gz"
     }
   ],
-  "build_status": "build_failed",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33853211558/job/100960534987",
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33864331124/job/100995675551",
   "version": "0.71.0-1",
-  "last_updated": null,
-  "packager": null,
-  "dependencies": [],
-  "files": [],
-  "package_size_bytes": null,
-  "filename": null,
-  "sha256": null
+  "last_updated": "2026-09-04T10:48:35Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [
+    {
+      "name": "go",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "git",
+      "type": "makedepends",
+      "repo": "extra"
+    },
+    {
+      "name": "npm",
+      "type": "makedepends",
+      "repo": "extra"
+    }
+  ],
+  "files": [
+    {
+      "path": "/usr/bin/lolia-cli",
+      "size_bytes": 20418920
+    },
+    {
+      "path": "/usr/share/licenses/lolia-cli/LICENSE",
+      "size_bytes": 11358
+    }
+  ],
+  "package_size_bytes": 20430278,
+  "filename": "lolia-cli-0.71.0-1-x86_64.pkg.tar.zst",
+  "sha256": "a40b7a085ca778496b503578b68bf19343413c2f4bb6c70c068920fdd3499f38"
 }
