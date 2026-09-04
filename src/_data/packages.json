@@ -268,10 +268,10 @@
     "pkgbase": "visual-studio-code-bin",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "1.136.0-1",
+    "version": "1.136.1-1",
     "description": "Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)",
     "maintainer": "dcelasun",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T02:32:35Z",
     "build_status": "published",
     "detail_url": "/packages/visual-studio-code-bin/"
   },

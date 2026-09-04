@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100662329199",
-  "version": "1.136.0-1",
-  "last_updated": "2026-09-03T14:20:28Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33829645840/job/100889730513",
+  "version": "1.136.1-1",
+  "last_updated": "2026-09-04T02:32:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -109,7 +109,7 @@
       "description": "Needed for live share"
     }
   ],
-  "package_size_bytes": 1091047607,
+  "package_size_bytes": 1090934403,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -417,7 +417,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9333459
+      "size_bytes": 9177815
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -537,7 +537,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 6952434
+      "size_bytes": 6953740
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -681,7 +681,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/extension.js",
-      "size_bytes": 19584855
+      "size_bytes": 19625989
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/external_ingest_utils_bg.wasm",

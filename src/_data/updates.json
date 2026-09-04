@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.136.1-1",
+    "date": "2026-09-04T02:32:35Z"
+  },
+  {
     "name": "netbird-bin",
     "version": "0.78.0-1",
     "date": "2026-09-04T02:30:53Z"
@@ -91,11 +96,6 @@
   },
   {
     "name": "samsung-unified-driver-printer",
-    "version": "1.00.39-11",
-    "date": "2026-09-03T14:20:28Z"
-  },
-  {
-    "name": "samsung-unified-driver-scanner",
     "version": "1.00.39-11",
     "date": "2026-09-03T14:20:28Z"
   }
