@@ -14,9 +14,9 @@
     "Apache-2.0"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100672204223",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100901537167",
   "version": "7.4.1-2",
-  "last_updated": "2026-09-03T14:20:28Z",
+  "last_updated": "2026-09-04T03:57:20Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -564,5 +564,7 @@
     }
   ],
   "package_size_bytes": 68712956,
-  "required_by": []
+  "required_by": [],
+  "filename": "yubico-authenticator-7.4.1-2-x86_64.pkg.tar.zst",
+  "sha256": "22da8e21bb72ed66111ac6532a6571858df85f775563b3379d8035f2ce7de31b"
 }

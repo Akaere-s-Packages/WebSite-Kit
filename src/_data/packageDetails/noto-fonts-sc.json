@@ -14,9 +14,9 @@
     "custom: SIL"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100662328986",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539806",
   "version": "2:20210430-2",
-  "last_updated": "2026-09-03T14:20:28Z",
+  "last_updated": "2026-09-04T03:57:20Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [],
   "sources": [],
@@ -91,5 +91,7 @@
     }
   ],
   "package_size_bytes": 317268741,
-  "required_by": []
+  "required_by": [],
+  "filename": "noto-fonts-sc-2:20210430-2-any.pkg.tar.zst",
+  "sha256": "21250db49ed6dc9fcdc4df7f20f768fa6901b2a5acea400b4f80734dd67f6ad4"
 }

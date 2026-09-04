@@ -14,9 +14,9 @@
   "votes": 33,
   "popularity": 1.888905,
   "first_submitted": "2021-09-18T11:01:35Z",
-  "last_updated": "2026-09-03T14:20:28Z",
+  "last_updated": "2026-09-04T03:57:20Z",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100662328869",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539761",
   "package_size_bytes": 29029449,
   "dependencies": [
     {
@@ -319,5 +319,7 @@
       "size_bytes": 949
     }
   ],
-  "distro": "archlinux"
+  "distro": "archlinux",
+  "filename": "asusctl-6.4.0-1-x86_64.pkg.tar.zst",
+  "sha256": "f251fa4ed4b9c325ad5b5669a9c6a2551c31d7b19d74b3e7959ba70e1ca08c95"
 }

@@ -14,9 +14,9 @@
   "votes": 33,
   "popularity": 1.888905,
   "first_submitted": "2021-09-18T11:01:35Z",
-  "last_updated": "2026-09-03T14:20:28Z",
+  "last_updated": "2026-09-04T03:57:20Z",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100672204192",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100901537104",
   "package_size_bytes": 31209586,
   "dependencies": [
     {
@@ -241,5 +241,7 @@
       "size_bytes": 9551
     }
   ],
-  "distro": "archlinux"
+  "distro": "archlinux",
+  "filename": "rog-control-center-6.4.0-1-x86_64.pkg.tar.zst",
+  "sha256": "5a943a43dc8c76f514d9f0219a8a95b62afb76bc62d7de00145c062f91355c1e"
 }

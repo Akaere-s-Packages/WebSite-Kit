@@ -11,12 +11,12 @@
   "description": "OOPZ desktop client - third-party Electron package for the free online voice platform",
   "url": "https://git.pysio.online/pysio/linux_oopz",
   "licenses": [
-    "LicenseRef-Proprietary"
+    "LicenseRef-proprietary"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100662328975",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539769",
   "version": "1.0.0-1",
-  "last_updated": "2026-09-03T14:20:28Z",
+  "last_updated": "2026-09-04T03:57:20Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -49,5 +49,7 @@
     }
   ],
   "sources": [],
-  "required_by": []
+  "required_by": [],
+  "filename": "oopz-1.0.0-1-x86_64.pkg.tar.zst",
+  "sha256": "c303f1b9e264f42a6f370ca3c478b524cbe82cb0525756c2ff65c9739e3b6bf2"
 }

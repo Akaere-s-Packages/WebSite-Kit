@@ -14,9 +14,9 @@
     "MPL-2.0"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100662329321",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539747",
   "version": "5.2.7-2",
-  "last_updated": "2026-09-03T14:20:28Z",
+  "last_updated": "2026-09-04T03:57:20Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -76,5 +76,7 @@
     {
       "name": "asusctl"
     }
-  ]
+  ],
+  "filename": "supergfxctl-5.2.7-2-x86_64.pkg.tar.zst",
+  "sha256": "837b0d0895f563a400a11fec7cf029eb638336390363a0b0d1486daae93787af"
 }

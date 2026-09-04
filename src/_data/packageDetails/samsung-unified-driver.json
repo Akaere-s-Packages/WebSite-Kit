@@ -14,9 +14,9 @@
     "custom:samsung"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100662329107",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539755",
   "version": "1.00.39-11",
-  "last_updated": "2026-09-03T14:20:28Z",
+  "last_updated": "2026-09-04T03:57:20Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -33,5 +33,7 @@
   "sources": [],
   "files": [],
   "package_size_bytes": 0,
-  "required_by": []
+  "required_by": [],
+  "filename": "samsung-unified-driver-1.00.39-11-x86_64.pkg.tar.zst",
+  "sha256": "44d446f55f893a3550eeb4f449bee0e33c4ab51bf0ab99dd3651da3188b704e2"
 }

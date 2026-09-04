@@ -7,7 +7,7 @@
     "version": "8.12.34-34",
     "description": "Password manager and secure wallet",
     "maintainer": "1Password",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/1password/"
   },
@@ -19,7 +19,7 @@
     "version": "6.4.0-1",
     "description": "An utility for Linux to control many aspects of various ASUS laptops",
     "maintainer": "mhdi",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/asusctl/"
   },
@@ -28,10 +28,10 @@
     "pkgbase": "claude-code",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "2.1.259-1",
+    "version": "2.1.260-1",
     "description": "An agentic coding tool that lives in your terminal",
     "maintainer": "cg505",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/claude-code/"
   },
@@ -43,7 +43,7 @@
     "version": "1.0.82-1",
     "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
     "maintainer": "Dominiquini",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/github-copilot-cli/"
   },
@@ -52,10 +52,10 @@
     "pkgbase": "google-chrome",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "152.0.7977.75-1",
+    "version": "152.0.7977.82-1",
     "description": "The popular web browser by Google (Stable Channel)",
     "maintainer": "gromit",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/google-chrome/"
   },
@@ -67,7 +67,7 @@
     "version": "0.43.127-1",
     "description": "Fetch and inject secrets into any framework in local development",
     "maintainer": "lucashubner",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/infisical/"
   },
@@ -79,7 +79,7 @@
     "version": "5:3.2.33_52892-1",
     "description": "New Linux QQ based on Electron",
     "maintainer": "Integral",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/linuxqq/"
   },
@@ -91,7 +91,7 @@
     "version": "0.78.0-1",
     "description": "WireGuard-based mesh network",
     "maintainer": "tarball",
-    "last_updated": "2026-09-04T02:30:53Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/netbird-bin/"
   },
@@ -103,7 +103,7 @@
     "version": "2:20210430-2",
     "description": "Noto CJK-SC fonts for Simplified Chinese",
     "maintainer": "xuanruiqi",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/noto-fonts-sc/"
   },
@@ -112,10 +112,10 @@
     "pkgbase": "oh-my-pi-bin",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "18.1.5-1",
+    "version": "18.1.8-1",
     "description": "A coding agent with the IDE wired in (release binary)",
     "maintainer": "bjin",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/oh-my-pi-bin/"
   },
@@ -127,7 +127,7 @@
     "version": "1.0.0-1",
     "description": "OOPZ desktop client - third-party Electron package for the free online voice platform",
     "maintainer": "Pysio",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/oopz/"
   },
@@ -139,7 +139,7 @@
     "version": "1.18.27-1",
     "description": "The AI coding agent built for the terminal.",
     "maintainer": "thdxr",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/opencode-bin/"
   },
@@ -151,7 +151,7 @@
     "version": "2.1.0-2",
     "description": "Feature packed AUR helper",
     "maintainer": "Morganamilo",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/paru/"
   },
@@ -163,7 +163,7 @@
     "version": "3.1.1-2",
     "description": "Python bindings for zxing-cpp",
     "maintainer": "yochananmarqos",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/python-zxing-cpp/"
   },
@@ -175,7 +175,7 @@
     "version": "0.2.1-1",
     "description": "A lightweight command-line client for the Repology API",
     "maintainer": "Pysio",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/repoq/"
   },
@@ -187,7 +187,7 @@
     "version": "6.4.0-1",
     "description": "Graphical user interface for asusctl",
     "maintainer": "mhdi",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/rog-control-center/"
   },
@@ -199,7 +199,7 @@
     "version": "1.00.39-11",
     "description": "Samsung Unified Linux Driver for printers and scanners.",
     "maintainer": "christoph.gysin",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/samsung-unified-driver/"
   },
@@ -211,7 +211,7 @@
     "version": "1.00.39-11",
     "description": "Samsung Unified Linux Driver (common files)",
     "maintainer": "christoph.gysin",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/samsung-unified-driver-common/"
   },
@@ -223,7 +223,7 @@
     "version": "1.00.39-11",
     "description": "Samsung Unified Linux Driver for printers.",
     "maintainer": "christoph.gysin",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/samsung-unified-driver-printer/"
   },
@@ -235,7 +235,7 @@
     "version": "1.00.39-11",
     "description": "Samsung Unified Linux Driver for scanners.",
     "maintainer": "christoph.gysin",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/samsung-unified-driver-scanner/"
   },
@@ -247,7 +247,7 @@
     "version": "1.26.7-1",
     "description": "Another Mihomo GUI",
     "maintainer": "xhuohai",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/sparkle-bin/"
   },
@@ -259,7 +259,7 @@
     "version": "5.2.7-2",
     "description": "A utility for Linux graphics switching on Intel/AMD iGPU + nVidia dGPU laptops",
     "maintainer": "ModYokosuka",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/supergfxctl/"
   },
@@ -271,7 +271,7 @@
     "version": "1.136.1-1",
     "description": "Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)",
     "maintainer": "dcelasun",
-    "last_updated": "2026-09-04T02:32:35Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/visual-studio-code-bin/"
   },
@@ -283,7 +283,7 @@
     "version": "7.4.1-2",
     "description": "Yubico Authenticator for Desktop",
     "maintainer": "yochananmarqos",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/yubico-authenticator/"
   },
@@ -295,7 +295,7 @@
     "version": "17.0.20-1",
     "description": "Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK.",
     "maintainer": "linesofcodes",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/zulu-17-bin/"
   },
@@ -307,7 +307,7 @@
     "version": "21.0.12.1-1",
     "description": "Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK.",
     "maintainer": "xiaoranya",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T03:57:20Z",
     "build_status": "published",
     "detail_url": "/packages/zulu-21-bin/"
   }

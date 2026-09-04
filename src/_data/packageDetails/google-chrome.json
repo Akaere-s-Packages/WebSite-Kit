@@ -14,9 +14,9 @@
     "custom:chrome"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33759551929/job/100662329121",
-  "version": "152.0.7977.75-1",
-  "last_updated": "2026-09-03T14:20:28Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539687",
+  "version": "152.0.7977.82-1",
+  "last_updated": "2026-09-04T03:57:20Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -84,7 +84,7 @@
       "description": "for storing passwords in KWallet"
     }
   ],
-  "package_size_bytes": 453868029,
+  "package_size_bytes": 456988853,
   "files": [
     {
       "path": "/opt/google/chrome/CHROME_VERSION_EXTRA",
@@ -124,7 +124,7 @@
     },
     {
       "path": "/opt/google/chrome/chrome",
-      "size_bytes": 290696520
+      "size_bytes": 290770248
     },
     {
       "path": "/opt/google/chrome/chrome-management-service",
@@ -136,11 +136,11 @@
     },
     {
       "path": "/opt/google/chrome/chrome_100_percent.pak",
-      "size_bytes": 1229140
+      "size_bytes": 1229139
     },
     {
       "path": "/opt/google/chrome/chrome_200_percent.pak",
-      "size_bytes": 2240460
+      "size_bytes": 2240459
     },
     {
       "path": "/opt/google/chrome/chrome_crashpad_handler",
@@ -160,11 +160,11 @@
     },
     {
       "path": "/opt/google/chrome/libLiteRtWebGpuAccelerator.so",
-      "size_bytes": 15650000
+      "size_bytes": 15678672
     },
     {
       "path": "/opt/google/chrome/liboptimization_guide_internal.so",
-      "size_bytes": 21252056
+      "size_bytes": 24270816
     },
     {
       "path": "/opt/google/chrome/libqt5_shim.so",
@@ -176,11 +176,11 @@
     },
     {
       "path": "/opt/google/chrome/libvk_swiftshader.so",
-      "size_bytes": 4030392
+      "size_bytes": 4030424
     },
     {
       "path": "/opt/google/chrome/libvulkan.so.1",
-      "size_bytes": 662976
+      "size_bytes": 662816
     },
     {
       "path": "/opt/google/chrome/locales/af.pak",
@@ -1064,7 +1064,7 @@
     },
     {
       "path": "/opt/google/chrome/resources.pak",
-      "size_bytes": 23304036
+      "size_bytes": 23303830
     },
     {
       "path": "/opt/google/chrome/v8_context_snapshot.bin",
@@ -1144,5 +1144,7 @@
     }
   ],
   "sources": [],
-  "required_by": []
+  "required_by": [],
+  "filename": "google-chrome-152.0.7977.82-1-x86_64.pkg.tar.zst",
+  "sha256": "ed43ea1f3e0fc962731fafe42134802c0c3b804f0cf61b52fc1796a0eb176607"
 }
