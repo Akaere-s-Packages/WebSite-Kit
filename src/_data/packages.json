@@ -88,10 +88,10 @@
     "pkgbase": "netbird-bin",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "0.77.1-1",
+    "version": "0.78.0-1",
     "description": "WireGuard-based mesh network",
     "maintainer": "tarball",
-    "last_updated": "2026-09-03T14:20:28Z",
+    "last_updated": "2026-09-04T02:30:53Z",
     "build_status": "published",
     "detail_url": "/packages/netbird-bin/"
   },
