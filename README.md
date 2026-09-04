@@ -15,8 +15,8 @@ WebSite-Kit/
 │   │   └── base.njk          # Arch global navbar + subnav + footer layout
 │   ├── _data/
 │   │   ├── site.js           # Site metadata
-│   │   ├── packages.json     # Package summary list (Docs/05 contract)
-│   │   └── packageDetails/   # Individual package metadata & file lists (Docs/05 contract)
+│   │   ├── packages.json     # Package summary list, written by workflow-build-kit
+│   │   └── packageDetails/   # Individual package metadata & file lists, written by workflow-build-kit
 │   │       ├── asusctl.json
 │   │       └── rog-control-center.json
 │   ├── static/
