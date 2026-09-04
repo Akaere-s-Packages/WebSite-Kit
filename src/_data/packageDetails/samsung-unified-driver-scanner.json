@@ -40,7 +40,15 @@
       "repo": "extra"
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "uld_V1.00.39_01.17.tar.gz",
+      "url": "http://downloadcenter.samsung.com/content/DR/201704/20170407143829533/uld_V1.00.39_01.17.tar.gz"
+    },
+    {
+      "name": "xerox_mfp-smfp.conf"
+    }
+  ],
   "files": [
     {
       "path": "/etc/sane.d/dll.d/smfp-scanner",

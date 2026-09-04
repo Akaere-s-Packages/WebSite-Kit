@@ -9812,7 +9812,23 @@
       "size_bytes": 2547
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "visual-studio-code-bin.sh"
+    },
+    {
+      "name": "code_1.136.1_amd64.deb",
+      "url": "https://update.code.visualstudio.com/1.136.1/linux-deb-x64/stable"
+    },
+    {
+      "name": "code_1.136.1_arm64.deb",
+      "url": "https://update.code.visualstudio.com/1.136.1/linux-deb-arm64/stable"
+    },
+    {
+      "name": "code_1.136.1_armhf.deb",
+      "url": "https://update.code.visualstudio.com/1.136.1/linux-deb-armhf/stable"
+    }
+  ],
   "required_by": [],
   "filename": "visual-studio-code-bin-1.136.1-1-x86_64.pkg.tar.zst",
   "sha256": "96cf94533e811f2d4259d0f7eafc36eee8c98a945316bfdbe247213f8a485c38"

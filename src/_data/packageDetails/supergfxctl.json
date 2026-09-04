@@ -71,7 +71,12 @@
       "size_bytes": 1015
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "supergfxctl-5.2.7.tar.gz",
+      "url": "https://gitlab.com/asus-linux/supergfxctl/-/archive/5.2.7/supergfxctl-5.2.7.tar.gz"
+    }
+  ],
   "required_by": [
     {
       "name": "asusctl"

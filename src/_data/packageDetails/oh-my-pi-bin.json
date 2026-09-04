@@ -108,7 +108,20 @@
       "size_bytes": 28396
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "LICENSE-18.1.8",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.1.8/LICENSE"
+    },
+    {
+      "name": "omp-18.1.8",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.8/omp-linux-x64"
+    },
+    {
+      "name": "omp-18.1.8",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.8/omp-linux-arm64"
+    }
+  ],
   "required_by": [],
   "filename": "oh-my-pi-bin-18.1.8-1-x86_64.pkg.tar.zst",
   "sha256": "9a328066b14f7634b1df8a56f00d7b93c8661a5ff7c3f4e016ddc541eadcaa28"

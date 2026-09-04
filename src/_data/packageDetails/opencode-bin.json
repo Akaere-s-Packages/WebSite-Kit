@@ -32,7 +32,16 @@
       "size_bytes": 184633472
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "opencode-bin_1.18.27_aarch64.tar.gz",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.27/opencode-linux-arm64.tar.gz"
+    },
+    {
+      "name": "opencode-bin_1.18.27_x86_64.tar.gz",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.27/opencode-linux-x64.tar.gz"
+    }
+  ],
   "required_by": [],
   "filename": "opencode-bin-1.18.27-1-x86_64.pkg.tar.zst",
   "sha256": "45d155308b4d469fa8160f1ff397e3de4752a4bf8f64101ee30995a050ecedb0"

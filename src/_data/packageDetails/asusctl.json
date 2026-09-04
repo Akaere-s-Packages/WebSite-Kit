@@ -12,7 +12,7 @@
   "submitter": "fabiscafe",
   "packager": "Lilithya <me@lilithya.su>",
   "votes": 33,
-  "popularity": 1.888905,
+  "popularity": 2.632479,
   "first_submitted": "2021-09-18T11:01:35Z",
   "last_updated": "2026-09-04T03:57:20Z",
   "build_status": "published",
@@ -82,7 +82,7 @@
   "sources": [
     {
       "name": "asusctl-6.4.0.tar.gz",
-      "url": "https://gitlab.com/asus-linux/asusctl/-/archive/6.4.0/asusctl-6.4.0.tar.gz"
+      "url": "https://github.com/OpenGamingCollective/asusctl/archive/6.4.0.tar.gz"
     }
   ],
   "files": [

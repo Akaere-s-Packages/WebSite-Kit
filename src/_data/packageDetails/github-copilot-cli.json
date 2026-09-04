@@ -978,7 +978,16 @@
       "size_bytes": 409183
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "copilot-1.0.82.tgz",
+      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.82.tgz"
+    },
+    {
+      "name": "CHANGELOG-1.0.82.md",
+      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.82/changelog.md"
+    }
+  ],
   "required_by": [],
   "filename": "github-copilot-cli-1.0.82-1-x86_64.pkg.tar.zst",
   "sha256": "16ec0be92693e1e472633b72ae86059b08fdd8ff58589ca71ebba8131355f4f9"

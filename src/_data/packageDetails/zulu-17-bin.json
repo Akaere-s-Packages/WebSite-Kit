@@ -2342,7 +2342,20 @@
       "size_bytes": 1358
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "zulu17.68.17-ca-jdk17.0.20-linux_aarch64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jdk17.0.20-linux_aarch64.tar.gz"
+    },
+    {
+      "name": "zulu17.68.17-ca-jdk17.0.20-linux_i686.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jdk17.0.20-linux_i686.tar.gz"
+    },
+    {
+      "name": "zulu17.68.17-ca-jdk17.0.20-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jdk17.0.20-linux_x64.tar.gz"
+    }
+  ],
   "required_by": [],
   "filename": "zulu-17-bin-17.0.20-1-x86_64.pkg.tar.zst",
   "sha256": "4443c33df1614e952b1a1ea5ee8f62620028d69c6636c776ad8922c9d58ffc1a"

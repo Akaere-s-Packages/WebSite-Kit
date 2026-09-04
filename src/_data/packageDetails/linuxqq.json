@@ -61,7 +61,23 @@
       "description": "Allow QQ to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library)."
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "linuxqq.sh"
+    },
+    {
+      "name": "linuxqq_3.2.33-52892_amd64.deb",
+      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.35/beta/1763096b/linuxqq_3.2.33-52892_amd64.deb"
+    },
+    {
+      "name": "linuxqq_3.2.33-52892_arm64.deb",
+      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.35/beta/1763096b/linuxqq_3.2.33-52892_arm64.deb"
+    },
+    {
+      "name": "linuxqq_3.2.33-52892_loongarch64.deb",
+      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.35/beta/1763096b/linuxqq_3.2.33-52892_loongarch64.deb"
+    }
+  ],
   "files": [
     {
       "path": "/opt/QQ/LICENSE.electron.txt",

@@ -140,7 +140,12 @@
       "repo": "extra"
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "yubioath-flutter.git",
+      "url": "https://github.com/Yubico/yubioath-flutter.git#tag=7.4.1?signed"
+    }
+  ],
   "files": [
     {
       "path": "/opt/yubico-authenticator/authenticator",

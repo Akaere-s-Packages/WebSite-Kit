@@ -44,7 +44,12 @@
       "size_bytes": 1421
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "repoq-0.2.1.tar.gz",
+      "url": "https://github.com/pysio2007/repoq/releases/download/v0.2.1/repoq-0.2.1.tar.gz"
+    }
+  ],
   "required_by": [],
   "filename": "repoq-0.2.1-1-x86_64.pkg.tar.zst",
   "sha256": "8a5001fa2e50943945005657da7ef79ebc5fc9ad0b0ac3f3e0b9def61d8eb770"

@@ -225,7 +225,11 @@ eleventyComputed:
             <ul id="pkgsrcslist">
                 {% for src in details.sources %}
                 <li>
+                    {% if src.url %}
                     <a href="{{ src.url }}" target="_blank" rel="noopener">{{ src.name }}</a>
+                    {% else %}
+                    {{ src.name }}
+                    {% endif %}
                 </li>
                 {% else %}
                 <li><em>None</em></li>

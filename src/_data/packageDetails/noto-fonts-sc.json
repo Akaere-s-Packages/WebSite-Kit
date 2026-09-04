@@ -19,7 +19,20 @@
   "last_updated": "2026-09-04T03:57:20Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [],
-  "sources": [],
+  "sources": [
+    {
+      "name": "08_NotoSansCJKsc.zip",
+      "url": "https://github.com/googlefonts/noto-cjk/releases/download/Sans2.004/08_NotoSansCJKsc.zip"
+    },
+    {
+      "name": "13_NotoSansMonoCJKsc.zip",
+      "url": "https://github.com/googlefonts/noto-cjk/releases/download/Sans2.004/13_NotoSansMonoCJKsc.zip"
+    },
+    {
+      "name": "09_NotoSerifCJKsc.zip",
+      "url": "https://github.com/googlefonts/noto-cjk/releases/download/Serif2.001/09_NotoSerifCJKsc.zip"
+    }
+  ],
   "files": [
     {
       "path": "/usr/share/fonts/OTF/NotoSansCJKsc-Black.otf",

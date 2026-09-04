@@ -82,7 +82,20 @@
       "size_bytes": 6149
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "cc-legal",
+      "url": "https://code.claude.com/docs/en/legal-and-compliance.md"
+    },
+    {
+      "name": "claude-2.1.260-x86_64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.260/linux-x64/claude"
+    },
+    {
+      "name": "claude-2.1.260-aarch64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.260/linux-arm64/claude"
+    }
+  ],
   "required_by": [],
   "filename": "claude-code-2.1.260-1-x86_64.pkg.tar.zst",
   "sha256": "750e3713970b84b0566a483f8b00cfe4fbd917f87a8e37914f8bc80eea2d1a11"

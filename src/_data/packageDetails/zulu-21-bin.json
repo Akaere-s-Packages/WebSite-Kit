@@ -2190,7 +2190,16 @@
       "size_bytes": 1455
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "zulu21.52.203-ca-jdk21.0.12.1-linux_aarch64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.52.203-ca-jdk21.0.12.1-linux_aarch64.tar.gz"
+    },
+    {
+      "name": "zulu21.52.203-ca-jdk21.0.12.1-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.52.203-ca-jdk21.0.12.1-linux_x64.tar.gz"
+    }
+  ],
   "required_by": [],
   "filename": "zulu-21-bin-21.0.12.1-1-x86_64.pkg.tar.zst",
   "sha256": "52503bf931b747d1b1e1ae171f2860aa3810f1b11380e1817fa4ab38607ae018"
