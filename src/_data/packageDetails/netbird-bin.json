@@ -14,9 +14,9 @@
     "BSD-3-Clause"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539782",
-  "version": "0.78.0-1",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33903151380/job/101121793599",
+  "version": "0.78.1-1",
+  "last_updated": "2026-09-04T17:58:22Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -89,6 +89,6 @@
     }
   ],
   "required_by": [],
-  "filename": "netbird-bin-0.78.0-1-x86_64.pkg.tar.zst",
-  "sha256": "13bebe780250bbc62ce89dfcbaadd40945da8ecb2ea50e8a6d3737930d0f7a60"
+  "filename": "netbird-bin-0.78.1-1-x86_64.pkg.tar.zst",
+  "sha256": "8ac628c8259cc6e976aef1efbea1a11d3f0f359590efb867aaac98aa14e28a0c"
 }
