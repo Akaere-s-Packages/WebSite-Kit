@@ -187,7 +187,7 @@ eleventyComputed:
         <p style="color: #666; font-size: 0.9em;">
             This exact file is covered by a <a href="https://github.com/Akaere-s-Packages/Registry/attestations" target="_blank" rel="noopener">GitHub Artifact Attestation</a> proving it was built by this repository's own CI on a specific commit, not substituted or tampered with in transit. After downloading it, verify with the <a href="https://cli.github.com/" target="_blank" rel="noopener">GitHub CLI</a>:
         </p>
-        <pre><code>gh attestation verify {{ details.filename }} --repo Akaere-s-Packages/Registry</code></pre>
+        <pre><code>gh attestation verify --owner Akaere-s-Packages {{ details.filename }}</code></pre>
     </div>
     {% endif %}
 
