@@ -96,18 +96,6 @@
     "detail_url": "/packages/lolia-cli/"
   },
   {
-    "name": "loliashizuku-git",
-    "pkgbase": "loliashizuku-git",
-    "distro": "archlinux",
-    "source_type": "aur",
-    "version": "0.0.2-1",
-    "description": "Wails-powered third-party desktop client for Lolia FRP",
-    "maintainer": "Pysio",
-    "last_updated": null,
-    "build_status": "build_failed",
-    "detail_url": "/packages/loliashizuku-git/"
-  },
-  {
     "name": "netbird-bin",
     "pkgbase": "netbird-bin",
     "distro": "archlinux",
