@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.261-1",
+    "date": "2026-09-05T07:29:38Z"
+  },
+  {
     "name": "opencode-bin",
     "version": "1.18.29-1",
     "date": "2026-09-05T00:32:37Z"
@@ -92,11 +97,6 @@
   {
     "name": "paru",
     "version": "2.1.0-2",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "oopz",
-    "version": "1.0.0-1",
     "date": "2026-09-04T03:57:20Z"
   }
 ]

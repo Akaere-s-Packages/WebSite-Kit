@@ -34,12 +34,12 @@
   ],
   "sources": [
     {
-      "name": "opencode-bin_1.18.28_aarch64.tar.gz",
-      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.28/opencode-linux-arm64.tar.gz"
+      "name": "opencode-bin_1.18.29_aarch64.tar.gz",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.29/opencode-linux-arm64.tar.gz"
     },
     {
-      "name": "opencode-bin_1.18.28_x86_64.tar.gz",
-      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.28/opencode-linux-x64.tar.gz"
+      "name": "opencode-bin_1.18.29_x86_64.tar.gz",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.29/opencode-linux-x64.tar.gz"
     }
   ],
   "required_by": [],
