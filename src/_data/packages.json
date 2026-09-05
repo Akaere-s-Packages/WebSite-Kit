@@ -148,10 +148,10 @@
     "pkgbase": "opencode-bin",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "1.18.27-1",
+    "version": "1.18.29-1",
     "description": "The AI coding agent built for the terminal.",
     "maintainer": "thdxr",
-    "last_updated": "2026-09-04T03:57:20Z",
+    "last_updated": "2026-09-05T00:32:37Z",
     "build_status": "published",
     "detail_url": "/packages/opencode-bin/"
   },
