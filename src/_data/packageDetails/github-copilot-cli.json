@@ -14,9 +14,9 @@
     "LicenseRef-GitHub-Copilot"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539759",
-  "version": "1.0.82-1",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33953598029/job/101272794875",
+  "version": "1.0.83-1",
+  "last_updated": "2026-09-05T07:52:26Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -55,7 +55,7 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 313118282,
+  "package_size_bytes": 310290201,
   "files": [
     {
       "path": "/usr/bin/copilot -> ../lib/node_modules/@github/copilot/npm-loader.js",
@@ -91,15 +91,31 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/app.js",
-      "size_bytes": 7483179
+      "size_bytes": 7639745
+    },
+    {
+      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/assets/copilot.ico",
+      "size_bytes": 315320
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/assets/copilot.png",
       "size_bytes": 51687
     },
     {
+      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/assets/copilot.svg",
+      "size_bytes": 3940
+    },
+    {
+      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/assets/copilot_win.png",
+      "size_bytes": 2831
+    },
+    {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/builtin-skills/customize-cloud-agent/SKILL.md",
       "size_bytes": 18679
+    },
+    {
+      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/builtin-skills/discover-resources/SKILL.md",
+      "size_bytes": 2700
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/builtin-skills/github-pr-media/SKILL.md",
@@ -110,16 +126,20 @@
       "size_bytes": 18679
     },
     {
+      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/builtin/discover-resources/SKILL.md",
+      "size_bytes": 2700
+    },
+    {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/builtin/github-pr-media/SKILL.md",
       "size_bytes": 4938
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/changelog.json",
-      "size_bytes": 969087
+      "size_bytes": 991653
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot",
-      "size_bytes": 159320896
+      "size_bytes": 160435008
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/canvas.d.ts",
@@ -127,7 +147,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/client.d.ts",
-      "size_bytes": 18179
+      "size_bytes": 18113
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/copilotRequestHandler.d.ts",
@@ -135,55 +155,59 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/docs/agent-author.md",
-      "size_bytes": 10373
+      "size_bytes": 10352
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/docs/examples.md",
-      "size_bytes": 21118
+      "size_bytes": 21076
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/docs/extensions.md",
-      "size_bytes": 3202
+      "size_bytes": 4406
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/docs/factories.md",
-      "size_bytes": 16106
+      "size_bytes": 20077
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/docs/factory-patterns.md",
-      "size_bytes": 8050
+      "size_bytes": 8201
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/extension.d.ts",
-      "size_bytes": 1865
+      "size_bytes": 3303
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/extension.js",
-      "size_bytes": 429692
+      "size_bytes": 456613
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/factory.d.ts",
-      "size_bytes": 12647
+      "size_bytes": 13919
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/ffiRuntimeHost.d.ts",
-      "size_bytes": 1809
+      "size_bytes": 1506
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/generated/rpc.d.ts",
-      "size_bytes": 692013
+      "size_bytes": 850463
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/generated/session-events.d.ts",
-      "size_bytes": 290702
+      "size_bytes": 347212
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/index.d.ts",
-      "size_bytes": 3926
+      "size_bytes": 4550
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/index.js",
-      "size_bytes": 434115
+      "size_bytes": 461811
+    },
+    {
+      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/runtimeArtifacts.d.ts",
+      "size_bytes": 335
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/sdkProtocolVersion.d.ts",
@@ -191,7 +215,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/session.d.ts",
-      "size_bytes": 12469
+      "size_bytes": 12871
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/sessionFsProvider.d.ts",
@@ -207,7 +231,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot-sdk/types.d.ts",
-      "size_bytes": 102343
+      "size_bytes": 115207
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/definitions/code-review.agent.yaml",
@@ -419,15 +443,15 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/README.md",
-      "size_bytes": 2797
+      "size_bytes": 2894
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/adm-zip.js",
-      "size_bytes": 38291
+      "size_bytes": 40794
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/headers/entryHeader.js",
-      "size_bytes": 12209
+      "size_bytes": 12717
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/headers/index.js",
@@ -435,7 +459,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/headers/mainHeader.js",
-      "size_bytes": 4445
+      "size_bytes": 7141
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/methods/deflater.js",
@@ -447,7 +471,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/methods/inflater.js",
-      "size_bytes": 1162
+      "size_bytes": 1146
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/methods/zipcrypto.js",
@@ -455,7 +479,11 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/package.json",
-      "size_bytes": 1365
+      "size_bytes": 1387
+    },
+    {
+      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/types.d.ts",
+      "size_bytes": 9641
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/util/constants.js",
@@ -479,15 +507,15 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/util/utils.js",
-      "size_bytes": 10550
+      "size_bytes": 13011
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/zipEntry.js",
-      "size_bytes": 15625
+      "size_bytes": 15173
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/node_modules/adm-zip/zipFile.js",
-      "size_bytes": 15795
+      "size_bytes": 16516
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/foundry-local-sdk/node_modules/foundry-local-sdk/package.json",
@@ -503,7 +531,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/index.js",
-      "size_bytes": 19205
+      "size_bytes": 19330
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/npm-loader.js",
@@ -515,7 +543,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/prebuilds/linux-x64/cli-native.node",
-      "size_bytes": 3633920
+      "size_bytes": 3647344
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/prebuilds/linux-x64/copilot-runtime",
@@ -523,7 +551,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/prebuilds/linux-x64/runtime.node",
-      "size_bytes": 88665704
+      "size_bytes": 91132040
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/preloads/extension_bootstrap.mjs",
@@ -659,23 +687,23 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/schemas/api.schema.json",
-      "size_bytes": 1573771
+      "size_bytes": 1639823
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/schemas/session-events.schema.json",
-      "size_bytes": 741813
+      "size_bytes": 783312
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/sdk/index.js",
-      "size_bytes": 1141870
+      "size_bytes": 1165426
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/sea-loader.js",
-      "size_bytes": 93921
+      "size_bytes": 94926
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/tgrep/bin/linux-x64/tgrep",
-      "size_bytes": 7025880
+      "size_bytes": 7588624
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/tree-sitter-bash.wasm",
@@ -751,31 +779,19 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/voice-engine.worker.js",
-      "size_bytes": 120263
+      "size_bytes": 120356
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/voice-installer.worker.js",
-      "size_bytes": 19657
+      "size_bytes": 19750
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/voice-server.js",
-      "size_bytes": 126052
+      "size_bytes": 126145
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/webview/index.js",
       "size_bytes": 0
-    },
-    {
-      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/webview/node_modules/@webviewjs/webview-linux-x64-gnu/README.md",
-      "size_bytes": 111
-    },
-    {
-      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/webview/node_modules/@webviewjs/webview-linux-x64-gnu/package.json",
-      "size_bytes": 668
-    },
-    {
-      "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/webview/node_modules/@webviewjs/webview-linux-x64-gnu/webview.linux-x64-gnu.node",
-      "size_bytes": 7942704
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/webview/node_modules/@webviewjs/webview/LICENSE",
@@ -955,11 +971,11 @@
     },
     {
       "path": "/usr/share/bash-completion/completions/copilot",
-      "size_bytes": 77435
+      "size_bytes": 75801
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/CHANGELOG.md",
-      "size_bytes": 235910
+      "size_bytes": 236215
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/README.md -> /usr/lib/node_modules/@github/copilot/README.md",
@@ -967,7 +983,7 @@
     },
     {
       "path": "/usr/share/fish/vendor_completions.d/copilot.fish",
-      "size_bytes": 26482
+      "size_bytes": 26630
     },
     {
       "path": "/usr/share/licenses/github-copilot-cli/LICENSE -> /usr/lib/node_modules/@github/copilot/LICENSE.md",
@@ -975,7 +991,7 @@
     },
     {
       "path": "/usr/share/zsh/site-functions/_copilot",
-      "size_bytes": 409183
+      "size_bytes": 420424
     }
   ],
   "sources": [
@@ -989,6 +1005,6 @@
     }
   ],
   "required_by": [],
-  "filename": "github-copilot-cli-1.0.82-1-x86_64.pkg.tar.zst",
-  "sha256": "16ec0be92693e1e472633b72ae86059b08fdd8ff58589ca71ebba8131355f4f9"
+  "filename": "github-copilot-cli-1.0.83-1-x86_64.pkg.tar.zst",
+  "sha256": "b7ae7fb89dacac0de7e83f18f4bc3e146d4be168daaac23560cde62ee5c8400d"
 }
