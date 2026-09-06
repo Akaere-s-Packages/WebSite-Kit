@@ -1,5 +1,10 @@
 [
   {
+    "name": "pi",
+    "version": "0.85.1-2",
+    "date": "2026-09-06T04:00:24Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.263-1",
     "date": "2026-09-06T03:48:09Z"
@@ -92,11 +97,6 @@
   {
     "name": "repoq",
     "version": "0.2.1-1",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "python-zxing-cpp",
-    "version": "3.1.1-2",
     "date": "2026-09-04T03:57:20Z"
   }
 ]
