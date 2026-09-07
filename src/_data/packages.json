@@ -268,10 +268,10 @@
     "pkgbase": "sparkle-bin",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "1.26.7-1",
+    "version": "1.26.8-1",
     "description": "Another Mihomo GUI",
     "maintainer": "xhuohai",
-    "last_updated": "2026-09-04T03:57:20Z",
+    "last_updated": "2026-09-07T05:37:09Z",
     "build_status": "published",
     "detail_url": "/packages/sparkle-bin/"
   },

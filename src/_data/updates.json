@@ -1,5 +1,10 @@
 [
   {
+    "name": "sparkle-bin",
+    "version": "1.26.8-1",
+    "date": "2026-09-07T05:37:09Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.1.13-1",
     "date": "2026-09-07T05:32:38Z"
@@ -62,11 +67,6 @@
   {
     "name": "supergfxctl",
     "version": "5.2.7-2",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "sparkle-bin",
-    "version": "1.26.7-1",
     "date": "2026-09-04T03:57:20Z"
   },
   {
