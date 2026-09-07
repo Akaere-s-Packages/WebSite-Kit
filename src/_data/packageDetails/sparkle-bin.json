@@ -1178,12 +1178,12 @@
   ],
   "sources": [
     {
-      "name": "sparkle-linux-1.26.7-amd64.deb",
-      "url": "https://github.com/xishang0128/sparkle/releases/download/1.26.7/sparkle-linux-1.26.7-amd64.deb"
+      "name": "sparkle-linux-1.26.8-amd64.deb",
+      "url": "https://github.com/xishang0128/sparkle/releases/download/1.26.8/sparkle-linux-1.26.8-amd64.deb"
     },
     {
-      "name": "sparkle-linux-1.26.7-arm64.deb",
-      "url": "https://github.com/xishang0128/sparkle/releases/download/1.26.7/sparkle-linux-1.26.7-arm64.deb"
+      "name": "sparkle-linux-1.26.8-arm64.deb",
+      "url": "https://github.com/xishang0128/sparkle/releases/download/1.26.8/sparkle-linux-1.26.8-arm64.deb"
     }
   ],
   "required_by": [],

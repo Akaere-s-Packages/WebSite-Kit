@@ -14,9 +14,9 @@
     "MIT"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34045982020/job/101521017249",
-  "version": "18.1.12-1",
-  "last_updated": "2026-09-06T16:39:21Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34087011119/job/101632906655",
+  "version": "18.1.13-1",
+  "last_updated": "2026-09-07T05:32:38Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -110,19 +110,19 @@
   ],
   "sources": [
     {
-      "name": "LICENSE-18.1.12",
-      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.1.12/LICENSE"
+      "name": "LICENSE-18.1.13",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.1.13/LICENSE"
     },
     {
-      "name": "omp-18.1.12",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.12/omp-linux-x64"
+      "name": "omp-18.1.13",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.13/omp-linux-x64"
     },
     {
-      "name": "omp-18.1.12",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.12/omp-linux-arm64"
+      "name": "omp-18.1.13",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.1.13/omp-linux-arm64"
     }
   ],
   "required_by": [],
-  "filename": "oh-my-pi-bin-18.1.12-1-x86_64.pkg.tar.zst",
-  "sha256": "fa544764d3d47dd103a667bab8442bc3a27f570095b2e2eaeb626b3013435070"
+  "filename": "oh-my-pi-bin-18.1.13-1-x86_64.pkg.tar.zst",
+  "sha256": "5c1dfe5c8016c45723f9dc338132e6cd12475bed84f240de317fce2634768311"
 }
