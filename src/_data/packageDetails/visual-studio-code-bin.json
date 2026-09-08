@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539848",
-  "version": "1.136.1-1",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34285130722/job/102258880035",
+  "version": "1.136.2-1",
+  "last_updated": "2026-09-08T22:21:17Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -109,7 +109,7 @@
       "description": "Needed for live share"
     }
   ],
-  "package_size_bytes": 1090934403,
+  "package_size_bytes": 1091380184,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -417,7 +417,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9177815
+      "size_bytes": 9420281
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -537,7 +537,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 6953740
+      "size_bytes": 7142415
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -681,7 +681,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/extension.js",
-      "size_bytes": 19625989
+      "size_bytes": 19625666
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/external_ingest_utils_bg.wasm",
@@ -853,7 +853,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.json",
-      "size_bytes": 200790
+      "size_bytes": 200556
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.cs.json",
@@ -881,7 +881,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.json",
-      "size_bytes": 63378
+      "size_bytes": 63245
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.ko.json",
@@ -8581,7 +8581,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/main.js",
-      "size_bytes": 1311798
+      "size_bytes": 1313634
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -8709,11 +8709,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1177277
+      "size_bytes": 1179462
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 758164
+      "size_bytes": 759545
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -8865,7 +8865,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 2453908
+      "size_bytes": 2454647
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
@@ -8913,7 +8913,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 19668637
+      "size_bytes": 19671844
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -8969,11 +8969,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2246069
+      "size_bytes": 2247450
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 1974176
+      "size_bytes": 1975557
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -9745,7 +9745,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 19399403
+      "size_bytes": 19402623
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
@@ -9830,6 +9830,6 @@
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.136.1-1-x86_64.pkg.tar.zst",
-  "sha256": "96cf94533e811f2d4259d0f7eafc36eee8c98a945316bfdbe247213f8a485c38"
+  "filename": "visual-studio-code-bin-1.136.2-1-x86_64.pkg.tar.zst",
+  "sha256": "3bbfbba10d0d0a48b4042df956efa10034062d83d948df9f0e8722abbe1a65be"
 }
