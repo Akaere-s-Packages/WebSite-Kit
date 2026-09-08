@@ -9817,16 +9817,16 @@
       "name": "visual-studio-code-bin.sh"
     },
     {
-      "name": "code_1.136.1_amd64.deb",
-      "url": "https://update.code.visualstudio.com/1.136.1/linux-deb-x64/stable"
+      "name": "code_1.136.2_amd64.deb",
+      "url": "https://update.code.visualstudio.com/1.136.2/linux-deb-x64/stable"
     },
     {
-      "name": "code_1.136.1_arm64.deb",
-      "url": "https://update.code.visualstudio.com/1.136.1/linux-deb-arm64/stable"
+      "name": "code_1.136.2_arm64.deb",
+      "url": "https://update.code.visualstudio.com/1.136.2/linux-deb-arm64/stable"
     },
     {
-      "name": "code_1.136.1_armhf.deb",
-      "url": "https://update.code.visualstudio.com/1.136.1/linux-deb-armhf/stable"
+      "name": "code_1.136.2_armhf.deb",
+      "url": "https://update.code.visualstudio.com/1.136.2/linux-deb-armhf/stable"
     }
   ],
   "required_by": [],
