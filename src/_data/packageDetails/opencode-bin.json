@@ -14,9 +14,9 @@
     "MIT"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33933202376/job/101215938288",
-  "version": "1.18.29-1",
-  "last_updated": "2026-09-05T00:32:37Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34315494016/job/102350759932",
+  "version": "1.18.30-1",
+  "last_updated": "2026-09-09T05:37:58Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -25,24 +25,24 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 184666240,
+  "package_size_bytes": 184825984,
   "files": [
     {
       "path": "/usr/bin/opencode",
-      "size_bytes": 184666240
+      "size_bytes": 184825984
     }
   ],
   "sources": [
     {
-      "name": "opencode-bin_1.18.29_aarch64.tar.gz",
-      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.29/opencode-linux-arm64.tar.gz"
+      "name": "opencode-bin_1.18.30_aarch64.tar.gz",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.30/opencode-linux-arm64.tar.gz"
     },
     {
-      "name": "opencode-bin_1.18.29_x86_64.tar.gz",
-      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.29/opencode-linux-x64.tar.gz"
+      "name": "opencode-bin_1.18.30_x86_64.tar.gz",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.30/opencode-linux-x64.tar.gz"
     }
   ],
   "required_by": [],
-  "filename": "opencode-bin-1.18.29-1-x86_64.pkg.tar.zst",
-  "sha256": "58b01fbfa0520f1fedab595734c120744b703742c920ee9536509950fe58e64a"
+  "filename": "opencode-bin-1.18.30-1-x86_64.pkg.tar.zst",
+  "sha256": "5d4605673ebc8fdc05a277a0f013fae8b599467e91e2a4408496bf1bfd2efd44"
 }
