@@ -1,5 +1,10 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.1.15-1",
+    "date": "2026-09-09T01:00:48Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.266-1",
     "date": "2026-09-09T00:57:02Z"
@@ -8,11 +13,6 @@
     "name": "visual-studio-code-bin",
     "version": "1.136.2-1",
     "date": "2026-09-08T22:21:17Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.1.14-1",
-    "date": "2026-09-07T20:21:45Z"
   },
   {
     "name": "sparkle-bin",
