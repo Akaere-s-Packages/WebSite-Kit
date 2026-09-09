@@ -24,6 +24,18 @@
     "detail_url": "/packages/asusctl/"
   },
   {
+    "name": "chatgpt-desktop",
+    "pkgbase": "chatgpt-desktop",
+    "distro": "archlinux",
+    "source_type": "aur",
+    "version": "26.901.51231-1",
+    "description": "ChatGPT desktop application for Linux (repackaged from the official binary)",
+    "maintainer": "Akira-Amatsume",
+    "last_updated": "2026-09-09T07:09:14Z",
+    "build_status": "published",
+    "detail_url": "/packages/chatgpt-desktop/"
+  },
+  {
     "name": "claude-code",
     "pkgbase": "claude-code",
     "distro": "archlinux",
