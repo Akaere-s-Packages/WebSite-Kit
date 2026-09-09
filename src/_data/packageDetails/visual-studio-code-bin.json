@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34285130722/job/102258880035",
-  "version": "1.136.2-1",
-  "last_updated": "2026-09-08T22:21:17Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34407519794/job/102654015726",
+  "version": "1.137.0-1",
+  "last_updated": "2026-09-09T21:36:46Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -109,7 +109,7 @@
       "description": "Needed for live share"
     }
   ],
-  "package_size_bytes": 1091380184,
+  "package_size_bytes": 1041788920,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -141,7 +141,7 @@
     },
     {
       "path": "/usr/share/code/bin/code-tunnel",
-      "size_bytes": 34124824
+      "size_bytes": 34747416
     },
     {
       "path": "/usr/share/code/chrome-sandbox",
@@ -417,7 +417,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9420281
+      "size_bytes": 9410873
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -457,7 +457,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/bat/language-configuration.json",
-      "size_bytes": 365
+      "size_bytes": 366
     },
     {
       "path": "/usr/share/code/resources/app/extensions/bat/package.json",
@@ -537,7 +537,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 7142415
+      "size_bytes": 7132457
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -681,7 +681,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/extension.js",
-      "size_bytes": 19625666
+      "size_bytes": 19649693
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/external_ingest_utils_bg.wasm",
@@ -845,7 +845,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/node_modules/@vscode/copilot-typescript-server-plugin/dist/main.js",
-      "size_bytes": 112971
+      "size_bytes": 119660
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/node_modules/@vscode/copilot-typescript-server-plugin/package.json",
@@ -853,7 +853,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.json",
-      "size_bytes": 200556
+      "size_bytes": 200749
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.cs.json",
@@ -881,7 +881,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.json",
-      "size_bytes": 63245
+      "size_bytes": 63244
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.ko.json",
@@ -921,7 +921,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/telemetry.json",
-      "size_bytes": 267377
+      "size_bytes": 269548
     },
     {
       "path": "/usr/share/code/resources/app/extensions/cpp/language-configuration.json",
@@ -1257,7 +1257,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/dist/main.js",
-      "size_bytes": 757288
+      "size_bytes": 757324
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/dist/ssh-askpass-empty.sh",
@@ -1405,7 +1405,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js",
-      "size_bytes": 229514
+      "size_bytes": 229870
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/images/icon.png",
@@ -1589,11 +1589,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/package.json",
-      "size_bytes": 5333
+      "size_bytes": 5123
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/package.nls.json",
-      "size_bytes": 4262
+      "size_bytes": 4074
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/schemas/package.schema.json",
@@ -1961,7 +1961,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/dist/extension.js",
-      "size_bytes": 2020621
+      "size_bytes": 2024043
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/dist/serverWorkerMain.js",
@@ -2485,7 +2485,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/editor.js",
-      "size_bytes": 518895
+      "size_bytes": 522087
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/erDiagram-SSCWMZ5O-TUKYG42P.js",
@@ -2649,7 +2649,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/editor.ts",
-      "size_bytes": 22728
+      "size_bytes": 25979
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/linkPresentationProvider.ts",
@@ -2673,7 +2673,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/media/index.js",
-      "size_bytes": 24899
+      "size_bytes": 24904
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/media/markdown.css",
@@ -2705,7 +2705,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/schemas/package.schema.json",
-      "size_bytes": 3539
+      "size_bytes": 3852
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/scripts/updateMarkdownEditorPackageJson.mts",
@@ -3889,7 +3889,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/npm/README.md",
-      "size_bytes": 2902
+      "size_bytes": 2758
     },
     {
       "path": "/usr/share/code/resources/app/extensions/npm/dist/npmMain.js",
@@ -3905,11 +3905,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/npm/package.json",
-      "size_bytes": 5871
+      "size_bytes": 5620
     },
     {
       "path": "/usr/share/code/resources/app/extensions/npm/package.nls.json",
-      "size_bytes": 2967
+      "size_bytes": 2843
     },
     {
       "path": "/usr/share/code/resources/app/extensions/objective-c/language-configuration.json",
@@ -5289,7 +5289,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar",
-      "size_bytes": 55535362
+      "size_bytes": 55590316
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@devcontainers/cli/LICENSE.txt",
@@ -5324,8 +5324,16 @@
       "size_bytes": 347
     },
     {
+      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/animations/app-install-nudge.json.gz",
+      "size_bytes": 9900
+    },
+    {
+      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/animations/banner.json.gz",
+      "size_bytes": 4887
+    },
+    {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/app.js",
-      "size_bytes": 9173573
+      "size_bytes": 7544136
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/assets/copilot.png",
@@ -5336,6 +5344,10 @@
       "size_bytes": 18679
     },
     {
+      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/builtin-skills/discover-resources/SKILL.md",
+      "size_bytes": 2700
+    },
+    {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/builtin-skills/github-pr-media/SKILL.md",
       "size_bytes": 4938
     },
@@ -5344,12 +5356,16 @@
       "size_bytes": 18679
     },
     {
+      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/builtin/discover-resources/SKILL.md",
+      "size_bytes": 2700
+    },
+    {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/builtin/github-pr-media/SKILL.md",
       "size_bytes": 4938
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/changelog.json",
-      "size_bytes": 916747
+      "size_bytes": 973494
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/canvas.d.ts",
@@ -5357,7 +5373,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/client.d.ts",
-      "size_bytes": 18179
+      "size_bytes": 18113
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/copilotRequestHandler.d.ts",
@@ -5365,55 +5381,59 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/docs/agent-author.md",
-      "size_bytes": 10373
+      "size_bytes": 10352
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/docs/examples.md",
-      "size_bytes": 21118
+      "size_bytes": 21076
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/docs/extensions.md",
-      "size_bytes": 3202
+      "size_bytes": 4406
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/docs/factories.md",
-      "size_bytes": 16106
+      "size_bytes": 20077
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/docs/factory-patterns.md",
-      "size_bytes": 8050
+      "size_bytes": 8201
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/extension.d.ts",
-      "size_bytes": 1865
+      "size_bytes": 3303
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/extension.js",
-      "size_bytes": 429692
+      "size_bytes": 456613
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/factory.d.ts",
-      "size_bytes": 12647
+      "size_bytes": 13919
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/ffiRuntimeHost.d.ts",
-      "size_bytes": 1809
+      "size_bytes": 1506
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/generated/rpc.d.ts",
-      "size_bytes": 692013
+      "size_bytes": 850463
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/generated/session-events.d.ts",
-      "size_bytes": 290702
+      "size_bytes": 347212
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/index.d.ts",
-      "size_bytes": 3926
+      "size_bytes": 4550
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/index.js",
-      "size_bytes": 434115
+      "size_bytes": 461811
+    },
+    {
+      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/runtimeArtifacts.d.ts",
+      "size_bytes": 335
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/sdkProtocolVersion.d.ts",
@@ -5421,7 +5441,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/session.d.ts",
-      "size_bytes": 12469
+      "size_bytes": 12871
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/sessionFsProvider.d.ts",
@@ -5437,15 +5457,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/types.d.ts",
-      "size_bytes": 102343
+      "size_bytes": 115207
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/definitions/code-review.agent.yaml",
-      "size_bytes": 4371
+      "size_bytes": 4604
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/definitions/explore.agent.yaml",
-      "size_bytes": 2670
+      "size_bytes": 2687
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/definitions/rem-agent.agent.yaml",
@@ -5453,7 +5473,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/definitions/research.agent.yaml",
-      "size_bytes": 6136
+      "size_bytes": 5596
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/definitions/rubber-duck.agent.yaml",
@@ -5461,7 +5481,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/definitions/security-review.agent.yaml",
-      "size_bytes": 14237
+      "size_bytes": 14222
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/definitions/sidekick/cloud-session-search.yaml",
@@ -5469,7 +5489,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/definitions/sidekick/github-context-memory.yaml",
-      "size_bytes": 2307
+      "size_bytes": 4114
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/definitions/sidekick/github-context.yaml",
@@ -5505,27 +5525,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js",
-      "size_bytes": 13556
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/napi-oop-runtime/index.js",
-      "size_bytes": 0
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/napi-oop-runtime/node_modules/napi-oop-runtime/dist/codegen-cli.js",
-      "size_bytes": 5655
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/napi-oop-runtime/node_modules/napi-oop-runtime/dist/index.js",
-      "size_bytes": 52444
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/napi-oop-runtime/node_modules/napi-oop-runtime/dist/sync-worker.js",
-      "size_bytes": 44675
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/napi-oop-runtime/node_modules/napi-oop-runtime/package.json",
-      "size_bytes": 564
+      "size_bytes": 19233
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/npm-loader.js",
@@ -5533,11 +5533,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/package.json",
-      "size_bytes": 685
+      "size_bytes": 739
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/prebuilds/linux-x64/runtime.node",
-      "size_bytes": 138942544
+      "size_bytes": 90426904
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/preloads/extension_bootstrap.mjs",
@@ -5617,27 +5617,23 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/schemas/api.schema.json",
-      "size_bytes": 1323728
+      "size_bytes": 1586333
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/schemas/session-events.schema.json",
-      "size_bytes": 612289
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/sdk/index.d.ts",
-      "size_bytes": 1733727
+      "size_bytes": 768050
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/sdk/index.js",
-      "size_bytes": 2337496
+      "size_bytes": 1156697
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/sea-loader.js",
-      "size_bytes": 92734
+      "size_bytes": 94145
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/tgrep/bin/linux-x64/tgrep",
-      "size_bytes": 5876448
+      "size_bytes": 7025880
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/tree-sitter-bash.wasm",
@@ -5713,15 +5709,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/voice-engine.worker.js",
-      "size_bytes": 112304
+      "size_bytes": 120381
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/voice-installer.worker.js",
-      "size_bytes": 10960
+      "size_bytes": 19775
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/voice-server.js",
-      "size_bytes": 137160
+      "size_bytes": 126170
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/lxc-exec",
@@ -8569,19 +8565,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/bootstrap-fork.js",
-      "size_bytes": 42929
+      "size_bytes": 43083
     },
     {
       "path": "/usr/share/code/resources/app/out/cli.js",
-      "size_bytes": 291436
+      "size_bytes": 291734
     },
     {
       "path": "/usr/share/code/resources/app/out/date",
-      "size_bytes": 20
+      "size_bytes": 25
     },
     {
       "path": "/usr/share/code/resources/app/out/main.js",
-      "size_bytes": 1313634
+      "size_bytes": 1317751
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -8597,7 +8593,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/media/codicon.ttf",
-      "size_bytes": 152284
+      "size_bytes": 152736
     },
     {
       "path": "/usr/share/code/resources/app/out/media/github.svg",
@@ -8665,19 +8661,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.keys.json",
-      "size_bytes": 779903
+      "size_bytes": 797404
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.js",
-      "size_bytes": 1162167
+      "size_bytes": 1185546
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.json",
-      "size_bytes": 1161952
+      "size_bytes": 1185331
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.metadata.json",
-      "size_bytes": 2364967
+      "size_bytes": 2411464
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh",
@@ -8709,11 +8705,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1179462
+      "size_bytes": 1222115
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 759545
+      "size_bytes": 759845
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -8737,7 +8733,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js",
-      "size_bytes": 346423
+      "size_bytes": 346533
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3",
@@ -8865,7 +8861,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 2454647
+      "size_bytes": 2557806
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
@@ -8889,7 +8885,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js",
-      "size_bytes": 414025
+      "size_bytes": 414169
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/contrib/chat/browser/media/letterpress-sessions-dark.svg",
@@ -8909,11 +8905,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.css",
-      "size_bytes": 1722407
+      "size_bytes": 1781771
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 19671844
+      "size_bytes": 19972871
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -8969,11 +8965,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2247450
+      "size_bytes": 2252012
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 1975557
+      "size_bytes": 1980074
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -9497,7 +9493,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js",
-      "size_bytes": 249002
+      "size_bytes": 249107
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg",
@@ -9737,15 +9733,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/textMate/browser/backgroundTokenization/worker/textMateTokenizationWorker.workerMain.js",
-      "size_bytes": 269107
+      "size_bytes": 269217
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.css",
-      "size_bytes": 1568985
+      "size_bytes": 1615715
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 19402623
+      "size_bytes": 19612743
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
@@ -9753,15 +9749,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/package.json",
-      "size_bytes": 15266
+      "size_bytes": 15426
     },
     {
       "path": "/usr/share/code/resources/app/policies/policy.json",
-      "size_bytes": 1962
+      "size_bytes": 2080
     },
     {
       "path": "/usr/share/code/resources/app/product.json",
-      "size_bytes": 67081
+      "size_bytes": 67226
     },
     {
       "path": "/usr/share/code/resources/app/resources/linux/code.png",
@@ -9769,7 +9765,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-core.json",
-      "size_bytes": 699559
+      "size_bytes": 730528
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-extensions.json",
@@ -9830,6 +9826,6 @@
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.136.2-1-x86_64.pkg.tar.zst",
-  "sha256": "3bbfbba10d0d0a48b4042df956efa10034062d83d948df9f0e8722abbe1a65be"
+  "filename": "visual-studio-code-bin-1.137.0-1-x86_64.pkg.tar.zst",
+  "sha256": "bff51aa741ef313c4be851278bfe517506511aecb326a66153d9f94fd0fdd31f"
 }
