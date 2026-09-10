@@ -24,9 +24,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34010184436/job/101424534407",
-  "version": "0.85.1-2",
-  "last_updated": "2026-09-06T04:00:24Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34504418510/job/102962994006",
+  "version": "0.85.1-3",
+  "last_updated": "2026-09-10T16:52:27Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -58,7 +58,7 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 155233577,
+  "package_size_bytes": 160413121,
   "files": [
     {
       "path": "/usr/bin/pi -> /usr/lib/node_modules/pi/packages/coding-agent/dist/cli.js",
@@ -414,7 +414,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@anthropic-ai/sandbox-runtime/vendor/seccomp/x64/apply-seccomp",
-      "size_bytes": 827960
+      "size_bytes": 827856
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@anthropic-ai/sandbox-runtime/vendor/seccomp/x64/unix-block.bpf",
@@ -14110,19 +14110,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@earendil-works/gondolin-krun-runner-linux-x64/bin/gondolin-krun-runner",
-      "size_bytes": 611888
+      "size_bytes": 3861264
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@earendil-works/gondolin-krun-runner-linux-x64/lib/libkrun.so",
-      "size_bytes": 4837912
+      "size_bytes": 5480872
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@earendil-works/gondolin-krun-runner-linux-x64/lib/libkrun.so.1",
-      "size_bytes": 4837912
+      "size_bytes": 5480872
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@earendil-works/gondolin-krun-runner-linux-x64/lib/libkrun.so.1.17.4",
-      "size_bytes": 4838024
+      "size_bytes": 5480872
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@earendil-works/gondolin-krun-runner-linux-x64/package.json",
@@ -16266,7 +16266,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@esbuild/linux-x64/bin/esbuild",
-      "size_bytes": 11405848
+      "size_bytes": 11407472
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@esbuild/linux-x64/package.json",
@@ -16378,7 +16378,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@mariozechner/clipboard-linux-x64-gnu/clipboard.linux-x64-gnu.node",
-      "size_bytes": 1378384
+      "size_bytes": 1378264
     },
     {
       "path": "/usr/lib/node_modules/pi/node_modules/@mariozechner/clipboard-linux-x64-gnu/package.json",
@@ -68637,6 +68637,6 @@
       "size_bytes": 1069
     }
   ],
-  "filename": "pi-0.85.1-2-x86_64.pkg.tar.zst",
-  "sha256": "6f19975c377af011d0292b284b9b155f57f94aa8d8543810f64dd37aa16633da"
+  "filename": "pi-0.85.1-3-x86_64.pkg.tar.zst",
+  "sha256": "6fec60641461cc65676274acd5c563b6c373d853ba9d82505eb0b1ae7dd2da82"
 }
