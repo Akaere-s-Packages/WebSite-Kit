@@ -20,11 +20,6 @@
     "date": "2026-09-09T21:28:46Z"
   },
   {
-    "name": "chatgpt-desktop",
-    "version": "26.901.51231-1",
-    "date": "2026-09-09T07:09:14Z"
-  },
-  {
     "name": "opencode-bin",
     "version": "1.18.30-1",
     "date": "2026-09-09T05:37:58Z"
@@ -97,6 +92,11 @@
   {
     "name": "rog-control-center",
     "version": "6.4.0-1",
+    "date": "2026-09-04T03:57:20Z"
+  },
+  {
+    "name": "repoq",
+    "version": "0.2.1-1",
     "date": "2026-09-04T03:57:20Z"
   }
 ]
