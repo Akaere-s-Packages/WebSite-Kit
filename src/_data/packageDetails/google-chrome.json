@@ -14,9 +14,9 @@
     "custom:chrome"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539687",
-  "version": "152.0.7977.82-1",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34477258372/job/102871027499",
+  "version": "153.0.8010.36-1",
+  "last_updated": "2026-09-10T12:35:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -84,7 +84,7 @@
       "description": "for storing passwords in KWallet"
     }
   ],
-  "package_size_bytes": 456988853,
+  "package_size_bytes": 454791454,
   "files": [
     {
       "path": "/opt/google/chrome/CHROME_VERSION_EXTRA",
@@ -112,11 +112,11 @@
     },
     {
       "path": "/opt/google/chrome/WidevineCdm/_platform_specific/linux_x64/libwidevinecdm.so",
-      "size_bytes": 21681344
+      "size_bytes": 21965296
     },
     {
       "path": "/opt/google/chrome/WidevineCdm/manifest.json",
-      "size_bytes": 838
+      "size_bytes": 841
     },
     {
       "path": "/opt/google/chrome/apparmor.d/google-chrome-stable",
@@ -124,11 +124,11 @@
     },
     {
       "path": "/opt/google/chrome/chrome",
-      "size_bytes": 290770248
+      "size_bytes": 293199168
     },
     {
       "path": "/opt/google/chrome/chrome-management-service",
-      "size_bytes": 7538312
+      "size_bytes": 8181544
     },
     {
       "path": "/opt/google/chrome/chrome-sandbox",
@@ -136,15 +136,15 @@
     },
     {
       "path": "/opt/google/chrome/chrome_100_percent.pak",
-      "size_bytes": 1229139
+      "size_bytes": 1223767
     },
     {
       "path": "/opt/google/chrome/chrome_200_percent.pak",
-      "size_bytes": 2240459
+      "size_bytes": 2227656
     },
     {
       "path": "/opt/google/chrome/chrome_crashpad_handler",
-      "size_bytes": 1967832
+      "size_bytes": 1976032
     },
     {
       "path": "/opt/google/chrome/default-app-block",
@@ -156,15 +156,15 @@
     },
     {
       "path": "/opt/google/chrome/icudtl.dat",
-      "size_bytes": 10876560
+      "size_bytes": 10823536
     },
     {
       "path": "/opt/google/chrome/libLiteRtWebGpuAccelerator.so",
-      "size_bytes": 15678672
+      "size_bytes": 10668160
     },
     {
       "path": "/opt/google/chrome/liboptimization_guide_internal.so",
-      "size_bytes": 24270816
+      "size_bytes": 24436304
     },
     {
       "path": "/opt/google/chrome/libqt5_shim.so",
@@ -172,19 +172,23 @@
     },
     {
       "path": "/opt/google/chrome/libqt6_shim.so",
-      "size_bytes": 30048
+      "size_bytes": 30032
+    },
+    {
+      "path": "/opt/google/chrome/libsapisid.so",
+      "size_bytes": 262608
     },
     {
       "path": "/opt/google/chrome/libvk_swiftshader.so",
-      "size_bytes": 4030424
+      "size_bytes": 3980456
     },
     {
       "path": "/opt/google/chrome/libvulkan.so.1",
-      "size_bytes": 662816
+      "size_bytes": 689616
     },
     {
       "path": "/opt/google/chrome/locales/af.pak",
-      "size_bytes": 648609
+      "size_bytes": 620869
     },
     {
       "path": "/opt/google/chrome/locales/af_FEMININE.pak",
@@ -200,7 +204,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/am.pak",
-      "size_bytes": 1050757
+      "size_bytes": 1005989
     },
     {
       "path": "/opt/google/chrome/locales/am_FEMININE.pak",
@@ -216,7 +220,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ar.pak",
-      "size_bytes": 1162783
+      "size_bytes": 1120617
     },
     {
       "path": "/opt/google/chrome/locales/ar_FEMININE.pak",
@@ -232,7 +236,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/bg.pak",
-      "size_bytes": 1202173
+      "size_bytes": 1153099
     },
     {
       "path": "/opt/google/chrome/locales/bg_FEMININE.pak",
@@ -248,7 +252,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/bn.pak",
-      "size_bytes": 1540744
+      "size_bytes": 1477371
     },
     {
       "path": "/opt/google/chrome/locales/bn_FEMININE.pak",
@@ -264,7 +268,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ca.pak",
-      "size_bytes": 740923
+      "size_bytes": 711399
     },
     {
       "path": "/opt/google/chrome/locales/ca_FEMININE.pak",
@@ -280,7 +284,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/cs.pak",
-      "size_bytes": 756635
+      "size_bytes": 728847
     },
     {
       "path": "/opt/google/chrome/locales/cs_FEMININE.pak",
@@ -296,7 +300,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/da.pak",
-      "size_bytes": 685250
+      "size_bytes": 657610
     },
     {
       "path": "/opt/google/chrome/locales/da_FEMININE.pak",
@@ -312,7 +316,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/de.pak",
-      "size_bytes": 741864
+      "size_bytes": 712844
     },
     {
       "path": "/opt/google/chrome/locales/de_FEMININE.pak",
@@ -328,7 +332,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/el.pak",
-      "size_bytes": 1320886
+      "size_bytes": 1267418
     },
     {
       "path": "/opt/google/chrome/locales/el_FEMININE.pak",
@@ -344,7 +348,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/en-GB.pak",
-      "size_bytes": 593197
+      "size_bytes": 568222
     },
     {
       "path": "/opt/google/chrome/locales/en-GB_FEMININE.pak",
@@ -360,7 +364,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/en-US.pak",
-      "size_bytes": 599858
+      "size_bytes": 575741
     },
     {
       "path": "/opt/google/chrome/locales/en-US_FEMININE.pak",
@@ -376,7 +380,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/es-419.pak",
-      "size_bytes": 725860
+      "size_bytes": 696466
     },
     {
       "path": "/opt/google/chrome/locales/es-419_FEMININE.pak",
@@ -392,7 +396,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/es.pak",
-      "size_bytes": 720773
+      "size_bytes": 691122
     },
     {
       "path": "/opt/google/chrome/locales/es_FEMININE.pak",
@@ -408,7 +412,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/et.pak",
-      "size_bytes": 660434
+      "size_bytes": 633323
     },
     {
       "path": "/opt/google/chrome/locales/et_FEMININE.pak",
@@ -424,7 +428,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/fa.pak",
-      "size_bytes": 1085140
+      "size_bytes": 1043971
     },
     {
       "path": "/opt/google/chrome/locales/fa_FEMININE.pak",
@@ -440,7 +444,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/fi.pak",
-      "size_bytes": 670217
+      "size_bytes": 643831
     },
     {
       "path": "/opt/google/chrome/locales/fi_FEMININE.pak",
@@ -456,7 +460,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/fil.pak",
-      "size_bytes": 758177
+      "size_bytes": 727579
     },
     {
       "path": "/opt/google/chrome/locales/fil_FEMININE.pak",
@@ -472,7 +476,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/fr.pak",
-      "size_bytes": 785377
+      "size_bytes": 755848
     },
     {
       "path": "/opt/google/chrome/locales/fr_FEMININE.pak",
@@ -488,7 +492,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/gu.pak",
-      "size_bytes": 1526099
+      "size_bytes": 1463874
     },
     {
       "path": "/opt/google/chrome/locales/gu_FEMININE.pak",
@@ -504,7 +508,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/he.pak",
-      "size_bytes": 952446
+      "size_bytes": 915640
     },
     {
       "path": "/opt/google/chrome/locales/he_FEMININE.pak",
@@ -520,7 +524,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/hi.pak",
-      "size_bytes": 1628472
+      "size_bytes": 1558265
     },
     {
       "path": "/opt/google/chrome/locales/hi_FEMININE.pak",
@@ -536,7 +540,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/hr.pak",
-      "size_bytes": 731978
+      "size_bytes": 703672
     },
     {
       "path": "/opt/google/chrome/locales/hr_FEMININE.pak",
@@ -552,7 +556,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/hu.pak",
-      "size_bytes": 783682
+      "size_bytes": 752185
     },
     {
       "path": "/opt/google/chrome/locales/hu_FEMININE.pak",
@@ -568,7 +572,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/id.pak",
-      "size_bytes": 650648
+      "size_bytes": 623804
     },
     {
       "path": "/opt/google/chrome/locales/id_FEMININE.pak",
@@ -584,7 +588,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/it.pak",
-      "size_bytes": 716517
+      "size_bytes": 687410
     },
     {
       "path": "/opt/google/chrome/locales/it_FEMININE.pak",
@@ -600,7 +604,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ja.pak",
-      "size_bytes": 866178
+      "size_bytes": 833446
     },
     {
       "path": "/opt/google/chrome/locales/ja_FEMININE.pak",
@@ -616,7 +620,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/kn.pak",
-      "size_bytes": 1746233
+      "size_bytes": 1678185
     },
     {
       "path": "/opt/google/chrome/locales/kn_FEMININE.pak",
@@ -632,7 +636,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ko.pak",
-      "size_bytes": 735575
+      "size_bytes": 707722
     },
     {
       "path": "/opt/google/chrome/locales/ko_FEMININE.pak",
@@ -648,7 +652,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/lt.pak",
-      "size_bytes": 796723
+      "size_bytes": 766921
     },
     {
       "path": "/opt/google/chrome/locales/lt_FEMININE.pak",
@@ -664,7 +668,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/lv.pak",
-      "size_bytes": 793510
+      "size_bytes": 762856
     },
     {
       "path": "/opt/google/chrome/locales/lv_FEMININE.pak",
@@ -680,7 +684,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ml.pak",
-      "size_bytes": 1796643
+      "size_bytes": 1722370
     },
     {
       "path": "/opt/google/chrome/locales/ml_FEMININE.pak",
@@ -696,7 +700,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/mr.pak",
-      "size_bytes": 1493945
+      "size_bytes": 1430370
     },
     {
       "path": "/opt/google/chrome/locales/mr_FEMININE.pak",
@@ -712,7 +716,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ms.pak",
-      "size_bytes": 681740
+      "size_bytes": 654447
     },
     {
       "path": "/opt/google/chrome/locales/ms_FEMININE.pak",
@@ -728,7 +732,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/nb.pak",
-      "size_bytes": 652869
+      "size_bytes": 626004
     },
     {
       "path": "/opt/google/chrome/locales/nb_FEMININE.pak",
@@ -744,7 +748,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/nl.pak",
-      "size_bytes": 680487
+      "size_bytes": 652744
     },
     {
       "path": "/opt/google/chrome/locales/nl_FEMININE.pak",
@@ -760,7 +764,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/pl.pak",
-      "size_bytes": 760459
+      "size_bytes": 730705
     },
     {
       "path": "/opt/google/chrome/locales/pl_FEMININE.pak",
@@ -776,7 +780,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/pt-BR.pak",
-      "size_bytes": 712331
+      "size_bytes": 684263
     },
     {
       "path": "/opt/google/chrome/locales/pt-BR_FEMININE.pak",
@@ -792,7 +796,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/pt-PT.pak",
-      "size_bytes": 717448
+      "size_bytes": 688417
     },
     {
       "path": "/opt/google/chrome/locales/pt-PT_FEMININE.pak",
@@ -808,7 +812,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ro.pak",
-      "size_bytes": 744378
+      "size_bytes": 713625
     },
     {
       "path": "/opt/google/chrome/locales/ro_FEMININE.pak",
@@ -824,7 +828,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ru.pak",
-      "size_bytes": 1228519
+      "size_bytes": 1180837
     },
     {
       "path": "/opt/google/chrome/locales/ru_FEMININE.pak",
@@ -840,7 +844,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/sk.pak",
-      "size_bytes": 767894
+      "size_bytes": 739944
     },
     {
       "path": "/opt/google/chrome/locales/sk_FEMININE.pak",
@@ -856,7 +860,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/sl.pak",
-      "size_bytes": 738311
+      "size_bytes": 709416
     },
     {
       "path": "/opt/google/chrome/locales/sl_FEMININE.pak",
@@ -872,7 +876,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/sr.pak",
-      "size_bytes": 1134776
+      "size_bytes": 1090740
     },
     {
       "path": "/opt/google/chrome/locales/sr_FEMININE.pak",
@@ -888,7 +892,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/sv.pak",
-      "size_bytes": 661959
+      "size_bytes": 635921
     },
     {
       "path": "/opt/google/chrome/locales/sv_FEMININE.pak",
@@ -904,7 +908,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/sw.pak",
-      "size_bytes": 700640
+      "size_bytes": 671506
     },
     {
       "path": "/opt/google/chrome/locales/sw_FEMININE.pak",
@@ -920,7 +924,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ta.pak",
-      "size_bytes": 1793077
+      "size_bytes": 1716464
     },
     {
       "path": "/opt/google/chrome/locales/ta_FEMININE.pak",
@@ -936,7 +940,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/te.pak",
-      "size_bytes": 1656045
+      "size_bytes": 1590158
     },
     {
       "path": "/opt/google/chrome/locales/te_FEMININE.pak",
@@ -952,7 +956,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/th.pak",
-      "size_bytes": 1394808
+      "size_bytes": 1331462
     },
     {
       "path": "/opt/google/chrome/locales/th_FEMININE.pak",
@@ -968,7 +972,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/tr.pak",
-      "size_bytes": 713722
+      "size_bytes": 684951
     },
     {
       "path": "/opt/google/chrome/locales/tr_FEMININE.pak",
@@ -984,7 +988,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/uk.pak",
-      "size_bytes": 1236201
+      "size_bytes": 1190275
     },
     {
       "path": "/opt/google/chrome/locales/uk_FEMININE.pak",
@@ -1000,7 +1004,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ur.pak",
-      "size_bytes": 1062689
+      "size_bytes": 1019273
     },
     {
       "path": "/opt/google/chrome/locales/ur_FEMININE.pak",
@@ -1016,7 +1020,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/vi.pak",
-      "size_bytes": 849817
+      "size_bytes": 813515
     },
     {
       "path": "/opt/google/chrome/locales/vi_FEMININE.pak",
@@ -1032,7 +1036,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/zh-CN.pak",
-      "size_bytes": 607454
+      "size_bytes": 584532
     },
     {
       "path": "/opt/google/chrome/locales/zh-CN_FEMININE.pak",
@@ -1048,7 +1052,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/zh-TW.pak",
-      "size_bytes": 600951
+      "size_bytes": 578091
     },
     {
       "path": "/opt/google/chrome/locales/zh-TW_FEMININE.pak",
@@ -1064,11 +1068,11 @@
     },
     {
       "path": "/opt/google/chrome/resources.pak",
-      "size_bytes": 23303830
+      "size_bytes": 24492605
     },
     {
       "path": "/opt/google/chrome/v8_context_snapshot.bin",
-      "size_bytes": 742208
+      "size_bytes": 747232
     },
     {
       "path": "/opt/google/chrome/vk_swiftshader_icd.json",
@@ -1092,7 +1096,7 @@
     },
     {
       "path": "/usr/share/doc/google-chrome-stable/changelog.gz",
-      "size_bytes": 234
+      "size_bytes": 233
     },
     {
       "path": "/usr/share/gnome-control-center/default-apps/google-chrome.xml",
@@ -1151,15 +1155,15 @@
       "name": "google-chrome-stable.sh"
     },
     {
-      "name": "google-chrome-stable_152.0.7977.82-1_amd64.deb",
-      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_152.0.7977.82-1_amd64.deb"
+      "name": "google-chrome-stable_153.0.8010.36-1_amd64.deb",
+      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_153.0.8010.36-1_amd64.deb"
     },
     {
-      "name": "google-chrome-stable_152.0.7977.82-1_arm64.deb",
-      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_152.0.7977.82-1_arm64.deb"
+      "name": "google-chrome-stable_153.0.8010.36-1_arm64.deb",
+      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_153.0.8010.36-1_arm64.deb"
     }
   ],
   "required_by": [],
-  "filename": "google-chrome-152.0.7977.82-1-x86_64.pkg.tar.zst",
-  "sha256": "ed43ea1f3e0fc962731fafe42134802c0c3b804f0cf61b52fc1796a0eb176607"
+  "filename": "google-chrome-153.0.8010.36-1-x86_64.pkg.tar.zst",
+  "sha256": "c78a436ac8772727986f672806dc08813e88c7a739c024e2a40ef7ecca644d3b"
 }

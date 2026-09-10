@@ -1,5 +1,10 @@
 [
   {
+    "name": "google-chrome",
+    "version": "153.0.8010.36-1",
+    "date": "2026-09-10T12:35:35Z"
+  },
+  {
     "name": "infisical",
     "version": "0.43.130-1",
     "date": "2026-09-10T02:18:57Z"
@@ -92,11 +97,6 @@
   {
     "name": "rog-control-center",
     "version": "6.4.0-1",
-    "date": "2026-09-04T03:57:20Z"
-  },
-  {
-    "name": "repoq",
-    "version": "0.2.1-1",
     "date": "2026-09-04T03:57:20Z"
   }
 ]
