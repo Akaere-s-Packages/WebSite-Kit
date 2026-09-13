@@ -14,10 +14,10 @@
   "votes": null,
   "popularity": null,
   "first_submitted": "2021-09-18T11:01:35Z",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539761",
-  "package_size_bytes": 29029449,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698270",
+  "package_size_bytes": 29028937,
   "dependencies": [
     {
       "name": "glibc",
@@ -54,7 +54,7 @@
     {
       "name": "rog-control-center",
       "type": "optdepends",
-      "repo": "aur",
+      "repo": "extra",
       "description": "graphical user interface for asusctl"
     },
     {
@@ -88,19 +88,19 @@
   "files": [
     {
       "path": "/usr/bin/asus-shutdown",
-      "size_bytes": 4637464
+      "size_bytes": 4637336
     },
     {
       "path": "/usr/bin/asusctl",
-      "size_bytes": 5040352
+      "size_bytes": 5040224
     },
     {
       "path": "/usr/bin/asusd",
-      "size_bytes": 8585752
+      "size_bytes": 8585624
     },
     {
       "path": "/usr/bin/asusd-user",
-      "size_bytes": 6060592
+      "size_bytes": 6060464
     },
     {
       "path": "/usr/lib/systemd/system/asus-shutdown.service",
@@ -321,5 +321,5 @@
   ],
   "distro": "archlinux",
   "filename": "asusctl-6.4.0-1-x86_64.pkg.tar.zst",
-  "sha256": "f251fa4ed4b9c325ad5b5669a9c6a2551c31d7b19d74b3e7959ba70e1ca08c95"
+  "sha256": "eb76e9094f345cd9505c8c0a06dd85d6462d835ae19840a345c0be012ee49e1c"
 }

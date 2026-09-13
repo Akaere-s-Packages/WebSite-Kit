@@ -14,9 +14,9 @@
     "Apache-2.0"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539855",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698236",
   "version": "3.1.1-2",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -111,5 +111,5 @@
     }
   ],
   "filename": "python-zxing-cpp-3.1.1-2-x86_64.pkg.tar.zst",
-  "sha256": "eba9d7c7aa102936450f25b1bf401cdb5a8cc8dd54902764fb74987ae1210ffb"
+  "sha256": "bff56798fb1c0ee309b40a7eda9ea3f63ad21c0eee06b7c971ef1c48cfa18758"
 }

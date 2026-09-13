@@ -14,9 +14,9 @@
     "custom"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539800",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698250",
   "version": "17.0.20-1",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -2358,5 +2358,5 @@
   ],
   "required_by": [],
   "filename": "zulu-17-bin-17.0.20-1-x86_64.pkg.tar.zst",
-  "sha256": "4443c33df1614e952b1a1ea5ee8f62620028d69c6636c776ad8922c9d58ffc1a"
+  "sha256": "2aca8d6c929dc2a9547b2d53b4a973aeb7168f157b44cfbb555acc7b72fcfc31"
 }

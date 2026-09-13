@@ -14,9 +14,9 @@
     "LicenseRef-QQ"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539720",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698228",
   "version": "5:3.2.33_52892-1",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -6207,5 +6207,5 @@
   "package_size_bytes": 652749079,
   "required_by": [],
   "filename": "linuxqq-5:3.2.33_52892-1-x86_64.pkg.tar.zst",
-  "sha256": "ad2d753984c072c62a6c40e8aaa8115613008b63d689d3f3532f4b019c3bde3d"
+  "sha256": "930eaaced5b9383b6b2d7abc885de51d09e500a0019fcff97b3670e501ee9c64"
 }

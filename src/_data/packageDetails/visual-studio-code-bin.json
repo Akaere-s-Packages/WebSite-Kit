@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34407519794/job/102654015726",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698292",
   "version": "1.137.0-1",
-  "last_updated": "2026-09-09T21:36:46Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -9827,5 +9827,5 @@
   ],
   "required_by": [],
   "filename": "visual-studio-code-bin-1.137.0-1-x86_64.pkg.tar.zst",
-  "sha256": "bff51aa741ef313c4be851278bfe517506511aecb326a66153d9f94fd0fdd31f"
+  "sha256": "df85bfc92c0582fabf44caa82641e98f896ed8aa750fee8075e7f9bf9f60422a"
 }

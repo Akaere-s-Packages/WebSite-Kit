@@ -11,12 +11,12 @@
   "description": "Fetch and inject secrets into any framework in local development",
   "url": "https://github.com/Infisical/cli",
   "licenses": [
-    "LicenseRef-custom"
+    "LicenseRef-Custom"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34428596166/job/102719076591",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698221",
   "version": "0.43.130-1",
-  "last_updated": "2026-09-10T02:18:57Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -81,5 +81,5 @@
   ],
   "required_by": [],
   "filename": "infisical-0.43.130-1-x86_64.pkg.tar.zst",
-  "sha256": "19dfa7aeafafdc05404909454c30f6e10c8f0a200b2d184d03145aea39984ffc"
+  "sha256": "b5ad9db13b505a5ccb5adc70cc5e5978fbda24f2b541459d341762cdda9d6b1b"
 }

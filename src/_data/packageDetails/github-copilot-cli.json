@@ -14,9 +14,9 @@
     "LicenseRef-GitHub-Copilot"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33953598029/job/101272794875",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698203",
   "version": "1.0.83-1",
-  "last_updated": "2026-09-05T07:52:26Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -1006,5 +1006,5 @@
   ],
   "required_by": [],
   "filename": "github-copilot-cli-1.0.83-1-x86_64.pkg.tar.zst",
-  "sha256": "b7ae7fb89dacac0de7e83f18f4bc3e146d4be168daaac23560cde62ee5c8400d"
+  "sha256": "de3fae30d435c445d09f42577d9d38073b755b1b0a1adb80d39d172be348a0cb"
 }

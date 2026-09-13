@@ -14,15 +14,15 @@
   "votes": null,
   "popularity": null,
   "first_submitted": "2021-09-18T11:01:35Z",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100901537104",
-  "package_size_bytes": 31209586,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698267",
+  "package_size_bytes": 31207922,
   "dependencies": [
     {
       "name": "asusctl",
       "type": "depends",
-      "repo": "aur"
+      "repo": "extra"
     },
     {
       "name": "fontconfig",
@@ -74,7 +74,7 @@
   "files": [
     {
       "path": "/usr/bin/rog-control-center",
-      "size_bytes": 30396504
+      "size_bytes": 30394840
     },
     {
       "path": "/usr/share/applications/org.opengamingcollective.rog-control-center.desktop",
@@ -243,5 +243,5 @@
   ],
   "distro": "archlinux",
   "filename": "rog-control-center-6.4.0-1-x86_64.pkg.tar.zst",
-  "sha256": "5a943a43dc8c76f514d9f0219a8a95b62afb76bc62d7de00145c062f91355c1e"
+  "sha256": "85d2626d8b4c3923251e6f49dbeb5211a1767daa439fe1c34d81ae43bab5a192"
 }

@@ -14,9 +14,9 @@
     "LicenseRef-claude-code"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34535807887/job/103067067403",
-  "version": "2.1.268-1",
-  "last_updated": "2026-09-10T22:09:51Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698213",
+  "version": "2.1.270-1",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -67,11 +67,11 @@
       "description": "sandboxing"
     }
   ],
-  "package_size_bytes": 218609251,
+  "package_size_bytes": 223987299,
   "files": [
     {
       "path": "/opt/claude-code/bin/claude",
-      "size_bytes": 218602992
+      "size_bytes": 223981040
     },
     {
       "path": "/usr/bin/claude",
@@ -97,6 +97,6 @@
     }
   ],
   "required_by": [],
-  "filename": "claude-code-2.1.268-1-x86_64.pkg.tar.zst",
-  "sha256": "5f2d9f3dc443363aef1d8b3314780ed8589443a6ffea10eea2f99a43053994c1"
+  "filename": "claude-code-2.1.270-1-x86_64.pkg.tar.zst",
+  "sha256": "5ea220e34885f0a1e1543cc4889bf3d7dbe05063a1f6c7e707520ea3b489992a"
 }

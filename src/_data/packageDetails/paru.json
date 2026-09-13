@@ -14,9 +14,9 @@
     "GPL-3.0-or-later"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539805",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698233",
   "version": "2.1.0-2",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -52,7 +52,7 @@
       "repo": "aur"
     }
   ],
-  "package_size_bytes": 8433308,
+  "package_size_bytes": 8432988,
   "files": [
     {
       "path": "/etc/paru.conf",
@@ -60,7 +60,7 @@
     },
     {
       "path": "/usr/bin/paru",
-      "size_bytes": 7853760
+      "size_bytes": 7853440
     },
     {
       "path": "/usr/share/bash-completion/completions/paru.bash",
@@ -183,5 +183,5 @@
   ],
   "required_by": [],
   "filename": "paru-2.1.0-2-x86_64.pkg.tar.zst",
-  "sha256": "8e2b7783636a11cbb5ad7a32290b5de4dbf7ea08d33eeaf8086aa0ec87bad472"
+  "sha256": "e0a59cb0d55362e41dc09861c7d474b5c19e11d5b41f565af38e1e7b4714c4b6"
 }

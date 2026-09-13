@@ -14,9 +14,9 @@
     "custom:chrome"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34477258372/job/102871027499",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698261",
   "version": "153.0.8010.36-1",
-  "last_updated": "2026-09-10T12:35:35Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -1165,5 +1165,5 @@
   ],
   "required_by": [],
   "filename": "google-chrome-153.0.8010.36-1-x86_64.pkg.tar.zst",
-  "sha256": "c78a436ac8772727986f672806dc08813e88c7a739c024e2a40ef7ecca644d3b"
+  "sha256": "fe73b8eccdbaf92ac68eaaecbe1e7d42c638fa1e482ee87bf88b170d4678fd07"
 }

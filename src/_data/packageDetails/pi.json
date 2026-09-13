@@ -24,9 +24,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34504418510/job/102962994006",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698203",
   "version": "0.85.1-3",
-  "last_updated": "2026-09-10T16:52:27Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -68638,5 +68638,5 @@
     }
   ],
   "filename": "pi-0.85.1-3-x86_64.pkg.tar.zst",
-  "sha256": "6fec60641461cc65676274acd5c563b6c373d853ba9d82505eb0b1ae7dd2da82"
+  "sha256": "081a1b57cb40bfea0b21a25d68ee24cd011700059b2223f6365eac0661e41bd0"
 }

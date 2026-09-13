@@ -14,9 +14,9 @@
     "custom:samsung"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100901537130",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103711471515",
   "version": "1.00.39-11",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -98,5 +98,5 @@
     }
   ],
   "filename": "samsung-unified-driver-scanner-1.00.39-11-x86_64.pkg.tar.zst",
-  "sha256": "ad5de8570503eb669d66b5d78419fe6614f72716bbf11f9c524ebd6fe3f0d460"
+  "sha256": "b465e20eec98d3124c11cac8b60d4c9042f76e2856fff4caa59d5579d866edf6"
 }

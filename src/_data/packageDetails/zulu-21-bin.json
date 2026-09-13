@@ -14,9 +14,9 @@
     "custom"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539862",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698339",
   "version": "21.0.12.1-1",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -2202,5 +2202,5 @@
   ],
   "required_by": [],
   "filename": "zulu-21-bin-21.0.12.1-1-x86_64.pkg.tar.zst",
-  "sha256": "52503bf931b747d1b1e1ae171f2860aa3810f1b11380e1817fa4ab38607ae018"
+  "sha256": "2ff2d27a7f1543ffc658e4233a8ac0bea93bd53165f3876334901889287b9c43"
 }

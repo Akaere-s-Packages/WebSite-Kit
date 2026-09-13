@@ -14,9 +14,9 @@
     "Apache-2.0"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/33832585936/job/100898539789",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698231",
   "version": "0.2.1-1",
-  "last_updated": "2026-09-04T03:57:20Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -52,5 +52,5 @@
   ],
   "required_by": [],
   "filename": "repoq-0.2.1-1-x86_64.pkg.tar.zst",
-  "sha256": "8a5001fa2e50943945005657da7ef79ebc5fc9ad0b0ac3f3e0b9def61d8eb770"
+  "sha256": "259389b4c69dd6cb1f022496b15053177e950f5f3154939e8d48e4b3b5d9190e"
 }

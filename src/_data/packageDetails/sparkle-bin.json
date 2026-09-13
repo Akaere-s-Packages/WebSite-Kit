@@ -14,9 +14,9 @@
     "GPL-3.0-only"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34087263966/job/101633609646",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698247",
   "version": "1.26.8-1",
-  "last_updated": "2026-09-07T05:37:09Z",
+  "last_updated": "2026-09-13T10:53:35Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -1164,5 +1164,5 @@
   ],
   "required_by": [],
   "filename": "sparkle-bin-1.26.8-1-x86_64.pkg.tar.zst",
-  "sha256": "02a2a8fed141145cc4e8877feb7a24bfcda4cc048e95f84faff3c77b6d8fde8c"
+  "sha256": "e209d75f09bc48ba4d6aef98c87216cd3b10963dbc0d0f9837ec0c03a3313ea4"
 }
