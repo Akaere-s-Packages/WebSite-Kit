@@ -6,7 +6,7 @@
   "maintainer": "tarball",
   "submitter": "tarball",
   "votes": 14,
-  "popularity": 0.915533,
+  "popularity": 0.793985,
   "first_submitted": "2022-05-30T19:47:48Z",
   "description": "WireGuard-based mesh network",
   "url": "https://netbird.io",
@@ -65,27 +65,27 @@
   "sources": [
     {
       "name": "env",
-      "url": "https://raw.githubusercontent.com/netbirdio/netbird/refs/tags/v0.78.1/release_files/systemd/env"
+      "url": "https://raw.githubusercontent.com/netbirdio/netbird/refs/tags/v0.78.2/release_files/systemd/env"
     },
     {
       "name": "netbird@.service",
-      "url": "https://raw.githubusercontent.com/netbirdio/netbird/refs/tags/v0.78.1/release_files/systemd/netbird@.service"
+      "url": "https://raw.githubusercontent.com/netbirdio/netbird/refs/tags/v0.78.2/release_files/systemd/netbird@.service"
     },
     {
-      "name": "netbird_0.78.1_linux_386.tar.gz",
-      "url": "https://github.com/netbirdio/netbird/releases/download/v0.78.1/netbird_0.78.1_linux_386.tar.gz"
+      "name": "netbird_0.78.2_linux_386.tar.gz",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.78.2/netbird_0.78.2_linux_386.tar.gz"
     },
     {
-      "name": "netbird_0.78.1_linux_amd64.tar.gz",
-      "url": "https://github.com/netbirdio/netbird/releases/download/v0.78.1/netbird_0.78.1_linux_amd64.tar.gz"
+      "name": "netbird_0.78.2_linux_amd64.tar.gz",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.78.2/netbird_0.78.2_linux_amd64.tar.gz"
     },
     {
-      "name": "netbird_0.78.1_linux_arm64.tar.gz",
-      "url": "https://github.com/netbirdio/netbird/releases/download/v0.78.1/netbird_0.78.1_linux_arm64.tar.gz"
+      "name": "netbird_0.78.2_linux_arm64.tar.gz",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.78.2/netbird_0.78.2_linux_arm64.tar.gz"
     },
     {
-      "name": "netbird_0.78.1_linux_armv6.tar.gz",
-      "url": "https://github.com/netbirdio/netbird/releases/download/v0.78.1/netbird_0.78.1_linux_armv6.tar.gz"
+      "name": "netbird_0.78.2_linux_armv6.tar.gz",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.78.2/netbird_0.78.2_linux_armv6.tar.gz"
     }
   ],
   "required_by": [],

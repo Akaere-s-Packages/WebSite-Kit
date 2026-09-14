@@ -1,5 +1,10 @@
 [
   {
+    "name": "infisical",
+    "version": "0.43.132-1",
+    "date": "2026-09-14T20:13:35Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.1.21-1",
     "date": "2026-09-14T08:23:36Z"
@@ -92,11 +97,6 @@
   {
     "name": "noto-fonts-sc",
     "version": "2:20210430-2",
-    "date": "2026-09-13T10:53:35Z"
-  },
-  {
-    "name": "netbird-bin",
-    "version": "0.78.1-1",
     "date": "2026-09-13T10:53:35Z"
   }
 ]

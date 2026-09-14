@@ -6,7 +6,7 @@
   "maintainer": "thdxr",
   "submitter": "thdxr",
   "votes": 51,
-  "popularity": 3.520638,
+  "popularity": 3.053197,
   "first_submitted": "2025-04-22T00:53:05Z",
   "description": "The AI coding agent built for the terminal.",
   "url": "https://github.com/anomalyco/opencode",
@@ -34,12 +34,12 @@
   ],
   "sources": [
     {
-      "name": "opencode-bin_1.18.30_aarch64.tar.gz",
-      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.30/opencode-linux-arm64.tar.gz"
+      "name": "opencode-bin_1.18.31_aarch64.tar.gz",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.31/opencode-linux-arm64.tar.gz"
     },
     {
-      "name": "opencode-bin_1.18.30_x86_64.tar.gz",
-      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.30/opencode-linux-x64.tar.gz"
+      "name": "opencode-bin_1.18.31_x86_64.tar.gz",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.18.31/opencode-linux-x64.tar.gz"
     }
   ],
   "required_by": [],
