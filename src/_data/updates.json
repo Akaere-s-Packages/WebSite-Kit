@@ -1,13 +1,13 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.273-1",
+    "date": "2026-09-15T21:54:30Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.2.0-1",
     "date": "2026-09-15T09:40:28Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.272-1",
-    "date": "2026-09-15T02:35:19Z"
   },
   {
     "name": "opencode-bin",
