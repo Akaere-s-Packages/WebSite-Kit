@@ -1,5 +1,10 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.2.2-1",
+    "date": "2026-09-16T17:56:43Z"
+  },
+  {
     "name": "visual-studio-code-bin",
     "version": "1.138.0-1",
     "date": "2026-09-16T14:00:19Z"
@@ -8,11 +13,6 @@
     "name": "github-copilot-cli",
     "version": "1.0.85-1",
     "date": "2026-09-16T08:09:31Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.2.1-1",
-    "date": "2026-09-15T23:59:31Z"
   },
   {
     "name": "google-chrome",
