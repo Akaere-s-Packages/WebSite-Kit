@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.85-1",
+    "date": "2026-09-16T08:09:31Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.2.1-1",
     "date": "2026-09-15T23:59:31Z"
@@ -92,11 +97,6 @@
   {
     "name": "python-zxing-cpp",
     "version": "3.1.1-2",
-    "date": "2026-09-13T10:53:35Z"
-  },
-  {
-    "name": "pi",
-    "version": "0.85.1-3",
     "date": "2026-09-13T10:53:35Z"
   }
 ]
