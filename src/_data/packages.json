@@ -72,6 +72,18 @@
     "detail_url": "/packages/infisical/"
   },
   {
+    "name": "linux-mainline",
+    "pkgbase": "linux-mainline",
+    "distro": "archlinux",
+    "source_type": "aur",
+    "version": "7.3rc2-1",
+    "description": "The Linux Mainline kernel and modules",
+    "maintainer": "miffe",
+    "last_updated": null,
+    "build_status": "unknown",
+    "detail_url": "/packages/linux-mainline/"
+  },
+  {
     "name": "linuxqq",
     "pkgbase": "linuxqq",
     "distro": "archlinux",
