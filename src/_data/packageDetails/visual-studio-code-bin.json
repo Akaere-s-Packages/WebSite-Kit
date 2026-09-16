@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698292",
-  "version": "1.137.0-1",
-  "last_updated": "2026-09-13T10:53:35Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35105140977/job/104824362188",
+  "version": "1.138.0-1",
+  "last_updated": "2026-09-16T14:00:19Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -109,7 +109,7 @@
       "description": "Needed for live share"
     }
   ],
-  "package_size_bytes": 1041788920,
+  "package_size_bytes": 1045301026,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -417,7 +417,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9410873
+      "size_bytes": 9417469
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -513,7 +513,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain.js",
-      "size_bytes": 127786
+      "size_bytes": 127833
     },
     {
       "path": "/usr/share/code/resources/app/extensions/configuration-editing/images/icon.png",
@@ -537,7 +537,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 7132457
+      "size_bytes": 7136900
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -681,7 +681,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/extension.js",
-      "size_bytes": 19649693
+      "size_bytes": 19639623
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/external_ingest_utils_bg.wasm",
@@ -845,7 +845,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/node_modules/@vscode/copilot-typescript-server-plugin/dist/main.js",
-      "size_bytes": 119660
+      "size_bytes": 122449
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/node_modules/@vscode/copilot-typescript-server-plugin/package.json",
@@ -853,7 +853,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.json",
-      "size_bytes": 200749
+      "size_bytes": 200187
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.cs.json",
@@ -881,7 +881,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.json",
-      "size_bytes": 63244
+      "size_bytes": 63035
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.ko.json",
@@ -921,7 +921,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/telemetry.json",
-      "size_bytes": 269548
+      "size_bytes": 273033
     },
     {
       "path": "/usr/share/code/resources/app/extensions/cpp/language-configuration.json",
@@ -989,7 +989,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js",
-      "size_bytes": 463356
+      "size_bytes": 460178
     },
     {
       "path": "/usr/share/code/resources/app/extensions/css-language-features/icons/css.png",
@@ -1009,11 +1009,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/css-language-features/server/dist/node/cssServerMain.js",
-      "size_bytes": 1214484
+      "size_bytes": 1216556
     },
     {
       "path": "/usr/share/code/resources/app/extensions/css-language-features/server/package.json",
-      "size_bytes": 966
+      "size_bytes": 951
     },
     {
       "path": "/usr/share/code/resources/app/extensions/css/language-configuration.json",
@@ -1257,7 +1257,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/dist/main.js",
-      "size_bytes": 757324
+      "size_bytes": 757636
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/dist/ssh-askpass-empty.sh",
@@ -1405,7 +1405,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js",
-      "size_bytes": 229870
+      "size_bytes": 230162
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/images/icon.png",
@@ -1437,7 +1437,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/package.json",
-      "size_bytes": 1585
+      "size_bytes": 1609
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/package.nls.json",
@@ -1581,7 +1581,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js",
-      "size_bytes": 634490
+      "size_bytes": 618392
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/icons/html.png",
@@ -1601,7 +1601,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/server/dist/node/htmlServerMain.js",
-      "size_bytes": 1706384
+      "size_bytes": 1690275
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/server/lib/jquery.d.ts",
@@ -1609,7 +1609,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/server/package.json",
-      "size_bytes": 1043
+      "size_bytes": 1035
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html/language-configuration.json",
@@ -1761,7 +1761,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js",
-      "size_bytes": 662211
+      "size_bytes": 651935
     },
     {
       "path": "/usr/share/code/resources/app/extensions/json-language-features/icons/json.png",
@@ -1777,11 +1777,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain.js",
-      "size_bytes": 378072
+      "size_bytes": 357534
     },
     {
       "path": "/usr/share/code/resources/app/extensions/json-language-features/server/package.json",
-      "size_bytes": 1162
+      "size_bytes": 1154
     },
     {
       "path": "/usr/share/code/resources/app/extensions/json/language-configuration.json",
@@ -2481,11 +2481,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/editor.css",
-      "size_bytes": 103633
+      "size_bytes": 103745
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/editor.js",
-      "size_bytes": 522087
+      "size_bytes": 531079
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/erDiagram-SSCWMZ5O-TUKYG42P.js",
@@ -2649,7 +2649,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/editor.ts",
-      "size_bytes": 25979
+      "size_bytes": 26187
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/linkPresentationProvider.ts",
@@ -2706,14 +2706,6 @@
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/schemas/package.schema.json",
       "size_bytes": 3852
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/scripts/updateMarkdownEditorPackageJson.mts",
-      "size_bytes": 12561
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/scripts/updateMarkdownEditorPackageJson.test.mts",
-      "size_bytes": 5709
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-math/README.md",
@@ -2965,7 +2957,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js",
-      "size_bytes": 480239
+      "size_bytes": 480357
     },
     {
       "path": "/usr/share/code/resources/app/extensions/microsoft-authentication/dist/libmsalruntime.so",
@@ -2993,7 +2985,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/microsoft-authentication/package.json",
-      "size_bytes": 3140
+      "size_bytes": 3164
     },
     {
       "path": "/usr/share/code/resources/app/extensions/microsoft-authentication/package.nls.json",
@@ -4357,7 +4349,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-abyss/themes/abyss-color-theme.json",
-      "size_bytes": 7231
+      "size_bytes": 7422
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/fileicons/images/document-dark.svg",
@@ -4413,15 +4405,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/2026-dark.json",
-      "size_bytes": 16753
+      "size_bytes": 16294
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/2026-light.json",
-      "size_bytes": 16785
+      "size_bytes": 16328
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/dark_modern.json",
-      "size_bytes": 4812
+      "size_bytes": 4853
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/dark_plus.json",
@@ -4429,19 +4421,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/dark_vs.json",
-      "size_bytes": 6512
+      "size_bytes": 6591
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/hc_black.json",
-      "size_bytes": 7081
+      "size_bytes": 7162
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/hc_light.json",
-      "size_bytes": 8776
+      "size_bytes": 8857
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/light_modern.json",
-      "size_bytes": 5765
+      "size_bytes": 5806
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/light_plus.json",
@@ -4449,7 +4441,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/light_vs.json",
-      "size_bytes": 7407
+      "size_bytes": 7488
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-kimbie-dark/package.json",
@@ -4461,7 +4453,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-kimbie-dark/themes/kimbie-dark-color-theme.json",
-      "size_bytes": 6506
+      "size_bytes": 6697
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-modern-icons/README.md",
@@ -4957,7 +4949,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-monokai-dimmed/themes/dimmed-monokai-color-theme.json",
-      "size_bytes": 11342
+      "size_bytes": 11571
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-monokai/package.json",
@@ -4969,7 +4961,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-monokai/themes/monokai-color-theme.json",
-      "size_bytes": 9049
+      "size_bytes": 9240
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-quietlight/package.json",
@@ -4981,7 +4973,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-quietlight/themes/quietlight-color-theme.json",
-      "size_bytes": 8785
+      "size_bytes": 9014
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-red/package.json",
@@ -4993,7 +4985,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-red/themes/Red-color-theme.json",
-      "size_bytes": 7315
+      "size_bytes": 7463
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-seti/README.md",
@@ -5033,7 +5025,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-solarized-dark/themes/solarized-dark-color-theme.json",
-      "size_bytes": 7976
+      "size_bytes": 8167
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-solarized-light/package.json",
@@ -5045,7 +5037,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-solarized-light/themes/solarized-light-color-theme.json",
-      "size_bytes": 7520
+      "size_bytes": 7711
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-tomorrow-night-blue/package.json",
@@ -5057,7 +5049,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-tomorrow-night-blue/themes/tomorrow-night-blue-color-theme.json",
-      "size_bytes": 6210
+      "size_bytes": 6401
     },
     {
       "path": "/usr/share/code/resources/app/extensions/tunnel-forwarding/dist/extension.js",
@@ -5113,7 +5105,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js",
-      "size_bytes": 484405
+      "size_bytes": 483936
     },
     {
       "path": "/usr/share/code/resources/app/extensions/typescript-language-features/media/icon.png",
@@ -5289,7 +5281,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar",
-      "size_bytes": 55590316
+      "size_bytes": 55657342
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@devcontainers/cli/LICENSE.txt",
@@ -5333,11 +5325,23 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/app.js",
-      "size_bytes": 7544136
+      "size_bytes": 7646023
+    },
+    {
+      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/assets/copilot.ico",
+      "size_bytes": 315320
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/assets/copilot.png",
       "size_bytes": 51687
+    },
+    {
+      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/assets/copilot.svg",
+      "size_bytes": 3940
+    },
+    {
+      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/assets/copilot_win.png",
+      "size_bytes": 2831
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/builtin-skills/customize-cloud-agent/SKILL.md",
@@ -5365,7 +5369,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/changelog.json",
-      "size_bytes": 973494
+      "size_bytes": 1001550
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/copilot-sdk/canvas.d.ts",
@@ -5525,7 +5529,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js",
-      "size_bytes": 19233
+      "size_bytes": 19147
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/npm-loader.js",
@@ -5533,11 +5537,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/package.json",
-      "size_bytes": 739
+      "size_bytes": 595
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/prebuilds/linux-x64/runtime.node",
-      "size_bytes": 90426904
+      "size_bytes": 92682552
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/preloads/extension_bootstrap.mjs",
@@ -5617,23 +5621,23 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/schemas/api.schema.json",
-      "size_bytes": 1586333
+      "size_bytes": 1672277
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/schemas/session-events.schema.json",
-      "size_bytes": 768050
+      "size_bytes": 808262
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/sdk/index.js",
-      "size_bytes": 1156697
+      "size_bytes": 1167233
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/sea-loader.js",
-      "size_bytes": 94145
+      "size_bytes": 94947
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/tgrep/bin/linux-x64/tgrep",
-      "size_bytes": 7025880
+      "size_bytes": 7684920
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/tree-sitter-bash.wasm",
@@ -5709,15 +5713,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/voice-engine.worker.js",
-      "size_bytes": 120381
+      "size_bytes": 120282
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/voice-installer.worker.js",
-      "size_bytes": 19775
+      "size_bytes": 19678
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/voice-server.js",
-      "size_bytes": 126170
+      "size_bytes": 126071
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/lxc-exec",
@@ -8565,19 +8569,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/bootstrap-fork.js",
-      "size_bytes": 43083
+      "size_bytes": 43332
     },
     {
       "path": "/usr/share/code/resources/app/out/cli.js",
-      "size_bytes": 291734
+      "size_bytes": 292266
     },
     {
       "path": "/usr/share/code/resources/app/out/date",
-      "size_bytes": 25
+      "size_bytes": 20
     },
     {
       "path": "/usr/share/code/resources/app/out/main.js",
-      "size_bytes": 1317751
+      "size_bytes": 1321269
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -8661,19 +8665,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.keys.json",
-      "size_bytes": 797404
+      "size_bytes": 813334
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.js",
-      "size_bytes": 1185546
+      "size_bytes": 1219813
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.json",
-      "size_bytes": 1185331
+      "size_bytes": 1219598
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.metadata.json",
-      "size_bytes": 2411464
+      "size_bytes": 2466899
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh",
@@ -8701,15 +8705,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-browser/workbench/workbench.js",
-      "size_bytes": 33918
+      "size_bytes": 34336
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1222115
+      "size_bytes": 1227864
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 759845
+      "size_bytes": 760876
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -8733,7 +8737,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js",
-      "size_bytes": 346533
+      "size_bytes": 346552
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3",
@@ -8861,11 +8865,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 2557806
+      "size_bytes": 2663027
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
-      "size_bytes": 168401
+      "size_bytes": 168420
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/browserView/electron-browser/preload-browserView.js",
@@ -8873,19 +8877,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/files/node/watcher/watcherMain.js",
-      "size_bytes": 228979
+      "size_bytes": 229010
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/localTranscription/node/localTranscriptionMain.js",
-      "size_bytes": 189108
+      "size_bytes": 189952
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/profiling/electron-browser/profileAnalysisWorkerMain.js",
-      "size_bytes": 183525
+      "size_bytes": 183585
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js",
-      "size_bytes": 414169
+      "size_bytes": 414484
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/contrib/chat/browser/media/letterpress-sessions-dark.svg",
@@ -8905,11 +8909,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.css",
-      "size_bytes": 1781771
+      "size_bytes": 1828295
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 19972871
+      "size_bytes": 19850139
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -8965,11 +8969,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2252012
+      "size_bytes": 2256046
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 1980074
+      "size_bytes": 1984012
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -9493,7 +9497,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js",
-      "size_bytes": 249107
+      "size_bytes": 249242
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg",
@@ -9513,11 +9517,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/notebook/common/services/notebookWebWorkerMain.js",
-      "size_bytes": 266602
+      "size_bytes": 266662
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/output/common/outputLinkComputerMain.js",
-      "size_bytes": 162328
+      "size_bytes": 162354
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/psreadline/Microsoft.PowerShell.PSReadLine.dll",
@@ -9725,23 +9729,23 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/languageDetection/browser/languageDetectionWebWorkerMain.js",
-      "size_bytes": 167356
+      "size_bytes": 167382
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/search/worker/localFileSearchMain.js",
-      "size_bytes": 168243
+      "size_bytes": 168274
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/textMate/browser/backgroundTokenization/worker/textMateTokenizationWorker.workerMain.js",
-      "size_bytes": 269217
+      "size_bytes": 269236
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.css",
-      "size_bytes": 1615715
+      "size_bytes": 1642944
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 19612743
+      "size_bytes": 19375036
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
@@ -9749,7 +9753,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/package.json",
-      "size_bytes": 15426
+      "size_bytes": 15390
     },
     {
       "path": "/usr/share/code/resources/app/policies/policy.json",
@@ -9757,7 +9761,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/product.json",
-      "size_bytes": 67226
+      "size_bytes": 67305
     },
     {
       "path": "/usr/share/code/resources/app/resources/linux/code.png",
@@ -9765,7 +9769,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-core.json",
-      "size_bytes": 730528
+      "size_bytes": 757447
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-extensions.json",
@@ -9813,19 +9817,19 @@
       "name": "visual-studio-code-bin.sh"
     },
     {
-      "name": "code_1.137.0_amd64.deb",
-      "url": "https://update.code.visualstudio.com/1.137.0/linux-deb-x64/stable"
+      "name": "code_1.138.0_amd64.deb",
+      "url": "https://update.code.visualstudio.com/1.138.0/linux-deb-x64/stable"
     },
     {
-      "name": "code_1.137.0_arm64.deb",
-      "url": "https://update.code.visualstudio.com/1.137.0/linux-deb-arm64/stable"
+      "name": "code_1.138.0_arm64.deb",
+      "url": "https://update.code.visualstudio.com/1.138.0/linux-deb-arm64/stable"
     },
     {
-      "name": "code_1.137.0_armhf.deb",
-      "url": "https://update.code.visualstudio.com/1.137.0/linux-deb-armhf/stable"
+      "name": "code_1.138.0_armhf.deb",
+      "url": "https://update.code.visualstudio.com/1.138.0/linux-deb-armhf/stable"
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.137.0-1-x86_64.pkg.tar.zst",
-  "sha256": "df85bfc92c0582fabf44caa82641e98f896ed8aa750fee8075e7f9bf9f60422a"
+  "filename": "visual-studio-code-bin-1.138.0-1-x86_64.pkg.tar.zst",
+  "sha256": "8e13b2abaa966d369ac01cccb25118093ebebdec4c1ed368ad27fb49e9213f1d"
 }

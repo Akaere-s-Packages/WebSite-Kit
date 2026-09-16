@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.138.0-1",
+    "date": "2026-09-16T14:00:19Z"
+  },
+  {
     "name": "github-copilot-cli",
     "version": "1.0.85-1",
     "date": "2026-09-16T08:09:31Z"
@@ -47,11 +52,6 @@
   {
     "name": "yubico-authenticator",
     "version": "7.4.1-2",
-    "date": "2026-09-13T10:53:35Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.137.0-1",
     "date": "2026-09-13T10:53:35Z"
   },
   {
