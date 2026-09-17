@@ -14,9 +14,9 @@
     "MIT"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35130978107/job/104911695669",
-  "version": "18.2.2-1",
-  "last_updated": "2026-09-16T17:56:43Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35174970735/job/105054579190",
+  "version": "18.2.3-1",
+  "last_updated": "2026-09-17T02:37:51Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -85,11 +85,11 @@
       "description": "compositor-specific backend for Wayland computer tool input"
     }
   ],
-  "package_size_bytes": 251880813,
+  "package_size_bytes": 251958637,
   "files": [
     {
       "path": "/usr/bin/omp",
-      "size_bytes": 251786720
+      "size_bytes": 251864544
     },
     {
       "path": "/usr/share/bash-completion/completions/omp",
@@ -123,6 +123,6 @@
     }
   ],
   "required_by": [],
-  "filename": "oh-my-pi-bin-18.2.2-1-x86_64.pkg.tar.zst",
-  "sha256": "052dc06038cd466f6d349532af833f581627cdc6e60b5bddfb4a5760c0f443c4"
+  "filename": "oh-my-pi-bin-18.2.3-1-x86_64.pkg.tar.zst",
+  "sha256": "f7ce235d0085a6a325cdeae592f4a7ffebd6c44088d0af5b364389f375358aec"
 }
