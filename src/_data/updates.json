@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.274-1",
+    "date": "2026-09-17T02:34:00Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.2.2-1",
     "date": "2026-09-16T17:56:43Z"
@@ -18,11 +23,6 @@
     "name": "google-chrome",
     "version": "153.0.8010.47-1",
     "date": "2026-09-15T23:54:40Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.273-1",
-    "date": "2026-09-15T21:54:30Z"
   },
   {
     "name": "opencode-bin",
