@@ -14,9 +14,9 @@
     "LicenseRef-GitHub-Copilot"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35071976190/job/104715416809",
-  "version": "1.0.85-1",
-  "last_updated": "2026-09-16T08:09:31Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35298690638/job/105456540562",
+  "version": "1.0.86-1",
+  "last_updated": "2026-09-18T02:19:19Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -55,7 +55,7 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 166873502,
+  "package_size_bytes": 167215149,
   "files": [
     {
       "path": "/usr/bin/copilot -> ../lib/node_modules/@github/copilot/npm-loader.js",
@@ -83,7 +83,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot",
-      "size_bytes": 166464320
+      "size_bytes": 166792000
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/package.json",
@@ -135,7 +135,7 @@
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/CHANGELOG.md",
-      "size_bytes": 240923
+      "size_bytes": 254890
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/README.md -> /usr/lib/node_modules/@github/copilot/README.md",
@@ -156,15 +156,15 @@
   ],
   "sources": [
     {
-      "name": "copilot-1.0.85.tgz",
-      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.85.tgz"
+      "name": "copilot-1.0.86.tgz",
+      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.86.tgz"
     },
     {
-      "name": "CHANGELOG-1.0.85.md",
-      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.85/changelog.md"
+      "name": "CHANGELOG-1.0.86.md",
+      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.86/changelog.md"
     }
   ],
   "required_by": [],
-  "filename": "github-copilot-cli-1.0.85-1-x86_64.pkg.tar.zst",
-  "sha256": "bc93c47a2bd12cdbee2ab1d62ff9a003cbb59413ed450f46b4996b6aa00d4f1e"
+  "filename": "github-copilot-cli-1.0.86-1-x86_64.pkg.tar.zst",
+  "sha256": "72f32b819df2a99398aae2d54025130f8d465e17421260147bd73db24b864600"
 }
