@@ -14,9 +14,9 @@
     "LicenseRef-claude-code"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35385538397/job/105731524626",
-  "version": "2.1.277-1",
-  "last_updated": "2026-09-18T19:24:53Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35423661277/job/105845786149",
+  "version": "2.1.278-1",
+  "last_updated": "2026-09-19T05:22:47Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -67,11 +67,11 @@
       "description": "sandboxing"
     }
   ],
-  "package_size_bytes": 234088875,
+  "package_size_bytes": 234125739,
   "files": [
     {
       "path": "/opt/claude-code/bin/claude",
-      "size_bytes": 234082616
+      "size_bytes": 234119480
     },
     {
       "path": "/usr/bin/claude",
@@ -88,15 +88,15 @@
       "url": "https://code.claude.com/docs/en/legal-and-compliance.md"
     },
     {
-      "name": "claude-2.1.277-x86_64",
-      "url": "https://downloads.claude.ai/claude-code-releases/2.1.277/linux-x64/claude"
+      "name": "claude-2.1.278-x86_64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.278/linux-x64/claude"
     },
     {
-      "name": "claude-2.1.277-aarch64",
-      "url": "https://downloads.claude.ai/claude-code-releases/2.1.277/linux-arm64/claude"
+      "name": "claude-2.1.278-aarch64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.278/linux-arm64/claude"
     }
   ],
   "required_by": [],
-  "filename": "claude-code-2.1.277-1-x86_64.pkg.tar.zst",
-  "sha256": "3db615c39645d1e17e7efe6332a688191404879b29c4118fd5079a09e229ed2b"
+  "filename": "claude-code-2.1.278-1-x86_64.pkg.tar.zst",
+  "sha256": "1475e1a6a437e19d369ba39071a43cb3b563c54e770acf620aae57ab22887d7d"
 }
