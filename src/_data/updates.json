@@ -1,5 +1,10 @@
 [
   {
+    "name": "google-chrome",
+    "version": "153.0.8010.52-1",
+    "date": "2026-09-19T13:46:34Z"
+  },
+  {
     "name": "netbird-bin",
     "version": "0.79.0-1",
     "date": "2026-09-19T05:26:36Z"
@@ -23,11 +28,6 @@
     "name": "visual-studio-code-bin",
     "version": "1.138.0-1",
     "date": "2026-09-16T14:00:19Z"
-  },
-  {
-    "name": "google-chrome",
-    "version": "153.0.8010.47-1",
-    "date": "2026-09-15T23:54:40Z"
   },
   {
     "name": "opencode-bin",
