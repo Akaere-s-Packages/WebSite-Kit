@@ -1,5 +1,10 @@
 [
   {
+    "name": "netbird-bin",
+    "version": "0.79.0-1",
+    "date": "2026-09-19T05:26:36Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.278-1",
     "date": "2026-09-19T05:22:47Z"
@@ -28,11 +33,6 @@
     "name": "opencode-bin",
     "version": "1.18.31-1",
     "date": "2026-09-14T23:40:11Z"
-  },
-  {
-    "name": "netbird-bin",
-    "version": "0.78.2-1",
-    "date": "2026-09-14T20:19:28Z"
   },
   {
     "name": "infisical",

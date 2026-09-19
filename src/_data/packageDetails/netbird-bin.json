@@ -14,9 +14,9 @@
     "BSD-3-Clause"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34891719385/job/104135874256",
-  "version": "0.78.2-1",
-  "last_updated": "2026-09-14T20:19:28Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35423834080/job/105846259709",
+  "version": "0.79.0-1",
+  "last_updated": "2026-09-19T05:26:36Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -31,7 +31,7 @@
       "description": "Private DNS"
     }
   ],
-  "package_size_bytes": 42840453,
+  "package_size_bytes": 42859429,
   "files": [
     {
       "path": "/etc/default/netbird",
@@ -39,7 +39,7 @@
     },
     {
       "path": "/usr/bin/netbird",
-      "size_bytes": 42803832
+      "size_bytes": 42822808
     },
     {
       "path": "/usr/lib/systemd/system/netbird@.service",
@@ -89,6 +89,6 @@
     }
   ],
   "required_by": [],
-  "filename": "netbird-bin-0.78.2-1-x86_64.pkg.tar.zst",
-  "sha256": "754dcfd041e89f6d12fdf698d6677e9186c27a5711fe3fe0de987526d81320b9"
+  "filename": "netbird-bin-0.79.0-1-x86_64.pkg.tar.zst",
+  "sha256": "7b9c46e0c9d1a787299b0af91930cc3a666e5c0c76a4043078861eefea99cf2a"
 }
