@@ -1,5 +1,10 @@
 [
   {
+    "name": "pi",
+    "version": "0.86.1-1",
+    "date": "2026-09-20T13:26:48Z"
+  },
+  {
     "name": "google-chrome",
     "version": "153.0.8010.52-1",
     "date": "2026-09-19T13:46:34Z"
@@ -92,11 +97,6 @@
   {
     "name": "repoq",
     "version": "0.2.1-1",
-    "date": "2026-09-13T10:53:35Z"
-  },
-  {
-    "name": "python-zxing-cpp",
-    "version": "3.1.1-2",
     "date": "2026-09-13T10:53:35Z"
   }
 ]
