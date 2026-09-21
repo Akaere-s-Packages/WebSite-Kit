@@ -1,5 +1,10 @@
 [
   {
+    "name": "infisical",
+    "version": "0.43.133-1",
+    "date": "2026-09-21T17:38:20Z"
+  },
+  {
     "name": "pi",
     "version": "0.86.1-2",
     "date": "2026-09-21T11:34:38Z"
@@ -38,11 +43,6 @@
     "name": "opencode-bin",
     "version": "1.18.31-1",
     "date": "2026-09-14T23:40:11Z"
-  },
-  {
-    "name": "infisical",
-    "version": "0.43.132-1",
-    "date": "2026-09-14T20:13:35Z"
   },
   {
     "name": "zulu-21-bin",
