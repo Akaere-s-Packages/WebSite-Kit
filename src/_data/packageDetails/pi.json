@@ -15,12 +15,12 @@
   ],
   "sources": [
     {
-      "name": "pi-0.86.1.tar.gz",
-      "url": "https://github.com/earendil-works/pi/archive/refs/tags/v0.86.1.tar.gz"
+      "name": "pi-0.87.0.tar.gz",
+      "url": "https://github.com/earendil-works/pi/archive/refs/tags/v0.87.0.tar.gz"
     },
     {
-      "name": "pi-ai-0.86.1.tgz",
-      "url": "https://registry.npmjs.org/@earendil-works/pi-ai/-/pi-ai-0.86.1.tgz"
+      "name": "pi-ai-0.87.0.tgz",
+      "url": "https://registry.npmjs.org/@earendil-works/pi-ai/-/pi-ai-0.87.0.tgz"
     }
   ],
   "build_status": "published",
