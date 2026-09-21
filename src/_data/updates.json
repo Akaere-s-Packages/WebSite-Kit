@@ -1,5 +1,10 @@
 [
   {
+    "name": "pi",
+    "version": "0.87.0-1",
+    "date": "2026-09-21T21:35:56Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.2.8-1",
     "date": "2026-09-21T21:31:32Z"
@@ -8,11 +13,6 @@
     "name": "infisical",
     "version": "0.43.133-1",
     "date": "2026-09-21T17:38:20Z"
-  },
-  {
-    "name": "pi",
-    "version": "0.86.1-2",
-    "date": "2026-09-21T11:34:38Z"
   },
   {
     "name": "google-chrome",
