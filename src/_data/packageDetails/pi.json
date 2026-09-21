@@ -24,9 +24,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35513360748/job/106085074089",
-  "version": "0.86.1-1",
-  "last_updated": "2026-09-20T13:26:48Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35594490683/job/106316155587",
+  "version": "0.86.1-2",
+  "last_updated": "2026-09-21T11:34:38Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -61,7 +61,7 @@
   "package_size_bytes": 158117882,
   "files": [
     {
-      "path": "/usr/bin/pi -> /usr/lib/node_modules/pi/packages/coding-agent/dist/cli.js",
+      "path": "/usr/bin/pi -> /usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/cli.js",
       "size_bytes": 0
     },
     {
@@ -70293,6 +70293,6 @@
       "size_bytes": 1069
     }
   ],
-  "filename": "pi-0.86.1-1-x86_64.pkg.tar.zst",
-  "sha256": "60a7743bae45493c79ddf499d53d7a24425f346061c41b687e54620cffb39d24"
+  "filename": "pi-0.86.1-2-x86_64.pkg.tar.zst",
+  "sha256": "7f02a49329f2389cd80f2184cbfaf5472ee867db8c78867efb5dcb517af7c32f"
 }

@@ -1,13 +1,13 @@
 [
   {
+    "name": "pi",
+    "version": "0.86.1-2",
+    "date": "2026-09-21T11:34:38Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.2.7-1",
     "date": "2026-09-21T05:45:23Z"
-  },
-  {
-    "name": "pi",
-    "version": "0.86.1-1",
-    "date": "2026-09-20T13:26:48Z"
   },
   {
     "name": "google-chrome",
