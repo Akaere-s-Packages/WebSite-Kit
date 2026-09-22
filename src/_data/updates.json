@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.280-1",
+    "date": "2026-09-22T19:30:39Z"
+  },
+  {
     "name": "opencode-bin",
     "version": "1.18.32-1",
     "date": "2026-09-22T00:32:36Z"
@@ -33,11 +38,6 @@
     "name": "netbird-bin",
     "version": "0.79.0-1",
     "date": "2026-09-19T05:26:36Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.278-1",
-    "date": "2026-09-19T05:22:47Z"
   },
   {
     "name": "visual-studio-code-bin",
