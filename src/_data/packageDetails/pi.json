@@ -24,9 +24,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35657775449/job/106525610979",
-  "version": "0.87.0-1",
-  "last_updated": "2026-09-21T21:35:56Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35793931409/job/106968730265",
+  "version": "0.87.1-1",
+  "last_updated": "2026-09-22T22:47:01Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -58,7 +58,7 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 158801018,
+  "package_size_bytes": 158730566,
   "files": [
     {
       "path": "/usr/bin/pi -> /usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/cli.js",
@@ -61234,15 +61234,15 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions.d.ts.map",
-      "size_bytes": 70992
+      "size_bytes": 71109
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions.js",
-      "size_bytes": 64250
+      "size_bytes": 64355
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions.js.map",
-      "size_bytes": 118889
+      "size_bytes": 119120
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions.lazy.d.ts",
@@ -61798,19 +61798,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/image-models.generated.d.ts",
-      "size_bytes": 24420
+      "size_bytes": 24863
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/image-models.generated.d.ts.map",
-      "size_bytes": 27288
+      "size_bytes": 27788
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/image-models.generated.js",
-      "size_bytes": 27035
+      "size_bytes": 27538
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/image-models.generated.js.map",
-      "size_bytes": 43626
+      "size_bytes": 44414
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/image-models.js",
@@ -62290,7 +62290,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/amazon-bedrock.json",
-      "size_bytes": 78457
+      "size_bytes": 81727
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/ant-ling.json",
@@ -62298,11 +62298,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/anthropic.json",
-      "size_bytes": 8961
+      "size_bytes": 9775
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/azure-openai-responses.json",
-      "size_bytes": 17113
+      "size_bytes": 18224
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/baseten.json",
@@ -62314,7 +62314,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/cloudflare-ai-gateway.json",
-      "size_bytes": 32689
+      "size_bytes": 32869
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/cloudflare-workers-ai.json",
@@ -62330,7 +62330,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/github-copilot.json",
-      "size_bytes": 21686
+      "size_bytes": 25130
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/google-vertex.json",
@@ -62382,23 +62382,23 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/openai-codex.json",
-      "size_bytes": 4011
+      "size_bytes": 5542
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/openai.json",
-      "size_bytes": 24058
+      "size_bytes": 25783
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/opencode-go.json",
-      "size_bytes": 15537
+      "size_bytes": 16620
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/opencode.json",
-      "size_bytes": 38745
+      "size_bytes": 40674
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/openrouter.json",
-      "size_bytes": 221737
+      "size_bytes": 225960
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/qwen-token-plan-cn.json",
@@ -62414,7 +62414,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/radius.json",
-      "size_bytes": 17643
+      "size_bytes": 19725
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/together.json",
@@ -62422,27 +62422,27 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/vercel-ai-gateway.json",
-      "size_bytes": 105496
+      "size_bytes": 110171
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/xai.json",
-      "size_bytes": 1635
+      "size_bytes": 2533
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/xiaomi-token-plan-ams.json",
-      "size_bytes": 986
+      "size_bytes": 2080
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/xiaomi-token-plan-cn.json",
-      "size_bytes": 982
+      "size_bytes": 2072
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/xiaomi-token-plan-sgp.json",
-      "size_bytes": 986
+      "size_bytes": 2080
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/xiaomi.json",
-      "size_bytes": 1405
+      "size_bytes": 3030
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/zai-coding-cn.json",
@@ -64434,11 +64434,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/CHANGELOG.md",
-      "size_bytes": 574624
+      "size_bytes": 576138
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/README.md",
-      "size_bytes": 35194
+      "size_bytes": 2458
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bun/cli.d.ts",
@@ -64505,7 +64505,7 @@
       "size_bytes": 402
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/anthropic-messages-MYU5ZMRF.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/anthropic-messages-J5WXPPPC.js",
       "size_bytes": 29511
     },
     {
@@ -64521,12 +64521,12 @@
       "size_bytes": 878738
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-4DKZACXI.js",
-      "size_bytes": 4316858
-    },
-    {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-4L3WN2XY.js",
       "size_bytes": 1563
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-65HAU2C5.js",
+      "size_bytes": 11368
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-6CYCI3EJ.js",
@@ -64557,16 +64557,16 @@
       "size_bytes": 949857
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-GV2E3GBU.js",
-      "size_bytes": 11368
-    },
-    {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-L2ZPNLYD.js",
       "size_bytes": 278
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-NUHFSC37.js",
       "size_bytes": 197770
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-OJP47DM6.js",
+      "size_bytes": 4345609
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-PGXDEOVV.js",
@@ -64614,7 +64614,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/github-copilot.js",
-      "size_bytes": 32105
+      "size_bytes": 35176
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/google-generative-ai-IMS5EK2Y.js",
@@ -64677,8 +64677,8 @@
       "size_bytes": 17337
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-completions-XHML6MTL.js",
-      "size_bytes": 36596
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-completions-OBX42CLD.js",
+      "size_bytes": 36649
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-responses-HWEUZ6WZ.js",
@@ -64705,7 +64705,7 @@
       "size_bytes": 30182
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/virtual-modules-BNWPZYDH.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/virtual-modules-VHMJYYWQ.js",
       "size_bytes": 1388
     },
     {
@@ -64750,15 +64750,15 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/args.d.ts.map",
-      "size_bytes": 23157
+      "size_bytes": 23511
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/args.js",
-      "size_bytes": 20308
+      "size_bytes": 20718
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/args.js.map",
-      "size_bytes": 32427
+      "size_bytes": 33072
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/auth-check.d.ts",
@@ -65134,15 +65134,15 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/compaction/compaction.d.ts.map",
-      "size_bytes": 43122
+      "size_bytes": 43345
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/compaction/compaction.js",
-      "size_bytes": 33036
+      "size_bytes": 33259
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/compaction/compaction.js.map",
-      "size_bytes": 62580
+      "size_bytes": 62803
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/compaction/index.d.ts",
@@ -68157,32 +68157,44 @@
       "size_bytes": 5942
     },
     {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/cli-integration.md",
+      "size_bytes": 6104
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/cli.md",
+      "size_bytes": 11066
+    },
+    {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/compaction.md",
-      "size_bytes": 23542
+      "size_bytes": 23951
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/configuration.md",
+      "size_bytes": 3108
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/containerization.md",
-      "size_bytes": 6868
+      "size_bytes": 7589
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/custom-provider.md",
-      "size_bytes": 29575
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/development.md",
-      "size_bytes": 2806
+      "size_bytes": 9027
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/docs.json",
-      "size_bytes": 3148
+      "size_bytes": 4593
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/environment-variables.md",
-      "size_bytes": 5001
+      "size_bytes": 4829
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/extensions.md",
-      "size_bytes": 130097
+      "size_bytes": 12280
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/how-pi-works.md",
+      "size_bytes": 3300
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/images/doom-extension.png",
@@ -68194,7 +68206,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/images/interactive-mode.png",
-      "size_bytes": 329142
+      "size_bytes": 519083
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/images/tree-view.png",
@@ -68202,103 +68214,119 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/index.md",
-      "size_bytes": 3365
+      "size_bytes": 2521
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/json.md",
-      "size_bytes": 3823
+      "size_bytes": 10887
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/keybindings.md",
-      "size_bytes": 13725
+      "size_bytes": 10544
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/llama-cpp.md",
-      "size_bytes": 4262
+      "size_bytes": 4458
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/message-types.md",
+      "size_bytes": 7182
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/models.md",
-      "size_bytes": 28285
+      "size_bytes": 7001
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/packages.md",
-      "size_bytes": 9295
+      "size_bytes": 5552
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/prompt-templates.md",
-      "size_bytes": 2966
+      "size_bytes": 2490
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/providers.md",
-      "size_bytes": 14895
+      "size_bytes": 6272
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/quickstart.md",
-      "size_bytes": 4871
+      "size_bytes": 4179
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/rpc-commands.md",
+      "size_bytes": 20766
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/rpc-extension-ui.md",
+      "size_bytes": 6174
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/rpc.md",
-      "size_bytes": 42698
+      "size_bytes": 8659
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/sdk.md",
-      "size_bytes": 39211
+      "size_bytes": 8412
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/security.md",
-      "size_bytes": 5313
+      "size_bytes": 6483
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/session-format.md",
-      "size_bytes": 21740
+      "size_bytes": 15299
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/sessions.md",
-      "size_bytes": 7732
+      "size_bytes": 4692
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/settings.md",
-      "size_bytes": 21628
+      "size_bytes": 10340
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/shell-aliases.md",
-      "size_bytes": 356
+      "size_bytes": 3172
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/skills.md",
-      "size_bytes": 7363
+      "size_bytes": 4793
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/slash-commands.md",
+      "size_bytes": 2649
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/terminal-setup.md",
-      "size_bytes": 7531
+      "size_bytes": 8152
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/termux.md",
-      "size_bytes": 3056
+      "size_bytes": 3590
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/themes.md",
-      "size_bytes": 9453
+      "size_bytes": 5133
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/tmux.md",
-      "size_bytes": 2041
+      "size_bytes": 1813
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/tui.md",
-      "size_bytes": 32325
+      "size_bytes": 7593
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/usage.md",
-      "size_bytes": 15300
+      "size_bytes": 5254
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/windows.md",
-      "size_bytes": 987
+      "size_bytes": 3047
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/examples/README.md",
-      "size_bytes": 1079
+      "size_bytes": 1458
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/examples/extensions/README.md",
@@ -68789,8 +68817,12 @@
       "size_bytes": 1082
     },
     {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/examples/rpc-client.ts",
+      "size_bytes": 1060
+    },
+    {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/examples/rpc-extension-ui.ts",
-      "size_bytes": 16730
+      "size_bytes": 17333
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/examples/sdk/01-minimal.ts",
@@ -68846,7 +68878,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/examples/sdk/README.md",
-      "size_bytes": 4708
+      "size_bytes": 4712
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/package.json",
@@ -68958,7 +68990,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/README.md",
-      "size_bytes": 32635
+      "size_bytes": 32753
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/alt-screen-search.d.ts",
@@ -69638,39 +69670,47 @@
     },
     {
       "path": "/usr/share/doc/pi/CHANGELOG.md",
-      "size_bytes": 574624
+      "size_bytes": 576138
     },
     {
       "path": "/usr/share/doc/pi/README.md",
-      "size_bytes": 35194
+      "size_bytes": 2458
+    },
+    {
+      "path": "/usr/share/doc/pi/cli-integration.md",
+      "size_bytes": 6104
+    },
+    {
+      "path": "/usr/share/doc/pi/cli.md",
+      "size_bytes": 11066
     },
     {
       "path": "/usr/share/doc/pi/compaction.md",
-      "size_bytes": 23542
+      "size_bytes": 23951
+    },
+    {
+      "path": "/usr/share/doc/pi/configuration.md",
+      "size_bytes": 3108
     },
     {
       "path": "/usr/share/doc/pi/containerization.md",
-      "size_bytes": 6868
+      "size_bytes": 7589
     },
     {
       "path": "/usr/share/doc/pi/custom-provider.md",
-      "size_bytes": 29575
-    },
-    {
-      "path": "/usr/share/doc/pi/development.md",
-      "size_bytes": 2806
+      "size_bytes": 9027
     },
     {
       "path": "/usr/share/doc/pi/docs.json",
-      "size_bytes": 3148
+      "size_bytes": 4593
     },
     {
       "path": "/usr/share/doc/pi/environment-variables.md",
-      "size_bytes": 5001
+      "size_bytes": 4829
     },
     {
       "path": "/usr/share/doc/pi/examples/README.md",
-      "size_bytes": 1079
+      "size_bytes": 1458
     },
     {
       "path": "/usr/share/doc/pi/examples/extensions/README.md",
@@ -70161,8 +70201,12 @@
       "size_bytes": 1082
     },
     {
+      "path": "/usr/share/doc/pi/examples/rpc-client.ts",
+      "size_bytes": 1060
+    },
+    {
       "path": "/usr/share/doc/pi/examples/rpc-extension-ui.ts",
-      "size_bytes": 16730
+      "size_bytes": 17333
     },
     {
       "path": "/usr/share/doc/pi/examples/sdk/01-minimal.ts",
@@ -70218,11 +70262,15 @@
     },
     {
       "path": "/usr/share/doc/pi/examples/sdk/README.md",
-      "size_bytes": 4708
+      "size_bytes": 4712
     },
     {
       "path": "/usr/share/doc/pi/extensions.md",
-      "size_bytes": 130097
+      "size_bytes": 12280
+    },
+    {
+      "path": "/usr/share/doc/pi/how-pi-works.md",
+      "size_bytes": 3300
     },
     {
       "path": "/usr/share/doc/pi/images/doom-extension.png",
@@ -70234,7 +70282,7 @@
     },
     {
       "path": "/usr/share/doc/pi/images/interactive-mode.png",
-      "size_bytes": 329142
+      "size_bytes": 519083
     },
     {
       "path": "/usr/share/doc/pi/images/tree-view.png",
@@ -70242,105 +70290,121 @@
     },
     {
       "path": "/usr/share/doc/pi/index.md",
-      "size_bytes": 3365
+      "size_bytes": 2521
     },
     {
       "path": "/usr/share/doc/pi/json.md",
-      "size_bytes": 3823
+      "size_bytes": 10887
     },
     {
       "path": "/usr/share/doc/pi/keybindings.md",
-      "size_bytes": 13725
+      "size_bytes": 10544
     },
     {
       "path": "/usr/share/doc/pi/llama-cpp.md",
-      "size_bytes": 4262
+      "size_bytes": 4458
+    },
+    {
+      "path": "/usr/share/doc/pi/message-types.md",
+      "size_bytes": 7182
     },
     {
       "path": "/usr/share/doc/pi/models.md",
-      "size_bytes": 28285
+      "size_bytes": 7001
     },
     {
       "path": "/usr/share/doc/pi/packages.md",
-      "size_bytes": 9295
+      "size_bytes": 5552
     },
     {
       "path": "/usr/share/doc/pi/prompt-templates.md",
-      "size_bytes": 2966
+      "size_bytes": 2490
     },
     {
       "path": "/usr/share/doc/pi/providers.md",
-      "size_bytes": 14895
+      "size_bytes": 6272
     },
     {
       "path": "/usr/share/doc/pi/quickstart.md",
-      "size_bytes": 4871
+      "size_bytes": 4179
+    },
+    {
+      "path": "/usr/share/doc/pi/rpc-commands.md",
+      "size_bytes": 20766
+    },
+    {
+      "path": "/usr/share/doc/pi/rpc-extension-ui.md",
+      "size_bytes": 6174
     },
     {
       "path": "/usr/share/doc/pi/rpc.md",
-      "size_bytes": 42698
+      "size_bytes": 8659
     },
     {
       "path": "/usr/share/doc/pi/sdk.md",
-      "size_bytes": 39211
+      "size_bytes": 8412
     },
     {
       "path": "/usr/share/doc/pi/security.md",
-      "size_bytes": 5313
+      "size_bytes": 6483
     },
     {
       "path": "/usr/share/doc/pi/session-format.md",
-      "size_bytes": 21740
+      "size_bytes": 15299
     },
     {
       "path": "/usr/share/doc/pi/sessions.md",
-      "size_bytes": 7732
+      "size_bytes": 4692
     },
     {
       "path": "/usr/share/doc/pi/settings.md",
-      "size_bytes": 21628
+      "size_bytes": 10340
     },
     {
       "path": "/usr/share/doc/pi/shell-aliases.md",
-      "size_bytes": 356
+      "size_bytes": 3172
     },
     {
       "path": "/usr/share/doc/pi/skills.md",
-      "size_bytes": 7363
+      "size_bytes": 4793
+    },
+    {
+      "path": "/usr/share/doc/pi/slash-commands.md",
+      "size_bytes": 2649
     },
     {
       "path": "/usr/share/doc/pi/terminal-setup.md",
-      "size_bytes": 7531
+      "size_bytes": 8152
     },
     {
       "path": "/usr/share/doc/pi/termux.md",
-      "size_bytes": 3056
+      "size_bytes": 3590
     },
     {
       "path": "/usr/share/doc/pi/themes.md",
-      "size_bytes": 9453
+      "size_bytes": 5133
     },
     {
       "path": "/usr/share/doc/pi/tmux.md",
-      "size_bytes": 2041
+      "size_bytes": 1813
     },
     {
       "path": "/usr/share/doc/pi/tui.md",
-      "size_bytes": 32325
+      "size_bytes": 7593
     },
     {
       "path": "/usr/share/doc/pi/usage.md",
-      "size_bytes": 15300
+      "size_bytes": 5254
     },
     {
       "path": "/usr/share/doc/pi/windows.md",
-      "size_bytes": 987
+      "size_bytes": 3047
     },
     {
       "path": "/usr/share/licenses/pi/LICENSE",
       "size_bytes": 1069
     }
   ],
-  "filename": "pi-0.87.0-1-x86_64.pkg.tar.zst",
-  "sha256": "01f784b767b47f1cfa63d25504cafa97a3e916619096a3d73c7752af39ff1e82"
+  "filename": "pi-0.87.1-1-x86_64.pkg.tar.zst",
+  "sha256": "39e3dfb331cb6e141cd51865fbc54c17b4029d0c00ceffa6854eaf41e49cd9f3"
 }
