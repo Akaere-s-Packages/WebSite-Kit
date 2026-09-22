@@ -1,5 +1,10 @@
 [
   {
+    "name": "google-chrome",
+    "version": "154.0.8037.57-1",
+    "date": "2026-09-22T22:43:15Z"
+  },
+  {
     "name": "github-copilot-cli",
     "version": "1.0.88-1",
     "date": "2026-09-22T22:38:54Z"
@@ -33,11 +38,6 @@
     "name": "infisical",
     "version": "0.43.133-1",
     "date": "2026-09-21T17:38:20Z"
-  },
-  {
-    "name": "google-chrome",
-    "version": "153.0.8010.52-1",
-    "date": "2026-09-19T13:46:34Z"
   },
   {
     "name": "netbird-bin",

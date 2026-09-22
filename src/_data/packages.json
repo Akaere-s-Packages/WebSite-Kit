@@ -52,10 +52,10 @@
     "pkgbase": "google-chrome",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "153.0.8010.52-1",
+    "version": "154.0.8037.57-1",
     "description": "The popular web browser by Google (Stable Channel)",
     "maintainer": "gromit",
-    "last_updated": "2026-09-19T13:46:34Z",
+    "last_updated": "2026-09-22T22:43:15Z",
     "build_status": "published",
     "detail_url": "/packages/google-chrome/"
   },
