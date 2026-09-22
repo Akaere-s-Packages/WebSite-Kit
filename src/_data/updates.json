@@ -1,5 +1,10 @@
 [
   {
+    "name": "opencode-bin",
+    "version": "1.18.32-1",
+    "date": "2026-09-22T00:32:36Z"
+  },
+  {
     "name": "github-copilot-cli",
     "version": "1.0.87-1",
     "date": "2026-09-22T00:28:51Z"
@@ -38,11 +43,6 @@
     "name": "visual-studio-code-bin",
     "version": "1.138.0-1",
     "date": "2026-09-16T14:00:19Z"
-  },
-  {
-    "name": "opencode-bin",
-    "version": "1.18.31-1",
-    "date": "2026-09-14T23:40:11Z"
   },
   {
     "name": "zulu-21-bin",
