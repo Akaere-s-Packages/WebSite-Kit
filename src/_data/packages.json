@@ -76,10 +76,10 @@
     "pkgbase": "linuxqq",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "5:3.2.33_52892-1",
+    "version": "5:3.2.34_53644-1",
     "description": "New Linux QQ based on Electron",
     "maintainer": "Integral",
-    "last_updated": "2026-09-13T10:53:35Z",
+    "last_updated": "2026-09-23T07:07:31Z",
     "build_status": "published",
     "detail_url": "/packages/linuxqq/"
   },
