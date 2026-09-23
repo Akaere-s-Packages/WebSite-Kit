@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.139.0-1",
+    "date": "2026-09-23T17:42:11Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.2.11-1",
     "date": "2026-09-23T07:11:04Z"
@@ -48,11 +53,6 @@
     "name": "netbird-bin",
     "version": "0.79.0-1",
     "date": "2026-09-19T05:26:36Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.138.0-1",
-    "date": "2026-09-16T14:00:19Z"
   },
   {
     "name": "zulu-21-bin",
