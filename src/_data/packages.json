@@ -124,10 +124,10 @@
     "pkgbase": "oh-my-pi-bin",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "18.2.10-1",
+    "version": "18.2.11-1",
     "description": "A coding agent with the IDE wired in (release binary)",
     "maintainer": "bjin",
-    "last_updated": "2026-09-23T01:09:06Z",
+    "last_updated": "2026-09-23T07:11:04Z",
     "build_status": "published",
     "detail_url": "/packages/oh-my-pi-bin/"
   },
