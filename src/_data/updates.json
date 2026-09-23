@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.281-1",
+    "date": "2026-09-23T20:56:34Z"
+  },
+  {
     "name": "visual-studio-code-bin",
     "version": "1.139.0-1",
     "date": "2026-09-23T17:42:11Z"
@@ -33,11 +38,6 @@
     "name": "zulu-17-bin",
     "version": "17.0.20.1-1",
     "date": "2026-09-22T19:40:31Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.280-1",
-    "date": "2026-09-22T19:30:39Z"
   },
   {
     "name": "opencode-bin",
