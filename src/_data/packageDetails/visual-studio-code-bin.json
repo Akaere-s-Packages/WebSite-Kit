@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35896936862/job/107303185984",
-  "version": "1.139.0-1",
-  "last_updated": "2026-09-23T17:42:11Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/36156073800/job/108140879774",
+  "version": "1.139.1-1",
+  "last_updated": "2026-09-25T15:47:56Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -109,7 +109,7 @@
       "description": "Needed for live share"
     }
   ],
-  "package_size_bytes": 1007863072,
+  "package_size_bytes": 1007906623,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -417,7 +417,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9371431
+      "size_bytes": 9374688
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -537,7 +537,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 7125524
+      "size_bytes": 7165744
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -9625,7 +9625,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 20066808
+      "size_bytes": 20066845
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -10457,7 +10457,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 19493439
+      "size_bytes": 19493476
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
@@ -10529,19 +10529,19 @@
       "name": "visual-studio-code-bin.sh"
     },
     {
-      "name": "code_1.139.0_amd64.deb",
-      "url": "https://update.code.visualstudio.com/1.139.0/linux-deb-x64/stable"
+      "name": "code_1.139.1_amd64.deb",
+      "url": "https://update.code.visualstudio.com/1.139.1/linux-deb-x64/stable"
     },
     {
-      "name": "code_1.139.0_arm64.deb",
-      "url": "https://update.code.visualstudio.com/1.139.0/linux-deb-arm64/stable"
+      "name": "code_1.139.1_arm64.deb",
+      "url": "https://update.code.visualstudio.com/1.139.1/linux-deb-arm64/stable"
     },
     {
-      "name": "code_1.139.0_armhf.deb",
-      "url": "https://update.code.visualstudio.com/1.139.0/linux-deb-armhf/stable"
+      "name": "code_1.139.1_armhf.deb",
+      "url": "https://update.code.visualstudio.com/1.139.1/linux-deb-armhf/stable"
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.139.0-1-x86_64.pkg.tar.zst",
-  "sha256": "2b2825f25c29922ec447d4d8d6b334ea48322417b3882014c8dfe61ebbfe769f"
+  "filename": "visual-studio-code-bin-1.139.1-1-x86_64.pkg.tar.zst",
+  "sha256": "baac696049f252dcdff6a47048dcee7d17687b9c845a16d63c4fb5184b7682d9"
 }
