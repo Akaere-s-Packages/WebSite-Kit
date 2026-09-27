@@ -14,9 +14,9 @@
     "MIT"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/36207645090/job/108307469837",
-  "version": "18.3.2-1",
-  "last_updated": "2026-09-26T01:15:18Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/36298922904/job/108562845586",
+  "version": "18.3.4-1",
+  "last_updated": "2026-09-27T06:05:37Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -85,19 +85,19 @@
       "description": "compositor-specific backend for Wayland computer tool input"
     }
   ],
-  "package_size_bytes": 278239088,
+  "package_size_bytes": 284969420,
   "files": [
     {
       "path": "/usr/bin/omp",
-      "size_bytes": 278132192
+      "size_bytes": 284861920
     },
     {
       "path": "/usr/share/bash-completion/completions/omp",
-      "size_bytes": 27001
+      "size_bytes": 27185
     },
     {
       "path": "/usr/share/fish/vendor_completions.d/omp.fish",
-      "size_bytes": 45687
+      "size_bytes": 45872
     },
     {
       "path": "/usr/share/licenses/oh-my-pi-bin/LICENSE",
@@ -105,24 +105,24 @@
     },
     {
       "path": "/usr/share/zsh/site-functions/_omp",
-      "size_bytes": 33064
+      "size_bytes": 33299
     }
   ],
   "sources": [
     {
-      "name": "LICENSE-18.3.2",
-      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.3.2/LICENSE"
+      "name": "LICENSE-18.3.4",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.3.4/LICENSE"
     },
     {
-      "name": "omp-18.3.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-x64"
+      "name": "omp-18.3.4",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.3.4/omp-linux-x64"
     },
     {
-      "name": "omp-18.3.2",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.3.2/omp-linux-arm64"
+      "name": "omp-18.3.4",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.3.4/omp-linux-arm64"
     }
   ],
   "required_by": [],
-  "filename": "oh-my-pi-bin-18.3.2-1-x86_64.pkg.tar.zst",
-  "sha256": "36f3522bdc1be0833a2699153e186086a66b2ea7061478c51f17c2ab401eebd5"
+  "filename": "oh-my-pi-bin-18.3.4-1-x86_64.pkg.tar.zst",
+  "sha256": "74ad948a18ac98f7d89568798d606a0f4ad4e79ccb42f525c89ab0c527b9e36f"
 }
