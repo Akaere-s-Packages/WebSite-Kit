@@ -1,13 +1,13 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.4.1-1",
+    "date": "2026-09-28T09:12:37Z"
+  },
+  {
     "name": "infisical",
     "version": "0.43.137-1",
     "date": "2026-09-27T20:46:30Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.3.5-1",
-    "date": "2026-09-27T17:26:24Z"
   },
   {
     "name": "claude-code",
