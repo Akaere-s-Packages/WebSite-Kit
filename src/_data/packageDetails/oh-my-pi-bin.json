@@ -6,7 +6,7 @@
   "maintainer": "bjin",
   "submitter": "bjin",
   "votes": 7,
-  "popularity": 1.647761,
+  "popularity": 1.42882,
   "first_submitted": "2026-03-23T09:35:56Z",
   "description": "Coding agent with the IDE wired in (release binary)",
   "url": "https://omp.sh/",
@@ -14,9 +14,9 @@
     "MIT"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/36401715085/job/108860955164",
-  "version": "18.4.1-1",
-  "last_updated": "2026-09-28T09:12:37Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/36461490814/job/109060955994",
+  "version": "18.4.2-1",
+  "last_updated": "2026-09-28T17:58:33Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -85,11 +85,11 @@
       "description": "compositor-specific backend for Wayland computer tool input"
     }
   ],
-  "package_size_bytes": 285694997,
+  "package_size_bytes": 285781013,
   "files": [
     {
       "path": "/usr/bin/omp",
-      "size_bytes": 285586912
+      "size_bytes": 285672928
     },
     {
       "path": "/usr/share/bash-completion/completions/omp",
@@ -110,19 +110,19 @@
   ],
   "sources": [
     {
-      "name": "LICENSE-18.4.1",
-      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.4.1/LICENSE"
+      "name": "LICENSE-18.4.2",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.4.2/LICENSE"
     },
     {
-      "name": "omp-18.4.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.4.1/omp-linux-x64"
+      "name": "omp-18.4.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.4.2/omp-linux-x64"
     },
     {
-      "name": "omp-18.4.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.4.1/omp-linux-arm64"
+      "name": "omp-18.4.2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.4.2/omp-linux-arm64"
     }
   ],
   "required_by": [],
-  "filename": "oh-my-pi-bin-18.4.1-1-x86_64.pkg.tar.zst",
-  "sha256": "388951bdac89f5f518b83fc666881ec68a1cb87f0075928f573812905e853c80"
+  "filename": "oh-my-pi-bin-18.4.2-1-x86_64.pkg.tar.zst",
+  "sha256": "9cf81def3a4d288c634505d0aad3ef7652e7d512191e557c6c19a38650e68fd5"
 }
