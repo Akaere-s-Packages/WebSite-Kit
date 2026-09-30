@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.140.0-1",
+    "date": "2026-09-30T22:51:40Z"
+  },
+  {
     "name": "pi",
     "version": "0.99.1-1",
     "date": "2026-09-30T18:53:31Z"
@@ -33,11 +38,6 @@
     "name": "infisical",
     "version": "0.43.137-1",
     "date": "2026-09-27T20:46:30Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.139.1-1",
-    "date": "2026-09-25T15:47:56Z"
   },
   {
     "name": "linuxqq",
