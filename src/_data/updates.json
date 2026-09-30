@@ -1,5 +1,10 @@
 [
   {
+    "name": "pi",
+    "version": "0.99.2-1",
+    "date": "2026-09-30T23:10:46Z"
+  },
+  {
     "name": "opencode-bin",
     "version": "1.18.34-1",
     "date": "2026-09-30T23:06:30Z"
@@ -23,11 +28,6 @@
     "name": "visual-studio-code-bin",
     "version": "1.140.0-1",
     "date": "2026-09-30T22:51:40Z"
-  },
-  {
-    "name": "pi",
-    "version": "0.99.1-1",
-    "date": "2026-09-30T18:53:31Z"
   },
   {
     "name": "google-chrome",
