@@ -28,10 +28,10 @@
     "pkgbase": "claude-code",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "2.1.286-1",
+    "version": "2.1.287-1",
     "description": "An agentic coding tool that lives in your terminal",
     "maintainer": "cg505",
-    "last_updated": "2026-09-30T22:55:27Z",
+    "last_updated": "2026-10-01T20:47:41Z",
     "build_status": "published",
     "detail_url": "/packages/claude-code/"
   },
