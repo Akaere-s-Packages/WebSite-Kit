@@ -1,5 +1,10 @@
 [
   {
+    "name": "netbird-bin",
+    "version": "0.80.0-1",
+    "date": "2026-10-01T20:51:17Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.287-1",
     "date": "2026-10-01T20:47:41Z"
@@ -48,11 +53,6 @@
     "name": "zulu-17-bin",
     "version": "17.0.20.1-1",
     "date": "2026-09-22T19:40:31Z"
-  },
-  {
-    "name": "netbird-bin",
-    "version": "0.79.0-1",
-    "date": "2026-09-19T05:26:36Z"
   },
   {
     "name": "zulu-21-bin",
