@@ -1,5 +1,10 @@
 [
   {
+    "name": "1password",
+    "version": "8.12.38-34",
+    "date": "2026-10-02T00:25:38Z"
+  },
+  {
     "name": "pi",
     "version": "1.0.0-1",
     "date": "2026-10-01T20:56:16Z"
@@ -92,11 +97,6 @@
   {
     "name": "samsung-unified-driver",
     "version": "1.00.39-11",
-    "date": "2026-09-13T10:53:35Z"
-  },
-  {
-    "name": "rog-control-center",
-    "version": "6.4.0-1",
     "date": "2026-09-13T10:53:35Z"
   }
 ]
