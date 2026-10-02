@@ -1,13 +1,13 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.4.12-1",
+    "date": "2026-10-02T18:54:03Z"
+  },
+  {
     "name": "google-chrome",
     "version": "154.0.8037.97-1",
     "date": "2026-10-02T13:28:03Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.4.10-1",
-    "date": "2026-10-02T06:36:04Z"
   },
   {
     "name": "github-copilot-cli",
