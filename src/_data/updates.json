@@ -1,5 +1,10 @@
 [
   {
+    "name": "pi",
+    "version": "1.0.1-1",
+    "date": "2026-10-03T16:59:38Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.5.1-1",
     "date": "2026-10-03T12:56:44Z"
@@ -23,11 +28,6 @@
     "name": "1password",
     "version": "8.12.38-34",
     "date": "2026-10-02T00:25:38Z"
-  },
-  {
-    "name": "pi",
-    "version": "1.0.0-1",
-    "date": "2026-10-01T20:56:16Z"
   },
   {
     "name": "netbird-bin",
