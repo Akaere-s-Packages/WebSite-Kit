@@ -1,13 +1,13 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.5.0-1",
+    "date": "2026-10-03T01:39:07Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.288-1",
     "date": "2026-10-02T22:47:52Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.4.12-1",
-    "date": "2026-10-02T18:54:03Z"
   },
   {
     "name": "google-chrome",
