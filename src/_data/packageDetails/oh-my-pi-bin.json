@@ -14,9 +14,9 @@
     "MIT"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/37124359329/job/111206594016",
-  "version": "18.5.1-1",
-  "last_updated": "2026-10-03T12:56:44Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/37158926760/job/111308095159",
+  "version": "18.6.0-1",
+  "last_updated": "2026-10-03T22:37:47Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -85,11 +85,11 @@
       "description": "compositor-specific backend for Wayland computer tool input"
     }
   ],
-  "package_size_bytes": 280646415,
+  "package_size_bytes": 280732431,
   "files": [
     {
       "path": "/usr/bin/omp",
-      "size_bytes": 280536544
+      "size_bytes": 280622560
     },
     {
       "path": "/usr/share/bash-completion/completions/omp",
@@ -110,19 +110,19 @@
   ],
   "sources": [
     {
-      "name": "LICENSE-18.5.1",
-      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.5.1/LICENSE"
+      "name": "LICENSE-18.6.0",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.6.0/LICENSE"
     },
     {
-      "name": "omp-18.5.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.5.1/omp-linux-x64"
+      "name": "omp-18.6.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.6.0/omp-linux-x64"
     },
     {
-      "name": "omp-18.5.1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.5.1/omp-linux-arm64"
+      "name": "omp-18.6.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.6.0/omp-linux-arm64"
     }
   ],
   "required_by": [],
-  "filename": "oh-my-pi-bin-18.5.1-1-x86_64.pkg.tar.zst",
-  "sha256": "18a6974ef4311c6f75a3461e795c606b96ca48c9384d8047168c4d3cb735aa55"
+  "filename": "oh-my-pi-bin-18.6.0-1-x86_64.pkg.tar.zst",
+  "sha256": "802dd754ecebf3abab230671ac293f580a92f004f38c1e1ecf6145f6566e6238"
 }
