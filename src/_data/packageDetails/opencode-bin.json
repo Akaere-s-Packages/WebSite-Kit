@@ -14,9 +14,9 @@
     "MIT"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/36789066660/job/110137420293",
-  "version": "1.18.34-1",
-  "last_updated": "2026-09-30T23:06:30Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/37535827238/job/112516445132",
+  "version": "1.18.35-1",
+  "last_updated": "2026-10-06T21:45:42Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -25,11 +25,11 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 185632896,
+  "package_size_bytes": 185690240,
   "files": [
     {
       "path": "/usr/bin/opencode",
-      "size_bytes": 185632896
+      "size_bytes": 185690240
     }
   ],
   "sources": [
@@ -43,6 +43,6 @@
     }
   ],
   "required_by": [],
-  "filename": "opencode-bin-1.18.34-1-x86_64.pkg.tar.zst",
-  "sha256": "e6730f1f867fe817618d129cad6ce8d68ae0ccff62013c0fc2ece9c81ecb99fe"
+  "filename": "opencode-bin-1.18.35-1-x86_64.pkg.tar.zst",
+  "sha256": "d106d0dd69d5d976e9ef202530772dc1000d88816e1bdcbd3726d8c837f9777f"
 }

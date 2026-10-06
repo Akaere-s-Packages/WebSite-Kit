@@ -1,5 +1,10 @@
 [
   {
+    "name": "opencode-bin",
+    "version": "1.18.35-1",
+    "date": "2026-10-06T21:45:42Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.7.0-1",
     "date": "2026-10-06T21:41:45Z"
@@ -33,11 +38,6 @@
     "name": "netbird-bin",
     "version": "0.80.0-1",
     "date": "2026-10-01T20:51:17Z"
-  },
-  {
-    "name": "opencode-bin",
-    "version": "1.18.34-1",
-    "date": "2026-09-30T23:06:30Z"
   },
   {
     "name": "visual-studio-code-bin",
