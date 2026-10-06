@@ -1,13 +1,13 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.291-1",
+    "date": "2026-10-06T10:59:36Z"
+  },
+  {
     "name": "pi",
     "version": "1.0.4-1",
     "date": "2026-10-06T04:04:24Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.290-1",
-    "date": "2026-10-06T04:00:17Z"
   },
   {
     "name": "github-copilot-cli",
