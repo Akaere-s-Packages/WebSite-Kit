@@ -1,5 +1,10 @@
 [
   {
+    "name": "google-chrome",
+    "version": "155.0.8059.39-1",
+    "date": "2026-10-06T21:37:48Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.292-1",
     "date": "2026-10-06T21:33:19Z"
@@ -23,11 +28,6 @@
     "name": "1password",
     "version": "8.12.40-31",
     "date": "2026-10-05T16:50:20Z"
-  },
-  {
-    "name": "google-chrome",
-    "version": "154.0.8037.97-1",
-    "date": "2026-10-02T13:28:03Z"
   },
   {
     "name": "netbird-bin",
