@@ -1,0 +1,37 @@
+{
+  "name": "nexttrace-bin",
+  "pkgbase": "nexttrace-bin",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "ouuan",
+  "submitter": "ouuan",
+  "votes": 4,
+  "popularity": 1.002016,
+  "first_submitted": "2023-02-28T08:59:30Z",
+  "description": "An open source visual route tracking CLI tool",
+  "url": "https://github.com/nxtrace/NTrace-core",
+  "licenses": [
+    "GPL-3.0-only"
+  ],
+  "sources": [
+    {
+      "name": "nexttrace-bin-1.7.3",
+      "url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.3/nexttrace_linux_amd64"
+    }
+  ],
+  "build_status": "published",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/37654656765/job/112906680861",
+  "version": "1.7.3-1",
+  "last_updated": "2026-10-07T16:48:46Z",
+  "packager": "Lilithya <me@lilithya.su>",
+  "dependencies": [],
+  "package_size_bytes": 11384964,
+  "files": [
+    {
+      "path": "/usr/bin/nexttrace",
+      "size_bytes": 11384964
+    }
+  ],
+  "filename": "nexttrace-bin-1.7.3-1-x86_64.pkg.tar.zst",
+  "sha256": "8d909a89a2487f804625b49ddbf62c2f07f0bff4a3444100f0e81603ebfa0414"
+}

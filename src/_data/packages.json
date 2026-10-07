@@ -108,6 +108,18 @@
     "detail_url": "/packages/netbird-bin/"
   },
   {
+    "name": "nexttrace-bin",
+    "pkgbase": "nexttrace-bin",
+    "distro": "archlinux",
+    "source_type": "aur",
+    "version": "1.7.3-1",
+    "description": "An open source visual route tracking CLI tool",
+    "maintainer": "ouuan",
+    "last_updated": "2026-10-07T16:48:46Z",
+    "build_status": "published",
+    "detail_url": "/packages/nexttrace-bin/"
+  },
+  {
     "name": "noto-fonts-sc",
     "pkgbase": "noto-fonts-sc",
     "distro": "archlinux",
