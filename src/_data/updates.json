@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.293-1",
+    "date": "2026-10-07T20:30:44Z"
+  },
+  {
     "name": "nexttrace-bin",
     "version": "1.7.3-1",
     "date": "2026-10-07T16:48:46Z"
@@ -23,11 +28,6 @@
     "name": "google-chrome",
     "version": "155.0.8059.39-1",
     "date": "2026-10-06T21:37:48Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.292-1",
-    "date": "2026-10-06T21:33:19Z"
   },
   {
     "name": "pi",
