@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/36787602191/job/110132707887",
-  "version": "1.140.0-1",
-  "last_updated": "2026-09-30T22:51:40Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/37641654548/job/112862016921",
+  "version": "1.140.0-2",
+  "last_updated": "2026-10-07T15:06:21Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -107,6 +107,18 @@
       "type": "optdepends",
       "repo": "aur",
       "description": "Needed for live share"
+    },
+    {
+      "name": "bubblewrap",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "Agent host sandboxing"
+    },
+    {
+      "name": "socat",
+      "type": "optdepends",
+      "repo": "extra",
+      "description": "Agent host sandboxing"
     }
   ],
   "package_size_bytes": 1026155619,
@@ -10550,6 +10562,6 @@
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.140.0-1-x86_64.pkg.tar.zst",
-  "sha256": "44b5697ace6fcd189ec3f75e2d5627a045900ad923090b9a1621a2badc887f59"
+  "filename": "visual-studio-code-bin-1.140.0-2-x86_64.pkg.tar.zst",
+  "sha256": "0b0b9760e7561dafe010e8eded867a9271f625b57ca123437cf0a9a4c6d3b467"
 }
