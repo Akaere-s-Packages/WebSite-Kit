@@ -1,12 +1,12 @@
 {
-  "packages": 30,
+  "packages": 29,
   "orphan_packages": 2,
-  "added_7_days": 2,
-  "updated_7_days": 11,
-  "updated_year": 30,
+  "added_7_days": 1,
+  "updated_7_days": 10,
+  "updated_year": 29,
   "never_updated": 0,
   "registered_users": 1,
-  "package_maintainers": 22,
-  "my_packages": 30,
-  "my_outdated": 1
+  "package_maintainers": 21,
+  "my_packages": 29,
+  "my_outdated": 0
 }

@@ -1,8 +1,8 @@
 [
   {
-    "name": "grok-bot-bin",
-    "version": "0.68.1-1",
-    "date": "2026-10-08T07:08:52Z"
+    "name": "visual-studio-code-bin",
+    "version": "1.141.0-1",
+    "date": "2026-10-08T07:09:53Z"
   },
   {
     "name": "oh-my-pi-bin",
@@ -28,11 +28,6 @@
     "name": "nexttrace-bin",
     "version": "1.7.3-1",
     "date": "2026-10-07T16:48:46Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.140.0-2",
-    "date": "2026-10-07T15:06:21Z"
   },
   {
     "name": "opencode-bin",
@@ -96,6 +91,11 @@
   },
   {
     "name": "samsung-unified-driver-printer",
+    "version": "1.00.39-11",
+    "date": "2026-09-13T10:53:35Z"
+  },
+  {
+    "name": "samsung-unified-driver-common",
     "version": "1.00.39-11",
     "date": "2026-09-13T10:53:35Z"
   }

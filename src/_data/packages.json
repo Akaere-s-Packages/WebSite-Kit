@@ -60,18 +60,6 @@
     "detail_url": "/packages/google-chrome/"
   },
   {
-    "name": "grok-bot-bin",
-    "pkgbase": "grok-bot-bin",
-    "distro": "archlinux",
-    "source_type": "aur",
-    "version": "0.68.1-1",
-    "description": "Grok Bot desktop agent",
-    "maintainer": "falser",
-    "last_updated": "2026-10-08T07:08:52Z",
-    "build_status": "published",
-    "detail_url": "/packages/grok-bot-bin/"
-  },
-  {
     "name": "infisical",
     "pkgbase": "infisical",
     "distro": "archlinux",
@@ -316,10 +304,10 @@
     "pkgbase": "visual-studio-code-bin",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "1.140.0-2",
+    "version": "1.141.0-1",
     "description": "Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)",
     "maintainer": "dcelasun",
-    "last_updated": "2026-10-07T15:06:21Z",
+    "last_updated": "2026-10-08T07:09:53Z",
     "build_status": "published",
     "detail_url": "/packages/visual-studio-code-bin/"
   },
