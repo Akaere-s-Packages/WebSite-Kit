@@ -28,10 +28,10 @@
     "pkgbase": "claude-code",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "2.1.294-1",
+    "version": "2.1.295-1",
     "description": "An agentic coding tool that lives in your terminal",
     "maintainer": "cg505",
-    "last_updated": "2026-10-08T06:56:25Z",
+    "last_updated": "2026-10-08T20:27:05Z",
     "build_status": "published",
     "detail_url": "/packages/claude-code/"
   },
@@ -58,6 +58,18 @@
     "last_updated": "2026-10-06T21:37:48Z",
     "build_status": "published",
     "detail_url": "/packages/google-chrome/"
+  },
+  {
+    "name": "grok-bot-bin",
+    "pkgbase": "grok-bot-bin",
+    "distro": "archlinux",
+    "source_type": "aur",
+    "version": "0.68.1-1",
+    "description": "Grok Bot desktop agent",
+    "maintainer": "falser",
+    "last_updated": null,
+    "build_status": "unknown",
+    "detail_url": "/packages/grok-bot-bin/"
   },
   {
     "name": "infisical",

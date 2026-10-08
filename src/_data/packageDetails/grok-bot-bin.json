@@ -1,0 +1,41 @@
+{
+  "name": "grok-bot-bin",
+  "pkgbase": "grok-bot-bin",
+  "distro": "archlinux",
+  "source_type": "aur",
+  "maintainer": "falser",
+  "submitter": "falser",
+  "votes": 6,
+  "popularity": 3.745858,
+  "first_submitted": "2026-08-20T06:38:00Z",
+  "description": "Grok Bot desktop agent",
+  "url": "https://cursor.com",
+  "licenses": [
+    "LicenseRef-Proprietary"
+  ],
+  "sources": [
+    {
+      "name": "grok-bot_0.68.1_amd64.deb",
+      "url": "https://downloads.cursor.com/grokbot/stable/33103062f95061ccf9c81c5b365d37ab152c3b66/linux/x64/grok-bot_0.68.1_amd64.deb"
+    },
+    {
+      "name": "grok-bot.sh"
+    },
+    {
+      "name": "linux-tray.cjs"
+    },
+    {
+      "name": "extract-asar.py"
+    }
+  ],
+  "version": "0.68.1-1",
+  "build_status": "unknown",
+  "build_run_url": null,
+  "package_size_bytes": null,
+  "dependencies": [],
+  "files": [],
+  "last_updated": null,
+  "packager": null,
+  "filename": null,
+  "sha256": null
+}
