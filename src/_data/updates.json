@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.95-1",
+    "date": "2026-10-09T23:47:24Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.8.7-1",
     "date": "2026-10-09T20:12:55Z"
@@ -18,11 +23,6 @@
     "name": "sparkle-bin",
     "version": "1.26.9-1",
     "date": "2026-10-09T07:04:59Z"
-  },
-  {
-    "name": "github-copilot-cli",
-    "version": "1.0.94-1",
-    "date": "2026-10-09T00:55:12Z"
   },
   {
     "name": "visual-studio-code-bin",
