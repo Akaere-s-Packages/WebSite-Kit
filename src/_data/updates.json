@@ -1,5 +1,10 @@
 [
   {
+    "name": "infisical",
+    "version": "0.43.141-1",
+    "date": "2026-10-09T20:08:50Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.296-1",
     "date": "2026-10-09T20:02:13Z"
@@ -53,11 +58,6 @@
     "name": "netbird-bin",
     "version": "0.80.0-1",
     "date": "2026-10-01T20:51:17Z"
-  },
-  {
-    "name": "infisical",
-    "version": "0.43.137-1",
-    "date": "2026-09-27T20:46:30Z"
   },
   {
     "name": "linuxqq",
