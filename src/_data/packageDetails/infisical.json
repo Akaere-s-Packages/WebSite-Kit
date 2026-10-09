@@ -75,8 +75,8 @@
   ],
   "sources": [
     {
-      "name": "infisical-0.43.137.tar.gz",
-      "url": "https://github.com/Infisical/cli/archive/refs/tags/v0.43.137.tar.gz"
+      "name": "infisical-0.43.141.tar.gz",
+      "url": "https://github.com/Infisical/cli/archive/refs/tags/v0.43.141.tar.gz"
     }
   ],
   "required_by": [],
