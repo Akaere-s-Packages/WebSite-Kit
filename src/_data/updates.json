@@ -1,5 +1,10 @@
 [
   {
+    "name": "sparkle-bin",
+    "version": "1.26.9-1",
+    "date": "2026-10-09T07:04:59Z"
+  },
+  {
     "name": "github-copilot-cli",
     "version": "1.0.94-1",
     "date": "2026-10-09T00:55:12Z"
@@ -77,11 +82,6 @@
   {
     "name": "supergfxctl",
     "version": "5.2.7-2",
-    "date": "2026-09-13T10:53:35Z"
-  },
-  {
-    "name": "sparkle-bin",
-    "version": "1.26.8-1",
     "date": "2026-09-13T10:53:35Z"
   },
   {
