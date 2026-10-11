@@ -15,23 +15,23 @@
   ],
   "sources": [
     {
-      "name": "nexttrace-bin-1.7.3",
-      "url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.3/nexttrace_linux_amd64"
+      "name": "nexttrace-bin-1.7.4",
+      "url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.4/nexttrace_linux_amd64"
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/37654656765/job/112906680861",
-  "version": "1.7.3-1",
-  "last_updated": "2026-10-07T16:48:46Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38134459768/job/114455402840",
+  "version": "1.7.4-1",
+  "last_updated": "2026-10-11T11:10:43Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [],
-  "package_size_bytes": 11384964,
+  "package_size_bytes": 11295856,
   "files": [
     {
       "path": "/usr/bin/nexttrace",
-      "size_bytes": 11384964
+      "size_bytes": 11295856
     }
   ],
-  "filename": "nexttrace-bin-1.7.3-1-x86_64.pkg.tar.zst",
-  "sha256": "8d909a89a2487f804625b49ddbf62c2f07f0bff4a3444100f0e81603ebfa0414"
+  "filename": "nexttrace-bin-1.7.4-1-x86_64.pkg.tar.zst",
+  "sha256": "551a1cf6022c4fd073bfa8838cf976d3d9fe3c4813b38391fd42087f6853e48d"
 }
