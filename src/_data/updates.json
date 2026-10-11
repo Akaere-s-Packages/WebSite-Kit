@@ -1,5 +1,10 @@
 [
   {
+    "name": "grok-bot-bin",
+    "version": "0.69.1-1",
+    "date": "2026-10-11T00:04:06Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.8.9-1",
     "date": "2026-10-10T20:27:13Z"
@@ -91,11 +96,6 @@
   },
   {
     "name": "samsung-unified-driver-scanner",
-    "version": "1.00.39-11",
-    "date": "2026-09-13T10:53:35Z"
-  },
-  {
-    "name": "samsung-unified-driver-printer",
     "version": "1.00.39-11",
     "date": "2026-09-13T10:53:35Z"
   }
