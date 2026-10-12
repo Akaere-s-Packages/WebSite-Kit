@@ -1,13 +1,13 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.10.1-1",
+    "date": "2026-10-12T06:55:58Z"
+  },
+  {
     "name": "grok-bot-bin",
     "version": "0.70.2-1",
     "date": "2026-10-12T06:52:22Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.9.2-1",
-    "date": "2026-10-11T21:19:15Z"
   },
   {
     "name": "nexttrace-bin",
