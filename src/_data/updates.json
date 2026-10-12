@@ -1,13 +1,13 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.10.3-1",
+    "date": "2026-10-12T23:31:27Z"
+  },
+  {
     "name": "github-copilot-cli",
     "version": "1.0.96-1",
     "date": "2026-10-12T23:27:27Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.10.2-1",
-    "date": "2026-10-12T16:24:11Z"
   },
   {
     "name": "grok-bot-bin",
