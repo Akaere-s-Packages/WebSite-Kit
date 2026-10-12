@@ -15,8 +15,8 @@
   ],
   "sources": [
     {
-      "name": "grok-bot_0.69.1_amd64.deb",
-      "url": "https://downloads.cursor.com/grokbot/stable/039d8b248c0c7f56347df62b724a352a8038e7e9/linux/x64/grok-bot_0.69.1_amd64.deb"
+      "name": "grok-bot_0.68.1_amd64.deb",
+      "url": "https://downloads.cursor.com/grokbot/stable/33103062f95061ccf9c81c5b365d37ab152c3b66/linux/x64/grok-bot_0.68.1_amd64.deb"
     },
     {
       "name": "grok-bot.sh"
@@ -28,10 +28,10 @@
       "name": "extract-asar.py"
     }
   ],
-  "version": "0.69.1-1",
+  "version": "0.68.1-1",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38096986143/job/114344835897",
-  "package_size_bytes": 381672410,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38189688516/job/114619605356",
+  "package_size_bytes": 380399368,
   "dependencies": [
     {
       "name": "gtk3",
@@ -403,7 +403,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar",
-      "size_bytes": 42432682
+      "size_bytes": 41157072
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/build/Release/cursor_proclist.node",
@@ -415,7 +415,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/package.json",
-      "size_bytes": 398
+      "size_bytes": 294
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/rebuild-with-lock.js",
@@ -511,7 +511,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/electron-main/onepassword-connection-service.cjs",
-      "size_bytes": 104166
+      "size_bytes": 106838
     },
     {
       "path": "/opt/Grok Bot/resources/apparmor-profile",
@@ -586,8 +586,8 @@
       "size_bytes": 20008180
     }
   ],
-  "last_updated": "2026-10-11T00:04:06Z",
+  "last_updated": "2026-10-12T00:55:50Z",
   "packager": "Lilithya <me@lilithya.su>",
-  "filename": "grok-bot-bin-0.69.1-1-x86_64.pkg.tar.zst",
-  "sha256": "c60c0fb7cc2c2e56623cce57060e6774fa6de85d9b965ac6339e0c864dc2c5de"
+  "filename": "grok-bot-bin-0.68.1-1-x86_64.pkg.tar.zst",
+  "sha256": "cbe1967fa65f1eadd70661066b8c43f8c4a2963d18df6728936278cd5586cf3a"
 }

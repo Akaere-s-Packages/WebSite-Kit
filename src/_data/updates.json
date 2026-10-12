@@ -1,5 +1,10 @@
 [
   {
+    "name": "grok-bot-bin",
+    "version": "0.68.1-1",
+    "date": "2026-10-12T00:55:50Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.9.2-1",
     "date": "2026-10-11T21:19:15Z"
@@ -13,11 +18,6 @@
     "name": "opencode-bin",
     "version": "1.19.0-1",
     "date": "2026-10-11T04:32:54Z"
-  },
-  {
-    "name": "grok-bot-bin",
-    "version": "0.69.1-1",
-    "date": "2026-10-11T00:04:06Z"
   },
   {
     "name": "datagrip",
