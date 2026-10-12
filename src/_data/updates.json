@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.96-1",
+    "date": "2026-10-12T23:27:27Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.10.2-1",
     "date": "2026-10-12T16:24:11Z"
@@ -23,11 +28,6 @@
     "name": "datagrip",
     "version": "2026.2.6-1",
     "date": "2026-10-10T07:11:55Z"
-  },
-  {
-    "name": "github-copilot-cli",
-    "version": "1.0.95-1",
-    "date": "2026-10-09T23:47:24Z"
   },
   {
     "name": "infisical",

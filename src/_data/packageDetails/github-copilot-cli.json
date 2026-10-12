@@ -14,9 +14,9 @@
     "LicenseRef-GitHub-Copilot"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38005894244/job/114074549899",
-  "version": "1.0.95-1",
-  "last_updated": "2026-10-09T23:47:24Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38321979856/job/115052002427",
+  "version": "1.0.96-1",
+  "last_updated": "2026-10-12T23:27:27Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -55,7 +55,7 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 184302521,
+  "package_size_bytes": 185548273,
   "files": [
     {
       "path": "/usr/bin/copilot -> ../lib/node_modules/@github/copilot/npm-loader.js",
@@ -83,7 +83,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot",
-      "size_bytes": 183765824
+      "size_bytes": 185011008
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/package.json",
@@ -135,7 +135,7 @@
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/CHANGELOG.md",
-      "size_bytes": 274429
+      "size_bytes": 274885
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/README.md -> /usr/lib/node_modules/@github/copilot/README.md",
@@ -143,7 +143,7 @@
     },
     {
       "path": "/usr/share/fish/vendor_completions.d/copilot.fish",
-      "size_bytes": 72267
+      "size_bytes": 72323
     },
     {
       "path": "/usr/share/licenses/github-copilot-cli/LICENSE -> /usr/lib/node_modules/@github/copilot/LICENSE.md",
@@ -151,20 +151,20 @@
     },
     {
       "path": "/usr/share/zsh/site-functions/_copilot",
-      "size_bytes": 72651
+      "size_bytes": 72707
     }
   ],
   "sources": [
     {
-      "name": "copilot-1.0.95.tgz",
-      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.95.tgz"
+      "name": "copilot-1.0.96.tgz",
+      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.96.tgz"
     },
     {
-      "name": "CHANGELOG-1.0.95.md",
-      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.95/changelog.md"
+      "name": "CHANGELOG-1.0.96.md",
+      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.96/changelog.md"
     }
   ],
   "required_by": [],
-  "filename": "github-copilot-cli-1.0.95-1-x86_64.pkg.tar.zst",
-  "sha256": "a67f744aca637a3d4fe275440d876cb0624e16ebbbcf6d5af2f595023ac2e3bc"
+  "filename": "github-copilot-cli-1.0.96-1-x86_64.pkg.tar.zst",
+  "sha256": "1412085838887ce4d7bc55dc9479229c082cd502f548701f5b0586d836721865"
 }
