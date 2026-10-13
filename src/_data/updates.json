@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.141.1-1",
+    "date": "2026-10-13T19:57:24Z"
+  },
+  {
     "name": "infisical",
     "version": "0.43.144-1",
     "date": "2026-10-13T19:51:23Z"
@@ -48,11 +53,6 @@
     "name": "sparkle-bin",
     "version": "1.26.9-1",
     "date": "2026-10-09T07:04:59Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.141.0-1",
-    "date": "2026-10-08T07:09:53Z"
   },
   {
     "name": "google-chrome",

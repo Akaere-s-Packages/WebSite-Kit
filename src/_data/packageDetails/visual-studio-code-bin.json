@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/37741300391/job/113192448105",
-  "version": "1.141.0-1",
-  "last_updated": "2026-10-08T07:09:53Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38458263581/job/115506574363",
+  "version": "1.141.1-1",
+  "last_updated": "2026-10-13T19:57:24Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -121,7 +121,7 @@
       "description": "Agent host sandboxing"
     }
   ],
-  "package_size_bytes": 1059871743,
+  "package_size_bytes": 1059934777,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -429,7 +429,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9556665
+      "size_bytes": 9576333
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -549,7 +549,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 7326544
+      "size_bytes": 7355583
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -9321,11 +9321,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/bootstrap-fork.js",
-      "size_bytes": 124485
+      "size_bytes": 124366
     },
     {
       "path": "/usr/share/code/resources/app/out/cli.js",
-      "size_bytes": 273993
+      "size_bytes": 274177
     },
     {
       "path": "/usr/share/code/resources/app/out/date",
@@ -9333,11 +9333,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/main.js",
-      "size_bytes": 100062
+      "size_bytes": 99943
     },
     {
       "path": "/usr/share/code/resources/app/out/mainImpl.js",
-      "size_bytes": 1334598
+      "size_bytes": 1335192
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -9421,19 +9421,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.keys.json",
-      "size_bytes": 904752
+      "size_bytes": 905100
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.js",
-      "size_bytes": 1374782
+      "size_bytes": 1375287
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.json",
-      "size_bytes": 1373724
+      "size_bytes": 1374229
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.metadata.json",
-      "size_bytes": 2744325
+      "size_bytes": 2745234
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh",
@@ -9465,11 +9465,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1458231
+      "size_bytes": 1458417
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 766884
+      "size_bytes": 767070
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -9493,7 +9493,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js",
-      "size_bytes": 327752
+      "size_bytes": 327758
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3",
@@ -9625,7 +9625,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 3277529
+      "size_bytes": 3278743
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
@@ -9637,19 +9637,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/files/node/watcher/watcherMain.js",
-      "size_bytes": 210551
+      "size_bytes": 210735
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/localTranscription/node/localTranscriptionMain.js",
-      "size_bytes": 172048
+      "size_bytes": 172052
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/profiling/electron-browser/profileAnalysisWorkerMain.js",
-      "size_bytes": 164697
+      "size_bytes": 164881
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js",
-      "size_bytes": 397736
+      "size_bytes": 397920
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/contrib/chat/browser/media/letterpress-sessions-dark.svg",
@@ -9673,7 +9673,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 21292479
+      "size_bytes": 21297192
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -9729,11 +9729,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2280500
+      "size_bytes": 2281190
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 2006462
+      "size_bytes": 2007150
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -10257,7 +10257,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js",
-      "size_bytes": 230993
+      "size_bytes": 230997
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg",
@@ -10277,11 +10277,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/notebook/common/services/notebookWebWorkerMain.js",
-      "size_bytes": 247790
+      "size_bytes": 247794
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/output/common/outputLinkComputerMain.js",
-      "size_bytes": 143466
+      "size_bytes": 143469
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/psreadline/Microsoft.PowerShell.PSReadLine.dll",
@@ -10489,15 +10489,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/languageDetection/browser/languageDetectionWebWorkerMain.js",
-      "size_bytes": 148494
+      "size_bytes": 148493
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/search/worker/localFileSearchMain.js",
-      "size_bytes": 149386
+      "size_bytes": 149390
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/textMate/browser/backgroundTokenization/worker/textMateTokenizationWorker.workerMain.js",
-      "size_bytes": 250436
+      "size_bytes": 250440
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.css",
@@ -10505,7 +10505,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 20325442
+      "size_bytes": 20328705
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
@@ -10590,6 +10590,6 @@
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.141.0-1-x86_64.pkg.tar.zst",
-  "sha256": "469e4eb2eaca47573fb69d773311fd001ee42586568d99404dcaf87c680c22ca"
+  "filename": "visual-studio-code-bin-1.141.1-1-x86_64.pkg.tar.zst",
+  "sha256": "ab3ec59ef7d864d3db966351cd06d31b666db19aacef8975ee05f00ce4e1a433"
 }
