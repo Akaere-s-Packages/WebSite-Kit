@@ -208,10 +208,10 @@
     "pkgbase": "pi",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "1.1.0-1",
+    "version": "1.2.0-1",
     "description": "AI coding agent for the terminal — minimal, extensible and optimized for tool use",
     "maintainer": "aminvakil",
-    "last_updated": "2026-10-08T00:41:12Z",
+    "last_updated": "2026-10-13T12:27:12Z",
     "build_status": "published",
     "detail_url": "/packages/pi/"
   },
