@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.97-1",
+    "date": "2026-10-13T23:36:22Z"
+  },
+  {
     "name": "visual-studio-code-bin",
     "version": "1.141.1-1",
     "date": "2026-10-13T19:57:24Z"
@@ -18,11 +23,6 @@
     "name": "oh-my-pi-bin",
     "version": "18.10.3-1",
     "date": "2026-10-12T23:31:27Z"
-  },
-  {
-    "name": "github-copilot-cli",
-    "version": "1.0.96-1",
-    "date": "2026-10-12T23:27:27Z"
   },
   {
     "name": "grok-bot-bin",
