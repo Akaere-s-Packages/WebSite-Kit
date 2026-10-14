@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.141.2-1",
+    "date": "2026-10-14T19:15:24Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.300-1",
     "date": "2026-10-14T19:10:44Z"
@@ -18,11 +23,6 @@
     "name": "github-copilot-cli",
     "version": "1.0.97-1",
     "date": "2026-10-13T23:36:22Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.141.1-1",
-    "date": "2026-10-13T19:57:24Z"
   },
   {
     "name": "infisical",

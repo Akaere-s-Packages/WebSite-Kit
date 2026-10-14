@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38458263581/job/115506574363",
-  "version": "1.141.1-1",
-  "last_updated": "2026-10-13T19:57:24Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38621557367/job/116050207447",
+  "version": "1.141.2-1",
+  "last_updated": "2026-10-14T19:15:24Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -121,7 +121,7 @@
       "description": "Agent host sandboxing"
     }
   ],
-  "package_size_bytes": 1059934777,
+  "package_size_bytes": 1059983629,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -429,7 +429,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9576333
+      "size_bytes": 9588892
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -549,7 +549,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 7355583
+      "size_bytes": 7391937
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -9325,11 +9325,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/cli.js",
-      "size_bytes": 274177
+      "size_bytes": 274172
     },
     {
       "path": "/usr/share/code/resources/app/out/date",
-      "size_bytes": 25
+      "size_bytes": 20
     },
     {
       "path": "/usr/share/code/resources/app/out/main.js",
@@ -9337,7 +9337,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/mainImpl.js",
-      "size_bytes": 1335192
+      "size_bytes": 1335187
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -9465,11 +9465,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1458417
+      "size_bytes": 1458412
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 767070
+      "size_bytes": 767065
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -9625,7 +9625,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 3278743
+      "size_bytes": 3278738
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
@@ -9649,7 +9649,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js",
-      "size_bytes": 397920
+      "size_bytes": 397915
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/contrib/chat/browser/media/letterpress-sessions-dark.svg",
@@ -9673,7 +9673,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 21297192
+      "size_bytes": 21297189
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -9729,11 +9729,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2281190
+      "size_bytes": 2281185
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 2007150
+      "size_bytes": 2007145
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -10257,7 +10257,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js",
-      "size_bytes": 230997
+      "size_bytes": 230992
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg",
@@ -10505,7 +10505,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 20328705
+      "size_bytes": 20328702
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
@@ -10521,7 +10521,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/product.json",
-      "size_bytes": 67608
+      "size_bytes": 67603
     },
     {
       "path": "/usr/share/code/resources/app/resources/linux/code.png",
@@ -10590,6 +10590,6 @@
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.141.1-1-x86_64.pkg.tar.zst",
-  "sha256": "ab3ec59ef7d864d3db966351cd06d31b666db19aacef8975ee05f00ce4e1a433"
+  "filename": "visual-studio-code-bin-1.141.2-1-x86_64.pkg.tar.zst",
+  "sha256": "5b786a9cabaa816e3aed10ba4e08f775e826a7d82f090bded764595800a0ad13"
 }
