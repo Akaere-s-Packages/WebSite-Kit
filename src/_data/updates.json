@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.299-1",
+    "date": "2026-10-14T08:18:12Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.10.4-1",
     "date": "2026-10-13T23:39:57Z"
@@ -43,11 +48,6 @@
     "name": "datagrip",
     "version": "2026.2.6-1",
     "date": "2026-10-10T07:11:55Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.296-1",
-    "date": "2026-10-09T20:02:13Z"
   },
   {
     "name": "sparkle-bin",
