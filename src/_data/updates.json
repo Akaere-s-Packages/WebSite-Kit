@@ -1,5 +1,10 @@
 [
   {
+    "name": "netbird-bin",
+    "version": "0.81.0-1",
+    "date": "2026-10-15T17:34:46Z"
+  },
+  {
     "name": "visual-studio-code-bin",
     "version": "1.142.0-1",
     "date": "2026-10-15T06:50:40Z"
@@ -63,11 +68,6 @@
     "name": "1password",
     "version": "8.12.40-31",
     "date": "2026-10-05T16:50:20Z"
-  },
-  {
-    "name": "netbird-bin",
-    "version": "0.80.0-1",
-    "date": "2026-10-01T20:51:17Z"
   },
   {
     "name": "linuxqq",
