@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38621557367/job/116050207447",
-  "version": "1.141.2-1",
-  "last_updated": "2026-10-14T19:15:24Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38694469227/job/116287754432",
+  "version": "1.142.0-1",
+  "last_updated": "2026-10-15T06:50:40Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -121,7 +121,7 @@
       "description": "Agent host sandboxing"
     }
   ],
-  "package_size_bytes": 1059983629,
+  "package_size_bytes": 1016702859,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -153,7 +153,7 @@
     },
     {
       "path": "/usr/share/code/bin/code-tunnel",
-      "size_bytes": 34743320
+      "size_bytes": 34964504
     },
     {
       "path": "/usr/share/code/chrome-sandbox",
@@ -429,7 +429,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9588892
+      "size_bytes": 9596023
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -549,7 +549,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 7391937
+      "size_bytes": 7395447
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -629,7 +629,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-canvas/SKILL.md",
-      "size_bytes": 4077
+      "size_bytes": 5375
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md",
@@ -705,7 +705,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/extension.js",
-      "size_bytes": 19744538
+      "size_bytes": 19748056
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/external_ingest_utils_bg.wasm",
@@ -877,7 +877,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.json",
-      "size_bytes": 201444
+      "size_bytes": 201852
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.cs.json",
@@ -1281,7 +1281,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/dist/main.js",
-      "size_bytes": 765396
+      "size_bytes": 765483
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/dist/ssh-askpass-empty.sh",
@@ -1429,7 +1429,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js",
-      "size_bytes": 241484
+      "size_bytes": 241733
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/images/icon.png",
@@ -1605,7 +1605,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js",
-      "size_bytes": 618688
+      "size_bytes": 618707
     },
     {
       "path": "/usr/share/code/resources/app/extensions/html-language-features/icons/html.png",
@@ -1985,7 +1985,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/dist/extension.js",
-      "size_bytes": 2029556
+      "size_bytes": 2131551
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/dist/serverWorkerMain.js",
@@ -2236,7 +2236,11 @@
       "size_bytes": 13568
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/abnfDiagram-VCTEODGH-2TFKDIWA.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/_empty-crypto-Bi0tGx5K-73HA27BC.js",
+      "size_bytes": 65
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/abnfDiagram-VCTEODGH-AAIYXPPE.js",
       "size_bytes": 2294
     },
     {
@@ -2244,11 +2248,11 @@
       "size_bytes": 168
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/architectureDiagram-5GKGNRK7-OIEVML2V.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/architectureDiagram-5GKGNRK7-AAN4RCG5.js",
       "size_bytes": 152967
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/blockDiagram-NRAW4CY4-ZKOKBY7C.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/blockDiagram-NRAW4CY4-ZRXYQBX7.js",
       "size_bytes": 40253
     },
     {
@@ -2296,6 +2300,10 @@
       "size_bytes": 453
     },
     {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-CSFSYUDU.js",
+      "size_bytes": 49258
+    },
+    {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-EIVI6XHZ.js",
       "size_bytes": 5876
     },
@@ -2332,6 +2340,10 @@
       "size_bytes": 668387
     },
     {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-FPFK2U7U.js",
+      "size_bytes": 62034
+    },
+    {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-FX4LUBZ3.js",
       "size_bytes": 52534
     },
@@ -2352,6 +2364,10 @@
       "size_bytes": 443700
     },
     {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-IEQNWNL5.js",
+      "size_bytes": 3309
+    },
+    {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-IRNO36C3.js",
       "size_bytes": 595
     },
@@ -2366,10 +2382,6 @@
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-JFI5BOLY.js",
       "size_bytes": 445
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-JQ3UOVZ4.js",
-      "size_bytes": 62034
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-JXCTOEX6.js",
@@ -2388,16 +2400,12 @@
       "size_bytes": 557
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-MNHOAW4R.js",
-      "size_bytes": 3309
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-MRLVJDUH.js",
-      "size_bytes": 49258
-    },
-    {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-OOJM4CTU.js",
       "size_bytes": 638
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-PWEKQ4LV.js",
+      "size_bytes": 3908
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-R7CM4BQN.js",
@@ -2428,16 +2436,16 @@
       "size_bytes": 15725
     },
     {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-XKYOMNGH.js",
+      "size_bytes": 38374
+    },
+    {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-XL5YO2U3.js",
       "size_bytes": 239511
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-YICKNY6Y.js",
       "size_bytes": 451
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-YKTDWLBL.js",
-      "size_bytes": 38374
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/chunk-YNKYB66X.js",
@@ -2452,11 +2460,11 @@
       "size_bytes": 1579
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/classDiagram-DTDB5LWJ-CGX3YZBW.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/classDiagram-DTDB5LWJ-TFZ2XGXJ.js",
       "size_bytes": 779
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/classDiagram-v2-JRS7N3AN-LI457GYH.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/classDiagram-v2-JRS7N3AN-UHR4Q74T.js",
       "size_bytes": 779
     },
     {
@@ -2472,7 +2480,7 @@
       "size_bytes": 158
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/cynefinDiagram-5FMLGOSQ-X4K7N4DA.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/cynefinDiagram-5FMLGOSQ-SMOLIM3K.js",
       "size_bytes": 10592
     },
     {
@@ -2480,36 +2488,36 @@
       "size_bytes": 10999
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-S7CK7UJ4-Z2EZX2P5.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-S7CK7UJ4-3KLEKICW.js",
       "size_bytes": 8717
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-UQ7AKVKN-6N2SHCC6.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-UQ7AKVKN-SDG6EBD3.js",
       "size_bytes": 6601
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-VSXAHHWV-UICSQNM2.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-VSXAHHWV-CNTWUOXU.js",
       "size_bytes": 11195
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-VX7I27RA-SQXFSQXQ.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-VX7I27RA-TI6F6SIQ.js",
       "size_bytes": 11611
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-Z3DM3KII-NUJNDRZS.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/diagram-Z3DM3KII-DKLOMCKU.js",
       "size_bytes": 4762
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/ebnfDiagram-PWID7BFC-W4VUG4FB.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/ebnfDiagram-PWID7BFC-GDOPSGC6.js",
       "size_bytes": 2508
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/editor.css",
-      "size_bytes": 103961
+      "size_bytes": 122545
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/editor.js",
-      "size_bytes": 597899
+      "size_bytes": 576056
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/erDiagram-SSCWMZ5O-24K5CML7.js",
@@ -2520,7 +2528,7 @@
       "size_bytes": 170
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/flowDiagram-A5DVABFB-WKU6OCUH.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/flowDiagram-A5DVABFB-MKT7GDAQ.js",
       "size_bytes": 652
     },
     {
@@ -2532,7 +2540,7 @@
       "size_bytes": 160
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/gitGraphDiagram-WWUBYQGX-CDIQA25N.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/gitGraphDiagram-WWUBYQGX-VZCDW3X3.js",
       "size_bytes": 29703
     },
     {
@@ -2540,7 +2548,7 @@
       "size_bytes": 152
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/infoDiagram-RXCK75RN-2TXATKXP.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/infoDiagram-RXCK75RN-DYKWWH37.js",
       "size_bytes": 1112
     },
     {
@@ -2560,7 +2568,7 @@
       "size_bytes": 351
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/mermaid.core-OF7Z62KM.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/mermaid.core-TWSVWPNT.js",
       "size_bytes": 28700
     },
     {
@@ -2572,7 +2580,7 @@
       "size_bytes": 156
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/pegDiagram-XKGWAZYB-K3NS3NAP.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/pegDiagram-XKGWAZYB-HLPLIFIR.js",
       "size_bytes": 2450
     },
     {
@@ -2580,7 +2588,7 @@
       "size_bytes": 150
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/pieDiagram-E7YTZNPT-7XSNQB72.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/pieDiagram-E7YTZNPT-U2YBYN5P.js",
       "size_bytes": 5597
     },
     {
@@ -2608,7 +2616,7 @@
       "size_bytes": 166
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/railroadDiagram-O6MQD6OU-SXS6LTKX.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/railroadDiagram-O6MQD6OU-N5IPOK2P.js",
       "size_bytes": 2116
     },
     {
@@ -2628,11 +2636,11 @@
       "size_bytes": 919
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/stateDiagram-HBIQ2CUA-MB5AVASD.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/stateDiagram-HBIQ2CUA-ECOODIMK.js",
       "size_bytes": 10680
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/stateDiagram-v2-4QOOHH4V-QBVHVZLC.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/stateDiagram-v2-4QOOHH4V-ZYD5TYWM.js",
       "size_bytes": 754
     },
     {
@@ -2640,7 +2648,7 @@
       "size_bytes": 113509
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/swimlanesDiagram-VK2B7HYN-NNVD6PB2.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/swimlanesDiagram-VK2B7HYN-L6D2FUYM.js",
       "size_bytes": 852
     },
     {
@@ -2664,32 +2672,64 @@
       "size_bytes": 158
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/wardleyDiagram-VM6X3IG4-HWCL2ERH.js",
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/wardleyDiagram-VM6X3IG4-ETFGHXUH.js",
       "size_bytes": 25891
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/web-editors-AIOODYGJ.js",
+      "size_bytes": 164295
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/xychartDiagram-S5SC5T6Z-U2WWC4EI.js",
       "size_bytes": 43308
     },
     {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/completionController.ts",
+      "size_bytes": 6898
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/diagnosticHover.ts",
+      "size_bytes": 4937
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/diagnosticsController.ts",
+      "size_bytes": 5037
+    },
+    {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/editor.ts",
-      "size_bytes": 27787
+      "size_bytes": 29621
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/imagePasteController.ts",
+      "size_bytes": 6240
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/languageFeatures.css",
+      "size_bytes": 2813
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/linkPresentationProvider.ts",
-      "size_bytes": 5403
+      "size_bytes": 5622
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/markdownEditor.css",
-      "size_bytes": 907
+      "size_bytes": 1039
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/rename.css",
+      "size_bytes": 1221
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/renameController.ts",
+      "size_bytes": 7634
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/syntaxHighlighter.ts",
-      "size_bytes": 8165
+      "size_bytes": 7648
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/tsconfig.json",
-      "size_bytes": 498
+      "size_bytes": 499
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/media/highlight.css",
@@ -2721,11 +2761,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/package.json",
-      "size_bytes": 48569
+      "size_bytes": 49739
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/package.nls.json",
-      "size_bytes": 23737
+      "size_bytes": 24316
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/schemas/package.schema.json",
@@ -2881,11 +2921,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/media-preview/media/imagePreview.css",
-      "size_bytes": 2221
+      "size_bytes": 2365
     },
     {
       "path": "/usr/share/code/resources/app/extensions/media-preview/media/imagePreview.js",
-      "size_bytes": 9696
+      "size_bytes": 11384
     },
     {
       "path": "/usr/share/code/resources/app/extensions/media-preview/media/loading-dark.svg",
@@ -4825,7 +4865,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/npm/README.md",
-      "size_bytes": 2758
+      "size_bytes": 2880
     },
     {
       "path": "/usr/share/code/resources/app/extensions/npm/dist/npmMain.js",
@@ -4841,7 +4881,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/npm/package.json",
-      "size_bytes": 5620
+      "size_bytes": 5679
     },
     {
       "path": "/usr/share/code/resources/app/extensions/npm/package.nls.json",
@@ -6049,7 +6089,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js",
-      "size_bytes": 484609
+      "size_bytes": 484626
     },
     {
       "path": "/usr/share/code/resources/app/extensions/typescript-language-features/media/icon.png",
@@ -6225,7 +6265,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar",
-      "size_bytes": 58123376
+      "size_bytes": 60151351
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@devcontainers/cli/LICENSE.txt",
@@ -6269,7 +6309,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/client.d.ts",
-      "size_bytes": 19684
+      "size_bytes": 19738
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/copilotRequestHandler.d.ts",
@@ -6289,15 +6329,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/docs/workflows.md",
-      "size_bytes": 17893
+      "size_bytes": 19038
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/extension.d.ts",
-      "size_bytes": 3390
+      "size_bytes": 3408
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/extension.js",
-      "size_bytes": 588796
+      "size_bytes": 617093
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/ffiRuntimeHost.d.ts",
@@ -6305,23 +6345,23 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/generated/rpc.d.ts",
-      "size_bytes": 1171427
+      "size_bytes": 1201689
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/generated/session-events.d.ts",
-      "size_bytes": 423627
+      "size_bytes": 448779
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/host.d.ts",
-      "size_bytes": 4501
+      "size_bytes": 4866
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/index.d.ts",
-      "size_bytes": 5953
+      "size_bytes": 6019
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/index.js",
-      "size_bytes": 594235
+      "size_bytes": 622458
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/installationConfirmation.d.ts",
@@ -6341,7 +6381,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/session.d.ts",
-      "size_bytes": 18063
+      "size_bytes": 18480
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/sessionFsProvider.d.ts",
@@ -6357,7 +6397,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/types.d.ts",
-      "size_bytes": 123604
+      "size_bytes": 128277
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/workflow.d.ts",
@@ -6433,11 +6473,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime",
-      "size_bytes": 519552
+      "size_bytes": 519520
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/runtime.node",
-      "size_bytes": 125098592
+      "size_bytes": 133448512
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/preloads/extension_bootstrap.mjs",
@@ -6453,75 +6493,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/schemas/api.schema.json",
-      "size_bytes": 2156555
+      "size_bytes": 2280492
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/schemas/session-events.schema.json",
-      "size_bytes": 928336
+      "size_bytes": 979569
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/tgrep/bin/linux-x64/tgrep",
       "size_bytes": 7918000
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/dotnet/NativeMethods.g.cs",
-      "size_bytes": 41581
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/libmxc_ffi.so",
-      "size_bytes": 5698552
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/lxc-exec",
-      "size_bytes": 12663568
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/mxc-diagnostic-console.exe",
-      "size_bytes": 1145192
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/mxc_ffi.dll",
-      "size_bytes": 6559040
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/plm.exe",
-      "size_bytes": 2103104
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/unix-test-proxy",
-      "size_bytes": 2712368
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/winhttp-proxy-shim.exe",
-      "size_bytes": 816960
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/wslcsdk.dll",
-      "size_bytes": 4929888
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/wxc-exec.exe",
-      "size_bytes": 12414776
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/wxc-host-prep.exe",
-      "size_bytes": 909632
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/wxc-test-proxy.exe",
-      "size_bytes": 1783104
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/wxc-windows-sandbox-daemon.exe",
-      "size_bytes": 1563496
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/wxc-windows-sandbox-guest.exe",
-      "size_bytes": 1446208
-    },
-    {
-      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin/x64/wxc-wslc-daemon.exe",
-      "size_bytes": 1444200
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@parcel/watcher/build/Release/watcher.node",
@@ -6545,7 +6525,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/policy-watcher/build/Release/vscode-policy-watcher.node",
-      "size_bytes": 401608
+      "size_bytes": 401968
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64/rg",
@@ -9321,11 +9301,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/bootstrap-fork.js",
-      "size_bytes": 124366
+      "size_bytes": 125178
     },
     {
       "path": "/usr/share/code/resources/app/out/cli.js",
-      "size_bytes": 274172
+      "size_bytes": 274226
     },
     {
       "path": "/usr/share/code/resources/app/out/date",
@@ -9333,11 +9313,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/main.js",
-      "size_bytes": 99943
+      "size_bytes": 100725
     },
     {
       "path": "/usr/share/code/resources/app/out/mainImpl.js",
-      "size_bytes": 1335187
+      "size_bytes": 1346139
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -9353,7 +9333,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/media/codicon.ttf",
-      "size_bytes": 153228
+      "size_bytes": 153500
     },
     {
       "path": "/usr/share/code/resources/app/out/media/github.svg",
@@ -9421,19 +9401,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.keys.json",
-      "size_bytes": 905100
+      "size_bytes": 927974
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.js",
-      "size_bytes": 1375287
+      "size_bytes": 1426227
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.json",
-      "size_bytes": 1374229
+      "size_bytes": 1425174
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.metadata.json",
-      "size_bytes": 2745234
+      "size_bytes": 2827165
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh",
@@ -9465,11 +9445,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1458412
+      "size_bytes": 1507567
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 767065
+      "size_bytes": 772761
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -9493,7 +9473,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js",
-      "size_bytes": 327758
+      "size_bytes": 327827
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3",
@@ -9625,11 +9605,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 3278738
+      "size_bytes": 3719450
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
-      "size_bytes": 149207
+      "size_bytes": 149234
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/browserView/electron-browser/preload-browserView.js",
@@ -9637,19 +9617,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/files/node/watcher/watcherMain.js",
-      "size_bytes": 210735
+      "size_bytes": 210762
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/localTranscription/node/localTranscriptionMain.js",
-      "size_bytes": 172052
+      "size_bytes": 172208
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/profiling/electron-browser/profileAnalysisWorkerMain.js",
-      "size_bytes": 164881
+      "size_bytes": 164908
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js",
-      "size_bytes": 397915
+      "size_bytes": 400008
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/contrib/chat/browser/media/letterpress-sessions-dark.svg",
@@ -9669,11 +9649,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.css",
-      "size_bytes": 2045138
+      "size_bytes": 2060652
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 21297189
+      "size_bytes": 21752326
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -9729,11 +9709,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2281185
+      "size_bytes": 2306695
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 2007145
+      "size_bytes": 2022669
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -10008,6 +9988,22 @@
       "size_bytes": 754
     },
     {
+      "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/chat/browser/widget/media/chatPet/buddy-painting-insiders-96.png",
+      "size_bytes": 738
+    },
+    {
+      "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/chat/browser/widget/media/chatPet/buddy-painting-insiders-96.spritesheet.png",
+      "size_bytes": 1968
+    },
+    {
+      "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/chat/browser/widget/media/chatPet/buddy-painting-stable-96.png",
+      "size_bytes": 741
+    },
+    {
+      "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/chat/browser/widget/media/chatPet/buddy-painting-stable-96.spritesheet.png",
+      "size_bytes": 1971
+    },
+    {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/chat/browser/widget/media/chatPet/buddy-press-button-insiders-96.png",
       "size_bytes": 428
     },
@@ -10257,7 +10253,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js",
-      "size_bytes": 230992
+      "size_bytes": 231019
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg",
@@ -10277,11 +10273,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/notebook/common/services/notebookWebWorkerMain.js",
-      "size_bytes": 247794
+      "size_bytes": 247821
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/output/common/outputLinkComputerMain.js",
-      "size_bytes": 143469
+      "size_bytes": 143496
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/psreadline/Microsoft.PowerShell.PSReadLine.dll",
@@ -10345,7 +10341,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/webview/browser/pre/index.html",
-      "size_bytes": 39688
+      "size_bytes": 40302
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/webview/browser/pre/service-worker.js",
@@ -10489,35 +10485,35 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/languageDetection/browser/languageDetectionWebWorkerMain.js",
-      "size_bytes": 148493
+      "size_bytes": 148520
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/search/worker/localFileSearchMain.js",
-      "size_bytes": 149390
+      "size_bytes": 149417
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/textMate/browser/backgroundTokenization/worker/textMateTokenizationWorker.workerMain.js",
-      "size_bytes": 250440
+      "size_bytes": 250509
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.css",
-      "size_bytes": 1785712
+      "size_bytes": 1797725
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 20328702
+      "size_bytes": 20674895
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
-      "size_bytes": 742274
+      "size_bytes": 742500
     },
     {
       "path": "/usr/share/code/resources/app/package.json",
-      "size_bytes": 15714
+      "size_bytes": 15747
     },
     {
       "path": "/usr/share/code/resources/app/policies/policy.json",
-      "size_bytes": 2074
+      "size_bytes": 2123
     },
     {
       "path": "/usr/share/code/resources/app/product.json",
@@ -10529,7 +10525,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-core.json",
-      "size_bytes": 910969
+      "size_bytes": 1051208
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-extensions.json",
@@ -10590,6 +10586,6 @@
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.141.2-1-x86_64.pkg.tar.zst",
-  "sha256": "5b786a9cabaa816e3aed10ba4e08f775e826a7d82f090bded764595800a0ad13"
+  "filename": "visual-studio-code-bin-1.142.0-1-x86_64.pkg.tar.zst",
+  "sha256": "024a50f535197f89ba9d990a609aca030d36e3d1c8cca7b862935053a825eec6"
 }
