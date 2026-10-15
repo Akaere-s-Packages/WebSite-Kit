@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.301-1",
+    "date": "2026-10-15T20:52:32Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.11.1-1",
     "date": "2026-10-15T17:39:13Z"
@@ -18,11 +23,6 @@
     "name": "github-copilot-cli",
     "version": "1.0.98-1",
     "date": "2026-10-15T01:11:33Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.300-1",
-    "date": "2026-10-14T19:10:44Z"
   },
   {
     "name": "google-chrome",
