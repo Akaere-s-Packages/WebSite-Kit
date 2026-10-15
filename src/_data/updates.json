@@ -1,5 +1,10 @@
 [
   {
+    "name": "opencode-bin",
+    "version": "1.19.1-1",
+    "date": "2026-10-15T20:56:07Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.301-1",
     "date": "2026-10-15T20:52:32Z"
@@ -48,11 +53,6 @@
     "name": "nexttrace-bin",
     "version": "1.7.4-1",
     "date": "2026-10-11T11:10:43Z"
-  },
-  {
-    "name": "opencode-bin",
-    "version": "1.19.0-1",
-    "date": "2026-10-11T04:32:54Z"
   },
   {
     "name": "datagrip",
