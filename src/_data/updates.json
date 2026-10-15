@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.98-1",
+    "date": "2026-10-15T01:11:33Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.11.0-1",
     "date": "2026-10-14T22:56:17Z"
@@ -18,11 +23,6 @@
     "name": "google-chrome",
     "version": "155.0.8059.79-1",
     "date": "2026-10-14T08:22:33Z"
-  },
-  {
-    "name": "github-copilot-cli",
-    "version": "1.0.97-1",
-    "date": "2026-10-13T23:36:22Z"
   },
   {
     "name": "infisical",
