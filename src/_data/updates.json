@@ -1,5 +1,10 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.11.3-1",
+    "date": "2026-10-16T23:27:42Z"
+  },
+  {
     "name": "infisical",
     "version": "0.44.2-1",
     "date": "2026-10-16T23:23:41Z"
@@ -8,11 +13,6 @@
     "name": "claude-code",
     "version": "2.1.302-1",
     "date": "2026-10-16T23:17:07Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.11.2-1",
-    "date": "2026-10-16T17:17:45Z"
   },
   {
     "name": "netbird-bin",
