@@ -5,8 +5,8 @@
   "source_type": "aur",
   "maintainer": "cg505",
   "submitter": "cg505",
-  "votes": 96,
-  "popularity": 8.7772,
+  "votes": 97,
+  "popularity": 9.682673,
   "first_submitted": "2025-02-24T19:35:58Z",
   "description": "An agentic coding tool that lives in your terminal",
   "url": "https://github.com/anthropics/claude-code",
@@ -14,9 +14,9 @@
     "LicenseRef-claude-code"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38805066090/job/116663776773",
-  "version": "2.1.301-1",
-  "last_updated": "2026-10-15T20:52:32Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38980312984/job/117239438979",
+  "version": "2.1.302-1",
+  "last_updated": "2026-10-16T23:17:07Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -67,11 +67,11 @@
       "description": "sandboxing"
     }
   ],
-  "package_size_bytes": 267962503,
+  "package_size_bytes": 285800647,
   "files": [
     {
       "path": "/opt/claude-code/bin/claude",
-      "size_bytes": 267955384
+      "size_bytes": 285793528
     },
     {
       "path": "/usr/bin/claude",
@@ -88,15 +88,15 @@
       "url": "https://code.claude.com/docs/en/legal-and-compliance.md"
     },
     {
-      "name": "claude-2.1.301-x86_64",
-      "url": "https://downloads.claude.ai/claude-code-releases/2.1.301/linux-x64/claude"
+      "name": "claude-2.1.302-x86_64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.302/linux-x64/claude"
     },
     {
-      "name": "claude-2.1.301-aarch64",
-      "url": "https://downloads.claude.ai/claude-code-releases/2.1.301/linux-arm64/claude"
+      "name": "claude-2.1.302-aarch64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.302/linux-arm64/claude"
     }
   ],
   "required_by": [],
-  "filename": "claude-code-2.1.301-1-x86_64.pkg.tar.zst",
-  "sha256": "bca099285e72e5a3a21b62b95ea94ef639781e5309203bdf99ceba83d1f1b9c2"
+  "filename": "claude-code-2.1.302-1-x86_64.pkg.tar.zst",
+  "sha256": "4aa1f98c4c59b7ef18caa2acf26e3feebfcaaff6de4c0a01f4d79514b3947e69"
 }
