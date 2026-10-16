@@ -1,5 +1,10 @@
 [
   {
+    "name": "opencode-bin",
+    "version": "1.19.2-1",
+    "date": "2026-10-16T07:49:49Z"
+  },
+  {
     "name": "netbird-bin",
     "version": "0.81.1-1",
     "date": "2026-10-16T07:46:02Z"
@@ -8,11 +13,6 @@
     "name": "pi",
     "version": "1.3.0-1",
     "date": "2026-10-15T21:00:09Z"
-  },
-  {
-    "name": "opencode-bin",
-    "version": "1.19.1-1",
-    "date": "2026-10-15T20:56:07Z"
   },
   {
     "name": "claude-code",
