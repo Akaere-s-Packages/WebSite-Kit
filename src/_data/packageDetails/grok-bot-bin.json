@@ -15,8 +15,8 @@
   ],
   "sources": [
     {
-      "name": "grok-bot_0.70.2_amd64.deb",
-      "url": "https://downloads.cursor.com/grokbot/stable/52da656f56d317510ca65ad6af3d69a2cde461e0/linux/x64/grok-bot_0.70.2_amd64.deb"
+      "name": "grok-bot_0.71.2_amd64.deb",
+      "url": "https://downloads.cursor.com/grokbot/stable/92808c0ad869b2e3725dbc3b8fa2fcc991687502/linux/x64/grok-bot_0.71.2_amd64.deb"
     },
     {
       "name": "grok-bot.sh"
@@ -28,10 +28,10 @@
       "name": "extract-asar.py"
     }
   ],
-  "version": "0.70.2-1",
+  "version": "0.71.2-1",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38214427499/job/114695786524",
-  "package_size_bytes": 382169031,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38937260175/job/117095906328",
+  "package_size_bytes": 383121315,
   "dependencies": [
     {
       "name": "gtk3",
@@ -403,7 +403,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar",
-      "size_bytes": 42929292
+      "size_bytes": 43881606
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/build/Release/cursor_proclist.node",
@@ -511,7 +511,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/electron-main/onepassword-connection-service.cjs",
-      "size_bytes": 104177
+      "size_bytes": 104147
     },
     {
       "path": "/opt/Grok Bot/resources/apparmor-profile",
@@ -586,8 +586,8 @@
       "size_bytes": 20008180
     }
   ],
-  "last_updated": "2026-10-12T06:52:22Z",
+  "last_updated": "2026-10-16T17:10:47Z",
   "packager": "Lilithya <me@lilithya.su>",
-  "filename": "grok-bot-bin-0.70.2-1-x86_64.pkg.tar.zst",
-  "sha256": "1cace50a6505eaef2f2c31c1f7539129449ea7621cbb5dcb7bc9b70fcd123b10"
+  "filename": "grok-bot-bin-0.71.2-1-x86_64.pkg.tar.zst",
+  "sha256": "72c0b5d1255b8147f5e8545cccf9277728ffebdd63bcbda43e88f60210ff18c1"
 }

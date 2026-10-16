@@ -1,5 +1,10 @@
 [
   {
+    "name": "grok-bot-bin",
+    "version": "0.71.2-1",
+    "date": "2026-10-16T17:10:47Z"
+  },
+  {
     "name": "opencode-bin",
     "version": "1.19.3-1",
     "date": "2026-10-16T12:56:41Z"
@@ -43,11 +48,6 @@
     "name": "infisical",
     "version": "0.43.144-1",
     "date": "2026-10-13T19:51:23Z"
-  },
-  {
-    "name": "grok-bot-bin",
-    "version": "0.70.2-1",
-    "date": "2026-10-12T06:52:22Z"
   },
   {
     "name": "nexttrace-bin",
