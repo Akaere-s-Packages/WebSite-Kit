@@ -1,5 +1,10 @@
 [
   {
+    "name": "netbird-bin",
+    "version": "0.81.3-1",
+    "date": "2026-10-19T18:02:52Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.303-1",
     "date": "2026-10-19T00:41:21Z"
@@ -18,11 +23,6 @@
     "name": "infisical",
     "version": "0.44.2-1",
     "date": "2026-10-16T23:23:41Z"
-  },
-  {
-    "name": "netbird-bin",
-    "version": "0.81.2-1",
-    "date": "2026-10-16T17:14:17Z"
   },
   {
     "name": "grok-bot-bin",
