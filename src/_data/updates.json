@@ -1,5 +1,10 @@
 [
   {
+    "name": "1password",
+    "version": "8.12.42-36",
+    "date": "2026-10-20T21:06:40Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "18.12.3-1",
     "date": "2026-10-19T22:13:35Z"
@@ -63,11 +68,6 @@
     "name": "sparkle-bin",
     "version": "1.26.9-1",
     "date": "2026-10-09T07:04:59Z"
-  },
-  {
-    "name": "1password",
-    "version": "8.12.40-31",
-    "date": "2026-10-05T16:50:20Z"
   },
   {
     "name": "linuxqq",
