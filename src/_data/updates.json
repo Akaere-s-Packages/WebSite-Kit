@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.101-1",
+    "date": "2026-10-21T05:41:59Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.306-1",
     "date": "2026-10-21T05:38:05Z"
@@ -23,11 +28,6 @@
     "name": "1password",
     "version": "8.12.42-36",
     "date": "2026-10-20T21:06:40Z"
-  },
-  {
-    "name": "github-copilot-cli",
-    "version": "1.0.100-1",
-    "date": "2026-10-19T22:09:31Z"
   },
   {
     "name": "netbird-bin",

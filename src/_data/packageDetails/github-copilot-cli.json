@@ -14,9 +14,9 @@
     "LicenseRef-GitHub-Copilot"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39332608640/job/118334289834",
-  "version": "1.0.100-1",
-  "last_updated": "2026-10-19T22:09:31Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39550740958/job/119059171959",
+  "version": "1.0.101-1",
+  "last_updated": "2026-10-21T05:41:59Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -55,7 +55,7 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 197289258,
+  "package_size_bytes": 197230334,
   "files": [
     {
       "path": "/usr/bin/copilot -> ../lib/node_modules/@github/copilot/npm-loader.js",
@@ -83,7 +83,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/copilot",
-      "size_bytes": 196741952
+      "size_bytes": 196676416
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/node_modules/@github/copilot-linux-x64/package.json",
@@ -123,7 +123,7 @@
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/npm-loader.js",
-      "size_bytes": 1185
+      "size_bytes": 1154
     },
     {
       "path": "/usr/lib/node_modules/@github/copilot/package.json",
@@ -131,11 +131,11 @@
     },
     {
       "path": "/usr/share/bash-completion/completions/copilot",
-      "size_bytes": 75348
+      "size_bytes": 75705
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/CHANGELOG.md",
-      "size_bytes": 279369
+      "size_bytes": 284818
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/README.md -> /usr/lib/node_modules/@github/copilot/README.md",
@@ -143,7 +143,7 @@
     },
     {
       "path": "/usr/share/fish/vendor_completions.d/copilot.fish",
-      "size_bytes": 74570
+      "size_bytes": 75050
     },
     {
       "path": "/usr/share/licenses/github-copilot-cli/LICENSE -> /usr/lib/node_modules/@github/copilot/LICENSE.md",
@@ -151,7 +151,7 @@
     },
     {
       "path": "/usr/share/zsh/site-functions/_copilot",
-      "size_bytes": 74589
+      "size_bytes": 74946
     }
   ],
   "sources": [
@@ -165,6 +165,6 @@
     }
   ],
   "required_by": [],
-  "filename": "github-copilot-cli-1.0.100-1-x86_64.pkg.tar.zst",
-  "sha256": "45ec5c4e5cbb0623904f4b652b90a25a00ea4e1b217ca080f7d234085f6fdf3a"
+  "filename": "github-copilot-cli-1.0.101-1-x86_64.pkg.tar.zst",
+  "sha256": "bba06804f98eb33517006002dfc1e4fbc3a87e048f63326d695117b51e1bff11"
 }
