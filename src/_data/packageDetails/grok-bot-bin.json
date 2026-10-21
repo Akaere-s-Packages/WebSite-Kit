@@ -28,10 +28,10 @@
       "name": "extract-asar.py"
     }
   ],
-  "version": "0.71.2-1",
+  "version": "0.72.1-1",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38937260175/job/117095906328",
-  "package_size_bytes": 383121315,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39520769548/job/118963848529",
+  "package_size_bytes": 386872959,
   "dependencies": [
     {
       "name": "gtk3",
@@ -403,19 +403,19 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar",
-      "size_bytes": 43881606
+      "size_bytes": 47552266
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/build/Release/cursor_proclist.node",
-      "size_bytes": 148344
+      "size_bytes": 148632
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/index.js",
-      "size_bytes": 935
+      "size_bytes": 1222
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/package.json",
-      "size_bytes": 398
+      "size_bytes": 422
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/rebuild-with-lock.js",
@@ -459,18 +459,54 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/runtime-deps-manifest.json",
-      "size_bytes": 639
+      "size_bytes": 1015
     },
     {
-      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-notification-settings/build/Release/sand_notification_settings.node",
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-card-text-recognition/build/Release/sand_card_text_recognition.node",
       "size_bytes": 18848
     },
     {
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-card-text-recognition/index.js",
+      "size_bytes": 182
+    },
+    {
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-card-text-recognition/package.json",
+      "size_bytes": 325
+    },
+    {
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-devicecheck/build/Release/sand_devicecheck.node",
+      "size_bytes": 31352
+    },
+    {
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-devicecheck/index.js",
+      "size_bytes": 232
+    },
+    {
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-devicecheck/package.json",
+      "size_bytes": 319
+    },
+    {
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-notification-settings/build/Release/sand_notification_settings.node",
+      "size_bytes": 22952
+    },
+    {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-notification-settings/index.js",
-      "size_bytes": 368
+      "size_bytes": 825
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-notification-settings/package.json",
+      "size_bytes": 358
+    },
+    {
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-window-capture/build/Release/sand_window_capture.node",
+      "size_bytes": 23016
+    },
+    {
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-window-capture/index.js",
+      "size_bytes": 667
+    },
+    {
+      "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/sand-window-capture/package.json",
       "size_bytes": 320
     },
     {
@@ -511,7 +547,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/electron-main/onepassword-connection-service.cjs",
-      "size_bytes": 104147
+      "size_bytes": 104296
     },
     {
       "path": "/opt/Grok Bot/resources/apparmor-profile",
@@ -586,8 +622,8 @@
       "size_bytes": 20008180
     }
   ],
-  "last_updated": "2026-10-16T17:10:47Z",
+  "last_updated": "2026-10-21T00:24:33Z",
   "packager": "Lilithya <me@lilithya.su>",
-  "filename": "grok-bot-bin-0.71.2-1-x86_64.pkg.tar.zst",
-  "sha256": "72c0b5d1255b8147f5e8545cccf9277728ffebdd63bcbda43e88f60210ff18c1"
+  "filename": "grok-bot-bin-0.72.1-1-x86_64.pkg.tar.zst",
+  "sha256": "836c238f186b4ce5f075c4bc4d70f0c353f9a756df628bfbb92a1f3b1c6f9fa2"
 }
