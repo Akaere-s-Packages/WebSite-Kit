@@ -156,12 +156,12 @@
   ],
   "sources": [
     {
-      "name": "copilot-1.0.102.tgz",
-      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.102.tgz"
+      "name": "copilot-1.0.103.tgz",
+      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.103.tgz"
     },
     {
-      "name": "CHANGELOG-1.0.102.md",
-      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.102/changelog.md"
+      "name": "CHANGELOG-1.0.103.md",
+      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.103/changelog.md"
     }
   ],
   "required_by": [],

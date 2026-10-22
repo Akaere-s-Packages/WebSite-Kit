@@ -15,8 +15,8 @@
   ],
   "sources": [
     {
-      "name": "grok-bot_0.75.0_amd64.deb",
-      "url": "https://downloads.cursor.com/grokbot/stable/0754837254309a566ace488b3a8de245c7a82ea5/linux/x64/grok-bot_0.75.0_amd64.deb"
+      "name": "grok-bot_0.75.2_amd64.deb",
+      "url": "https://downloads.cursor.com/grokbot/stable/ec623d18b8a375d2ab29814cf974ddb791d8c33b/linux/x64/grok-bot_0.75.2_amd64.deb"
     },
     {
       "name": "grok-bot.sh"
