@@ -5,8 +5,8 @@
   "source_type": "aur",
   "maintainer": "falser",
   "submitter": "falser",
-  "votes": 6,
-  "popularity": 2.818737,
+  "votes": 7,
+  "popularity": 3.559832,
   "first_submitted": "2026-08-20T06:38:00Z",
   "description": "Grok Bot desktop agent",
   "url": "https://cursor.com",
@@ -15,8 +15,8 @@
   ],
   "sources": [
     {
-      "name": "grok-bot_0.72.1_amd64.deb",
-      "url": "https://downloads.cursor.com/grokbot/stable/144abdde753a3340ec4904106fd195dd63eebb0e/linux/x64/grok-bot_0.72.1_amd64.deb"
+      "name": "grok-bot_0.75.0_amd64.deb",
+      "url": "https://downloads.cursor.com/grokbot/stable/0754837254309a566ace488b3a8de245c7a82ea5/linux/x64/grok-bot_0.75.0_amd64.deb"
     },
     {
       "name": "grok-bot.sh"
@@ -28,10 +28,10 @@
       "name": "extract-asar.py"
     }
   ],
-  "version": "0.72.1-1",
+  "version": "0.75.0-1",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39520769548/job/118963848529",
-  "package_size_bytes": 386872959,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39825568982/job/119987929570",
+  "package_size_bytes": 400068283,
   "dependencies": [
     {
       "name": "gtk3",
@@ -131,7 +131,7 @@
     },
     {
       "path": "/opt/Grok Bot/LICENSES.chromium.html",
-      "size_bytes": 20008180
+      "size_bytes": 20008860
     },
     {
       "path": "/opt/Grok Bot/chrome-sandbox",
@@ -147,35 +147,35 @@
     },
     {
       "path": "/opt/Grok Bot/chrome_crashpad_handler",
-      "size_bytes": 1570368
+      "size_bytes": 1906240
     },
     {
       "path": "/opt/Grok Bot/grok-bot",
-      "size_bytes": 210087128
+      "size_bytes": 220163288
     },
     {
       "path": "/opt/Grok Bot/icudtl.dat",
-      "size_bytes": 11002272
+      "size_bytes": 11002368
     },
     {
       "path": "/opt/Grok Bot/libEGL.so",
-      "size_bytes": 286424
+      "size_bytes": 256744
     },
     {
       "path": "/opt/Grok Bot/libGLESv2.so",
-      "size_bytes": 6428384
+      "size_bytes": 6453232
     },
     {
       "path": "/opt/Grok Bot/libffmpeg.so",
-      "size_bytes": 2752696
+      "size_bytes": 2714344
     },
     {
       "path": "/opt/Grok Bot/libvk_swiftshader.so",
-      "size_bytes": 4471288
+      "size_bytes": 4636360
     },
     {
       "path": "/opt/Grok Bot/libvulkan.so.1",
-      "size_bytes": 2540808
+      "size_bytes": 2450616
     },
     {
       "path": "/opt/Grok Bot/locales/af.pak",
@@ -187,7 +187,7 @@
     },
     {
       "path": "/opt/Grok Bot/locales/ar.pak",
-      "size_bytes": 1095222
+      "size_bytes": 1095318
     },
     {
       "path": "/opt/Grok Bot/locales/bg.pak",
@@ -199,19 +199,19 @@
     },
     {
       "path": "/opt/Grok Bot/locales/ca.pak",
-      "size_bytes": 688736
+      "size_bytes": 688761
     },
     {
       "path": "/opt/Grok Bot/locales/cs.pak",
-      "size_bytes": 715321
+      "size_bytes": 715322
     },
     {
       "path": "/opt/Grok Bot/locales/da.pak",
-      "size_bytes": 642710
+      "size_bytes": 642709
     },
     {
       "path": "/opt/Grok Bot/locales/de.pak",
-      "size_bytes": 689884
+      "size_bytes": 689942
     },
     {
       "path": "/opt/Grok Bot/locales/el.pak",
@@ -227,11 +227,11 @@
     },
     {
       "path": "/opt/Grok Bot/locales/es-419.pak",
-      "size_bytes": 680096
+      "size_bytes": 680099
     },
     {
       "path": "/opt/Grok Bot/locales/es.pak",
-      "size_bytes": 675933
+      "size_bytes": 675920
     },
     {
       "path": "/opt/Grok Bot/locales/et.pak",
@@ -239,7 +239,7 @@
     },
     {
       "path": "/opt/Grok Bot/locales/fa.pak",
-      "size_bytes": 1022873
+      "size_bytes": 1022931
     },
     {
       "path": "/opt/Grok Bot/locales/fi.pak",
@@ -247,11 +247,11 @@
     },
     {
       "path": "/opt/Grok Bot/locales/fil.pak",
-      "size_bytes": 712867
+      "size_bytes": 712872
     },
     {
       "path": "/opt/Grok Bot/locales/fr.pak",
-      "size_bytes": 735063
+      "size_bytes": 735037
     },
     {
       "path": "/opt/Grok Bot/locales/gu.pak",
@@ -259,15 +259,15 @@
     },
     {
       "path": "/opt/Grok Bot/locales/he.pak",
-      "size_bytes": 896278
+      "size_bytes": 896275
     },
     {
       "path": "/opt/Grok Bot/locales/hi.pak",
-      "size_bytes": 1525504
+      "size_bytes": 1525507
     },
     {
       "path": "/opt/Grok Bot/locales/hr.pak",
-      "size_bytes": 688516
+      "size_bytes": 688519
     },
     {
       "path": "/opt/Grok Bot/locales/hu.pak",
@@ -275,23 +275,23 @@
     },
     {
       "path": "/opt/Grok Bot/locales/id.pak",
-      "size_bytes": 608749
+      "size_bytes": 608764
     },
     {
       "path": "/opt/Grok Bot/locales/it.pak",
-      "size_bytes": 665095
+      "size_bytes": 665083
     },
     {
       "path": "/opt/Grok Bot/locales/ja.pak",
-      "size_bytes": 810386
+      "size_bytes": 810384
     },
     {
       "path": "/opt/Grok Bot/locales/kn.pak",
-      "size_bytes": 1654167
+      "size_bytes": 1654714
     },
     {
       "path": "/opt/Grok Bot/locales/ko.pak",
-      "size_bytes": 690087
+      "size_bytes": 690103
     },
     {
       "path": "/opt/Grok Bot/locales/lt.pak",
@@ -303,7 +303,7 @@
     },
     {
       "path": "/opt/Grok Bot/locales/ml.pak",
-      "size_bytes": 1700486
+      "size_bytes": 1700474
     },
     {
       "path": "/opt/Grok Bot/locales/mr.pak",
@@ -319,7 +319,7 @@
     },
     {
       "path": "/opt/Grok Bot/locales/nl.pak",
-      "size_bytes": 639259
+      "size_bytes": 639258
     },
     {
       "path": "/opt/Grok Bot/locales/pl.pak",
@@ -327,11 +327,11 @@
     },
     {
       "path": "/opt/Grok Bot/locales/pt-BR.pak",
-      "size_bytes": 669990
+      "size_bytes": 669929
     },
     {
       "path": "/opt/Grok Bot/locales/pt-PT.pak",
-      "size_bytes": 673490
+      "size_bytes": 673491
     },
     {
       "path": "/opt/Grok Bot/locales/ro.pak",
@@ -339,47 +339,47 @@
     },
     {
       "path": "/opt/Grok Bot/locales/ru.pak",
-      "size_bytes": 1161393
+      "size_bytes": 1161024
     },
     {
       "path": "/opt/Grok Bot/locales/sk.pak",
-      "size_bytes": 727243
+      "size_bytes": 727241
     },
     {
       "path": "/opt/Grok Bot/locales/sl.pak",
-      "size_bytes": 696472
+      "size_bytes": 696478
     },
     {
       "path": "/opt/Grok Bot/locales/sr.pak",
-      "size_bytes": 1071768
+      "size_bytes": 1071741
     },
     {
       "path": "/opt/Grok Bot/locales/sv.pak",
-      "size_bytes": 620740
+      "size_bytes": 620713
     },
     {
       "path": "/opt/Grok Bot/locales/sw.pak",
-      "size_bytes": 656958
+      "size_bytes": 656953
     },
     {
       "path": "/opt/Grok Bot/locales/ta.pak",
-      "size_bytes": 1694289
+      "size_bytes": 1694271
     },
     {
       "path": "/opt/Grok Bot/locales/te.pak",
-      "size_bytes": 1565775
+      "size_bytes": 1565751
     },
     {
       "path": "/opt/Grok Bot/locales/th.pak",
-      "size_bytes": 1315834
+      "size_bytes": 1315809
     },
     {
       "path": "/opt/Grok Bot/locales/tr.pak",
-      "size_bytes": 668877
+      "size_bytes": 668843
     },
     {
       "path": "/opt/Grok Bot/locales/uk.pak",
-      "size_bytes": 1168734
+      "size_bytes": 1168639
     },
     {
       "path": "/opt/Grok Bot/locales/ur.pak",
@@ -387,23 +387,23 @@
     },
     {
       "path": "/opt/Grok Bot/locales/vi.pak",
-      "size_bytes": 795664
+      "size_bytes": 795617
     },
     {
       "path": "/opt/Grok Bot/locales/zh-CN.pak",
-      "size_bytes": 569348
+      "size_bytes": 569337
     },
     {
       "path": "/opt/Grok Bot/locales/zh-TW.pak",
-      "size_bytes": 561500
+      "size_bytes": 561508
     },
     {
       "path": "/opt/Grok Bot/resources.pak",
-      "size_bytes": 7055888
+      "size_bytes": 7058669
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar",
-      "size_bytes": 47552266
+      "size_bytes": 50295384
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/build/Release/cursor_proclist.node",
@@ -411,7 +411,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/index.js",
-      "size_bytes": 1222
+      "size_bytes": 1232
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/package.json",
@@ -419,7 +419,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/rebuild-with-lock.js",
-      "size_bytes": 11845
+      "size_bytes": 12319
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/node-addon-api/index.js",
@@ -547,7 +547,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/electron-main/onepassword-connection-service.cjs",
-      "size_bytes": 104296
+      "size_bytes": 107551
     },
     {
       "path": "/opt/Grok Bot/resources/apparmor-profile",
@@ -559,11 +559,11 @@
     },
     {
       "path": "/opt/Grok Bot/snapshot_blob.bin",
-      "size_bytes": 346432
+      "size_bytes": 346664
     },
     {
       "path": "/opt/Grok Bot/v8_context_snapshot.bin",
-      "size_bytes": 721176
+      "size_bytes": 721416
     },
     {
       "path": "/opt/Grok Bot/vk_swiftshader_icd.json",
@@ -619,11 +619,11 @@
     },
     {
       "path": "/usr/share/licenses/grok-bot-bin/LICENSES.chromium.html",
-      "size_bytes": 20008180
+      "size_bytes": 20008860
     }
   ],
-  "last_updated": "2026-10-21T00:24:33Z",
+  "last_updated": "2026-10-22T17:49:25Z",
   "packager": "Lilithya <me@lilithya.su>",
-  "filename": "grok-bot-bin-0.72.1-1-x86_64.pkg.tar.zst",
-  "sha256": "836c238f186b4ce5f075c4bc4d70f0c353f9a756df628bfbb92a1f3b1c6f9fa2"
+  "filename": "grok-bot-bin-0.75.0-1-x86_64.pkg.tar.zst",
+  "sha256": "d3659c93dc171656f37284fe3be50960966ae819b9453821a09e9ef7818f2d38"
 }
