@@ -15,8 +15,8 @@
   ],
   "sources": [
     {
-      "name": "grok-bot_0.75.2_amd64.deb",
-      "url": "https://downloads.cursor.com/grokbot/stable/ec623d18b8a375d2ab29814cf974ddb791d8c33b/linux/x64/grok-bot_0.75.2_amd64.deb"
+      "name": "grok-bot_0.75.3_amd64.deb",
+      "url": "https://downloads.cursor.com/grokbot/stable/5acb0be5178da83005411731082da2dab1602ca7/linux/x64/grok-bot_0.75.3_amd64.deb"
     },
     {
       "name": "grok-bot.sh"
@@ -28,10 +28,10 @@
       "name": "extract-asar.py"
     }
   ],
-  "version": "0.75.2-1",
+  "version": "0.75.3-1",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39875728270/job/120160816868",
-  "package_size_bytes": 400083418,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39890539306/job/120209038768",
+  "package_size_bytes": 400398265,
   "dependencies": [
     {
       "name": "gtk3",
@@ -403,7 +403,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar",
-      "size_bytes": 50310519
+      "size_bytes": 50625366
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/build/Release/cursor_proclist.node",
@@ -622,8 +622,8 @@
       "size_bytes": 20008860
     }
   ],
-  "last_updated": "2026-10-23T00:06:34Z",
+  "last_updated": "2026-10-23T02:40:19Z",
   "packager": "Lilithya <me@lilithya.su>",
-  "filename": "grok-bot-bin-0.75.2-1-x86_64.pkg.tar.zst",
-  "sha256": "f89d655c68364807bf3f7f8b2505629760d54fd363125fd69070ad8b08d4f3bd"
+  "filename": "grok-bot-bin-0.75.3-1-x86_64.pkg.tar.zst",
+  "sha256": "8e843e083ed3fa32b92a1a64f6aab5a27f41cff6cd18352c01ba5400ec1d0757"
 }
