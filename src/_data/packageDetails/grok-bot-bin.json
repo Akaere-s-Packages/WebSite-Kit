@@ -28,10 +28,10 @@
       "name": "extract-asar.py"
     }
   ],
-  "version": "0.75.0-1",
+  "version": "0.75.2-1",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39825568982/job/119987929570",
-  "package_size_bytes": 400068283,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39875728270/job/120160816868",
+  "package_size_bytes": 400083418,
   "dependencies": [
     {
       "name": "gtk3",
@@ -403,7 +403,7 @@
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar",
-      "size_bytes": 50295384
+      "size_bytes": 50310519
     },
     {
       "path": "/opt/Grok Bot/resources/app.asar.unpacked/dist/deps/cursor-proclist/build/Release/cursor_proclist.node",
@@ -622,8 +622,8 @@
       "size_bytes": 20008860
     }
   ],
-  "last_updated": "2026-10-22T17:49:25Z",
+  "last_updated": "2026-10-23T00:06:34Z",
   "packager": "Lilithya <me@lilithya.su>",
-  "filename": "grok-bot-bin-0.75.0-1-x86_64.pkg.tar.zst",
-  "sha256": "d3659c93dc171656f37284fe3be50960966ae819b9453821a09e9ef7818f2d38"
+  "filename": "grok-bot-bin-0.75.2-1-x86_64.pkg.tar.zst",
+  "sha256": "f89d655c68364807bf3f7f8b2505629760d54fd363125fd69070ad8b08d4f3bd"
 }
