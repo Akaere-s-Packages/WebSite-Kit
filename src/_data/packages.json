@@ -88,10 +88,10 @@
     "pkgbase": "infisical",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "0.44.2-1",
+    "version": "0.44.8-1",
     "description": "Fetch and inject secrets into any framework in local development",
     "maintainer": "lucashubner",
-    "last_updated": "2026-10-16T23:23:41Z",
+    "last_updated": "2026-10-23T08:16:17Z",
     "build_status": "published",
     "detail_url": "/packages/infisical/"
   },

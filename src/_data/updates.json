@@ -1,5 +1,10 @@
 [
   {
+    "name": "infisical",
+    "version": "0.44.8-1",
+    "date": "2026-10-23T08:16:17Z"
+  },
+  {
     "name": "grok-bot-bin",
     "version": "0.75.3-1",
     "date": "2026-10-23T02:40:19Z"
@@ -48,11 +53,6 @@
     "name": "netbird-bin",
     "version": "0.81.3-1",
     "date": "2026-10-19T18:02:52Z"
-  },
-  {
-    "name": "infisical",
-    "version": "0.44.2-1",
-    "date": "2026-10-16T23:23:41Z"
   },
   {
     "name": "nexttrace-bin",
