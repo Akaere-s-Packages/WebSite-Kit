@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39630348497/job/119326710753",
-  "version": "1.143.0-1",
-  "last_updated": "2026-10-21T16:01:12Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39923565123/job/120314440213",
+  "version": "1.143.1-1",
+  "last_updated": "2026-10-23T08:25:21Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -121,7 +121,7 @@
       "description": "Agent host sandboxing"
     }
   ],
-  "package_size_bytes": 1031295083,
+  "package_size_bytes": 1031295018,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -9393,11 +9393,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/cli.js",
-      "size_bytes": 275174
+      "size_bytes": 275169
     },
     {
       "path": "/usr/share/code/resources/app/out/date",
-      "size_bytes": 25
+      "size_bytes": 20
     },
     {
       "path": "/usr/share/code/resources/app/out/main.js",
@@ -9405,7 +9405,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/mainImpl.js",
-      "size_bytes": 1359219
+      "size_bytes": 1359214
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -9533,11 +9533,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1514610
+      "size_bytes": 1514605
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 777104
+      "size_bytes": 777099
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -9693,7 +9693,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 4598398
+      "size_bytes": 4598393
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
@@ -9717,7 +9717,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js",
-      "size_bytes": 400574
+      "size_bytes": 400569
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/contrib/chat/browser/media/letterpress-sessions-dark.svg",
@@ -9741,7 +9741,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 22334313
+      "size_bytes": 22334308
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -9797,11 +9797,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2318563
+      "size_bytes": 2318558
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 2032867
+      "size_bytes": 2032862
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -10341,7 +10341,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js",
-      "size_bytes": 232019
+      "size_bytes": 232014
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg",
@@ -10589,7 +10589,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 21153555
+      "size_bytes": 21153550
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
@@ -10605,7 +10605,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/product.json",
-      "size_bytes": 68256
+      "size_bytes": 68251
     },
     {
       "path": "/usr/share/code/resources/app/resources/linux/code.png",
@@ -10674,6 +10674,6 @@
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.143.0-1-x86_64.pkg.tar.zst",
-  "sha256": "7d4e33a0e5d257408cdf2bef8e8b2bd873d4bd3e1d4d120036cbaad0a3af3986"
+  "filename": "visual-studio-code-bin-1.143.1-1-x86_64.pkg.tar.zst",
+  "sha256": "817136491b18c23aa5fa4678d2b231b0e854e1934b3bccdbde23c9325849b215"
 }

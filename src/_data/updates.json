@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.143.1-1",
+    "date": "2026-10-23T08:25:21Z"
+  },
+  {
     "name": "infisical",
     "version": "0.44.8-1",
     "date": "2026-10-23T08:16:17Z"
@@ -33,11 +38,6 @@
     "name": "oh-my-pi-bin",
     "version": "18.12.6-1",
     "date": "2026-10-21T23:06:06Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.143.0-1",
-    "date": "2026-10-21T16:01:12Z"
   },
   {
     "name": "google-chrome",
