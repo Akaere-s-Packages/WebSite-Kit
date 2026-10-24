@@ -1,5 +1,10 @@
 [
   {
+    "name": "netbird-bin",
+    "version": "0.81.4-1",
+    "date": "2026-10-24T13:57:29Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.310-1",
     "date": "2026-10-24T00:13:34Z"
@@ -48,11 +53,6 @@
     "name": "1password",
     "version": "8.12.42-36",
     "date": "2026-10-20T21:06:40Z"
-  },
-  {
-    "name": "netbird-bin",
-    "version": "0.81.3-1",
-    "date": "2026-10-19T18:02:52Z"
   },
   {
     "name": "nexttrace-bin",
