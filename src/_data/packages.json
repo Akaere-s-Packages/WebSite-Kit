@@ -72,18 +72,6 @@
     "detail_url": "/packages/google-chrome/"
   },
   {
-    "name": "grok-bot-bin",
-    "pkgbase": "grok-bot-bin",
-    "distro": "archlinux",
-    "source_type": "aur",
-    "version": "0.75.5-1",
-    "description": "Grok Bot desktop agent",
-    "maintainer": "falser",
-    "last_updated": "2026-10-23T21:53:12Z",
-    "build_status": "published",
-    "detail_url": "/packages/grok-bot-bin/"
-  },
-  {
     "name": "infisical",
     "pkgbase": "infisical",
     "distro": "archlinux",
