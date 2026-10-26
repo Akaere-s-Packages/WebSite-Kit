@@ -6,7 +6,7 @@
   "maintainer": "ouuan",
   "submitter": "ouuan",
   "votes": 4,
-  "popularity": 0.753754,
+  "popularity": 0.653576,
   "first_submitted": "2023-02-28T08:59:30Z",
   "description": "An open source visual route tracking CLI tool",
   "url": "https://github.com/nxtrace/NTrace-core",
@@ -15,23 +15,23 @@
   ],
   "sources": [
     {
-      "name": "nexttrace-bin-1.7.4",
-      "url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.4/nexttrace_linux_amd64"
+      "name": "nexttrace-bin-1.7.5",
+      "url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.5/nexttrace_linux_amd64"
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38134459768/job/114455402840",
-  "version": "1.7.4-1",
-  "last_updated": "2026-10-11T11:10:43Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/40373470887/job/121750241343",
+  "version": "1.7.5-1",
+  "last_updated": "2026-10-26T18:00:43Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [],
-  "package_size_bytes": 11295856,
+  "package_size_bytes": 11501672,
   "files": [
     {
       "path": "/usr/bin/nexttrace",
-      "size_bytes": 11295856
+      "size_bytes": 11501672
     }
   ],
-  "filename": "nexttrace-bin-1.7.4-1-x86_64.pkg.tar.zst",
-  "sha256": "551a1cf6022c4fd073bfa8838cf976d3d9fe3c4813b38391fd42087f6853e48d"
+  "filename": "nexttrace-bin-1.7.5-1-x86_64.pkg.tar.zst",
+  "sha256": "18a1bee838ed06ee483e07ffc1a93af279b42fb1112f58571de1840f88f4732a"
 }

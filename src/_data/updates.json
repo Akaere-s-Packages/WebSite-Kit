@@ -1,5 +1,10 @@
 [
   {
+    "name": "nexttrace-bin",
+    "version": "1.7.5-1",
+    "date": "2026-10-26T18:00:43Z"
+  },
+  {
     "name": "pi",
     "version": "1.4.0-2",
     "date": "2026-10-25T10:30:32Z"
@@ -48,11 +53,6 @@
     "name": "1password",
     "version": "8.12.42-36",
     "date": "2026-10-20T21:06:40Z"
-  },
-  {
-    "name": "nexttrace-bin",
-    "version": "1.7.4-1",
-    "date": "2026-10-11T11:10:43Z"
   },
   {
     "name": "datagrip",
