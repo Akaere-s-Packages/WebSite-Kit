@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.311-1",
+    "date": "2026-10-26T22:12:46Z"
+  },
+  {
     "name": "nexttrace-bin",
     "version": "1.7.5-1",
     "date": "2026-10-26T18:00:43Z"
@@ -13,11 +18,6 @@
     "name": "netbird-bin",
     "version": "0.81.4-1",
     "date": "2026-10-24T13:57:29Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.310-1",
-    "date": "2026-10-24T00:13:34Z"
   },
   {
     "name": "visual-studio-code-bin",
