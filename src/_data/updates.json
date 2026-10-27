@@ -1,5 +1,10 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.13.1-1",
+    "date": "2026-10-27T01:48:45Z"
+  },
+  {
     "name": "netbird-bin",
     "version": "0.81.5-1",
     "date": "2026-10-26T22:16:18Z"
@@ -38,11 +43,6 @@
     "name": "opencode-bin",
     "version": "1.19.4-1",
     "date": "2026-10-22T17:53:27Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.12.6-1",
-    "date": "2026-10-21T23:06:06Z"
   },
   {
     "name": "google-chrome",
