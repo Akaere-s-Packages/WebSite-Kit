@@ -14,9 +14,9 @@
     "custom:chrome"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/39520328266/job/118962423593",
-  "version": "156.0.8078.47-1",
-  "last_updated": "2026-10-21T00:20:08Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/40624908031/job/122607450078",
+  "version": "156.0.8078.73-1",
+  "last_updated": "2026-10-28T03:10:58Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -84,7 +84,7 @@
       "description": "for storing passwords in KWallet"
     }
   ],
-  "package_size_bytes": 465784057,
+  "package_size_bytes": 466731171,
   "files": [
     {
       "path": "/opt/google/chrome/CHROME_VERSION_EXTRA",
@@ -116,11 +116,11 @@
     },
     {
       "path": "/opt/google/chrome/chrome",
-      "size_bytes": 300920136
+      "size_bytes": 302824776
     },
     {
       "path": "/opt/google/chrome/chrome-management-service",
-      "size_bytes": 9639464
+      "size_bytes": 8471760
     },
     {
       "path": "/opt/google/chrome/chrome-sandbox",
@@ -128,15 +128,15 @@
     },
     {
       "path": "/opt/google/chrome/chrome_100_percent.pak",
-      "size_bytes": 1037846
+      "size_bytes": 1037872
     },
     {
       "path": "/opt/google/chrome/chrome_200_percent.pak",
-      "size_bytes": 1807577
+      "size_bytes": 1807603
     },
     {
       "path": "/opt/google/chrome/chrome_crashpad_handler",
-      "size_bytes": 1953728
+      "size_bytes": 1966016
     },
     {
       "path": "/opt/google/chrome/default-app-block",
@@ -148,15 +148,15 @@
     },
     {
       "path": "/opt/google/chrome/icudtl.dat",
-      "size_bytes": 10824432
+      "size_bytes": 10824576
     },
     {
       "path": "/opt/google/chrome/libLiteRtWebGpuAccelerator.so",
-      "size_bytes": 10977552
+      "size_bytes": 11063568
     },
     {
       "path": "/opt/google/chrome/liboptimization_guide_internal.so",
-      "size_bytes": 23062504
+      "size_bytes": 23111656
     },
     {
       "path": "/opt/google/chrome/libqt5_shim.so",
@@ -168,11 +168,11 @@
     },
     {
       "path": "/opt/google/chrome/libvk_swiftshader.so",
-      "size_bytes": 3989832
+      "size_bytes": 4046696
     },
     {
       "path": "/opt/google/chrome/libvulkan.so.1",
-      "size_bytes": 688368
+      "size_bytes": 693968
     },
     {
       "path": "/opt/google/chrome/locales/af.pak",
@@ -208,7 +208,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ar.pak",
-      "size_bytes": 1162292
+      "size_bytes": 1162253
     },
     {
       "path": "/opt/google/chrome/locales/ar_FEMININE.pak",
@@ -464,7 +464,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/fr.pak",
-      "size_bytes": 786783
+      "size_bytes": 786732
     },
     {
       "path": "/opt/google/chrome/locales/fr_FEMININE.pak",
@@ -736,7 +736,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/nl.pak",
-      "size_bytes": 678789
+      "size_bytes": 678779
     },
     {
       "path": "/opt/google/chrome/locales/nl_FEMININE.pak",
@@ -768,7 +768,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/pt-BR.pak",
-      "size_bytes": 712404
+      "size_bytes": 712390
     },
     {
       "path": "/opt/google/chrome/locales/pt-BR_FEMININE.pak",
@@ -784,7 +784,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/pt-PT.pak",
-      "size_bytes": 716037
+      "size_bytes": 716027
     },
     {
       "path": "/opt/google/chrome/locales/pt-PT_FEMININE.pak",
@@ -816,7 +816,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/ru.pak",
-      "size_bytes": 1226561
+      "size_bytes": 1226544
     },
     {
       "path": "/opt/google/chrome/locales/ru_FEMININE.pak",
@@ -1024,7 +1024,7 @@
     },
     {
       "path": "/opt/google/chrome/locales/zh-CN.pak",
-      "size_bytes": 607461
+      "size_bytes": 607437
     },
     {
       "path": "/opt/google/chrome/locales/zh-CN_FEMININE.pak",
@@ -1056,7 +1056,7 @@
     },
     {
       "path": "/opt/google/chrome/resources.pak",
-      "size_bytes": 26252237
+      "size_bytes": 26252465
     },
     {
       "path": "/opt/google/chrome/v8_context_snapshot.bin",
@@ -1084,7 +1084,7 @@
     },
     {
       "path": "/usr/share/doc/google-chrome-stable/changelog.gz",
-      "size_bytes": 235
+      "size_bytes": 234
     },
     {
       "path": "/usr/share/gnome-control-center/default-apps/google-chrome.xml",
@@ -1152,6 +1152,6 @@
     }
   ],
   "required_by": [],
-  "filename": "google-chrome-156.0.8078.47-1-x86_64.pkg.tar.zst",
-  "sha256": "eb24adbc4eb81bf6222ee414728db8f883fcd5fafebebeceb374d47e2de27b29"
+  "filename": "google-chrome-156.0.8078.73-1-x86_64.pkg.tar.zst",
+  "sha256": "198fece6ca8168abc109c9d6699dad63b43d2cd4afac6551d12a8ba0ad425891"
 }
