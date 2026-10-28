@@ -1,5 +1,10 @@
 [
   {
+    "name": "opencode-bin",
+    "version": "1.19.5-1",
+    "date": "2026-10-28T10:14:09Z"
+  },
+  {
     "name": "github-copilot-cli",
     "version": "1.0.105-1",
     "date": "2026-10-28T03:15:10Z"
@@ -43,11 +48,6 @@
     "name": "infisical",
     "version": "0.44.8-1",
     "date": "2026-10-23T08:16:17Z"
-  },
-  {
-    "name": "opencode-bin",
-    "version": "1.19.4-1",
-    "date": "2026-10-22T17:53:27Z"
   },
   {
     "name": "1password",
