@@ -6,7 +6,7 @@
   "maintainer": "linesofcodes",
   "submitter": "guymers",
   "votes": 10,
-  "popularity": 0.102298,
+  "popularity": 0.088688,
   "first_submitted": "2021-09-18T12:54:05Z",
   "description": "Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK.",
   "url": "https://www.azul.com/downloads/",
@@ -14,9 +14,9 @@
     "custom"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35774977285/job/106905848143",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717944",
   "version": "17.0.20.1-1",
-  "last_updated": "2026-09-22T19:40:31Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -2358,5 +2358,5 @@
   ],
   "required_by": [],
   "filename": "zulu-17-bin-17.0.20.1-1-x86_64.pkg.tar.zst",
-  "sha256": "6a8fe7923bfd36e75276702c431d7aa4c83a795d3e8db2aab91a180f85c9c265"
+  "sha256": "0f559e286c160b8a327659e130bc2f60a66efc3656448daa3ad335254d65b99c"
 }

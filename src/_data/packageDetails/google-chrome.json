@@ -5,8 +5,8 @@
   "source_type": "aur",
   "maintainer": "gromit",
   "submitter": null,
-  "votes": 2375,
-  "popularity": 9.245138,
+  "votes": 2376,
+  "popularity": 9.242064,
   "first_submitted": "2010-05-25T20:25:56Z",
   "description": "The popular web browser by Google (Stable Channel)",
   "url": "https://www.google.com/chrome",
@@ -14,9 +14,9 @@
     "custom:chrome"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/40624908031/job/122607450078",
-  "version": "156.0.8078.73-1",
-  "last_updated": "2026-10-28T03:10:58Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717820",
+  "version": "156.0.8078.79-1",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -84,7 +84,7 @@
       "description": "for storing passwords in KWallet"
     }
   ],
-  "package_size_bytes": 466731171,
+  "package_size_bytes": 466837255,
   "files": [
     {
       "path": "/opt/google/chrome/CHROME_VERSION_EXTRA",
@@ -116,11 +116,11 @@
     },
     {
       "path": "/opt/google/chrome/chrome",
-      "size_bytes": 302824776
+      "size_bytes": 302792008
     },
     {
       "path": "/opt/google/chrome/chrome-management-service",
-      "size_bytes": 8471760
+      "size_bytes": 8479952
     },
     {
       "path": "/opt/google/chrome/chrome-sandbox",
@@ -128,11 +128,11 @@
     },
     {
       "path": "/opt/google/chrome/chrome_100_percent.pak",
-      "size_bytes": 1037872
+      "size_bytes": 1037871
     },
     {
       "path": "/opt/google/chrome/chrome_200_percent.pak",
-      "size_bytes": 1807603
+      "size_bytes": 1807602
     },
     {
       "path": "/opt/google/chrome/chrome_crashpad_handler",
@@ -156,7 +156,7 @@
     },
     {
       "path": "/opt/google/chrome/liboptimization_guide_internal.so",
-      "size_bytes": 23111656
+      "size_bytes": 23242728
     },
     {
       "path": "/opt/google/chrome/libqt5_shim.so",
@@ -168,11 +168,11 @@
     },
     {
       "path": "/opt/google/chrome/libvk_swiftshader.so",
-      "size_bytes": 4046696
+      "size_bytes": 4046376
     },
     {
       "path": "/opt/google/chrome/libvulkan.so.1",
-      "size_bytes": 693968
+      "size_bytes": 694032
     },
     {
       "path": "/opt/google/chrome/locales/af.pak",
@@ -1056,7 +1056,7 @@
     },
     {
       "path": "/opt/google/chrome/resources.pak",
-      "size_bytes": 26252465
+      "size_bytes": 26252312
     },
     {
       "path": "/opt/google/chrome/v8_context_snapshot.bin",
@@ -1084,7 +1084,7 @@
     },
     {
       "path": "/usr/share/doc/google-chrome-stable/changelog.gz",
-      "size_bytes": 234
+      "size_bytes": 233
     },
     {
       "path": "/usr/share/gnome-control-center/default-apps/google-chrome.xml",
@@ -1143,15 +1143,15 @@
       "name": "google-chrome-stable.sh"
     },
     {
-      "name": "google-chrome-stable_156.0.8078.73-1_amd64.deb",
-      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_156.0.8078.73-1_amd64.deb"
+      "name": "google-chrome-stable_156.0.8078.79-1_amd64.deb",
+      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_156.0.8078.79-1_amd64.deb"
     },
     {
-      "name": "google-chrome-stable_156.0.8078.73-1_arm64.deb",
-      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_156.0.8078.73-1_arm64.deb"
+      "name": "google-chrome-stable_156.0.8078.79-1_arm64.deb",
+      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_156.0.8078.79-1_arm64.deb"
     }
   ],
   "required_by": [],
-  "filename": "google-chrome-156.0.8078.73-1-x86_64.pkg.tar.zst",
-  "sha256": "198fece6ca8168abc109c9d6699dad63b43d2cd4afac6551d12a8ba0ad425891"
+  "filename": "google-chrome-156.0.8078.79-1-x86_64.pkg.tar.zst",
+  "sha256": "1d216fd54936c9150b3660e8c017ea6cb9c52cc590ca60c46c291918bd88377f"
 }

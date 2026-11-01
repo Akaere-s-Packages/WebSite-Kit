@@ -6,7 +6,7 @@
   "maintainer": "Dominiquini",
   "submitter": "Dominiquini",
   "votes": 14,
-  "popularity": 0.313851,
+  "popularity": 0.272091,
   "first_submitted": "2025-10-23T17:21:06Z",
   "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
   "url": "https://github.com/github/copilot-cli",
@@ -14,9 +14,9 @@
     "LicenseRef-GitHub-Copilot"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/40625322754/job/122608801680",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717825",
   "version": "1.0.105-1",
-  "last_updated": "2026-10-28T03:15:10Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -166,5 +166,5 @@
   ],
   "required_by": [],
   "filename": "github-copilot-cli-1.0.105-1-x86_64.pkg.tar.zst",
-  "sha256": "fbe27574bdecd3636746a612f9f56da6cf6ef05bd201d75cf57c22b371de1cea"
+  "sha256": "03d5c7cb36e75f21359c83a8fa85c431d495bb1a8fcd8848cc1f6c271d968299"
 }

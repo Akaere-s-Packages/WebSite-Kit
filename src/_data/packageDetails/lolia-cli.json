@@ -20,9 +20,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698272",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717812",
   "version": "0.71.0-1",
-  "last_updated": "2026-09-13T10:53:35Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -44,14 +44,14 @@
   "files": [
     {
       "path": "/usr/bin/lolia-cli",
-      "size_bytes": 20418920
+      "size_bytes": 20439560
     },
     {
       "path": "/usr/share/licenses/lolia-cli/LICENSE",
       "size_bytes": 11358
     }
   ],
-  "package_size_bytes": 20430278,
+  "package_size_bytes": 20450918,
   "filename": "lolia-cli-0.71.0-1-x86_64.pkg.tar.zst",
-  "sha256": "505a54d72777780c7ac9e4c84cd677bf77476fbb1e6918cfd430bb3992370ba8"
+  "sha256": "54c59b3630d15a504cf6c6737e69543572565ece408d50f919bcde7e46afc66d"
 }

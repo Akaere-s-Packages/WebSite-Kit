@@ -6,7 +6,7 @@
   "maintainer": "thdxr",
   "submitter": "thdxr",
   "votes": 53,
-  "popularity": 2.776712,
+  "popularity": 2.406988,
   "first_submitted": "2025-04-22T00:53:05Z",
   "description": "The AI coding agent built for the terminal.",
   "url": "https://github.com/anomalyco/opencode",
@@ -14,9 +14,9 @@
     "MIT"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/40670122105/job/122754561780",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717850",
   "version": "1.19.5-1",
-  "last_updated": "2026-10-28T10:14:09Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -44,5 +44,5 @@
   ],
   "required_by": [],
   "filename": "opencode-bin-1.19.5-1-x86_64.pkg.tar.zst",
-  "sha256": "d6820fce0fbb9c2cc22516daace30918f0053ecfdea07432c37bacae15c46cc0"
+  "sha256": "7acdb6ae7e8fb240de606f30ef49a43ca47508ac82d53b3880311563b8f54c5c"
 }

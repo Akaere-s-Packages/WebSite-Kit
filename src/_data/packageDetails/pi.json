@@ -24,9 +24,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/40184827550/job/121143340031",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717825",
   "version": "1.4.0-2",
-  "last_updated": "2026-10-25T10:30:32Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -77058,5 +77058,5 @@
     }
   ],
   "filename": "pi-1.4.0-2-x86_64.pkg.tar.zst",
-  "sha256": "e97d6cab9ea285922868e8257d7f8360883bed9300e967a6f97762992ede485a"
+  "sha256": "5a998e2bda21a0272a22aeb74052f32192a58ed6f8b4f64736ece054602525f5"
 }

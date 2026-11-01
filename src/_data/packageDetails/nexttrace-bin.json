@@ -20,9 +20,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/40373470887/job/121750241343",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717791",
   "version": "1.7.5-1",
-  "last_updated": "2026-10-26T18:00:43Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [],
   "package_size_bytes": 11501672,
@@ -33,5 +33,5 @@
     }
   ],
   "filename": "nexttrace-bin-1.7.5-1-x86_64.pkg.tar.zst",
-  "sha256": "18a1bee838ed06ee483e07ffc1a93af279b42fb1112f58571de1840f88f4732a"
+  "sha256": "6e860073ed778cb22a065915f29a1cb290f1894d9524821d163c88c1239aaeff"
 }

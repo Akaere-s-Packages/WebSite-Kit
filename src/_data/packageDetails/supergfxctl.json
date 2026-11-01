@@ -6,7 +6,7 @@
   "maintainer": "ModYokosuka",
   "submitter": "ModYokosuka",
   "votes": 17,
-  "popularity": 1.326505,
+  "popularity": 1.15008,
   "first_submitted": "2022-02-07T17:19:31Z",
   "description": "A utility for Linux graphics switching on Intel/AMD iGPU + nVidia dGPU laptops",
   "url": "https://gitlab.com/asus-linux/supergfxctl",
@@ -14,9 +14,9 @@
     "MPL-2.0"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698244",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717903",
   "version": "5.2.7-2",
-  "last_updated": "2026-09-13T10:53:35Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -40,15 +40,15 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 5593543,
+  "package_size_bytes": 5528807,
   "files": [
     {
       "path": "/usr/bin/supergfxctl",
-      "size_bytes": 1796752
+      "size_bytes": 1781520
     },
     {
       "path": "/usr/bin/supergfxd",
-      "size_bytes": 3794488
+      "size_bytes": 3744984
     },
     {
       "path": "/usr/lib/systemd/system-preset/supergfxd.preset",
@@ -83,5 +83,5 @@
     }
   ],
   "filename": "supergfxctl-5.2.7-2-x86_64.pkg.tar.zst",
-  "sha256": "48049c13c036e9e46c691db91a99c11667fda218a0b3d835f11f3c95f091d83c"
+  "sha256": "49b50e4b6f4b6006ab5533c3dfdbb4cb66f708deea134617c8e1eec4acf344ef"
 }

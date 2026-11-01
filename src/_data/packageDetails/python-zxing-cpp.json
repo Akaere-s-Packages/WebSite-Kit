@@ -6,7 +6,7 @@
   "maintainer": "yochananmarqos",
   "submitter": "yochananmarqos",
   "votes": 5,
-  "popularity": 0.30856,
+  "popularity": 0.267473,
   "first_submitted": "2024-05-09T23:49:13Z",
   "description": "Python bindings for zxing-cpp",
   "url": "https://github.com/zxing-cpp/zxing-cpp",
@@ -14,9 +14,9 @@
     "Apache-2.0"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698236",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717959",
   "version": "3.1.1-2",
-  "last_updated": "2026-09-13T10:53:35Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -60,7 +60,7 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 1644405,
+  "package_size_bytes": 1644501,
   "files": [
     {
       "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/METADATA",
@@ -92,7 +92,7 @@
     },
     {
       "path": "/usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.abi3.so",
-      "size_bytes": 1620768
+      "size_bytes": 1620864
     },
     {
       "path": "/usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.pyi",
@@ -111,5 +111,5 @@
     }
   ],
   "filename": "python-zxing-cpp-3.1.1-2-x86_64.pkg.tar.zst",
-  "sha256": "bff56798fb1c0ee309b40a7eda9ea3f63ad21c0eee06b7c971ef1c48cfa18758"
+  "sha256": "d761c4226c34f433c696ee7305d4969458d8e4df2e28236deca96e455ca58db7"
 }

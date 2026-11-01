@@ -6,7 +6,7 @@
   "maintainer": "xhuohai",
   "submitter": "xhuohai",
   "votes": 3,
-  "popularity": 0.016767,
+  "popularity": 0.014536,
   "first_submitted": "2025-06-03T08:32:15Z",
   "description": "Another Mihomo GUI",
   "url": "https://github.com/xishang0128/sparkle",
@@ -14,9 +14,9 @@
     "GPL-3.0-only"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/37896651524/job/113709463995",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717889",
   "version": "1.26.9-1",
-  "last_updated": "2026-10-09T07:04:59Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -1160,5 +1160,5 @@
   ],
   "required_by": [],
   "filename": "sparkle-bin-1.26.9-1-x86_64.pkg.tar.zst",
-  "sha256": "ff3a465a75abe1d6fd42fc6dd62d874d2231f5d3a5d6c61235c2e5451efeca76"
+  "sha256": "0514b48c6778179d7c743128e56db391184bd3e29947ad5db87460aac09e90fb"
 }

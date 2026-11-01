@@ -14,9 +14,9 @@
     "custom:samsung"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103711471417",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124761028066",
   "version": "1.00.39-11",
-  "last_updated": "2026-09-13T10:53:35Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -901,5 +901,5 @@
     }
   ],
   "filename": "samsung-unified-driver-printer-1.00.39-11-x86_64.pkg.tar.zst",
-  "sha256": "461e41cd423b6c2750d4dc6d18c2d1b53ddfc56d1d943055cc39eb3bef46cea5"
+  "sha256": "8aedb4b67e89c423eb65e4c31272d0c3b5146ae5e0384847739e3a5bb108ef25"
 }

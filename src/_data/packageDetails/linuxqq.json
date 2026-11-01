@@ -14,9 +14,9 @@
     "LicenseRef-QQ"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/35829705565/job/107079288193",
-  "version": "5:3.2.34_53644-1",
-  "last_updated": "2026-09-23T07:07:31Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717874",
+  "version": "5:3.2.35_54395-1",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -66,16 +66,16 @@
       "name": "linuxqq.sh"
     },
     {
-      "name": "linuxqq_3.2.34-53644_amd64.deb",
-      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.36/beta/9ee04bef/linuxqq_3.2.34-53644_amd64.deb"
+      "name": "linuxqq_3.2.35-54395_amd64.deb",
+      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.37/beta/816b3c79/linuxqq_3.2.35-54395_amd64.deb"
     },
     {
-      "name": "linuxqq_3.2.34-53644_arm64.deb",
-      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.36/beta/9ee04bef/linuxqq_3.2.34-53644_arm64.deb"
+      "name": "linuxqq_3.2.35-54395_arm64.deb",
+      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.37/beta/816b3c79/linuxqq_3.2.35-54395_arm64.deb"
     },
     {
-      "name": "linuxqq_3.2.34-53644_loongarch64.deb",
-      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.36/beta/9ee04bef/linuxqq_3.2.34-53644_loongarch64.deb"
+      "name": "linuxqq_3.2.35-54395_loongarch64.deb",
+      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.37/beta/816b3c79/linuxqq_3.2.35-54395_loongarch64.deb"
     }
   ],
   "files": [
@@ -173,7 +173,7 @@
     },
     {
       "path": "/opt/QQ/resources/app/application.asar",
-      "size_bytes": 30361684
+      "size_bytes": 31189436
     },
     {
       "path": "/opt/QQ/resources/app/application.json",
@@ -317,7 +317,7 @@
     },
     {
       "path": "/opt/QQ/resources/app/avsdk/broadcast-core.so",
-      "size_bytes": 470240
+      "size_bytes": 480360
     },
     {
       "path": "/opt/QQ/resources/app/avsdk/bugly/libbugly.so",
@@ -341,7 +341,7 @@
     },
     {
       "path": "/opt/QQ/resources/app/avsdk/libAVSDKPlugin.so",
-      "size_bytes": 33646512
+      "size_bytes": 33930656
     },
     {
       "path": "/opt/QQ/resources/app/avsdk/libcrypto.so.1.1",
@@ -421,7 +421,7 @@
     },
     {
       "path": "/opt/QQ/resources/app/major.node",
-      "size_bytes": 111428640
+      "size_bytes": 111947856
     },
     {
       "path": "/opt/QQ/resources/app/package.json",
@@ -1416,15 +1416,15 @@
       "size_bytes": 3016
     },
     {
-      "path": "/opt/QQ/resources/app/resource/fonts/AppleBraille.ttf",
+      "path": "/opt/QQ/resources/app/resource/fonts/ASCII-Art.ttf",
       "size_bytes": 138012
     },
     {
-      "path": "/opt/QQ/resources/app/resource/fonts/AppleColorEmoji-fix.ttf",
+      "path": "/opt/QQ/resources/app/resource/fonts/ColorEmoji-fix.ttf",
       "size_bytes": 17164
     },
     {
-      "path": "/opt/QQ/resources/app/resource/fonts/AppleColorEmoji.ttf",
+      "path": "/opt/QQ/resources/app/resource/fonts/ColorEmoji.ttf",
       "size_bytes": 5238868
     },
     {
@@ -5333,11 +5333,11 @@
     },
     {
       "path": "/opt/QQ/resources/app/resource/icons/remind_mute_16.svg",
-      "size_bytes": 1616
+      "size_bytes": 1376
     },
     {
       "path": "/opt/QQ/resources/app/resource/icons/remind_mute_24.svg",
-      "size_bytes": 1667
+      "size_bytes": 1425
     },
     {
       "path": "/opt/QQ/resources/app/resource/icons/remote_control_16.svg",
@@ -5912,6 +5912,14 @@
       "size_bytes": 780
     },
     {
+      "path": "/opt/QQ/resources/app/resource/icons/unsubscribe_16.svg",
+      "size_bytes": 1717
+    },
+    {
+      "path": "/opt/QQ/resources/app/resource/icons/unsubscribe_24.svg",
+      "size_bytes": 1719
+    },
+    {
       "path": "/opt/QQ/resources/app/resource/icons/up_16.svg",
       "size_bytes": 529
     },
@@ -6137,7 +6145,7 @@
     },
     {
       "path": "/opt/QQ/resources/app/resource/qbao-logo.png",
-      "size_bytes": 9525
+      "size_bytes": 7988
     },
     {
       "path": "/opt/QQ/resources/app/resource/qqb/icon.ico",
@@ -6185,7 +6193,7 @@
     },
     {
       "path": "/opt/QQ/resources/app/wrapper.node",
-      "size_bytes": 152017008
+      "size_bytes": 152431496
     },
     {
       "path": "/opt/QQ/snapshot_blob.bin",
@@ -6228,8 +6236,8 @@
       "size_bytes": 15700060
     }
   ],
-  "package_size_bytes": 653923036,
+  "package_size_bytes": 655980173,
   "required_by": [],
-  "filename": "linuxqq-5:3.2.34_53644-1-x86_64.pkg.tar.zst",
-  "sha256": "ab33a82c384cac25816bd95dec784a0574240c0ca7dd4dbef9d14324bc28e2c5"
+  "filename": "linuxqq-5:3.2.35_54395-1-x86_64.pkg.tar.zst",
+  "sha256": "958b934b338923bd79fc52381e1812b31fb3b716cb1376b2d857f68e86c7a4de"
 }

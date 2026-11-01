@@ -14,10 +14,10 @@
   "votes": null,
   "popularity": null,
   "first_submitted": "2021-09-18T11:01:35Z",
-  "last_updated": "2026-09-13T10:53:35Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698267",
-  "package_size_bytes": 31207922,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717957",
+  "package_size_bytes": 31133562,
   "dependencies": [
     {
       "name": "asusctl",
@@ -74,7 +74,7 @@
   "files": [
     {
       "path": "/usr/bin/rog-control-center",
-      "size_bytes": 30394840
+      "size_bytes": 30320480
     },
     {
       "path": "/usr/share/applications/org.opengamingcollective.rog-control-center.desktop",
@@ -243,5 +243,5 @@
   ],
   "distro": "archlinux",
   "filename": "rog-control-center-6.4.0-1-x86_64.pkg.tar.zst",
-  "sha256": "85d2626d8b4c3923251e6f49dbeb5211a1767daa439fe1c34d81ae43bab5a192"
+  "sha256": "bb2a8fe803499e9a01399ae484731a02c00ed5a71ec382ebd9e7a3fef637f71b"
 }

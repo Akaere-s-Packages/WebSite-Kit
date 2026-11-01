@@ -6,7 +6,7 @@
   "maintainer": "freswa",
   "submitter": "freswa",
   "votes": 73,
-  "popularity": 0.393679,
+  "popularity": 0.341327,
   "first_submitted": "2015-12-16T16:43:59Z",
   "description": "Smart SQL Editor and Advanced Database Client Packed Together for Optimum Productivity",
   "url": "https://www.jetbrains.com/datagrip/",
@@ -15,8 +15,8 @@
   ],
   "sources": [
     {
-      "name": "datagrip-2026.2.6.tar.gz",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-2026.2.6.tar.gz"
+      "name": "datagrip-2026.2.6.1.tar.gz",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-2026.2.6.1.tar.gz"
     },
     {
       "name": "jetbrains-datagrip.desktop"
@@ -26,9 +26,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/38033307884/job/114158552750",
-  "version": "2026.2.6-1",
-  "last_updated": "2026-10-10T07:11:55Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717824",
+  "version": "2026.2.6.1-1",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -49,7 +49,7 @@
       "description": "JRE - Required if datagrip-jre is not installed"
     }
   ],
-  "package_size_bytes": 2746079921,
+  "package_size_bytes": 2767382326,
   "files": [
     {
       "path": "/opt/datagrip/Install-Linux-tar.txt",
@@ -57,7 +57,7 @@
     },
     {
       "path": "/opt/datagrip/bin/brokenPlugins.db",
-      "size_bytes": 231888
+      "size_bytes": 234975
     },
     {
       "path": "/opt/datagrip/bin/datagrip",
@@ -172,7 +172,7 @@
       "size_bytes": 1415872
     },
     {
-      "path": "/opt/datagrip/lib/build-marker-DB-262.10968.148",
+      "path": "/opt/datagrip/lib/build-marker-DB-262.11879.103",
       "size_bytes": 16
     },
     {
@@ -309,7 +309,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.datagrip.jar",
-      "size_bytes": 12922466
+      "size_bytes": 12926114
     },
     {
       "path": "/opt/datagrip/lib/intellij.datagrip.llmInstaller.jar",
@@ -825,7 +825,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.analysis.impl.jar",
-      "size_bytes": 5596230
+      "size_bytes": 5600729
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.analysis.jar",
@@ -893,7 +893,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.commercial.jar",
-      "size_bytes": 700719
+      "size_bytes": 702827
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.completion.backend.jar",
@@ -921,11 +921,11 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.core.impl.jar",
-      "size_bytes": 7009827
+      "size_bytes": 7034968
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.core.jar",
-      "size_bytes": 4958751
+      "size_bytes": 4958759
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.core.ui.jar",
@@ -953,7 +953,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.cs.jar",
-      "size_bytes": 4754421
+      "size_bytes": 4742549
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.dap.jar",
@@ -961,19 +961,19 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.debugger.impl.backend.jar",
-      "size_bytes": 1228895
+      "size_bytes": 1238270
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.debugger.impl.frontend.jar",
-      "size_bytes": 2092576
+      "size_bytes": 2116578
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.debugger.impl.jar",
-      "size_bytes": 3255635
+      "size_bytes": 3256134
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.debugger.impl.rpc.jar",
-      "size_bytes": 2845179
+      "size_bytes": 2844885
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.debugger.impl.shared.jar",
@@ -981,7 +981,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.debugger.impl.ui.jar",
-      "size_bytes": 4383307
+      "size_bytes": 4383773
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.debugger.jar",
@@ -1065,7 +1065,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.eel.tcp.jar",
-      "size_bytes": 110926
+      "size_bytes": 85107
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.execution.impl.backend.jar",
@@ -1077,7 +1077,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.execution.impl.jar",
-      "size_bytes": 8052369
+      "size_bytes": 8052725
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.execution.jar",
@@ -1085,7 +1085,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.experiment.jar",
-      "size_bytes": 52390
+      "size_bytes": 52168
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.externalProcessAuthHelper.jar",
@@ -1105,7 +1105,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.feedback.jar",
-      "size_bytes": 7519801
+      "size_bytes": 7652097
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.find.backend.jar",
@@ -1121,11 +1121,11 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.graph.impl.jar",
-      "size_bytes": 4771319
+      "size_bytes": 4771082
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.graph.jar",
-      "size_bytes": 2909283
+      "size_bytes": 2909279
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.icons.impl.intellij.jar",
@@ -1137,7 +1137,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.ide.core.jar",
-      "size_bytes": 2197485
+      "size_bytes": 2198204
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.ide.core.plugins.jar",
@@ -1153,7 +1153,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.ide.impl.jar",
-      "size_bytes": 78263753
+      "size_bytes": 78486210
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.ide.impl.wsl.jar",
@@ -1165,7 +1165,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.ide.jar",
-      "size_bytes": 16515750
+      "size_bytes": 16518265
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.ide.newUiOnboarding.jar",
@@ -1205,7 +1205,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.ijent.impl.jar",
-      "size_bytes": 10401705
+      "size_bytes": 10405731
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.ijent.ssh.jar",
@@ -1297,7 +1297,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.lang.impl.jar",
-      "size_bytes": 57851963
+      "size_bytes": 57858978
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.lang.jar",
@@ -1313,7 +1313,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.locking.impl.jar",
-      "size_bytes": 381967
+      "size_bytes": 383945
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.lsp.impl.jar",
@@ -1365,7 +1365,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.pluginManager.backend.jar",
-      "size_bytes": 170273
+      "size_bytes": 190127
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.pluginManager.frontend.jar",
@@ -1381,7 +1381,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.polySymbols.jar",
-      "size_bytes": 3602008
+      "size_bytes": 3602346
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.problemsView.backend.jar",
@@ -1409,7 +1409,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.projectModel.impl.jar",
-      "size_bytes": 4638975
+      "size_bytes": 4640868
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.projectModel.jar",
@@ -1513,7 +1513,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.statistics.jar",
-      "size_bytes": 3671226
+      "size_bytes": 3673196
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.statistics.uploader.jar",
@@ -1557,7 +1557,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.trialPromotion.common.jar",
-      "size_bytes": 311544
+      "size_bytes": 311232
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.trialPromotion.idesWithoutFreeTier.jar",
@@ -1569,7 +1569,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.usageView.jar",
-      "size_bytes": 1452806
+      "size_bytes": 1453361
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.util.commonsLangV2Shim.jar",
@@ -1617,7 +1617,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.vcs.impl.jar",
-      "size_bytes": 15206137
+      "size_bytes": 15206701
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.vcs.impl.lang.actions.jar",
@@ -1677,7 +1677,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.profiler.common.jar",
-      "size_bytes": 4701427
+      "size_bytes": 4701893
     },
     {
       "path": "/opt/datagrip/lib/intellij.profiler.ultimate.ideaAsyncProfiler.jar",
@@ -1689,7 +1689,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.rd.client.jar",
-      "size_bytes": 5910217
+      "size_bytes": 5912904
     },
     {
       "path": "/opt/datagrip/lib/intellij.rd.ide.model.generated.jar",
@@ -1697,7 +1697,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.rd.platform.jar",
-      "size_bytes": 1692738
+      "size_bytes": 1692839
     },
     {
       "path": "/opt/datagrip/lib/intellij.rd.ui.jar",
@@ -1721,7 +1721,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.settingsSync.core.jar",
-      "size_bytes": 8287850
+      "size_bytes": 8288060
     },
     {
       "path": "/opt/datagrip/lib/intellij.spellchecker.jar",
@@ -1761,7 +1761,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.xml.emmet.backend.jar",
-      "size_bytes": 39352
+      "size_bytes": 39475
     },
     {
       "path": "/opt/datagrip/lib/intellij.xml.emmet.frontend.jar",
@@ -1829,7 +1829,7 @@
     },
     {
       "path": "/opt/datagrip/lib/jetbrains.intellij.deps.java.atk.wrapper.linux.jar",
-      "size_bytes": 2788574
+      "size_bytes": 2796160
     },
     {
       "path": "/opt/datagrip/lib/jna/amd64/libjnidispatch.so",
@@ -1853,7 +1853,7 @@
     },
     {
       "path": "/opt/datagrip/lib/product-backend.jar",
-      "size_bytes": 10843019
+      "size_bytes": 10836855
     },
     {
       "path": "/opt/datagrip/lib/pty4j/linux/x86-64/libpty.so",
@@ -1873,11 +1873,11 @@
     },
     {
       "path": "/opt/datagrip/lib/util-8.jar",
-      "size_bytes": 19452997
+      "size_bytes": 19453066
     },
     {
       "path": "/opt/datagrip/lib/util.jar",
-      "size_bytes": 1052564
+      "size_bytes": 1052874
     },
     {
       "path": "/opt/datagrip/lib/util_rt.jar",
@@ -1905,11 +1905,11 @@
     },
     {
       "path": "/opt/datagrip/license/third-party-libraries.html",
-      "size_bytes": 104360
+      "size_bytes": 104763
     },
     {
       "path": "/opt/datagrip/license/third-party-libraries.json",
-      "size_bytes": 58815
+      "size_bytes": 59034
     },
     {
       "path": "/opt/datagrip/license/yourkit-license-redist.txt",
@@ -1917,15 +1917,15 @@
     },
     {
       "path": "/opt/datagrip/modules/module-descriptors.dat",
-      "size_bytes": 208800
+      "size_bytes": 210884
     },
     {
       "path": "/opt/datagrip/modules/module-descriptors.jar",
-      "size_bytes": 586204
+      "size_bytes": 592671
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/database-plugin.jar",
-      "size_bytes": 7167638
+      "size_bytes": 7167584
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/frontend-split/database-frontend.jar",
@@ -1961,11 +1961,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.connectivity.jar",
-      "size_bytes": 4146009
+      "size_bytes": 4143995
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.core.impl.jar",
-      "size_bytes": 18769375
+      "size_bytes": 19151986
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.base.ex.jar",
@@ -1973,7 +1973,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.base.jar",
-      "size_bytes": 4094426
+      "size_bytes": 3665330
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.bigquery.ex.jar",
@@ -1981,7 +1981,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.bigquery.jar",
-      "size_bytes": 1581136
+      "size_bytes": 1580110
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.cassandra.ex.jar",
@@ -1997,7 +1997,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.clickhouse.jar",
-      "size_bytes": 2083842
+      "size_bytes": 2083815
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.cockroach.ex.jar",
@@ -2021,7 +2021,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.db2.jar",
-      "size_bytes": 4427743
+      "size_bytes": 4427716
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.derby.ex.jar",
@@ -2029,15 +2029,15 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.derby.jar",
-      "size_bytes": 1349970
+      "size_bytes": 1349943
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.dynamo.jar",
-      "size_bytes": 535797
+      "size_bytes": 535149
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.exasol.jar",
-      "size_bytes": 2208199
+      "size_bytes": 2207794
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.generic.ex.jar",
@@ -2045,7 +2045,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.generic.jar",
-      "size_bytes": 1136630
+      "size_bytes": 1135685
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.greenplum.ex.jar",
@@ -2061,19 +2061,19 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.h2.jar",
-      "size_bytes": 2302814
+      "size_bytes": 2302787
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.hive.jar",
-      "size_bytes": 1172223
+      "size_bytes": 1171872
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.hivebase.jar",
-      "size_bytes": 852699
+      "size_bytes": 852672
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.hsql.jar",
-      "size_bytes": 1543857
+      "size_bytes": 1543830
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.maria.jar",
@@ -2105,7 +2105,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.mssql.jar",
-      "size_bytes": 5768459
+      "size_bytes": 5767163
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.mysql.jar",
@@ -2121,7 +2121,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.mysqlbase.jar",
-      "size_bytes": 2785793
+      "size_bytes": 2785415
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.oracle.ex.coverage.jar",
@@ -2133,7 +2133,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.oracle.jar",
-      "size_bytes": 7006691
+      "size_bytes": 7004963
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.postgres.ex.jar",
@@ -2149,7 +2149,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.postgresbase.jar",
-      "size_bytes": 2994977
+      "size_bytes": 2994032
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.postgresgreenplumbase.ex.jar",
@@ -2181,7 +2181,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.snowflake.jar",
-      "size_bytes": 4494932
+      "size_bytes": 4494905
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.spark.jar",
@@ -2197,7 +2197,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.sqlite.jar",
-      "size_bytes": 1781421
+      "size_bytes": 1780665
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.sybase.ex.jar",
@@ -2205,7 +2205,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.sybase.jar",
-      "size_bytes": 2408155
+      "size_bytes": 2405536
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.vertica.ex.jar",
@@ -2213,7 +2213,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.dialects.vertica.jar",
-      "size_bytes": 2452488
+      "size_bytes": 2452461
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.frontend.split.jar",
@@ -2233,7 +2233,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.impl.jar",
-      "size_bytes": 22171210
+      "size_bytes": 22176276
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.database.impl.jcef.jar",
@@ -2425,15 +2425,15 @@
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/jre-build.txt",
-      "size_bytes": 13
+      "size_bytes": 15
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/cwm-plugin.jar",
-      "size_bytes": 932444
+      "size_bytes": 932464
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/frontend-split/frontend-split.jar",
-      "size_bytes": 14133380
+      "size_bytes": 14609871
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/frontend-split/remote-dev-icons.jar",
@@ -2465,11 +2465,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.cwm.connection.frontend.split.jar",
-      "size_bytes": 156026
+      "size_bytes": 156038
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.cwm.connection.jar",
-      "size_bytes": 229254
+      "size_bytes": 229258
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.cwm.frontend.jar",
@@ -2505,7 +2505,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.backend.split.jar",
-      "size_bytes": 11257164
+      "size_bytes": 11258247
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.backend.split.jcef.jar",
@@ -2549,7 +2549,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.frontend.split.connection.jar",
-      "size_bytes": 916667
+      "size_bytes": 907175
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.frontend.split.devSources.jar",
@@ -2557,7 +2557,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.frontend.split.jar",
-      "size_bytes": 6693917
+      "size_bytes": 6715954
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.frontend.split.jcef.jar",
@@ -2565,7 +2565,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.frontend.split.startup.jar",
-      "size_bytes": 543086
+      "size_bytes": 544478
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.identifiers.highlighting.frontend.split.jar",
@@ -2601,7 +2601,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.remoteController.backend.jar",
-      "size_bytes": 1600115
+      "size_bytes": 1575433
     },
     {
       "path": "/opt/datagrip/plugins/cwm-plugin/lib/modules/intellij.platform.remoteController.jar",
@@ -2761,7 +2761,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/featuresTrainer/lib/featuresTrainer.jar",
-      "size_bytes": 4042025
+      "size_bytes": 4042280
     },
     {
       "path": "/opt/datagrip/plugins/featuresTrainer/lib/git-learning-project.jar",
@@ -2785,7 +2785,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/fullLine.jar",
-      "size_bytes": 25884801
+      "size_bytes": 29206890
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/github.oshi.core.jar",
@@ -2810,6 +2810,10 @@
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/jetbrains.mlapi.core.jar",
       "size_bytes": 1041484
+    },
+    {
+      "path": "/opt/datagrip/plugins/fullLine/lib/jgrapht.core.jar",
+      "size_bytes": 3169633
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.fullLine.chat.jar",
@@ -2868,12 +2872,20 @@
       "size_bytes": 2564183
     },
     {
+      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.fullLine.libraries.codeEngine.jar",
+      "size_bytes": 9032654
+    },
+    {
+      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.fullLine.libraries.mellum.jar",
+      "size_bytes": 647280
+    },
+    {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.fullLine.local.jar",
       "size_bytes": 4375720
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.fullLine.markdown.jar",
-      "size_bytes": 517
+      "size_bytes": 5715
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.fullLine.php.local.jar",
@@ -2965,7 +2977,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.fullLine.yaml.jar",
-      "size_bytes": 500
+      "size_bytes": 5545
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.llmInstaller.frontend.jar",
@@ -2981,63 +2993,63 @@
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.chat.completion.jar",
-      "size_bytes": 1545985
-    },
-    {
-      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.completion.jar",
-      "size_bytes": 5566886
+      "size_bytes": 1546042
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.cpp.completion.jar",
-      "size_bytes": 2241699
+      "size_bytes": 2241553
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.css.completion.jar",
-      "size_bytes": 936987
+      "size_bytes": 937036
+    },
+    {
+      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.git.nextEdits.acp.backend.jar",
+      "size_bytes": 24717
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.git.nextEdits.backend.jar",
-      "size_bytes": 32969
+      "size_bytes": 9580
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.go.completion.jar",
-      "size_bytes": 1620039
+      "size_bytes": 1619596
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.html.completion.jar",
-      "size_bytes": 1087468
+      "size_bytes": 1087322
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.java.completion.jar",
-      "size_bytes": 3581833
+      "size_bytes": 3581513
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.java.nextEdits.agent.delegation.backend.jar",
-      "size_bytes": 30528
+      "size_bytes": 30434
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.javaee.spring.completion.jar",
-      "size_bytes": 87121
+      "size_bytes": 86944
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.javascript.completion.jar",
-      "size_bytes": 1517763
+      "size_bytes": 1517108
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.javascript.nextEdits.ultimate.backend.jar",
-      "size_bytes": 5786
+      "size_bytes": 5738
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.jupyter.python.completion.jar",
-      "size_bytes": 18912
+      "size_bytes": 18588
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.kotlin.completion.jar",
-      "size_bytes": 5130453
+      "size_bytes": 5129833
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.kotlin.nextEdits.agent.delegation.backend.jar",
-      "size_bytes": 34532
+      "size_bytes": 34427
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.mdx.nextEdits.backend.jar",
@@ -3045,19 +3057,43 @@
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.acp.backend.jar",
-      "size_bytes": 854316
+      "size_bytes": 1058274
+    },
+    {
+      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.agent.delegation.aia.backend.jar",
+      "size_bytes": 141746
+    },
+    {
+      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.agent.delegation.aia.frontend.jar",
+      "size_bytes": 19126
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.agent.delegation.backend.jar",
-      "size_bytes": 787720
+      "size_bytes": 740075
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.agents.backend.jar",
-      "size_bytes": 3712601
+      "size_bytes": 3838442
+    },
+    {
+      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.agents.byok.aia.backend.jar",
+      "size_bytes": 58695
+    },
+    {
+      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.agents.byok.common.jar",
+      "size_bytes": 39401
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.agents.jb.backend.jar",
-      "size_bytes": 488929
+      "size_bytes": 522873
+    },
+    {
+      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.cloudAuth.aia.backend.jar",
+      "size_bytes": 70723
+    },
+    {
+      "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.cloudAuth.common.jar",
+      "size_bytes": 192795
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.nextEdits.trigger.backend.jar",
@@ -3065,75 +3101,75 @@
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.php.completion.jar",
-      "size_bytes": 2256302
+      "size_bytes": 2255859
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.python.completion.jar",
-      "size_bytes": 2165305
+      "size_bytes": 2164870
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.python.nextEdits.agent.delegation.backend.jar",
-      "size_bytes": 26269
+      "size_bytes": 26168
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.rbs.completion.jar",
-      "size_bytes": 81415
+      "size_bytes": 81428
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.rider.cpp.completion.jar",
-      "size_bytes": 2250298
+      "size_bytes": 2250001
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.rider.csharp.completion.jar",
-      "size_bytes": 1640710
+      "size_bytes": 1640317
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.rider.fsharp.completion.jar",
-      "size_bytes": 16575
+      "size_bytes": 16387
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.rider.godot.completion.jar",
-      "size_bytes": 31801
+      "size_bytes": 31404
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.rider.hlsl.completion.jar",
-      "size_bytes": 16211
+      "size_bytes": 16182
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.rider.shaderlab.completion.jar",
-      "size_bytes": 16943
+      "size_bytes": 16642
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.rider.unrealengine.completion.jar",
-      "size_bytes": 17093
+      "size_bytes": 16792
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.ruby.completion.jar",
-      "size_bytes": 1170662
+      "size_bytes": 1170516
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.rust.completion.jar",
-      "size_bytes": 2246419
+      "size_bytes": 2246140
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.sql.completion.jar",
-      "size_bytes": 409091
+      "size_bytes": 408965
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.vcs.completion.jar",
-      "size_bytes": 1281869
+      "size_bytes": 1281991
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.yaml.completion.jar",
-      "size_bytes": 83158
+      "size_bytes": 78074
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.yaml.javaee.spring.completion.jar",
-      "size_bytes": 8375
+      "size_bytes": 8143
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/lib/modules/intellij.ml.llm.yaml.json.completion.jar",
-      "size_bytes": 15288
+      "size_bytes": 15057
     },
     {
       "path": "/opt/datagrip/plugins/fullLine/promo/DataGrip/AIEnterprise.png",
@@ -3169,11 +3205,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/grazie/lib/grazie.jar",
-      "size_bytes": 86583
+      "size_bytes": 75392
     },
     {
       "path": "/opt/datagrip/plugins/grazie/lib/intellij.grazie.core.jar",
-      "size_bytes": 39068809
+      "size_bytes": 38773153
     },
     {
       "path": "/opt/datagrip/plugins/grazie/lib/intellij.libraries.ai.grazie.spell.gec.engine.local.jar",
@@ -4965,7 +5001,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/jcef-plugin/lib/modules/intellij.platform.ui.jcef.jar",
-      "size_bytes": 769736
+      "size_bytes": 769812
     },
     {
       "path": "/opt/datagrip/plugins/json/lib/intellij.json.jar",
@@ -5025,19 +5061,19 @@
     },
     {
       "path": "/opt/datagrip/plugins/localization-ja/lib/localization-ja.jar",
-      "size_bytes": 17320107
+      "size_bytes": 17438661
     },
     {
       "path": "/opt/datagrip/plugins/localization-ko/lib/localization-ko.jar",
-      "size_bytes": 15981716
+      "size_bytes": 16082985
     },
     {
       "path": "/opt/datagrip/plugins/localization-zh/lib/localization-zh.jar",
-      "size_bytes": 14067386
+      "size_bytes": 14147492
     },
     {
       "path": "/opt/datagrip/plugins/markdown/lib/intellij.markdown.jar",
-      "size_bytes": 6353289
+      "size_bytes": 6360182
     },
     {
       "path": "/opt/datagrip/plugins/markdown/lib/modules/intellij.markdown.backend.jar",
@@ -5093,7 +5129,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/markdown/lib/modules/intellij.markdown.jcef.jar",
-      "size_bytes": 317417
+      "size_bytes": 328100
     },
     {
       "path": "/opt/datagrip/plugins/markdown/lib/modules/intellij.markdown.model.jar",
@@ -5161,11 +5197,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/mermaid/lib/mermaid.jar",
-      "size_bytes": 13024509
+      "size_bytes": 19314962
     },
     {
       "path": "/opt/datagrip/plugins/mermaid/lib/modules/intellij.mermaid.markdown.jar",
-      "size_bytes": 282119
+      "size_bytes": 282122
     },
     {
       "path": "/opt/datagrip/plugins/performanceTesting/lib/github.oshi.core.jar",
@@ -5265,7 +5301,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/jetbrainsd_linux_x86_64.tar.gz",
-      "size_bytes": 32340265
+      "size_bytes": 33110973
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/github.oshi.core.jar",
@@ -5273,23 +5309,23 @@
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.libraries.daemon.client.jar",
-      "size_bytes": 4616562
+      "size_bytes": 6523704
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.client.jar",
-      "size_bytes": 462834
+      "size_bytes": 475471
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.connection.jar",
-      "size_bytes": 841675
+      "size_bytes": 846510
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.frontend.split.jar",
-      "size_bytes": 185522
+      "size_bytes": 186413
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.workspaces.jar",
-      "size_bytes": 94254
+      "size_bytes": 94194
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/platform-daemon-plugin.jar",
@@ -5329,11 +5365,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/platform-ijent-bundledBinaries/ijent-aarch64-unknown-linux-musl-release",
-      "size_bytes": 10713928
+      "size_bytes": 10713952
     },
     {
       "path": "/opt/datagrip/plugins/platform-ijent-bundledBinaries/ijent-x86_64-unknown-linux-musl-release",
-      "size_bytes": 12569952
+      "size_bytes": 12561792
     },
     {
       "path": "/opt/datagrip/plugins/platform-ijent-bundledBinaries/lib/platform-ijent-bundledBinaries.jar",
@@ -5481,7 +5517,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/plugin-classpath.txt",
-      "size_bytes": 3441027
+      "size_bytes": 3447393
     },
     {
       "path": "/opt/datagrip/plugins/remote-dev-server/bin/launcher.sh",
@@ -8433,7 +8469,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/vcs-git/lib/vcs-git.jar",
-      "size_bytes": 15126947
+      "size_bytes": 15130982
     },
     {
       "path": "/opt/datagrip/plugins/xpath/lib/rt/xslt-rt.jar",
@@ -8461,7 +8497,7 @@
     },
     {
       "path": "/opt/datagrip/product-info.json",
-      "size_bytes": 238679
+      "size_bytes": 240879
     },
     {
       "path": "/usr/bin/datagrip -> /opt/datagrip/bin/datagrip",
@@ -8480,6 +8516,6 @@
       "size_bytes": 3881
     }
   ],
-  "filename": "datagrip-2026.2.6-1-any.pkg.tar.zst",
-  "sha256": "efe74531332d35c23a814560930630ef7f74f09f1ffe7a6afed8877c5555629b"
+  "filename": "datagrip-2026.2.6.1-1-any.pkg.tar.zst",
+  "sha256": "4cf26d6a8ba1135249dbc7cdf78bc562ad15197169f8ded55bf646b59cd86565"
 }

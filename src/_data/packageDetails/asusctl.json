@@ -14,10 +14,10 @@
   "votes": null,
   "popularity": null,
   "first_submitted": "2021-09-18T11:01:35Z",
-  "last_updated": "2026-09-13T10:53:35Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103709698270",
-  "package_size_bytes": 29028937,
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717855",
+  "package_size_bytes": 29001801,
   "dependencies": [
     {
       "name": "glibc",
@@ -88,19 +88,19 @@
   "files": [
     {
       "path": "/usr/bin/asus-shutdown",
-      "size_bytes": 4637336
+      "size_bytes": 4621848
     },
     {
       "path": "/usr/bin/asusctl",
-      "size_bytes": 5040224
+      "size_bytes": 5024864
     },
     {
       "path": "/usr/bin/asusd",
-      "size_bytes": 8585624
+      "size_bytes": 8577688
     },
     {
       "path": "/usr/bin/asusd-user",
-      "size_bytes": 6060464
+      "size_bytes": 6072112
     },
     {
       "path": "/usr/lib/systemd/system/asus-shutdown.service",
@@ -321,5 +321,5 @@
   ],
   "distro": "archlinux",
   "filename": "asusctl-6.4.0-1-x86_64.pkg.tar.zst",
-  "sha256": "eb76e9094f345cd9505c8c0a06dd85d6462d835ae19840a345c0be012ee49e1c"
+  "sha256": "f43f7e0e2186487e88283314caaa144eb0834d2911062afe333681c29291d4b3"
 }

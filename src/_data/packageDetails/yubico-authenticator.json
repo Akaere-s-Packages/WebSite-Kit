@@ -6,7 +6,7 @@
   "maintainer": "yochananmarqos",
   "submitter": "yochananmarqos",
   "votes": 13,
-  "popularity": 0.004159,
+  "popularity": 0.003605,
   "first_submitted": "2024-02-20T16:39:49Z",
   "description": "Yubico Authenticator for Desktop",
   "url": "https://developers.yubico.com/yubioath-flutter",
@@ -14,9 +14,9 @@
     "Apache-2.0"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/34751867262/job/103711471388",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124761028034",
   "version": "7.4.1-2",
-  "last_updated": "2026-09-13T10:53:35Z",
+  "last_updated": "2026-11-01T05:39:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -417,7 +417,7 @@
     },
     {
       "path": "/usr/lib/python3.14/site-packages/authenticator_helper-0.1.0.dist-info/METADATA",
-      "size_bytes": 706
+      "size_bytes": 757
     },
     {
       "path": "/usr/lib/python3.14/site-packages/authenticator_helper-0.1.0.dist-info/RECORD",
@@ -568,8 +568,8 @@
       "size_bytes": 4568
     }
   ],
-  "package_size_bytes": 68712956,
+  "package_size_bytes": 68713007,
   "required_by": [],
   "filename": "yubico-authenticator-7.4.1-2-x86_64.pkg.tar.zst",
-  "sha256": "cca2e3cb56b5994a05d2c35ecb674243a5f911ca0aaad170def14946a3495fe5"
+  "sha256": "6c40190475852d96e04071b5f506325e9b49f27d16bb3d2c30198452d96c0d3f"
 }
