@@ -1,5 +1,10 @@
 [
   {
+    "name": "infisical",
+    "version": "0.44.12-1",
+    "date": "2026-11-03T19:09:34Z"
+  },
+  {
     "name": "1password",
     "version": "8.12.44-33",
     "date": "2026-11-03T19:00:21Z"
@@ -92,11 +97,6 @@
   {
     "name": "opencode-bin",
     "version": "1.19.5-1",
-    "date": "2026-11-01T05:39:05Z"
-  },
-  {
-    "name": "oopz",
-    "version": "1.0.0-1",
     "date": "2026-11-01T05:39:05Z"
   }
 ]
