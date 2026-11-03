@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717964",
-  "version": "1.144.0-1",
-  "last_updated": "2026-11-01T05:39:05Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41628245725/job/125891046362",
+  "version": "1.144.1-1",
+  "last_updated": "2026-11-03T11:35:50Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -121,7 +121,7 @@
       "description": "Agent host sandboxing"
     }
   ],
-  "package_size_bytes": 1078158443,
+  "package_size_bytes": 1078173230,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -433,7 +433,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9807791
+      "size_bytes": 9807844
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -6749,7 +6749,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/bfcd8e5c",
-      "size_bytes": 12507076
+      "size_bytes": 12507260
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/c01d3a61",
@@ -7104,10 +7104,6 @@
       "size_bytes": 4940
     },
     {
-      "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/202db07c",
-      "size_bytes": 64988
-    },
-    {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/206fbbc9",
       "size_bytes": 4172
     },
@@ -7333,7 +7329,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/7067386e",
-      "size_bytes": 6298556
+      "size_bytes": 6298564
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/71f3f0c1",
@@ -7612,6 +7608,10 @@
       "size_bytes": 26612
     },
     {
+      "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/e326b0ba",
+      "size_bytes": 64988
+    },
+    {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/e5ed5673",
       "size_bytes": 9284
     },
@@ -7885,7 +7885,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/main/v24.22.1-x64-60e4fe36/8a5063cf",
-      "size_bytes": 3652244
+      "size_bytes": 3652252
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/main/v24.22.1-x64-60e4fe36/8ab1507e",
@@ -8069,7 +8069,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/pty-host/v24.22.1-x64-60e4fe36/8c5adf4e",
-      "size_bytes": 1004148
+      "size_bytes": 1004156
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/pty-host/v24.22.1-x64-60e4fe36/ae35122a",
@@ -8129,7 +8129,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/shared-process/v24.22.1-x64-60e4fe36/949d6957",
-      "size_bytes": 4025284
+      "size_bytes": 4025292
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/shared-process/v24.22.1-x64-60e4fe36/a98f6736",
@@ -11245,11 +11245,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/cli.js",
-      "size_bytes": 276754
+      "size_bytes": 276759
     },
     {
       "path": "/usr/share/code/resources/app/out/date",
-      "size_bytes": 20
+      "size_bytes": 25
     },
     {
       "path": "/usr/share/code/resources/app/out/main.js",
@@ -11257,7 +11257,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/mainImpl.js",
-      "size_bytes": 1372552
+      "size_bytes": 1372557
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -11385,11 +11385,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1527543
+      "size_bytes": 1527548
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 784661
+      "size_bytes": 784666
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -11549,7 +11549,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 5039026
+      "size_bytes": 5039121
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
@@ -11573,7 +11573,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js",
-      "size_bytes": 402680
+      "size_bytes": 402685
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/contrib/chat/browser/media/letterpress-sessions-dark.svg",
@@ -11597,7 +11597,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 23336871
+      "size_bytes": 23342616
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -11657,11 +11657,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2351426
+      "size_bytes": 2351431
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 2064925
+      "size_bytes": 2064930
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -12201,7 +12201,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js",
-      "size_bytes": 233503
+      "size_bytes": 233508
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg",
@@ -12453,7 +12453,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 21739298
+      "size_bytes": 21744205
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
@@ -12469,7 +12469,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/product.json",
-      "size_bytes": 69324
+      "size_bytes": 69329
     },
     {
       "path": "/usr/share/code/resources/app/resources/linux/code.png",
@@ -12477,7 +12477,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-core.json",
-      "size_bytes": 1135840
+      "size_bytes": 1139561
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-extensions.json",
@@ -12525,19 +12525,19 @@
       "name": "visual-studio-code-bin.sh"
     },
     {
-      "name": "code_1.144.0_amd64.deb",
-      "url": "https://update.code.visualstudio.com/1.144.0/linux-deb-x64/stable"
+      "name": "code_1.144.1_amd64.deb",
+      "url": "https://update.code.visualstudio.com/1.144.1/linux-deb-x64/stable"
     },
     {
-      "name": "code_1.144.0_arm64.deb",
-      "url": "https://update.code.visualstudio.com/1.144.0/linux-deb-arm64/stable"
+      "name": "code_1.144.1_arm64.deb",
+      "url": "https://update.code.visualstudio.com/1.144.1/linux-deb-arm64/stable"
     },
     {
-      "name": "code_1.144.0_armhf.deb",
-      "url": "https://update.code.visualstudio.com/1.144.0/linux-deb-armhf/stable"
+      "name": "code_1.144.1_armhf.deb",
+      "url": "https://update.code.visualstudio.com/1.144.1/linux-deb-armhf/stable"
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.144.0-1-x86_64.pkg.tar.zst",
-  "sha256": "9c480b5d16695fd6f1faf093dfe41ccc2823cd4a0de5b311ee9e6723ca09f315"
+  "filename": "visual-studio-code-bin-1.144.1-1-x86_64.pkg.tar.zst",
+  "sha256": "a4a8eb3c9ef5c956867ae5eb4e8455ddbc5ca42d2fea679bd49a1ad91d7b66f9"
 }

@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.144.1-1",
+    "date": "2026-11-03T11:35:50Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.317-1",
     "date": "2026-11-03T03:17:18Z"
@@ -27,11 +32,6 @@
   {
     "name": "yubico-authenticator",
     "version": "7.4.1-2",
-    "date": "2026-11-01T05:39:05Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.144.0-1",
     "date": "2026-11-01T05:39:05Z"
   },
   {
