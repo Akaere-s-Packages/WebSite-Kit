@@ -328,10 +328,10 @@
     "pkgbase": "yubico-authenticator",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "7.4.1-2",
+    "version": "7.5.0-1",
     "description": "Yubico Authenticator for Desktop",
     "maintainer": "yochananmarqos",
-    "last_updated": "2026-11-01T05:39:05Z",
+    "last_updated": "2026-11-04T00:16:26Z",
     "build_status": "published",
     "detail_url": "/packages/yubico-authenticator/"
   },

@@ -1,5 +1,10 @@
 [
   {
+    "name": "yubico-authenticator",
+    "version": "7.5.0-1",
+    "date": "2026-11-04T00:16:26Z"
+  },
+  {
     "name": "google-chrome",
     "version": "157.0.8103.38-1",
     "date": "2026-11-04T00:03:05Z"
@@ -42,11 +47,6 @@
   {
     "name": "zulu-17-bin",
     "version": "17.0.20.1-1",
-    "date": "2026-11-01T05:39:05Z"
-  },
-  {
-    "name": "yubico-authenticator",
-    "version": "7.4.1-2",
     "date": "2026-11-01T05:39:05Z"
   },
   {
