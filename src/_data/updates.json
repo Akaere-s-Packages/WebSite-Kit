@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.318-1",
+    "date": "2026-11-04T04:01:40Z"
+  },
+  {
     "name": "yubico-authenticator",
     "version": "7.5.0-1",
     "date": "2026-11-04T00:16:26Z"
@@ -23,11 +28,6 @@
     "name": "visual-studio-code-bin",
     "version": "1.144.1-1",
     "date": "2026-11-03T11:35:50Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.317-1",
-    "date": "2026-11-03T03:17:18Z"
   },
   {
     "name": "pi",
