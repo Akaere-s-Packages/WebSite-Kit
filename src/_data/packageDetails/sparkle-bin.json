@@ -14,9 +14,9 @@
     "GPL-3.0-only"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717889",
-  "version": "1.26.9-1",
-  "last_updated": "2026-11-01T05:39:05Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41893980104/job/126798563423",
+  "version": "1.26.10-1",
+  "last_updated": "2026-11-04T19:12:02Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -145,7 +145,7 @@
       "repo": "core"
     }
   ],
-  "package_size_bytes": 546237850,
+  "package_size_bytes": 536431035,
   "files": [
     {
       "path": "/opt/sparkle/LICENSE.electron.txt",
@@ -153,263 +153,263 @@
     },
     {
       "path": "/opt/sparkle/LICENSES.chromium.html",
-      "size_bytes": 20111209
+      "size_bytes": 5598206
     },
     {
       "path": "/opt/sparkle/chrome-sandbox",
-      "size_bytes": 15232
+      "size_bytes": 15216
     },
     {
       "path": "/opt/sparkle/chrome_100_percent.pak",
-      "size_bytes": 719546
+      "size_bytes": 568310
     },
     {
       "path": "/opt/sparkle/chrome_200_percent.pak",
-      "size_bytes": 1268994
+      "size_bytes": 927734
     },
     {
       "path": "/opt/sparkle/chrome_crashpad_handler",
-      "size_bytes": 1918544
+      "size_bytes": 1683256
     },
     {
       "path": "/opt/sparkle/icudtl.dat",
-      "size_bytes": 10876560
+      "size_bytes": 10824432
     },
     {
       "path": "/opt/sparkle/libffmpeg.so",
-      "size_bytes": 2801768
+      "size_bytes": 2794016
     },
     {
       "path": "/opt/sparkle/libvk_swiftshader.so",
-      "size_bytes": 4657912
+      "size_bytes": 4575032
     },
     {
       "path": "/opt/sparkle/libvulkan.so.1",
-      "size_bytes": 651240
+      "size_bytes": 670840
     },
     {
       "path": "/opt/sparkle/locales/af.pak",
-      "size_bytes": 115399
+      "size_bytes": 102890
     },
     {
       "path": "/opt/sparkle/locales/am.pak",
-      "size_bytes": 186161
+      "size_bytes": 163797
     },
     {
       "path": "/opt/sparkle/locales/ar.pak",
-      "size_bytes": 185612
+      "size_bytes": 166488
     },
     {
       "path": "/opt/sparkle/locales/bg.pak",
-      "size_bytes": 211648
+      "size_bytes": 187884
     },
     {
       "path": "/opt/sparkle/locales/bn.pak",
-      "size_bytes": 269401
+      "size_bytes": 240838
     },
     {
       "path": "/opt/sparkle/locales/ca.pak",
-      "size_bytes": 129779
+      "size_bytes": 115831
     },
     {
       "path": "/opt/sparkle/locales/cs.pak",
-      "size_bytes": 130905
+      "size_bytes": 117141
     },
     {
       "path": "/opt/sparkle/locales/da.pak",
-      "size_bytes": 119473
+      "size_bytes": 107272
     },
     {
       "path": "/opt/sparkle/locales/de.pak",
-      "size_bytes": 127397
+      "size_bytes": 114629
     },
     {
       "path": "/opt/sparkle/locales/el.pak",
-      "size_bytes": 229521
+      "size_bytes": 204829
     },
     {
       "path": "/opt/sparkle/locales/en-GB.pak",
-      "size_bytes": 106855
+      "size_bytes": 94607
     },
     {
       "path": "/opt/sparkle/locales/en-US.pak",
-      "size_bytes": 106959
+      "size_bytes": 95201
     },
     {
       "path": "/opt/sparkle/locales/es-419.pak",
-      "size_bytes": 128664
+      "size_bytes": 114257
     },
     {
       "path": "/opt/sparkle/locales/es.pak",
-      "size_bytes": 129367
+      "size_bytes": 115010
     },
     {
       "path": "/opt/sparkle/locales/et.pak",
-      "size_bytes": 116191
+      "size_bytes": 103516
     },
     {
       "path": "/opt/sparkle/locales/fa.pak",
-      "size_bytes": 180526
+      "size_bytes": 162670
     },
     {
       "path": "/opt/sparkle/locales/fi.pak",
-      "size_bytes": 119427
+      "size_bytes": 106214
     },
     {
       "path": "/opt/sparkle/locales/fil.pak",
-      "size_bytes": 131693
+      "size_bytes": 117258
     },
     {
       "path": "/opt/sparkle/locales/fr.pak",
-      "size_bytes": 136115
+      "size_bytes": 121839
     },
     {
       "path": "/opt/sparkle/locales/gu.pak",
-      "size_bytes": 262681
+      "size_bytes": 234228
     },
     {
       "path": "/opt/sparkle/locales/he.pak",
-      "size_bytes": 158970
+      "size_bytes": 141099
     },
     {
       "path": "/opt/sparkle/locales/hi.pak",
-      "size_bytes": 278933
+      "size_bytes": 248969
     },
     {
       "path": "/opt/sparkle/locales/hr.pak",
-      "size_bytes": 125935
+      "size_bytes": 112657
     },
     {
       "path": "/opt/sparkle/locales/hu.pak",
-      "size_bytes": 137393
+      "size_bytes": 123316
     },
     {
       "path": "/opt/sparkle/locales/id.pak",
-      "size_bytes": 114639
+      "size_bytes": 102475
     },
     {
       "path": "/opt/sparkle/locales/it.pak",
-      "size_bytes": 127462
+      "size_bytes": 113401
     },
     {
       "path": "/opt/sparkle/locales/ja.pak",
-      "size_bytes": 147779
+      "size_bytes": 133590
     },
     {
       "path": "/opt/sparkle/locales/kn.pak",
-      "size_bytes": 295214
+      "size_bytes": 262245
     },
     {
       "path": "/opt/sparkle/locales/ko.pak",
-      "size_bytes": 126084
+      "size_bytes": 114153
     },
     {
       "path": "/opt/sparkle/locales/lt.pak",
-      "size_bytes": 134871
+      "size_bytes": 119952
     },
     {
       "path": "/opt/sparkle/locales/lv.pak",
-      "size_bytes": 135853
+      "size_bytes": 120484
     },
     {
       "path": "/opt/sparkle/locales/ml.pak",
-      "size_bytes": 312308
+      "size_bytes": 278557
     },
     {
       "path": "/opt/sparkle/locales/mr.pak",
-      "size_bytes": 261127
+      "size_bytes": 231464
     },
     {
       "path": "/opt/sparkle/locales/ms.pak",
-      "size_bytes": 117604
+      "size_bytes": 105246
     },
     {
       "path": "/opt/sparkle/locales/nb.pak",
-      "size_bytes": 115858
+      "size_bytes": 103971
     },
     {
       "path": "/opt/sparkle/locales/nl.pak",
-      "size_bytes": 121434
+      "size_bytes": 108996
     },
     {
       "path": "/opt/sparkle/locales/pl.pak",
-      "size_bytes": 131467
+      "size_bytes": 117286
     },
     {
       "path": "/opt/sparkle/locales/pt-BR.pak",
-      "size_bytes": 126268
+      "size_bytes": 112062
     },
     {
       "path": "/opt/sparkle/locales/pt-PT.pak",
-      "size_bytes": 127689
+      "size_bytes": 113219
     },
     {
       "path": "/opt/sparkle/locales/ro.pak",
-      "size_bytes": 132393
+      "size_bytes": 117181
     },
     {
       "path": "/opt/sparkle/locales/ru.pak",
-      "size_bytes": 207643
+      "size_bytes": 184078
     },
     {
       "path": "/opt/sparkle/locales/sk.pak",
-      "size_bytes": 133928
+      "size_bytes": 120097
     },
     {
       "path": "/opt/sparkle/locales/sl.pak",
-      "size_bytes": 126071
+      "size_bytes": 112030
     },
     {
       "path": "/opt/sparkle/locales/sr.pak",
-      "size_bytes": 196305
+      "size_bytes": 173891
     },
     {
       "path": "/opt/sparkle/locales/sv.pak",
-      "size_bytes": 116295
+      "size_bytes": 104339
     },
     {
       "path": "/opt/sparkle/locales/sw.pak",
-      "size_bytes": 124778
+      "size_bytes": 109724
     },
     {
       "path": "/opt/sparkle/locales/ta.pak",
-      "size_bytes": 314488
+      "size_bytes": 278479
     },
     {
       "path": "/opt/sparkle/locales/te.pak",
-      "size_bytes": 289016
+      "size_bytes": 257697
     },
     {
       "path": "/opt/sparkle/locales/th.pak",
-      "size_bytes": 249558
+      "size_bytes": 218059
     },
     {
       "path": "/opt/sparkle/locales/tr.pak",
-      "size_bytes": 125304
+      "size_bytes": 111560
     },
     {
       "path": "/opt/sparkle/locales/uk.pak",
-      "size_bytes": 209450
+      "size_bytes": 185919
     },
     {
       "path": "/opt/sparkle/locales/ur.pak",
-      "size_bytes": 185631
+      "size_bytes": 167084
     },
     {
       "path": "/opt/sparkle/locales/vi.pak",
-      "size_bytes": 149258
+      "size_bytes": 132334
     },
     {
       "path": "/opt/sparkle/locales/zh-CN.pak",
-      "size_bytes": 103969
+      "size_bytes": 93488
     },
     {
       "path": "/opt/sparkle/locales/zh-TW.pak",
-      "size_bytes": 103144
+      "size_bytes": 92384
     },
     {
       "path": "/opt/sparkle/resources.pak",
-      "size_bytes": 12634346
+      "size_bytes": 13572592
     },
     {
       "path": "/opt/sparkle/resources/app-update.yml",
@@ -417,7 +417,7 @@
     },
     {
       "path": "/opt/sparkle/resources/app.asar",
-      "size_bytes": 58641053
+      "size_bytes": 59504683
     },
     {
       "path": "/opt/sparkle/resources/app.asar.unpacked/node_modules/@uruhalushia/sparkle-native-linux-x64-gnu/package.json",
@@ -433,31 +433,31 @@
     },
     {
       "path": "/opt/sparkle/resources/files/ASN.mmdb",
-      "size_bytes": 12072490
+      "size_bytes": 9000080
     },
     {
       "path": "/opt/sparkle/resources/files/BundleMRS.7z",
-      "size_bytes": 9234296
+      "size_bytes": 9332700
     },
     {
       "path": "/opt/sparkle/resources/files/country.mmdb",
-      "size_bytes": 395872
+      "size_bytes": 402703
     },
     {
       "path": "/opt/sparkle/resources/files/geoip.dat",
-      "size_bytes": 16635240
+      "size_bytes": 16549675
     },
     {
       "path": "/opt/sparkle/resources/files/geoip.metadb",
-      "size_bytes": 8428327
+      "size_bytes": 8426932
     },
     {
       "path": "/opt/sparkle/resources/files/geosite.dat",
-      "size_bytes": 4253375
+      "size_bytes": 4354422
     },
     {
       "path": "/opt/sparkle/resources/files/sparkle-service",
-      "size_bytes": 9362656
+      "size_bytes": 10618592
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store-frontend/144x144.png",
@@ -496,80 +496,80 @@
       "size_bytes": 11069
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/APISetting-840da483.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/APISetting-dc242b55.js",
       "size_bytes": 13414
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/APISetting-840da483.js.gz",
-      "size_bytes": 4384
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/APISetting-dc242b55.js.gz",
+      "size_bytes": 4385
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/AboutUs-51b18342.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/AboutUs-15d822c0.js",
       "size_bytes": 2847
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Archive-e0bbec8f.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Archive-0b00bc94.js",
       "size_bytes": 24780
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Archive-e0bbec8f.js.gz",
-      "size_bytes": 6526
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Archive-0b00bc94.js.gz",
+      "size_bytes": 6528
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/FileEditor-309153e2.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/FileEditor-413c33af.js",
       "size_bytes": 27730
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/FileEditor-309153e2.js.gz",
-      "size_bytes": 8459
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/FileEditor-413c33af.js.gz",
+      "size_bytes": 8460
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Logs-3bbe96d2.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Logs-bc7f0123.js",
       "size_bytes": 307
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/NotFound-57fce437.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/NotFound-26fb62c3.js",
       "size_bytes": 743
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Share-688245ae.js",
-      "size_bytes": 23776
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Share-fb15fdc8.js",
+      "size_bytes": 23852
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Share-688245ae.js.gz",
-      "size_bytes": 7182
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/Share-fb15fdc8.js.gz",
+      "size_bytes": 7197
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/ShareEditorPage-d6973d8d.js",
-      "size_bytes": 29810
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/ShareEditorPage-77e396aa.js",
+      "size_bytes": 30670
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/ShareEditorPage-d6973d8d.js.gz",
-      "size_bytes": 9269
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/ShareEditorPage-77e396aa.js.gz",
+      "size_bytes": 9413
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/SubEditor-07f2741b.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/SubEditor-ef27f52b.js",
       "size_bytes": 40084
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/SubEditor-07f2741b.js.gz",
-      "size_bytes": 12388
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/SubEditor-ef27f52b.js.gz",
+      "size_bytes": 12393
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/SyncEditor-e4897168.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/SyncEditor-35814db4.js",
       "size_bytes": 16217
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/SyncEditor-e4897168.js.gz",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/SyncEditor-35814db4.js.gz",
       "size_bytes": 5345
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/actionsToPorcess-45f72fee.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/actionsToPorcess-39a5178a.js",
       "size_bytes": 52916
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/actionsToPorcess-45f72fee.js.gz",
-      "size_bytes": 15087
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/actionsToPorcess-39a5178a.js.gz",
+      "size_bytes": 15084
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/core-bdfb7bbc.js",
@@ -596,12 +596,12 @@
       "size_bytes": 186651
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/editorTabState-023cc3e9.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/editorTabState-fb6dd74d.js",
       "size_bytes": 15691
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/editorTabState-023cc3e9.js.gz",
-      "size_bytes": 5295
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/editorTabState-fb6dd74d.js.gz",
+      "size_bytes": 5294
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/editorTabValidation-f55eba00.js",
@@ -640,7 +640,7 @@
       "size_bytes": 7568
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/index-c3f2476f.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/index-ea3c5cca.js",
       "size_bytes": 1541
     },
     {
@@ -664,20 +664,20 @@
       "size_bytes": 3252
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/main-e4080980.js",
-      "size_bytes": 819879
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/main-1712152b.js",
+      "size_bytes": 821655
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/main-e4080980.js.gz",
-      "size_bytes": 257555
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/main-1712152b.js.gz",
+      "size_bytes": 257859
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/moreSetting-2017c526.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/moreSetting-1bf8574d.js",
       "size_bytes": 17161
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/moreSetting-2017c526.js.gz",
-      "size_bytes": 3962
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/moreSetting-1bf8574d.js.gz",
+      "size_bytes": 3960
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/nutui-52d90713.js",
@@ -688,7 +688,7 @@
       "size_bytes": 34137
     },
     {
-      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/useListViewModeSelectionLock-4d2052de.js",
+      "path": "/opt/sparkle/resources/files/sub-store-frontend/chunks/useListViewModeSelectionLock-868f41cd.js",
       "size_bytes": 269
     },
     {
@@ -737,7 +737,7 @@
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store-frontend/css/Share.css.gz",
-      "size_bytes": 2204
+      "size_bytes": 2203
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store-frontend/css/ShareEditorPage.css",
@@ -777,11 +777,11 @@
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store-frontend/css/main.css",
-      "size_bytes": 122355
+      "size_bytes": 122499
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store-frontend/css/main.css.gz",
-      "size_bytes": 17083
+      "size_bytes": 17082
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store-frontend/css/moreSetting.css",
@@ -1105,7 +1105,7 @@
     },
     {
       "path": "/opt/sparkle/resources/files/sub-store.bundle.js",
-      "size_bytes": 3146120
+      "size_bytes": 3347057
     },
     {
       "path": "/opt/sparkle/resources/package-type",
@@ -1113,23 +1113,23 @@
     },
     {
       "path": "/opt/sparkle/resources/sidecar/mihomo",
-      "size_bytes": 61824728
+      "size_bytes": 62016408
     },
     {
       "path": "/opt/sparkle/resources/sidecar/mihomo-alpha",
-      "size_bytes": 61952000
+      "size_bytes": 62041248
     },
     {
       "path": "/opt/sparkle/snapshot_blob.bin",
-      "size_bytes": 368768
+      "size_bytes": 374096
     },
     {
       "path": "/opt/sparkle/sparkle",
-      "size_bytes": 228527432
+      "size_bytes": 234458440
     },
     {
       "path": "/opt/sparkle/v8_context_snapshot.bin",
-      "size_bytes": 742200
+      "size_bytes": 753112
     },
     {
       "path": "/opt/sparkle/vk_swiftshader_icd.json",
@@ -1141,7 +1141,7 @@
     },
     {
       "path": "/usr/share/doc/sparkle/changelog.gz",
-      "size_bytes": 143
+      "size_bytes": 142
     },
     {
       "path": "/usr/share/icons/hicolor/512x512/apps/sparkle.png",
@@ -1150,15 +1150,15 @@
   ],
   "sources": [
     {
-      "name": "sparkle-linux-1.26.9-amd64.deb",
-      "url": "https://github.com/xishang0128/sparkle/releases/download/1.26.9/sparkle-linux-1.26.9-amd64.deb"
+      "name": "sparkle-linux-1.26.10-amd64.deb",
+      "url": "https://github.com/xishang0128/sparkle/releases/download/1.26.10/sparkle-linux-1.26.10-amd64.deb"
     },
     {
-      "name": "sparkle-linux-1.26.9-arm64.deb",
-      "url": "https://github.com/xishang0128/sparkle/releases/download/1.26.9/sparkle-linux-1.26.9-arm64.deb"
+      "name": "sparkle-linux-1.26.10-arm64.deb",
+      "url": "https://github.com/xishang0128/sparkle/releases/download/1.26.10/sparkle-linux-1.26.10-arm64.deb"
     }
   ],
   "required_by": [],
-  "filename": "sparkle-bin-1.26.9-1-x86_64.pkg.tar.zst",
-  "sha256": "0514b48c6778179d7c743128e56db391184bd3e29947ad5db87460aac09e90fb"
+  "filename": "sparkle-bin-1.26.10-1-x86_64.pkg.tar.zst",
+  "sha256": "16f46f3591e659e8cca51bc2b3fde753bf07a085d1a8db02e915d335298fee01"
 }
