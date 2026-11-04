@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41628245725/job/125891046362",
-  "version": "1.144.1-1",
-  "last_updated": "2026-11-03T11:35:50Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41824350114/job/126555251688",
+  "version": "1.145.0-1",
+  "last_updated": "2026-11-04T11:56:25Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -121,7 +121,7 @@
       "description": "Agent host sandboxing"
     }
   ],
-  "package_size_bytes": 1078173230,
+  "package_size_bytes": 1095524044,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -153,7 +153,7 @@
     },
     {
       "path": "/usr/share/code/bin/code-tunnel",
-      "size_bytes": 34956312
+      "size_bytes": 35062808
     },
     {
       "path": "/usr/share/code/bin/copilot-shim/copilot",
@@ -433,7 +433,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/ThirdPartyNotices.txt",
-      "size_bytes": 9807844
+      "size_bytes": 9762560
     },
     {
       "path": "/usr/share/code/resources/app/extensions/TypeScriptTeam.jsts-chat-features/LICENSE.txt",
@@ -541,7 +541,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/configuration-editing/package.json",
-      "size_bytes": 3630
+      "size_bytes": 3789
     },
     {
       "path": "/usr/share/code/resources/app/extensions/configuration-editing/package.nls.json",
@@ -557,7 +557,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 1222101
+      "size_bytes": 1132546
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -676,12 +676,8 @@
       "size_bytes": 7847
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-context7/SKILL.md",
-      "size_bytes": 1992
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md",
-      "size_bytes": 7070
+      "path": "/usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/record-video/SKILL.md",
+      "size_bytes": 3333
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md",
@@ -709,7 +705,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/extension.js",
-      "size_bytes": 19713202
+      "size_bytes": 19746477
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/dist/external_ingest_utils_bg.wasm",
@@ -881,7 +877,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.json",
-      "size_bytes": 201028
+      "size_bytes": 196884
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.cs.json",
@@ -909,7 +905,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.json",
-      "size_bytes": 69257
+      "size_bytes": 68742
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/package.nls.ko.json",
@@ -949,7 +945,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/telemetry.json",
-      "size_bytes": 277749
+      "size_bytes": 274854
     },
     {
       "path": "/usr/share/code/resources/app/extensions/cpp/language-configuration.json",
@@ -1285,7 +1281,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/dist/main.js",
-      "size_bytes": 769509
+      "size_bytes": 769854
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/dist/ssh-askpass-empty.sh",
@@ -1341,7 +1337,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/package.json",
-      "size_bytes": 93461
+      "size_bytes": 93474
     },
     {
       "path": "/usr/share/code/resources/app/extensions/git/package.nls.json",
@@ -1433,7 +1429,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js",
-      "size_bytes": 241729
+      "size_bytes": 242312
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/images/icon.png",
@@ -1465,7 +1461,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/package.json",
-      "size_bytes": 1906
+      "size_bytes": 1930
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github-authentication/package.nls.json",
@@ -1489,7 +1485,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github/package.json",
-      "size_bytes": 5069
+      "size_bytes": 5058
     },
     {
       "path": "/usr/share/code/resources/app/extensions/github/package.nls.json",
@@ -1537,7 +1533,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/grunt/dist/main.js",
-      "size_bytes": 6205
+      "size_bytes": 6195
     },
     {
       "path": "/usr/share/code/resources/app/extensions/grunt/images/grunt.png",
@@ -1557,7 +1553,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/gulp/dist/main.js",
-      "size_bytes": 6205
+      "size_bytes": 6195
     },
     {
       "path": "/usr/share/code/resources/app/extensions/gulp/images/gulp.png",
@@ -1717,7 +1713,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/jake/dist/main.js",
-      "size_bytes": 5793
+      "size_bytes": 5783
     },
     {
       "path": "/usr/share/code/resources/app/extensions/jake/images/cowboy_hat.png",
@@ -1989,7 +1985,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/dist/extension.js",
-      "size_bytes": 2146449
+      "size_bytes": 2148229
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/dist/serverWorkerMain.js",
@@ -2257,19 +2253,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/editor.css",
-      "size_bytes": 125378
+      "size_bytes": 127304
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/editor.js",
-      "size_bytes": 1003881
+      "size_bytes": 1004318
     },
     {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/mermaid-Y54CSFRA.js",
-      "size_bytes": 3630848
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/web-editors-X7FTGIVC.js",
-      "size_bytes": 173789
+      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-out/web-editors-W54PJBIY.js",
+      "size_bytes": 178644
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/clipboardMedia.ts",
@@ -2293,7 +2285,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/editor.ts",
-      "size_bytes": 29277
+      "size_bytes": 29143
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/imagePasteController.ts",
@@ -2309,19 +2301,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/markdownEditor.css",
-      "size_bytes": 1039
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/mermaid/mermaid.html",
-      "size_bytes": 1265
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/mermaid/mermaidGuest.ts",
-      "size_bytes": 2509
-    },
-    {
-      "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/mermaid/mermaidProvider.ts",
-      "size_bytes": 829
+      "size_bytes": 1527
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/markdown-editor-src/rename.css",
@@ -2361,7 +2341,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/media/index.js",
-      "size_bytes": 24904
+      "size_bytes": 25479
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/media/markdown.css",
@@ -2385,15 +2365,15 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/package.json",
-      "size_bytes": 49739
+      "size_bytes": 49993
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/package.nls.json",
-      "size_bytes": 24316
+      "size_bytes": 24475
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-language-features/schemas/package.schema.json",
-      "size_bytes": 4487
+      "size_bytes": 4704
     },
     {
       "path": "/usr/share/code/resources/app/extensions/markdown-math/README.md",
@@ -2557,15 +2537,483 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/chat-webview-out/index-editor.js",
-      "size_bytes": 4997754
+      "size_bytes": 5007367
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/chat-webview-out/index.js",
-      "size_bytes": 4997330
+      "size_bytes": 5006943
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/dist/extension.js",
-      "size_bytes": 15030
+      "size_bytes": 16847
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/_empty-crypto-Bi0tGx5K-2LOCCDNT.js",
+      "size_bytes": 65
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/abnfDiagram-VCTEODGH-W5YM2BPA.js",
+      "size_bytes": 2322
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/architecture-7GRP2DOG-FUYLNO4B.js",
+      "size_bytes": 168
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/architectureDiagram-5GKGNRK7-4LGFVGBD.js",
+      "size_bytes": 153000
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/blockDiagram-I7D4REHJ-65UBDOAU.js",
+      "size_bytes": 40287
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/c4Diagram-7LVT6UL2-MLOCJVO7.js",
+      "size_bytes": 65848
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-24O22KEQ.js",
+      "size_bytes": 9762
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-2K2L2JEZ.js",
+      "size_bytes": 5876
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-2OIKMCXU.js",
+      "size_bytes": 47128
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-2S6PUNXZ.js",
+      "size_bytes": 220
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-3RNHDNP5.js",
+      "size_bytes": 833
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-3VJHM3CQ.js",
+      "size_bytes": 443812
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-4HJKLDAT.js",
+      "size_bytes": 445
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-4RHYHUVT.js",
+      "size_bytes": 25645
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-5TVAF4SJ.js",
+      "size_bytes": 1895
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-5UQODPPN.js",
+      "size_bytes": 62068
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-5ZAMBDF5.js",
+      "size_bytes": 156
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-6IIELIDN.js",
+      "size_bytes": 2020
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-ABRXOUHG.js",
+      "size_bytes": 1048
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-AUJBCLOB.js",
+      "size_bytes": 91
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-B6VOIJOC.js",
+      "size_bytes": 105596
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-BQR5VGCX.js",
+      "size_bytes": 458
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-CLDGAQBY.js",
+      "size_bytes": 15725
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-CQHAQPZP.js",
+      "size_bytes": 453
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-CU3WNRKO.js",
+      "size_bytes": 99989
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-DG5HJNUS.js",
+      "size_bytes": 11406
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-DSAPFASR.js",
+      "size_bytes": 18095
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-ECAF5OLA.js",
+      "size_bytes": 668387
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-FKVCT2OZ.js",
+      "size_bytes": 557
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-FNK4WUGV.js",
+      "size_bytes": 91
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-J4QZX55V.js",
+      "size_bytes": 188
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-JHQ3LEJ2.js",
+      "size_bytes": 898
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-JXO2KM4E.js",
+      "size_bytes": 1118
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-JZV3OND4.js",
+      "size_bytes": 921
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-KAMM3ZVW.js",
+      "size_bytes": 52567
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-KANRR4GQ.js",
+      "size_bytes": 27373
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-L7V4HMD4.js",
+      "size_bytes": 240537
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-MORPLMM4.js",
+      "size_bytes": 459
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-N53AQFLV.js",
+      "size_bytes": 49291
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-NAYNVRFT.js",
+      "size_bytes": 1572074
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-NK24NO5N.js",
+      "size_bytes": 261
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-NZ3Q2WJX.js",
+      "size_bytes": 451
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-ORE2T4WP.js",
+      "size_bytes": 10097
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-PAO23QCD.js",
+      "size_bytes": 1667
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-PNBHH3ZV.js",
+      "size_bytes": 829
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-PPKVOE2H.js",
+      "size_bytes": 1031
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-QSWXSH5R.js",
+      "size_bytes": 1579
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-QYK4EZTH.js",
+      "size_bytes": 2527
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-ROB3ZELR.js",
+      "size_bytes": 595
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-SA7J5XKR.js",
+      "size_bytes": 3309
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-SNB7PWCV.js",
+      "size_bytes": 8624
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-SND6Q57N.js",
+      "size_bytes": 36753
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-TBI42J5D.js",
+      "size_bytes": 1942
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-TVIXJQAN.js",
+      "size_bytes": 359
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-U4VSMEDZ.js",
+      "size_bytes": 469
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-U7N72GQD.js",
+      "size_bytes": 1412
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-XAA5BWVI.js",
+      "size_bytes": 38407
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-XQK6T7GN.js",
+      "size_bytes": 303
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/chunk-XRA5PP2P.js",
+      "size_bytes": 38388
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/classDiagram-ZZMXUADV-YM5IATCB.js",
+      "size_bytes": 807
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/classDiagram-v2-VYDZK3BY-IMSSO4VH.js",
+      "size_bytes": 807
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/cloud-icons-eHuugVSv-NFOESXNX.js",
+      "size_bytes": 178
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/cose-bilkent-JH36ORCC-2NCHXNL7.js",
+      "size_bytes": 82486
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/cynefin-OW5HDTMX-QWJ3NOXF.js",
+      "size_bytes": 158
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/cynefinDiagram-5FMLGOSQ-57E6VJ7B.js",
+      "size_bytes": 10620
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/dagre-GXQ25YYZ-XSTSF6ZW.js",
+      "size_bytes": 11027
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/diagram-S7CK7UJ4-V6YXEADG.js",
+      "size_bytes": 8745
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/diagram-UQ7AKVKN-5CAGOLLK.js",
+      "size_bytes": 6629
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/diagram-VSXAHHWV-TH4DZ53Q.js",
+      "size_bytes": 11228
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/diagram-VX7I27RA-ZQ2YVXQ7.js",
+      "size_bytes": 11644
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/diagram-Z3DM3KII-QQZ76HCI.js",
+      "size_bytes": 4790
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/ebnfDiagram-PWID7BFC-Q5FQ3V2P.js",
+      "size_bytes": 2536
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/erDiagram-RLTQ6QDP-VFB2E75C.js",
+      "size_bytes": 31141
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/eventmodeling-NTZA5JFV-I44FJRDQ.js",
+      "size_bytes": 170
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/flowDiagram-HODETNUW-7VPZDPOT.js",
+      "size_bytes": 680
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/ganttDiagram-EL5Y4UJY-M4J4OUTC.js",
+      "size_bytes": 50397
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/gitGraph-4MIJSDKK-DOHAHB3I.js",
+      "size_bytes": 160
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/gitGraphDiagram-WWUBYQGX-2JNXWAO7.js",
+      "size_bytes": 29736
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/index.js",
+      "size_bytes": 198470
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/info-A6RAGUB7-R72OGLU6.js",
+      "size_bytes": 152
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/infoDiagram-27XIBGKW-HIFWTMVR.js",
+      "size_bytes": 1140
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/ishikawaDiagram-5VMMS53U-DRDLIOCA.js",
+      "size_bytes": 17634
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/journeyDiagram-3NMN7TZE-SFCU2ZZP.js",
+      "size_bytes": 23573
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/kanban-definition-UXKFOSKX-57MFHAG5.js",
+      "size_bytes": 20808
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/katex-F3ZVAGOY.js",
+      "size_bytes": 267710
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/logos-ULGNDP7E.js",
+      "size_bytes": 7312170
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/mdi-3KYDHIYZ.js",
+      "size_bytes": 3172673
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/mindmap-definition-YA3MSWOX-JGF5Y3TO.js",
+      "size_bytes": 24114
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/packet-AYTQ26CC-Q2CLNJFZ.js",
+      "size_bytes": 156
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/pegDiagram-XKGWAZYB-Y3SH4FVT.js",
+      "size_bytes": 2478
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/pie-WAS4IAKB-KBCMSGIX.js",
+      "size_bytes": 150
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/pieDiagram-E7YTZNPT-T3YNFFQK.js",
+      "size_bytes": 5630
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/quadrantDiagram-AXDQQJYC-QK3O7JVZ.js",
+      "size_bytes": 34079
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/radar-RG4KPBEZ-OGYS5OZE.js",
+      "size_bytes": 154
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/railroad-74A4TZTK-QGQWQALV.js",
+      "size_bytes": 160
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/railroad-abnf-HS5TGJTU-VIYDECH3.js",
+      "size_bytes": 168
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/railroad-ebnf-LZEXJU2U-J3HA2QE2.js",
+      "size_bytes": 168
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/railroad-peg-WCYAUIDC-DF4CDRIP.js",
+      "size_bytes": 166
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/railroadDiagram-O6MQD6OU-ALLTAL5G.js",
+      "size_bytes": 2144
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/render-DLZURBVE-CYTUHGH4.js",
+      "size_bytes": 89
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/render-TAZW7USW-O6JCSWLJ.js",
+      "size_bytes": 1473270
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/requirementDiagram-BXWQKSXE-VFXR4URP.js",
+      "size_bytes": 31441
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/sankeyDiagram-P5KCCOFB-J4FNNAAO.js",
+      "size_bytes": 23029
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/sequenceDiagram-WJ2MYXX4-UX6J5IW6.js",
+      "size_bytes": 116969
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/sizeCapture-INFHLROL-HORZLW5I.js",
+      "size_bytes": 919
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/stateDiagram-D77RDMKH-HR7NFLW4.js",
+      "size_bytes": 10713
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/stateDiagram-v2-MP3YSRHH-XZ4JFPI5.js",
+      "size_bytes": 782
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/swimlanes-42K2YHIH-HF4BOUZ4.js",
+      "size_bytes": 113537
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/swimlanesDiagram-VR7AAH4N-ZWYIELV6.js",
+      "size_bytes": 880
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/timeline-definition-24CTP7MA-HOSQ6DE7.js",
+      "size_bytes": 30847
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/treeView-Q6P3EWNA-IT4SDN3Z.js",
+      "size_bytes": 160
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/treemap-WGGIJYW6-35F5MUWZ.js",
+      "size_bytes": 158
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/vennDiagram-4TSXK5OY-BWPYENLN.js",
+      "size_bytes": 41719
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/wardley-WFR3VGLG-KCDZN5U7.js",
+      "size_bytes": 158
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/wardleyDiagram-VM6X3IG4-HTWDFMCR.js",
+      "size_bytes": 25919
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/xychartDiagram-S5SC5T6Z-KES46ZNY.js",
+      "size_bytes": 43341
+    },
+    {
+      "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-editor-out/zenuml-definition-ZCSB3OVJ-XAHTVQO3.js",
+      "size_bytes": 1676674
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-preview-out/abnfDiagram-VCTEODGH-NCPMJ6BI.js",
@@ -2877,7 +3325,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-preview-out/index.js",
-      "size_bytes": 181152
+      "size_bytes": 190635
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/markdown-preview-out/info-A6RAGUB7-R72OGLU6.js",
@@ -3341,7 +3789,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/notebook-out/index.js",
-      "size_bytes": 182995
+      "size_bytes": 192475
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/notebook-out/info-A6RAGUB7-R72OGLU6.js",
@@ -3497,11 +3945,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/package.json",
-      "size_bytes": 5780
+      "size_bytes": 5935
     },
     {
       "path": "/usr/share/code/resources/app/extensions/mermaid-markdown-features/package.nls.json",
-      "size_bytes": 2633
+      "size_bytes": 2751
     },
     {
       "path": "/usr/share/code/resources/app/extensions/microsoft-authentication/README.md",
@@ -4797,7 +5245,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/simple-browser/dist/extension.js",
-      "size_bytes": 7082
+      "size_bytes": 7141
     },
     {
       "path": "/usr/share/code/resources/app/extensions/simple-browser/media/codicon.css",
@@ -4877,7 +5325,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/terminal-suggest/dist/terminalSuggestMain.js",
-      "size_bytes": 1638740
+      "size_bytes": 1638757
     },
     {
       "path": "/usr/share/code/resources/app/extensions/terminal-suggest/media/icon.png",
@@ -4957,11 +5405,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/2026-dark.json",
-      "size_bytes": 16309
+      "size_bytes": 16524
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/2026-light.json",
-      "size_bytes": 16382
+      "size_bytes": 16441
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-defaults/themes/dark_modern.json",
@@ -5525,7 +5973,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-quietlight/themes/quietlight-color-theme.json",
-      "size_bytes": 9258
+      "size_bytes": 9322
     },
     {
       "path": "/usr/share/code/resources/app/extensions/theme-red/package.json",
@@ -5657,7 +6105,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js",
-      "size_bytes": 484626
+      "size_bytes": 484854
     },
     {
       "path": "/usr/share/code/resources/app/extensions/typescript-language-features/media/icon.png",
@@ -5665,7 +6113,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/typescript-language-features/package.json",
-      "size_bytes": 84432
+      "size_bytes": 84456
     },
     {
       "path": "/usr/share/code/resources/app/extensions/typescript-language-features/package.nls.json",
@@ -6126,6 +6574,10 @@
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/3cb4f19d",
       "size_bytes": 796
+    },
+    {
+      "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/3cfe9624",
+      "size_bytes": 3932
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/3d9d8468",
@@ -6589,7 +7041,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/99d2ee82",
-      "size_bytes": 97356
+      "size_bytes": 97420
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/99e676df",
@@ -6737,7 +7189,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/bc537bdd",
-      "size_bytes": 226956
+      "size_bytes": 228188
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/bd4933af",
@@ -6749,7 +7201,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/bfcd8e5c",
-      "size_bytes": 12507260
+      "size_bytes": 13084164
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/c01d3a61",
@@ -6777,7 +7229,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/c4a79085",
-      "size_bytes": 118396
+      "size_bytes": 122044
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/c502416b",
@@ -7085,7 +7537,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/14555739",
-      "size_bytes": 2091860
+      "size_bytes": 2092404
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/17d91df5",
@@ -7150,6 +7602,10 @@
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/2c64b35c",
       "size_bytes": 5020
+    },
+    {
+      "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/2de7de5c",
+      "size_bytes": 64988
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/2e7f19d7",
@@ -7329,7 +7785,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/7067386e",
-      "size_bytes": 6298564
+      "size_bytes": 6356244
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/71f3f0c1",
@@ -7608,10 +8064,6 @@
       "size_bytes": 26612
     },
     {
-      "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/e326b0ba",
-      "size_bytes": 64988
-    },
-    {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/e5ed5673",
       "size_bytes": 9284
     },
@@ -7649,7 +8101,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/f09ae13c",
-      "size_bytes": 826212
+      "size_bytes": 826948
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/f13a7fb2",
@@ -7885,7 +8337,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/main/v24.22.1-x64-60e4fe36/8a5063cf",
-      "size_bytes": 3652252
+      "size_bytes": 3658268
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/main/v24.22.1-x64-60e4fe36/8ab1507e",
@@ -8069,7 +8521,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/pty-host/v24.22.1-x64-60e4fe36/8c5adf4e",
-      "size_bytes": 1004156
+      "size_bytes": 1005164
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/pty-host/v24.22.1-x64-60e4fe36/ae35122a",
@@ -8129,7 +8581,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/shared-process/v24.22.1-x64-60e4fe36/949d6957",
-      "size_bytes": 4025292
+      "size_bytes": 4074180
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/shared-process/v24.22.1-x64-60e4fe36/a98f6736",
@@ -8157,7 +8609,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar",
-      "size_bytes": 60376036
+      "size_bytes": 60413749
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@devcontainers/cli/LICENSE.txt",
@@ -8197,7 +8649,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/client.d.ts",
-      "size_bytes": 19917
+      "size_bytes": 19953
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/copilotRequestHandler.d.ts",
@@ -8220,12 +8672,16 @@
       "size_bytes": 20245
     },
     {
+      "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/entra.d.ts",
+      "size_bytes": 238
+    },
+    {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/extension.d.ts",
       "size_bytes": 3428
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/extension.js",
-      "size_bytes": 722517
+      "size_bytes": 727753
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/ffiRuntimeHost.d.ts",
@@ -8233,11 +8689,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/generated/rpc.d.ts",
-      "size_bytes": 1356007
+      "size_bytes": 1363760
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/generated/session-events.d.ts",
-      "size_bytes": 472075
+      "size_bytes": 472981
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/host.d.ts",
@@ -8245,11 +8701,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/index.d.ts",
-      "size_bytes": 6259
+      "size_bytes": 6432
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/index.js",
-      "size_bytes": 727826
+      "size_bytes": 733062
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/installationConfirmation.d.ts",
@@ -8285,7 +8741,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/types.d.ts",
-      "size_bytes": 138783
+      "size_bytes": 141753
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/copilot-sdk/workflow.d.ts",
@@ -8425,7 +8881,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/runtime.node",
-      "size_bytes": 146590168
+      "size_bytes": 146632280
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/preloads/extension_bootstrap.mjs",
@@ -8441,11 +8897,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/schemas/api.schema.json",
-      "size_bytes": 2726264
+      "size_bytes": 2738880
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/schemas/session-events.schema.json",
-      "size_bytes": 1031923
+      "size_bytes": 1032997
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/tgrep/bin/linux-x64/tgrep",
@@ -8473,7 +8929,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/policy-watcher/build/Release/vscode-policy-watcher.node",
-      "size_bytes": 401968
+      "size_bytes": 181840
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64/rg",
@@ -11245,7 +11701,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/cli.js",
-      "size_bytes": 276759
+      "size_bytes": 276830
     },
     {
       "path": "/usr/share/code/resources/app/out/date",
@@ -11257,7 +11713,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/mainImpl.js",
-      "size_bytes": 1372557
+      "size_bytes": 1374916
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -11273,7 +11729,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/media/codicon.ttf",
-      "size_bytes": 154012
+      "size_bytes": 154320
     },
     {
       "path": "/usr/share/code/resources/app/out/media/github.svg",
@@ -11341,19 +11797,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.keys.json",
-      "size_bytes": 1037355
+      "size_bytes": 1071524
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.js",
-      "size_bytes": 1638944
+      "size_bytes": 1705376
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.messages.json",
-      "size_bytes": 1637654
+      "size_bytes": 1704054
     },
     {
       "path": "/usr/share/code/resources/app/out/nls.metadata.json",
-      "size_bytes": 3186693
+      "size_bytes": 3298626
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/base/node/cpuUsage.sh",
@@ -11385,11 +11841,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1527548
+      "size_bytes": 1542771
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 784666
+      "size_bytes": 786757
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -11413,7 +11869,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js",
-      "size_bytes": 328779
+      "size_bytes": 330885
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3",
@@ -11549,7 +12005,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 5039121
+      "size_bytes": 5269806
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
@@ -11561,19 +12017,19 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/files/node/watcher/watcherMain.js",
-      "size_bytes": 211758
+      "size_bytes": 211802
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/localTranscription/node/localTranscriptionMain.js",
-      "size_bytes": 173204
+      "size_bytes": 173248
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/profiling/electron-browser/profileAnalysisWorkerMain.js",
-      "size_bytes": 165742
+      "size_bytes": 165786
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js",
-      "size_bytes": 402685
+      "size_bytes": 403113
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/contrib/chat/browser/media/letterpress-sessions-dark.svg",
@@ -11585,7 +12041,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/electron-browser/sessions.html",
-      "size_bytes": 1469
+      "size_bytes": 1480
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/electron-browser/sessions.js",
@@ -11593,11 +12049,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.css",
-      "size_bytes": 2202717
+      "size_bytes": 2261705
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 23342616
+      "size_bytes": 23907111
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -11625,7 +12081,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/generate-chat-background/SKILL.md",
-      "size_bytes": 6126
+      "size_bytes": 2562
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/generate-run-commands/SKILL.md",
@@ -11645,7 +12101,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/troubleshoot/SKILL.md",
-      "size_bytes": 13633
+      "size_bytes": 13649
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/update-pr/SKILL.md",
@@ -11657,11 +12113,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2351431
+      "size_bytes": 2370721
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 2064930
+      "size_bytes": 2079153
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -12201,7 +12657,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js",
-      "size_bytes": 233508
+      "size_bytes": 233750
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg",
@@ -12225,11 +12681,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/notebook/common/services/notebookWebWorkerMain.js",
-      "size_bytes": 248655
+      "size_bytes": 248699
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/output/common/outputLinkComputerMain.js",
-      "size_bytes": 144330
+      "size_bytes": 144374
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/psreadline/Microsoft.PowerShell.PSReadLine.dll",
@@ -12293,7 +12749,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/webview/browser/pre/index.html",
-      "size_bytes": 42446
+      "size_bytes": 42574
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/webview/browser/pre/service-worker.js",
@@ -12437,27 +12893,27 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/languageDetection/browser/languageDetectionWebWorkerMain.js",
-      "size_bytes": 149354
+      "size_bytes": 149569
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/search/worker/localFileSearchMain.js",
-      "size_bytes": 150251
+      "size_bytes": 152747
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/services/textMate/browser/backgroundTokenization/worker/textMateTokenizationWorker.workerMain.js",
-      "size_bytes": 251395
+      "size_bytes": 251659
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.css",
-      "size_bytes": 1878127
+      "size_bytes": 1902620
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 21744205
+      "size_bytes": 21976974
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
-      "size_bytes": 742500
+      "size_bytes": 753676
     },
     {
       "path": "/usr/share/code/resources/app/package.json",
@@ -12469,7 +12925,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/product.json",
-      "size_bytes": 69329
+      "size_bytes": 69357
     },
     {
       "path": "/usr/share/code/resources/app/resources/linux/code.png",
@@ -12477,7 +12933,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-core.json",
-      "size_bytes": 1139561
+      "size_bytes": 1210994
     },
     {
       "path": "/usr/share/code/resources/app/telemetry-extensions.json",
@@ -12525,19 +12981,19 @@
       "name": "visual-studio-code-bin.sh"
     },
     {
-      "name": "code_1.144.1_amd64.deb",
-      "url": "https://update.code.visualstudio.com/1.144.1/linux-deb-x64/stable"
+      "name": "code_1.145.0_amd64.deb",
+      "url": "https://update.code.visualstudio.com/1.145.0/linux-deb-x64/stable"
     },
     {
-      "name": "code_1.144.1_arm64.deb",
-      "url": "https://update.code.visualstudio.com/1.144.1/linux-deb-arm64/stable"
+      "name": "code_1.145.0_arm64.deb",
+      "url": "https://update.code.visualstudio.com/1.145.0/linux-deb-arm64/stable"
     },
     {
-      "name": "code_1.144.1_armhf.deb",
-      "url": "https://update.code.visualstudio.com/1.144.1/linux-deb-armhf/stable"
+      "name": "code_1.145.0_armhf.deb",
+      "url": "https://update.code.visualstudio.com/1.145.0/linux-deb-armhf/stable"
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.144.1-1-x86_64.pkg.tar.zst",
-  "sha256": "a4a8eb3c9ef5c956867ae5eb4e8455ddbc5ca42d2fea679bd49a1ad91d7b66f9"
+  "filename": "visual-studio-code-bin-1.145.0-1-x86_64.pkg.tar.zst",
+  "sha256": "055c681a8003912ead9df6fdee7c201534dcdb07a81c08dc3cdf66f0f04dd7f5"
 }

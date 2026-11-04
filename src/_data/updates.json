@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.145.0-1",
+    "date": "2026-11-04T11:56:25Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.318-1",
     "date": "2026-11-04T04:01:40Z"
@@ -23,11 +28,6 @@
     "name": "1password",
     "version": "8.12.44-33",
     "date": "2026-11-03T19:00:21Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.144.1-1",
-    "date": "2026-11-03T11:35:50Z"
   },
   {
     "name": "pi",
