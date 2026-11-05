@@ -40,10 +40,10 @@
     "pkgbase": "datagrip",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "2026.2.6.1-1",
+    "version": "2026.3-1",
     "description": "Smart SQL Editor and Advanced Database Client Packed Together for Optimum Productivity",
     "maintainer": "freswa",
-    "last_updated": "2026-11-01T05:39:05Z",
+    "last_updated": "2026-11-05T16:06:22Z",
     "build_status": "published",
     "detail_url": "/packages/datagrip/"
   },
