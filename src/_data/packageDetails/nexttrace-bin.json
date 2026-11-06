@@ -15,8 +15,8 @@
   ],
   "sources": [
     {
-      "name": "nexttrace-bin-1.7.5",
-      "url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.5/nexttrace_linux_amd64"
+      "name": "nexttrace-bin-1.7.6",
+      "url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.6/nexttrace_linux_amd64"
     }
   ],
   "build_status": "published",

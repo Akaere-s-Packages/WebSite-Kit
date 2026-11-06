@@ -5,8 +5,8 @@
   "source_type": "aur",
   "maintainer": "dcelasun",
   "submitter": "dcelasun",
-  "votes": 1712,
-  "popularity": 11.282373,
+  "votes": 1713,
+  "popularity": 11.975223,
   "first_submitted": "2017-12-18T19:14:08Z",
   "description": "Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)",
   "url": "https://code.visualstudio.com/",
@@ -14,9 +14,9 @@
     "custom: commercial"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41824350114/job/126555251688",
-  "version": "1.145.0-1",
-  "last_updated": "2026-11-04T11:56:25Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/42300779654/job/128177782462",
+  "version": "1.145.2-1",
+  "last_updated": "2026-11-06T22:00:32Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -121,7 +121,7 @@
       "description": "Agent host sandboxing"
     }
   ],
-  "package_size_bytes": 1095524044,
+  "package_size_bytes": 1101900839,
   "files": [
     {
       "path": "/usr/bin/code",
@@ -557,7 +557,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/ThirdPartyNotices.txt",
-      "size_bytes": 1132546
+      "size_bytes": 7509063
     },
     {
       "path": "/usr/share/code/resources/app/extensions/copilot/assets/copilot.png",
@@ -7201,7 +7201,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/bfcd8e5c",
-      "size_bytes": 13084164
+      "size_bytes": 13084364
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36/c01d3a61",
@@ -7604,10 +7604,6 @@
       "size_bytes": 5020
     },
     {
-      "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/2de7de5c",
-      "size_bytes": 64988
-    },
-    {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/2e7f19d7",
       "size_bytes": 17332
     },
@@ -7785,7 +7781,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/7067386e",
-      "size_bytes": 6356244
+      "size_bytes": 6356236
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/71f3f0c1",
@@ -8088,6 +8084,10 @@
       "size_bytes": 8684
     },
     {
+      "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/ec391625",
+      "size_bytes": 64988
+    },
+    {
       "path": "/usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36/ec9d340b",
       "size_bytes": 28516
     },
@@ -8337,7 +8337,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/main/v24.22.1-x64-60e4fe36/8a5063cf",
-      "size_bytes": 3658268
+      "size_bytes": 3658260
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/main/v24.22.1-x64-60e4fe36/8ab1507e",
@@ -8521,7 +8521,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/pty-host/v24.22.1-x64-60e4fe36/8c5adf4e",
-      "size_bytes": 1005164
+      "size_bytes": 1005156
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/pty-host/v24.22.1-x64-60e4fe36/ae35122a",
@@ -8581,7 +8581,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/shared-process/v24.22.1-x64-60e4fe36/949d6957",
-      "size_bytes": 4074180
+      "size_bytes": 4074172
     },
     {
       "path": "/usr/share/code/resources/app/node-compile-cache/shared-process/v24.22.1-x64-60e4fe36/a98f6736",
@@ -8609,7 +8609,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar",
-      "size_bytes": 60413749
+      "size_bytes": 60413701
     },
     {
       "path": "/usr/share/code/resources/app/node_modules.asar.unpacked/@devcontainers/cli/LICENSE.txt",
@@ -11701,11 +11701,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/cli.js",
-      "size_bytes": 276830
+      "size_bytes": 276825
     },
     {
       "path": "/usr/share/code/resources/app/out/date",
-      "size_bytes": 25
+      "size_bytes": 20
     },
     {
       "path": "/usr/share/code/resources/app/out/main.js",
@@ -11713,7 +11713,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/mainImpl.js",
-      "size_bytes": 1374916
+      "size_bytes": 1374911
     },
     {
       "path": "/usr/share/code/resources/app/out/media/apple-dark.svg",
@@ -11841,11 +11841,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js",
-      "size_bytes": 1542771
+      "size_bytes": 1542766
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/code/node/cliProcessMain.js",
-      "size_bytes": 786757
+      "size_bytes": 786752
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/editor/common/languages/highlights/css.scm",
@@ -12005,7 +12005,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/agentHostMain.js",
-      "size_bytes": 5269806
+      "size_bytes": 5270024
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/agentHost/node/diffWorkerMain.js",
@@ -12029,7 +12029,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/platform/terminal/node/ptyHostMain.js",
-      "size_bytes": 403113
+      "size_bytes": 403108
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/contrib/chat/browser/media/letterpress-sessions-dark.svg",
@@ -12053,7 +12053,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js",
-      "size_bytes": 23907111
+      "size_bytes": 23907106
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/sessions/skills/act-on-feedback/SKILL.md",
@@ -12113,11 +12113,11 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js",
-      "size_bytes": 2370721
+      "size_bytes": 2370716
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/api/worker/extensionHostWorkerMain.js",
-      "size_bytes": 2079153
+      "size_bytes": 2079148
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/browser/media/code-icon.svg",
@@ -12657,7 +12657,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.js",
-      "size_bytes": 233750
+      "size_bytes": 233745
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/contrib/extensions/browser/media/language-icon.svg",
@@ -12909,7 +12909,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js",
-      "size_bytes": 21976974
+      "size_bytes": 21976969
     },
     {
       "path": "/usr/share/code/resources/app/out/vscode-dts/vscode.d.ts",
@@ -12925,7 +12925,7 @@
     },
     {
       "path": "/usr/share/code/resources/app/product.json",
-      "size_bytes": 69357
+      "size_bytes": 69352
     },
     {
       "path": "/usr/share/code/resources/app/resources/linux/code.png",
@@ -12981,19 +12981,19 @@
       "name": "visual-studio-code-bin.sh"
     },
     {
-      "name": "code_1.145.1_amd64.deb",
-      "url": "https://update.code.visualstudio.com/1.145.1/linux-deb-x64/stable"
+      "name": "code_1.145.2_amd64.deb",
+      "url": "https://update.code.visualstudio.com/1.145.2/linux-deb-x64/stable"
     },
     {
-      "name": "code_1.145.1_arm64.deb",
-      "url": "https://update.code.visualstudio.com/1.145.1/linux-deb-arm64/stable"
+      "name": "code_1.145.2_arm64.deb",
+      "url": "https://update.code.visualstudio.com/1.145.2/linux-deb-arm64/stable"
     },
     {
-      "name": "code_1.145.1_armhf.deb",
-      "url": "https://update.code.visualstudio.com/1.145.1/linux-deb-armhf/stable"
+      "name": "code_1.145.2_armhf.deb",
+      "url": "https://update.code.visualstudio.com/1.145.2/linux-deb-armhf/stable"
     }
   ],
   "required_by": [],
-  "filename": "visual-studio-code-bin-1.145.0-1-x86_64.pkg.tar.zst",
-  "sha256": "055c681a8003912ead9df6fdee7c201534dcdb07a81c08dc3cdf66f0f04dd7f5"
+  "filename": "visual-studio-code-bin-1.145.2-1-x86_64.pkg.tar.zst",
+  "sha256": "ae90daed0fceef503f9b42a6297a61d171edab9afe91c59c5460c6843fd39c00"
 }
