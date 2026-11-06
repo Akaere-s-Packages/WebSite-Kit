@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.106-1",
+    "date": "2026-11-06T08:53:44Z"
+  },
+  {
     "name": "datagrip",
     "version": "2026.3-1",
     "date": "2026-11-05T16:06:22Z"
@@ -92,11 +97,6 @@
   {
     "name": "repoq",
     "version": "0.2.1-1",
-    "date": "2026-11-01T05:39:05Z"
-  },
-  {
-    "name": "python-zxing-cpp",
-    "version": "3.1.1-2",
     "date": "2026-11-01T05:39:05Z"
   }
 ]
