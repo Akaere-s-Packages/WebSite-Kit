@@ -1,5 +1,10 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "18.17.0-1",
+    "date": "2026-11-06T09:04:34Z"
+  },
+  {
     "name": "infisical",
     "version": "0.45.1-1",
     "date": "2026-11-06T09:00:19Z"
@@ -48,11 +53,6 @@
     "name": "pi",
     "version": "1.5.0-1",
     "date": "2026-11-02T21:17:47Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.16.0-1",
-    "date": "2026-11-02T21:12:56Z"
   },
   {
     "name": "zulu-21-bin",
