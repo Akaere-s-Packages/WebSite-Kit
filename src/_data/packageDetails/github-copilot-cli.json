@@ -14,9 +14,9 @@
     "LicenseRef-GitHub-Copilot"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/42190582555/job/127801385777",
-  "version": "1.0.106-1",
-  "last_updated": "2026-11-06T08:53:44Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/42324295271/job/128255946770",
+  "version": "1.0.107-1",
+  "last_updated": "2026-11-07T01:32:05Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -55,7 +55,7 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 206029379,
+  "package_size_bytes": 206111239,
   "files": [
     {
       "path": "/usr/bin/copilot -> ../lib/node_modules/@github/copilot/npm-loader.js",
@@ -135,7 +135,7 @@
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/CHANGELOG.md",
-      "size_bytes": 290459
+      "size_bytes": 372319
     },
     {
       "path": "/usr/share/doc/github-copilot-cli/README.md -> /usr/lib/node_modules/@github/copilot/README.md",
@@ -156,15 +156,15 @@
   ],
   "sources": [
     {
-      "name": "copilot-1.0.106.tgz",
-      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.106.tgz"
+      "name": "copilot-1.0.107.tgz",
+      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.107.tgz"
     },
     {
-      "name": "CHANGELOG-1.0.106.md",
-      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.106/changelog.md"
+      "name": "CHANGELOG-1.0.107.md",
+      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.107/changelog.md"
     }
   ],
   "required_by": [],
-  "filename": "github-copilot-cli-1.0.106-1-x86_64.pkg.tar.zst",
-  "sha256": "a36a72191e7537b057399b5b53393f12e267827b5a45f86c6b1a8b681746489b"
+  "filename": "github-copilot-cli-1.0.107-1-x86_64.pkg.tar.zst",
+  "sha256": "7ff003f55d3242ec73508f32081ef197964ae8890e080d7ec51669d9732f25da"
 }

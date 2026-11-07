@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.107-1",
+    "date": "2026-11-07T01:32:05Z"
+  },
+  {
     "name": "nexttrace-bin",
     "version": "1.7.6-1",
     "date": "2026-11-06T22:08:27Z"
@@ -23,11 +28,6 @@
     "name": "infisical",
     "version": "0.45.1-1",
     "date": "2026-11-06T09:00:19Z"
-  },
-  {
-    "name": "github-copilot-cli",
-    "version": "1.0.106-1",
-    "date": "2026-11-06T08:53:44Z"
   },
   {
     "name": "datagrip",
