@@ -15,12 +15,12 @@
   ],
   "sources": [
     {
-      "name": "pi-1.5.0.tar.gz",
-      "url": "https://github.com/earendil-works/pi/archive/refs/tags/v1.5.0.tar.gz"
+      "name": "pi-1.5.1.tar.gz",
+      "url": "https://github.com/earendil-works/pi/archive/refs/tags/v1.5.1.tar.gz"
     },
     {
-      "name": "pi-ai-1.5.0.tgz",
-      "url": "https://registry.npmjs.org/@earendil-works/pi-ai/-/pi-ai-1.5.0.tgz"
+      "name": "pi-ai-1.5.1.tgz",
+      "url": "https://registry.npmjs.org/@earendil-works/pi-ai/-/pi-ai-1.5.1.tgz"
     }
   ],
   "build_status": "published",
