@@ -1,5 +1,10 @@
 [
   {
+    "name": "pi",
+    "version": "1.5.1-1",
+    "date": "2026-11-10T09:09:48Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.322-1",
     "date": "2026-11-10T09:05:10Z"
@@ -63,11 +68,6 @@
     "name": "1password",
     "version": "8.12.44-33",
     "date": "2026-11-03T19:00:21Z"
-  },
-  {
-    "name": "pi",
-    "version": "1.5.0-1",
-    "date": "2026-11-02T21:17:47Z"
   },
   {
     "name": "supergfxctl",
