@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.321-1",
+    "date": "2026-11-10T01:20:20Z"
+  },
+  {
     "name": "zulu-21-bin",
     "version": "21.0.13.0.3-1",
     "date": "2026-11-09T07:36:57Z"
@@ -23,11 +28,6 @@
     "name": "nexttrace-bin",
     "version": "1.7.6-1",
     "date": "2026-11-06T22:08:27Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.319-1",
-    "date": "2026-11-06T22:04:36Z"
   },
   {
     "name": "visual-studio-code-bin",
