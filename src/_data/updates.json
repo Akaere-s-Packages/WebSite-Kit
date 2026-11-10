@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.108-1",
+    "date": "2026-11-10T01:24:13Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.321-1",
     "date": "2026-11-10T01:20:20Z"
@@ -18,11 +23,6 @@
     "name": "zulu-17-bin",
     "version": "17.0.21.0.3-1",
     "date": "2026-11-08T10:59:12Z"
-  },
-  {
-    "name": "github-copilot-cli",
-    "version": "1.0.107-1",
-    "date": "2026-11-07T01:32:05Z"
   },
   {
     "name": "nexttrace-bin",
