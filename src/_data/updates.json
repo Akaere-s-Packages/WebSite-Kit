@@ -1,5 +1,10 @@
 [
   {
+    "name": "opencode-bin",
+    "version": "1.19.6-1",
+    "date": "2026-11-17T14:08:32Z"
+  },
+  {
     "name": "1password",
     "version": "8.12.46-29",
     "date": "2026-11-17T14:04:24Z"
@@ -92,11 +97,6 @@
   {
     "name": "samsung-unified-driver",
     "version": "1.00.39-11",
-    "date": "2026-11-01T05:39:05Z"
-  },
-  {
-    "name": "rog-control-center",
-    "version": "6.4.0-1",
     "date": "2026-11-01T05:39:05Z"
   }
 ]
