@@ -6,7 +6,7 @@
   "maintainer": "Dominiquini",
   "submitter": "Dominiquini",
   "votes": 14,
-  "popularity": 0.236073,
+  "popularity": 0.204627,
   "first_submitted": "2025-10-23T17:21:06Z",
   "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
   "url": "https://github.com/github/copilot-cli",
@@ -156,12 +156,12 @@
   ],
   "sources": [
     {
-      "name": "copilot-1.0.108.tgz",
-      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.108.tgz"
+      "name": "copilot-1.0.112.tgz",
+      "url": "https://registry.npmjs.org/@github/copilot/-/copilot-1.0.112.tgz"
     },
     {
-      "name": "CHANGELOG-1.0.108.md",
-      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.108/changelog.md"
+      "name": "CHANGELOG-1.0.112.md",
+      "url": "https://raw.githubusercontent.com/github/copilot-cli/v1.0.112/changelog.md"
     }
   ],
   "required_by": [],

@@ -5,8 +5,8 @@
   "source_type": "aur",
   "maintainer": "dcelasun",
   "submitter": "dcelasun",
-  "votes": 1713,
-  "popularity": 11.975223,
+  "votes": 1714,
+  "popularity": 11.14083,
   "first_submitted": "2017-12-18T19:14:08Z",
   "description": "Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)",
   "url": "https://code.visualstudio.com/",
@@ -12981,16 +12981,16 @@
       "name": "visual-studio-code-bin.sh"
     },
     {
-      "name": "code_1.145.2_amd64.deb",
-      "url": "https://update.code.visualstudio.com/1.145.2/linux-deb-x64/stable"
+      "name": "code_1.146.0_amd64.deb",
+      "url": "https://update.code.visualstudio.com/1.146.0/linux-deb-x64/stable"
     },
     {
-      "name": "code_1.145.2_arm64.deb",
-      "url": "https://update.code.visualstudio.com/1.145.2/linux-deb-arm64/stable"
+      "name": "code_1.146.0_arm64.deb",
+      "url": "https://update.code.visualstudio.com/1.146.0/linux-deb-arm64/stable"
     },
     {
-      "name": "code_1.145.2_armhf.deb",
-      "url": "https://update.code.visualstudio.com/1.145.2/linux-deb-armhf/stable"
+      "name": "code_1.146.0_armhf.deb",
+      "url": "https://update.code.visualstudio.com/1.146.0/linux-deb-armhf/stable"
     }
   ],
   "required_by": [],

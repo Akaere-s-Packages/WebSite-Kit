@@ -5,8 +5,8 @@
   "source_type": "aur",
   "maintainer": "gromit",
   "submitter": null,
-  "votes": 2375,
-  "popularity": 8.022208,
+  "votes": 2377,
+  "popularity": 8.71891,
   "first_submitted": "2010-05-25T20:25:56Z",
   "description": "The popular web browser by Google (Stable Channel)",
   "url": "https://www.google.com/chrome",
@@ -1143,12 +1143,12 @@
       "name": "google-chrome-stable.sh"
     },
     {
-      "name": "google-chrome-stable_157.0.8103.38-1_amd64.deb",
-      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_157.0.8103.38-1_amd64.deb"
+      "name": "google-chrome-stable_157.0.8103.78-1_amd64.deb",
+      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_157.0.8103.78-1_amd64.deb"
     },
     {
-      "name": "google-chrome-stable_157.0.8103.38-1_arm64.deb",
-      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_157.0.8103.38-1_arm64.deb"
+      "name": "google-chrome-stable_157.0.8103.78-1_arm64.deb",
+      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_157.0.8103.78-1_arm64.deb"
     }
   ],
   "required_by": [],

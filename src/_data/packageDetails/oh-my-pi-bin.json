@@ -6,7 +6,7 @@
   "maintainer": "bjin",
   "submitter": "bjin",
   "votes": 10,
-  "popularity": 3.236239,
+  "popularity": 2.804982,
   "first_submitted": "2026-03-23T09:35:56Z",
   "description": "Coding agent with the IDE wired in (release binary)",
   "url": "https://omp.sh/",
@@ -110,16 +110,16 @@
   ],
   "sources": [
     {
-      "name": "LICENSE-18.18.6",
-      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.18.6/LICENSE"
+      "name": "LICENSE-18.22.0",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.22.0/LICENSE"
     },
     {
-      "name": "omp-18.18.6",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.18.6/omp-linux-x64"
+      "name": "omp-18.22.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.22.0/omp-linux-x64"
     },
     {
-      "name": "omp-18.18.6",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.18.6/omp-linux-arm64"
+      "name": "omp-18.22.0",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.22.0/omp-linux-arm64"
     }
   ],
   "required_by": [],

@@ -5,8 +5,8 @@
   "source_type": "aur",
   "maintainer": "cg505",
   "submitter": "cg505",
-  "votes": 101,
-  "popularity": 9.745708,
+  "votes": 102,
+  "popularity": 8.838409,
   "first_submitted": "2025-02-24T19:35:58Z",
   "description": "An agentic coding tool that lives in your terminal",
   "url": "https://github.com/anthropics/claude-code",
@@ -88,12 +88,12 @@
       "url": "https://code.claude.com/docs/en/legal-and-compliance.md"
     },
     {
-      "name": "claude-2.1.322-x86_64",
-      "url": "https://downloads.claude.ai/claude-code-releases/2.1.322/linux-x64/claude"
+      "name": "claude-2.1.326-x86_64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.326/linux-x64/claude"
     },
     {
-      "name": "claude-2.1.322-aarch64",
-      "url": "https://downloads.claude.ai/claude-code-releases/2.1.322/linux-arm64/claude"
+      "name": "claude-2.1.326-aarch64",
+      "url": "https://downloads.claude.ai/claude-code-releases/2.1.326/linux-arm64/claude"
     }
   ],
   "required_by": [],
