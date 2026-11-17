@@ -5,16 +5,16 @@
   "source_type": "aur",
   "maintainer": "bjin",
   "submitter": "bjin",
-  "votes": 10,
-  "popularity": 2.804982,
+  "votes": 11,
+  "popularity": 3.741306,
   "first_submitted": "2026-03-23T09:35:56Z",
   "description": "Coding agent with the IDE wired in (release binary)",
   "url": "https://omp.sh/",
   "licenses": [
     "MIT"
   ],
-  "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/42735664520/job/129564224853",
+  "build_status": "build_failed",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/44186605033/job/134404805951",
   "version": "18.18.6-1",
   "last_updated": "2026-11-10T01:28:39Z",
   "packager": "Lilithya <me@lilithya.su>",
@@ -110,19 +110,19 @@
   ],
   "sources": [
     {
-      "name": "LICENSE-18.22.0",
-      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.22.0/LICENSE"
+      "name": "LICENSE-18.22.1",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.22.1/LICENSE"
     },
     {
-      "name": "omp-18.22.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.22.0/omp-linux-x64"
+      "name": "omp-18.22.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.22.1/omp-linux-x64"
     },
     {
-      "name": "omp-18.22.0",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.22.0/omp-linux-arm64"
+      "name": "omp-18.22.1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.22.1/omp-linux-arm64"
     }
   ],
   "required_by": [],
-  "filename": "oh-my-pi-bin-18.18.6-1-x86_64.pkg.tar.zst",
-  "sha256": "ebed1f01db310ad4fa4ba514425f7630715560191f0bba34c6f14ca8c0f6b330"
+  "filename": null,
+  "sha256": null
 }

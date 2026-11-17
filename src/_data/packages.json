@@ -152,7 +152,7 @@
     "description": "Coding agent with the IDE wired in (release binary)",
     "maintainer": "bjin",
     "last_updated": "2026-11-10T01:28:39Z",
-    "build_status": "published",
+    "build_status": "build_failed",
     "detail_url": "/packages/oh-my-pi-bin/"
   },
   {
