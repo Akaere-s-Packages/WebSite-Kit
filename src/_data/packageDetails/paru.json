@@ -14,9 +14,9 @@
     "GPL-3.0-or-later"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717872",
-  "version": "2.2.0-1",
-  "last_updated": "2026-11-01T05:39:05Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/44306571481/job/134809656567",
+  "version": "2.2.1-1",
+  "last_updated": "2026-11-18T12:50:09Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -31,6 +31,16 @@
     },
     {
       "name": "libalpm.so",
+      "type": "depends",
+      "repo": "aur"
+    },
+    {
+      "name": "libssl.so",
+      "type": "depends",
+      "repo": "aur"
+    },
+    {
+      "name": "libcrypto.so",
       "type": "depends",
       "repo": "aur"
     },
@@ -52,7 +62,7 @@
       "repo": "aur"
     }
   ],
-  "package_size_bytes": 8519021,
+  "package_size_bytes": 8630926,
   "files": [
     {
       "path": "/etc/paru.conf",
@@ -60,7 +70,7 @@
     },
     {
       "path": "/usr/bin/paru",
-      "size_bytes": 7903520
+      "size_bytes": 7982264
     },
     {
       "path": "/usr/share/bash-completion/completions/paru.bash",
@@ -72,11 +82,11 @@
     },
     {
       "path": "/usr/share/locale/ca/LC_MESSAGES/paru.mo",
-      "size_bytes": 26034
+      "size_bytes": 27423
     },
     {
       "path": "/usr/share/locale/cs/LC_MESSAGES/paru.mo",
-      "size_bytes": 26850
+      "size_bytes": 26851
     },
     {
       "path": "/usr/share/locale/de/LC_MESSAGES/paru.mo",
@@ -84,7 +94,7 @@
     },
     {
       "path": "/usr/share/locale/es/LC_MESSAGES/paru.mo",
-      "size_bytes": 26938
+      "size_bytes": 26939
     },
     {
       "path": "/usr/share/locale/fi/LC_MESSAGES/paru.mo",
@@ -92,7 +102,7 @@
     },
     {
       "path": "/usr/share/locale/fr/LC_MESSAGES/paru.mo",
-      "size_bytes": 28003
+      "size_bytes": 28004
     },
     {
       "path": "/usr/share/locale/hi/LC_MESSAGES/paru.mo",
@@ -104,7 +114,7 @@
     },
     {
       "path": "/usr/share/locale/hu/LC_MESSAGES/paru.mo",
-      "size_bytes": 29755
+      "size_bytes": 29756
     },
     {
       "path": "/usr/share/locale/it/LC_MESSAGES/paru.mo",
@@ -116,7 +126,7 @@
     },
     {
       "path": "/usr/share/locale/ko/LC_MESSAGES/paru.mo",
-      "size_bytes": 27610
+      "size_bytes": 27611
     },
     {
       "path": "/usr/share/locale/nl/LC_MESSAGES/paru.mo",
@@ -124,15 +134,15 @@
     },
     {
       "path": "/usr/share/locale/pl/LC_MESSAGES/paru.mo",
-      "size_bytes": 27788
+      "size_bytes": 27789
     },
     {
       "path": "/usr/share/locale/pt/LC_MESSAGES/paru.mo",
-      "size_bytes": 26945
+      "size_bytes": 26946
     },
     {
       "path": "/usr/share/locale/pt_BR/LC_MESSAGES/paru.mo",
-      "size_bytes": 27564
+      "size_bytes": 27565
     },
     {
       "path": "/usr/share/locale/ro/LC_MESSAGES/paru.mo",
@@ -144,11 +154,11 @@
     },
     {
       "path": "/usr/share/locale/sk/LC_MESSAGES/paru.mo",
-      "size_bytes": 26930
+      "size_bytes": 26931
     },
     {
       "path": "/usr/share/locale/sv/LC_MESSAGES/paru.mo",
-      "size_bytes": 27179
+      "size_bytes": 27180
     },
     {
       "path": "/usr/share/locale/tr/LC_MESSAGES/paru.mo",
@@ -156,19 +166,23 @@
     },
     {
       "path": "/usr/share/locale/uk/LC_MESSAGES/paru.mo",
-      "size_bytes": 34000
+      "size_bytes": 34001
     },
     {
       "path": "/usr/share/locale/zh_CN/LC_MESSAGES/paru.mo",
-      "size_bytes": 25432
+      "size_bytes": 27629
+    },
+    {
+      "path": "/usr/share/locale/zh_HK/LC_MESSAGES/paru.mo",
+      "size_bytes": 27402
     },
     {
       "path": "/usr/share/locale/zh_TW/LC_MESSAGES/paru.mo",
-      "size_bytes": 25311
+      "size_bytes": 27472
     },
     {
       "path": "/usr/share/man/man5/paru.conf.5.gz",
-      "size_bytes": 5725
+      "size_bytes": 5726
     },
     {
       "path": "/usr/share/man/man8/paru.8.gz",
@@ -186,6 +200,6 @@
     }
   ],
   "required_by": [],
-  "filename": "paru-2.2.0-1-x86_64.pkg.tar.zst",
-  "sha256": "6c2733f8dc52e24ecbfc74f5d8ed3d955c68483605475afd2ab53d36d9e7e645"
+  "filename": "paru-2.2.1-1-x86_64.pkg.tar.zst",
+  "sha256": "015f243499dc99256c1eb74e463199ed0ebbfdb0b709a7b88445c7ac35e8b42e"
 }
