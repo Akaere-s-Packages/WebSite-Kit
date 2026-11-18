@@ -1,5 +1,10 @@
 [
   {
+    "name": "visual-studio-code-bin",
+    "version": "1.147.0-1",
+    "date": "2026-11-18T21:12:13Z"
+  },
+  {
     "name": "google-chrome",
     "version": "158.0.8127.36-1",
     "date": "2026-11-18T21:06:45Z"
@@ -53,11 +58,6 @@
     "name": "nexttrace-bin",
     "version": "1.7.6-1",
     "date": "2026-11-06T22:08:27Z"
-  },
-  {
-    "name": "visual-studio-code-bin",
-    "version": "1.145.2-1",
-    "date": "2026-11-06T22:00:32Z"
   },
   {
     "name": "infisical",
