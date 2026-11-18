@@ -1,5 +1,10 @@
 [
   {
+    "name": "github-copilot-cli",
+    "version": "1.0.114-1",
+    "date": "2026-11-18T12:54:00Z"
+  },
+  {
     "name": "paru",
     "version": "2.2.1-1",
     "date": "2026-11-18T12:50:09Z"
@@ -8,11 +13,6 @@
     "name": "oh-my-pi-bin",
     "version": "18.22.2-1",
     "date": "2026-11-18T12:41:58Z"
-  },
-  {
-    "name": "github-copilot-cli",
-    "version": "1.0.113-1",
-    "date": "2026-11-18T04:10:49Z"
   },
   {
     "name": "claude-code",

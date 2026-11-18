@@ -52,10 +52,10 @@
     "pkgbase": "github-copilot-cli",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "1.0.113-1",
+    "version": "1.0.114-1",
     "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
     "maintainer": "Dominiquini",
-    "last_updated": "2026-11-18T04:10:49Z",
+    "last_updated": "2026-11-18T12:54:00Z",
     "build_status": "published",
     "detail_url": "/packages/github-copilot-cli/"
   },
