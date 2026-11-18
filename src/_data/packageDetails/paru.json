@@ -181,8 +181,8 @@
   ],
   "sources": [
     {
-      "name": "paru-2.2.0.tar.gz",
-      "url": "https://github.com/Morganamilo/paru/archive/v2.2.0.tar.gz"
+      "name": "paru-2.2.1.tar.gz",
+      "url": "https://github.com/Morganamilo/paru/archive/v2.2.1.tar.gz"
     }
   ],
   "required_by": [],
