@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.328-1",
+    "date": "2026-11-19T02:27:51Z"
+  },
+  {
     "name": "visual-studio-code-bin",
     "version": "1.147.0-1",
     "date": "2026-11-18T21:12:13Z"
@@ -23,11 +28,6 @@
     "name": "oh-my-pi-bin",
     "version": "18.22.2-1",
     "date": "2026-11-18T12:41:58Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.327-1",
-    "date": "2026-11-18T04:06:42Z"
   },
   {
     "name": "opencode-bin",
