@@ -1,5 +1,10 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "19.0.0-1",
+    "date": "2026-11-19T02:32:21Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.328-1",
     "date": "2026-11-19T02:27:51Z"
@@ -23,11 +28,6 @@
     "name": "paru",
     "version": "2.2.1-1",
     "date": "2026-11-18T12:50:09Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "18.22.2-1",
-    "date": "2026-11-18T12:41:58Z"
   },
   {
     "name": "opencode-bin",
