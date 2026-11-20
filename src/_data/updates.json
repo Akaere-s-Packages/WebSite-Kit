@@ -1,13 +1,13 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "19.0.1-1",
+    "date": "2026-11-20T01:43:08Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.329-1",
     "date": "2026-11-20T01:38:33Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "19.0.0-1",
-    "date": "2026-11-19T02:32:21Z"
   },
   {
     "name": "visual-studio-code-bin",
