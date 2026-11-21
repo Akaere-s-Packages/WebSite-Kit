@@ -14,9 +14,9 @@
     "MIT"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/44655229776/job/136019766063",
-  "version": "19.0.1-1",
-  "last_updated": "2026-11-20T01:43:08Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/44921215950/job/136897505923",
+  "version": "19.1.0-1",
+  "last_updated": "2026-11-21T15:52:55Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -85,19 +85,19 @@
       "description": "compositor-specific backend for Wayland computer tool input"
     }
   ],
-  "package_size_bytes": 296607003,
+  "package_size_bytes": 304221225,
   "files": [
     {
       "path": "/usr/bin/omp",
-      "size_bytes": 296482992
+      "size_bytes": 304097456
     },
     {
       "path": "/usr/share/bash-completion/completions/omp",
-      "size_bytes": 30785
+      "size_bytes": 30747
     },
     {
       "path": "/usr/share/fish/vendor_completions.d/omp.fish",
-      "size_bytes": 53167
+      "size_bytes": 53036
     },
     {
       "path": "/usr/share/licenses/oh-my-pi-bin/LICENSE",
@@ -105,24 +105,24 @@
     },
     {
       "path": "/usr/share/zsh/site-functions/_omp",
-      "size_bytes": 38915
+      "size_bytes": 38842
     }
   ],
   "sources": [
     {
-      "name": "LICENSE-19.0.1-1",
-      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v19.0.1/LICENSE"
+      "name": "LICENSE-19.1.0-1",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v19.1.0/LICENSE"
     },
     {
-      "name": "omp-19.0.1-1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v19.0.1/omp-linux-x64"
+      "name": "omp-19.1.0-1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v19.1.0/omp-linux-x64"
     },
     {
-      "name": "omp-19.0.1-1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v19.0.1/omp-linux-arm64"
+      "name": "omp-19.1.0-1",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v19.1.0/omp-linux-arm64"
     }
   ],
   "required_by": [],
-  "filename": "oh-my-pi-bin-19.0.1-1-x86_64.pkg.tar.zst",
-  "sha256": "3fa0963b560d6e327d0e2dd4b4b115810ea4ae7f7a94f212c45a1fa861817718"
+  "filename": "oh-my-pi-bin-19.1.0-1-x86_64.pkg.tar.zst",
+  "sha256": "b5af80cc013fa197f6c3e0653e897464df03e4479211d130a2efb24451cf02e9"
 }
