@@ -1,5 +1,10 @@
 [
   {
+    "name": "netbird-bin",
+    "version": "0.83.2-1",
+    "date": "2026-11-21T07:56:32Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.330-1",
     "date": "2026-11-21T00:35:50Z"
@@ -91,11 +96,6 @@
   },
   {
     "name": "samsung-unified-driver-printer",
-    "version": "1.00.39-11",
-    "date": "2026-11-01T05:39:05Z"
-  },
-  {
-    "name": "samsung-unified-driver-common",
     "version": "1.00.39-11",
     "date": "2026-11-01T05:39:05Z"
   }
