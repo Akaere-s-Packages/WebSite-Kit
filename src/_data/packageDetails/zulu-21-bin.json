@@ -14,9 +14,9 @@
     "custom"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/42580112858/job/129036624638",
-  "version": "21.0.13.0.3-1",
-  "last_updated": "2026-11-09T07:36:57Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/45106712133/job/137469633857",
+  "version": "21.0.13.1-1",
+  "last_updated": "2026-11-23T03:37:56Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -35,7 +35,7 @@
       "repo": "core"
     }
   ],
-  "package_size_bytes": 361117830,
+  "package_size_bytes": 361157982,
   "files": [
     {
       "path": "/etc/zulu-21/jaxp.properties",
@@ -71,7 +71,7 @@
     },
     {
       "path": "/etc/zulu-21/security/java.security",
-      "size_bytes": 72023
+      "size_bytes": 73677
     },
     {
       "path": "/etc/zulu-21/security/policy/README.txt",
@@ -235,7 +235,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/CodePointIM/CodePointIM.jar",
-      "size_bytes": 16735
+      "size_bytes": 16732
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/CodePointIM/README.html",
@@ -255,7 +255,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/FileChooserDemo/FileChooserDemo.jar",
-      "size_bytes": 22242
+      "size_bytes": 22239
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/FileChooserDemo/README.txt",
@@ -279,7 +279,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/J2Ddemo/J2Ddemo.jar",
-      "size_bytes": 955060
+      "size_bytes": 955061
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/J2Ddemo/README.txt",
@@ -291,7 +291,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/Metalworks/Metalworks.jar",
-      "size_bytes": 48939
+      "size_bytes": 48937
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/Metalworks/README.txt",
@@ -303,7 +303,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/Notepad/Notepad.jar",
-      "size_bytes": 46037
+      "size_bytes": 46038
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/Notepad/README.txt",
@@ -331,7 +331,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/Stylepad/Stylepad.jar",
-      "size_bytes": 122725
+      "size_bytes": 122724
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/Stylepad/src.zip",
@@ -343,7 +343,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/SwingSet2/SwingSet2.jar",
-      "size_bytes": 1661673
+      "size_bytes": 1661670
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/SwingSet2/src.zip",
@@ -355,7 +355,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/TableExample/TableExample.jar",
-      "size_bytes": 30835
+      "size_bytes": 30831
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/TableExample/src.zip",
@@ -367,7 +367,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/TransparentRuler/TransparentRuler.jar",
-      "size_bytes": 8619
+      "size_bytes": 8617
     },
     {
       "path": "/usr/lib/jvm/zulu-21/demo/jfc/TransparentRuler/src.zip",
@@ -583,11 +583,11 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.base.jmod",
-      "size_bytes": 24572067
+      "size_bytes": 24577174
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.compiler.jmod",
-      "size_bytes": 132037
+      "size_bytes": 132036
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.datatransfer.jmod",
@@ -595,27 +595,27 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.desktop.jmod",
-      "size_bytes": 14147452
+      "size_bytes": 14154220
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.instrument.jmod",
-      "size_bytes": 50956
+      "size_bytes": 50957
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.logging.jmod",
-      "size_bytes": 129984
+      "size_bytes": 129985
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.management.jmod",
-      "size_bytes": 900362
+      "size_bytes": 900364
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.management.rmi.jmod",
-      "size_bytes": 98813
+      "size_bytes": 100872
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.naming.jmod",
-      "size_bytes": 487143
+      "size_bytes": 487144
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.net.http.jmod",
@@ -623,15 +623,15 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.prefs.jmod",
-      "size_bytes": 70345
+      "size_bytes": 70348
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.rmi.jmod",
-      "size_bytes": 273711
+      "size_bytes": 273716
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.scripting.jmod",
-      "size_bytes": 48264
+      "size_bytes": 48262
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.se.jmod",
@@ -639,11 +639,11 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.security.jgss.jmod",
-      "size_bytes": 598223
+      "size_bytes": 599983
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.security.sasl.jmod",
-      "size_bytes": 89517
+      "size_bytes": 89516
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.smartcardio.jmod",
@@ -651,7 +651,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.sql.jmod",
-      "size_bytes": 83902
+      "size_bytes": 83900
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.sql.rowset.jmod",
@@ -663,31 +663,31 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.xml.crypto.jmod",
-      "size_bytes": 707634
+      "size_bytes": 707633
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/java.xml.jmod",
-      "size_bytes": 5242828
+      "size_bytes": 5242829
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.accessibility.jmod",
-      "size_bytes": 57680
+      "size_bytes": 57681
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.attach.jmod",
-      "size_bytes": 40692
+      "size_bytes": 40693
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.charsets.jmod",
-      "size_bytes": 1248676
+      "size_bytes": 1248673
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.compiler.jmod",
-      "size_bytes": 10902535
+      "size_bytes": 10902530
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.crypto.cryptoki.jmod",
-      "size_bytes": 423067
+      "size_bytes": 423068
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.crypto.ec.jmod",
@@ -695,7 +695,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.dynalink.jmod",
-      "size_bytes": 163991
+      "size_bytes": 163992
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.editpad.jmod",
@@ -703,7 +703,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.hotspot.agent.jmod",
-      "size_bytes": 2314182
+      "size_bytes": 2314183
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.httpserver.jmod",
@@ -711,7 +711,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.incubator.vector.jmod",
-      "size_bytes": 1167791
+      "size_bytes": 1167203
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.internal.ed.jmod",
@@ -727,43 +727,43 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.internal.opt.jmod",
-      "size_bytes": 95612
+      "size_bytes": 95613
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.internal.vm.ci.jmod",
-      "size_bytes": 501978
+      "size_bytes": 501979
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.internal.vm.compiler.jmod",
-      "size_bytes": 9657
+      "size_bytes": 9655
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.internal.vm.compiler.management.jmod",
-      "size_bytes": 9662
+      "size_bytes": 9665
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jartool.jmod",
-      "size_bytes": 283608
+      "size_bytes": 283607
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.javadoc.jmod",
-      "size_bytes": 1584632
+      "size_bytes": 1584634
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jcmd.jmod",
-      "size_bytes": 140820
+      "size_bytes": 140809
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jconsole.jmod",
-      "size_bytes": 485004
+      "size_bytes": 485007
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jdeps.jmod",
-      "size_bytes": 761297
+      "size_bytes": 761290
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jdi.jmod",
-      "size_bytes": 877277
+      "size_bytes": 877276
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jdwp.agent.jmod",
@@ -771,31 +771,31 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jfr.jmod",
-      "size_bytes": 881471
+      "size_bytes": 881526
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jlink.jmod",
-      "size_bytes": 456890
+      "size_bytes": 456884
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jpackage.jmod",
-      "size_bytes": 772672
+      "size_bytes": 772667
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jshell.jmod",
-      "size_bytes": 770939
+      "size_bytes": 770940
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jsobject.jmod",
-      "size_bytes": 10755
+      "size_bytes": 10753
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.jstatd.jmod",
-      "size_bytes": 37978
+      "size_bytes": 37984
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.localedata.jmod",
-      "size_bytes": 11953748
+      "size_bytes": 11953752
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.management.agent.jmod",
@@ -807,7 +807,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.management.jmod",
-      "size_bytes": 80689
+      "size_bytes": 80690
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.naming.dns.jmod",
@@ -819,19 +819,19 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.net.jmod",
-      "size_bytes": 32441
+      "size_bytes": 32440
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.nio.mapmode.jmod",
-      "size_bytes": 10223
+      "size_bytes": 10221
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.random.jmod",
-      "size_bytes": 29476
+      "size_bytes": 29477
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.sctp.jmod",
-      "size_bytes": 93478
+      "size_bytes": 93476
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.security.auth.jmod",
@@ -839,15 +839,15 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.security.jgss.jmod",
-      "size_bytes": 32879
+      "size_bytes": 32881
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.unsupported.desktop.jmod",
-      "size_bytes": 21753
+      "size_bytes": 21752
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.unsupported.jmod",
-      "size_bytes": 25232
+      "size_bytes": 25230
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.xml.dom.jmod",
@@ -855,7 +855,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/jmods/jdk.zipfs.jmod",
-      "size_bytes": 113071
+      "size_bytes": 113074
     },
     {
       "path": "/usr/lib/jvm/zulu-21/legal -> /usr/share/licenses/zulu-21",
@@ -883,7 +883,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/lib/jrt-fs.jar",
-      "size_bytes": 110128
+      "size_bytes": 110125
     },
     {
       "path": "/usr/lib/jvm/zulu-21/lib/jspawnhelper",
@@ -923,7 +923,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/lib/libfreetype.so",
-      "size_bytes": 678344
+      "size_bytes": 690632
     },
     {
       "path": "/usr/lib/jvm/zulu-21/lib/libinstrument.so",
@@ -1047,7 +1047,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/lib/modules",
-      "size_bytes": 142594848
+      "size_bytes": 142602858
     },
     {
       "path": "/usr/lib/jvm/zulu-21/lib/psfont.properties.ja",
@@ -1091,11 +1091,11 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/lib/src.zip",
-      "size_bytes": 53775697
+      "size_bytes": 53778621
     },
     {
       "path": "/usr/lib/jvm/zulu-21/lib/tzdb.dat",
-      "size_bytes": 103876
+      "size_bytes": 103988
     },
     {
       "path": "/usr/lib/jvm/zulu-21/man -> /usr/share/man",
@@ -1107,7 +1107,7 @@
     },
     {
       "path": "/usr/lib/jvm/zulu-21/release",
-      "size_bytes": 1272
+      "size_bytes": 1268
     },
     {
       "path": "/usr/share/licenses/zulu-21/java.base/ADDITIONAL_LICENSE_INFO",
@@ -1219,7 +1219,7 @@
     },
     {
       "path": "/usr/share/licenses/zulu-21/java.desktop/libpng.md",
-      "size_bytes": 7519
+      "size_bytes": 7556
     },
     {
       "path": "/usr/share/licenses/zulu-21/java.desktop/mesa3d.md",
@@ -2192,15 +2192,15 @@
   ],
   "sources": [
     {
-      "name": "zulu21.54.109-ca-jdk21.0.13.0.3-linux_aarch64.tar.gz",
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-linux_aarch64.tar.gz"
+      "name": "zulu21.54.201-ca-jdk21.0.13.1-linux_aarch64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jdk21.0.13.1-linux_aarch64.tar.gz"
     },
     {
-      "name": "zulu21.54.109-ca-jdk21.0.13.0.3-linux_x64.tar.gz",
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-linux_x64.tar.gz"
+      "name": "zulu21.54.201-ca-jdk21.0.13.1-linux_x64.tar.gz",
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jdk21.0.13.1-linux_x64.tar.gz"
     }
   ],
   "required_by": [],
-  "filename": "zulu-21-bin-21.0.13.0.3-1-x86_64.pkg.tar.zst",
-  "sha256": "d74d275b5312195248a5aa828cf4c8110805243b30c3cb98bd64c456243c0f42"
+  "filename": "zulu-21-bin-21.0.13.1-1-x86_64.pkg.tar.zst",
+  "sha256": "c98e60c89edfabaec0de541f1a0bf4787e2cd2d3e8cdea6537663c3b2a02d4f1"
 }

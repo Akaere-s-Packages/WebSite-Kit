@@ -352,10 +352,10 @@
     "pkgbase": "zulu-21-bin",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "21.0.13.0.3-1",
+    "version": "21.0.13.1-1",
     "description": "Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK.",
     "maintainer": "xiaoranya",
-    "last_updated": "2026-11-09T07:36:57Z",
+    "last_updated": "2026-11-23T03:37:56Z",
     "build_status": "published",
     "detail_url": "/packages/zulu-21-bin/"
   }
