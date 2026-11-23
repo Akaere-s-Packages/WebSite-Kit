@@ -1,13 +1,13 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "19.1.1-1",
+    "date": "2026-11-23T13:58:09Z"
+  },
+  {
     "name": "zulu-21-bin",
     "version": "21.0.13.1-1",
     "date": "2026-11-23T03:37:56Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "19.1.0-1",
-    "date": "2026-11-21T15:52:55Z"
   },
   {
     "name": "netbird-bin",
