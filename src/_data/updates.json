@@ -1,5 +1,10 @@
 [
   {
+    "name": "python-zxing-cpp",
+    "version": "3.2.0-1",
+    "date": "2026-11-24T21:57:59Z"
+  },
+  {
     "name": "datagrip",
     "version": "2026.3.0.1-1",
     "date": "2026-11-24T21:53:32Z"
@@ -91,11 +96,6 @@
   },
   {
     "name": "samsung-unified-driver-scanner",
-    "version": "1.00.39-11",
-    "date": "2026-11-01T05:39:05Z"
-  },
-  {
-    "name": "samsung-unified-driver-printer",
     "version": "1.00.39-11",
     "date": "2026-11-01T05:39:05Z"
   }

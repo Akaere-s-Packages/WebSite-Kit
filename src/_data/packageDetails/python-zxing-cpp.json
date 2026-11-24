@@ -14,9 +14,9 @@
     "Apache-2.0"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/41275821220/job/124757717959",
-  "version": "3.1.1-2",
-  "last_updated": "2026-11-01T05:39:05Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/45495722399/job/138805660007",
+  "version": "3.2.0-1",
+  "last_updated": "2026-11-24T21:57:59Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -60,18 +60,18 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 1644501,
+  "package_size_bytes": 1674271,
   "files": [
     {
-      "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/METADATA",
-      "size_bytes": 2322
+      "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.2.0.dist-info/METADATA",
+      "size_bytes": 2984
     },
     {
-      "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/RECORD",
+      "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.2.0.dist-info/RECORD",
       "size_bytes": 525
     },
     {
-      "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.1.1.dist-info/WHEEL",
+      "path": "/usr/lib/python3.14/site-packages/zxing_cpp-3.2.0.dist-info/WHEEL",
       "size_bytes": 108
     },
     {
@@ -92,11 +92,11 @@
     },
     {
       "path": "/usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.abi3.so",
-      "size_bytes": 1620864
+      "size_bytes": 1649536
     },
     {
       "path": "/usr/lib/python3.14/site-packages/zxingcpp/zxingcpp.pyi",
-      "size_bytes": 20122
+      "size_bytes": 20558
     }
   ],
   "sources": [
@@ -110,6 +110,6 @@
       "name": "yubico-authenticator"
     }
   ],
-  "filename": "python-zxing-cpp-3.1.1-2-x86_64.pkg.tar.zst",
-  "sha256": "d761c4226c34f433c696ee7305d4969458d8e4df2e28236deca96e455ca58db7"
+  "filename": "python-zxing-cpp-3.2.0-1-x86_64.pkg.tar.zst",
+  "sha256": "64438408f950489ae63e47edaed0fea2ddb68d294a502fc044396cd907739070"
 }
