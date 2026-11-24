@@ -14,9 +14,9 @@
     "custom:chrome"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/44397372996/job/135130894411",
-  "version": "158.0.8127.36-1",
-  "last_updated": "2026-11-18T21:06:45Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/45305464381/job/138148210181",
+  "version": "158.0.8127.88-1",
+  "last_updated": "2026-11-24T01:33:52Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -84,7 +84,7 @@
       "description": "for storing passwords in KWallet"
     }
   ],
-  "package_size_bytes": 480622277,
+  "package_size_bytes": 480630603,
   "files": [
     {
       "path": "/opt/google/chrome/CHROME_VERSION_EXTRA",
@@ -116,7 +116,7 @@
     },
     {
       "path": "/opt/google/chrome/chrome",
-      "size_bytes": 309615944
+      "size_bytes": 309624136
     },
     {
       "path": "/opt/google/chrome/chrome-management-service",
@@ -128,11 +128,11 @@
     },
     {
       "path": "/opt/google/chrome/chrome_100_percent.pak",
-      "size_bytes": 1032417
+      "size_bytes": 1032418
     },
     {
       "path": "/opt/google/chrome/chrome_200_percent.pak",
-      "size_bytes": 1797058
+      "size_bytes": 1797059
     },
     {
       "path": "/opt/google/chrome/chrome_crashpad_handler",
@@ -1056,7 +1056,7 @@
     },
     {
       "path": "/opt/google/chrome/resources.pak",
-      "size_bytes": 27903075
+      "size_bytes": 27903208
     },
     {
       "path": "/opt/google/chrome/v8_context_snapshot.bin",
@@ -1084,7 +1084,7 @@
     },
     {
       "path": "/usr/share/doc/google-chrome-stable/changelog.gz",
-      "size_bytes": 234
+      "size_bytes": 233
     },
     {
       "path": "/usr/share/gnome-control-center/default-apps/google-chrome.xml",
@@ -1152,6 +1152,6 @@
     }
   ],
   "required_by": [],
-  "filename": "google-chrome-158.0.8127.36-1-x86_64.pkg.tar.zst",
-  "sha256": "67fdd718ff1c18e4e0eba0b5c61b8c6ab962abd5cff892eb6d286c0d5074e523"
+  "filename": "google-chrome-158.0.8127.88-1-x86_64.pkg.tar.zst",
+  "sha256": "a516d637ab7e52d72293c831be107a4258a35cc7931b34dcee5576b48e94dd2d"
 }

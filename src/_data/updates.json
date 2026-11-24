@@ -1,5 +1,10 @@
 [
   {
+    "name": "google-chrome",
+    "version": "158.0.8127.88-1",
+    "date": "2026-11-24T01:33:52Z"
+  },
+  {
     "name": "claude-code",
     "version": "2.1.331-1",
     "date": "2026-11-24T01:29:07Z"
@@ -28,11 +33,6 @@
     "name": "visual-studio-code-bin",
     "version": "1.147.0-1",
     "date": "2026-11-18T21:12:13Z"
-  },
-  {
-    "name": "google-chrome",
-    "version": "158.0.8127.36-1",
-    "date": "2026-11-18T21:06:45Z"
   },
   {
     "name": "github-copilot-cli",
