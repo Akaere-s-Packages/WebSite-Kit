@@ -101,8 +101,8 @@
   ],
   "sources": [
     {
-      "name": "zxing-cpp-3.1.1.tar.gz",
-      "url": "https://github.com/zxing-cpp/zxing-cpp/releases/download/v3.1.1/zxing-cpp-3.1.1.tar.gz"
+      "name": "zxing-cpp-3.2.0.tar.gz",
+      "url": "https://github.com/zxing-cpp/zxing-cpp/releases/download/v3.2.0/zxing-cpp-3.2.0.tar.gz"
     }
   ],
   "required_by": [

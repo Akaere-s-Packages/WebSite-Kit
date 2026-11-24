@@ -15,8 +15,8 @@
   ],
   "sources": [
     {
-      "name": "datagrip-2026.3.tar.gz",
-      "url": "https://download.jetbrains.com/datagrip/datagrip-2026.3.tar.gz"
+      "name": "datagrip-2026.3.0.1.tar.gz",
+      "url": "https://download.jetbrains.com/datagrip/datagrip-2026.3.0.1.tar.gz"
     },
     {
       "name": "jetbrains-datagrip.desktop"
@@ -26,9 +26,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/42060579104/job/127360928150",
-  "version": "2026.3-1",
-  "last_updated": "2026-11-05T16:06:22Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/45494437888/job/138801149192",
+  "version": "2026.3.0.1-1",
+  "last_updated": "2026-11-24T21:53:32Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -49,7 +49,7 @@
       "description": "JRE - Required if datagrip-jre is not installed"
     }
   ],
-  "package_size_bytes": 3218476403,
+  "package_size_bytes": 3265634118,
   "files": [
     {
       "path": "/opt/datagrip/Install-Linux-tar.txt",
@@ -57,7 +57,7 @@
     },
     {
       "path": "/opt/datagrip/bin/brokenPlugins.db",
-      "size_bytes": 235765
+      "size_bytes": 235996
     },
     {
       "path": "/opt/datagrip/bin/datagrip",
@@ -69,7 +69,7 @@
     },
     {
       "path": "/opt/datagrip/bin/datagrip.sh",
-      "size_bytes": 27040
+      "size_bytes": 27065
     },
     {
       "path": "/opt/datagrip/bin/datagrip.svg",
@@ -97,7 +97,7 @@
     },
     {
       "path": "/opt/datagrip/bin/jetbrains_client.sh",
-      "size_bytes": 9565
+      "size_bytes": 9590
     },
     {
       "path": "/opt/datagrip/bin/jetbrains_client64.vmoptions",
@@ -124,7 +124,7 @@
       "size_bytes": 15
     },
     {
-      "path": "/opt/datagrip/lib/build-marker-DB-263.7307.216",
+      "path": "/opt/datagrip/lib/build-marker-DB-263.7307.336",
       "size_bytes": 15
     },
     {
@@ -257,7 +257,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.datagrip.jar",
-      "size_bytes": 12711304
+      "size_bytes": 12711308
     },
     {
       "path": "/opt/datagrip/lib/intellij.emojipicker.jar",
@@ -933,7 +933,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.commercial.jar",
-      "size_bytes": 692761
+      "size_bytes": 694493
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.commercial.updateChecker.jar",
@@ -1005,7 +1005,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.cs.jar",
-      "size_bytes": 5568299
+      "size_bytes": 5569029
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.dap.jar",
@@ -1209,7 +1209,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.graph.impl.jar",
-      "size_bytes": 4670141
+      "size_bytes": 4670832
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.graph.jar",
@@ -1465,7 +1465,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.lang.impl.jar",
-      "size_bytes": 53591583
+      "size_bytes": 53592276
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.lang.jar",
@@ -1861,7 +1861,7 @@
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.vfs.impl.jar",
-      "size_bytes": 2581030
+      "size_bytes": 2581198
     },
     {
       "path": "/opt/datagrip/lib/intellij.platform.warmup.jar",
@@ -1993,7 +1993,7 @@
     },
     {
       "path": "/opt/datagrip/lib/product-backend.jar",
-      "size_bytes": 9590201
+      "size_bytes": 9591357
     },
     {
       "path": "/opt/datagrip/lib/trove.jar",
@@ -2045,15 +2045,15 @@
     },
     {
       "path": "/opt/datagrip/modules/module-descriptors.dat",
-      "size_bytes": 295250
+      "size_bytes": 299605
     },
     {
       "path": "/opt/datagrip/modules/module-descriptors.jar",
-      "size_bytes": 763313
+      "size_bytes": 774729
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/database-plugin.jar",
-      "size_bytes": 5475548
+      "size_bytes": 5475590
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/intellij.libraries.ktor.server.content.negotiation.jar",
@@ -2069,7 +2069,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.air.database.jar",
-      "size_bytes": 325217
+      "size_bytes": 325202
     },
     {
       "path": "/opt/datagrip/plugins/DatabaseTools/lib/modules/intellij.air.database.welcome.jar",
@@ -2568,20 +2568,40 @@
       "size_bytes": 6354
     },
     {
+      "path": "/opt/datagrip/plugins/air-plugin/air-session/linux-x86_64/air-session",
+      "size_bytes": 5396416
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/air-session/linux-x86_64/air-session.digest",
+      "size_bytes": 16
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/air-session/linux-x86_64/libair_ide.so",
+      "size_bytes": 5387296
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/air-session/linux-x86_64/libair_ide.so.digest",
+      "size_bytes": 16
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/air-session/linux-x86_64/libghostty-vt.so",
+      "size_bytes": 12066432
+    },
+    {
       "path": "/opt/datagrip/plugins/air-plugin/genui/air-genui-renderer.zip",
       "size_bytes": 4354419
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/air-plugin.jar",
-      "size_bytes": 587041
+      "size_bytes": 652078
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.ide.clion.jar",
-      "size_bytes": 99461
+      "size_bytes": 89646
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.ide.datagrip.jar",
-      "size_bytes": 132934
+      "size_bytes": 133668
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.ide.goland.jar",
@@ -2608,20 +2628,16 @@
       "size_bytes": 21357
     },
     {
-      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.ide.idea.ultimate.swagger.jar",
-      "size_bytes": 13336
-    },
-    {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.ide.phpstorm.jar",
       "size_bytes": 87812
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.ide.pycharm.jar",
-      "size_bytes": 53736
+      "size_bytes": 53534
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.ide.rider.jar",
-      "size_bytes": 540032
+      "size_bytes": 543948
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.ide.rubymine.jar",
@@ -2633,19 +2649,19 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.ide.webstorm.chromeConnect.jar",
-      "size_bytes": 40086
+      "size_bytes": 41348
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.jar",
-      "size_bytes": 439553
+      "size_bytes": 439586
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.shared.cmake.jar",
-      "size_bytes": 49334
+      "size_bytes": 49135
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.shared.commandmonitor.jar",
-      "size_bytes": 489956
+      "size_bytes": 483119
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.contrib.shared.vcs.jar",
@@ -2653,11 +2669,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.hooks.jar",
-      "size_bytes": 258665
+      "size_bytes": 258672
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.aiagentextensions.skills.jar",
-      "size_bytes": 2077069
+      "size_bytes": 2097967
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.aiEnabled.jar",
@@ -2669,163 +2685,183 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.availability.jar",
-      "size_bytes": 419880
+      "size_bytes": 425428
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.aiagentextensions.integration.jar",
-      "size_bytes": 86082
+      "size_bytes": 89176
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.aiagentextensions.telemetry.jar",
-      "size_bytes": 31205
+      "size_bytes": 58971
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.api.jar",
-      "size_bytes": 373314
+      "size_bytes": 420062
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.browser.auth.jar",
-      "size_bytes": 315190
+      "size_bytes": 320361
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.claude.jar",
-      "size_bytes": 24335
+      "size_bytes": 24332
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.codex.jar",
-      "size_bytes": 19340
+      "size_bytes": 19815
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.debug.jar",
-      "size_bytes": 1288905
+      "size_bytes": 1334844
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.hookPackages.jar",
+      "size_bytes": 10375
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.jar",
-      "size_bytes": 8664129
+      "size_bytes": 9128587
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.mcp.jar",
-      "size_bytes": 118846
+      "size_bytes": 122771
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.acp.runtime.jar",
-      "size_bytes": 2762095
+      "size_bytes": 3148557
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.aia.jar",
-      "size_bytes": 210901
+      "size_bytes": 202245
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.airControl.jar",
+      "size_bytes": 120987
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.airSession.host.jar",
+      "size_bytes": 103870
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.airSession.jar",
+      "size_bytes": 399347
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.antigravity.auth.jar",
-      "size_bytes": 23000
+      "size_bytes": 23133
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.claude.common.jar",
-      "size_bytes": 542528
+      "size_bytes": 544553
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.claude.threads.jar",
-      "size_bytes": 2547694
+      "size_bytes": 2321118
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.cli.jar",
-      "size_bytes": 122681
+      "size_bytes": 114241
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.cloud.git.jar",
-      "size_bytes": 338269
+      "size_bytes": 340079
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.cmake.jar",
-      "size_bytes": 51880
+      "size_bytes": 53243
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.codex.auth.jar",
-      "size_bytes": 41815
+      "size_bytes": 41708
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.codex.common.jar",
-      "size_bytes": 1495284
+      "size_bytes": 1468616
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.codex.cost.estimated.jar",
-      "size_bytes": 388102
+      "size_bytes": 410313
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.codex.ide.jar",
-      "size_bytes": 338343
+      "size_bytes": 343444
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.codex.threads.jar",
-      "size_bytes": 2801322
+      "size_bytes": 2901762
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.copilot.auth.jar",
-      "size_bytes": 39143
+      "size_bytes": 46588
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.copilot.threads.jar",
-      "size_bytes": 734634
+      "size_bytes": 748517
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.cursor.auth.jar",
-      "size_bytes": 42913
+      "size_bytes": 37578
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.factory.droid.auth.jar",
-      "size_bytes": 5260
+      "size_bytes": 5255
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.figma.jar",
       "size_bytes": 12300
     },
     {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.fileIndex.jar",
+      "size_bytes": 102708
+    },
+    {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.filewatch.jar",
-      "size_bytes": 521877
+      "size_bytes": 527088
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.grok.auth.jar",
-      "size_bytes": 12592
+      "size_bytes": 12485
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.ideTheme.jar",
-      "size_bytes": 9388
+      "size_bytes": 9385
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.json.jar",
-      "size_bytes": 397631
+      "size_bytes": 398762
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.junie.common.jar",
-      "size_bytes": 77191
+      "size_bytes": 77445
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.junie.threads.jar",
-      "size_bytes": 841131
+      "size_bytes": 862161
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.llm.api.jar",
-      "size_bytes": 60641
+      "size_bytes": 60624
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.llm.jar",
-      "size_bytes": 208763
+      "size_bytes": 237491
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.machine.jar",
-      "size_bytes": 144746
+      "size_bytes": 158001
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.mistral.auth.jar",
-      "size_bytes": 35221
+      "size_bytes": 35113
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.mobile.ahp.jar",
-      "size_bytes": 2671523
+      "size_bytes": 3568387
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.mobile.jar",
-      "size_bytes": 4159768
+      "size_bytes": 4988652
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.nextEdits.acp.api.jar",
@@ -2837,35 +2873,39 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.nextEdits.acp.jar",
-      "size_bytes": 1556810
+      "size_bytes": 1628276
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.nextEdits.proxy.jar",
-      "size_bytes": 60101
+      "size_bytes": 60397
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.opencode.threads.jar",
-      "size_bytes": 1200598
+      "size_bytes": 1255982
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.pi.threads.jar",
-      "size_bytes": 1388233
+      "size_bytes": 1378856
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.prompt.api.jar",
-      "size_bytes": 251787
+      "size_bytes": 285885
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.prompt.attachments.jar",
-      "size_bytes": 221453
+      "size_bytes": 253138
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.prompt.vcs.jar",
-      "size_bytes": 239439
+      "size_bytes": 239027
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.rpc.jar",
+      "size_bytes": 407281
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.sdd.core.jar",
-      "size_bytes": 17090
+      "size_bytes": 8246
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.sdd.llm.plugin.integration.jar",
@@ -2877,159 +2917,167 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.acp.jar",
-      "size_bytes": 9301368
+      "size_bytes": 10025123
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.actions.jar",
-      "size_bytes": 63249
+      "size_bytes": 63427
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.api.jar",
-      "size_bytes": 3098998
+      "size_bytes": 2786572
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.catalog.api.jar",
-      "size_bytes": 66304
+      "size_bytes": 52936
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.catalog.jar",
-      "size_bytes": 1475588
+      "size_bytes": 1528184
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.chain.jar",
-      "size_bytes": 477459
+      "size_bytes": 573018
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.changed.files.jar",
-      "size_bytes": 147580
+      "size_bytes": 147529
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.cost.api.jar",
-      "size_bytes": 26293
+      "size_bytes": 36065
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.cost.estimated.api.jar",
-      "size_bytes": 45405
+      "size_bytes": 44838
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.cost.estimated.jar",
-      "size_bytes": 119610
+      "size_bytes": 152608
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.cost.jar",
-      "size_bytes": 475722
+      "size_bytes": 507132
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.editor.jar",
-      "size_bytes": 179782
+      "size_bytes": 179779
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.genui.apps.api.jar",
-      "size_bytes": 159522
+      "size_bytes": 159519
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.genui.apps.jar",
-      "size_bytes": 614135
+      "size_bytes": 609754
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.jar",
-      "size_bytes": 1767179
+      "size_bytes": 1808950
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.launch.api.jar",
-      "size_bytes": 382250
+      "size_bytes": 381306
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.launch.jar",
-      "size_bytes": 332114
+      "size_bytes": 333266
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.log.api.jar",
-      "size_bytes": 114392
+      "size_bytes": 115737
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.log.jar",
-      "size_bytes": 675124
+      "size_bytes": 711736
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.log.storage.jar",
-      "size_bytes": 47207
+      "size_bytes": 49182
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.mcp.api.jar",
-      "size_bytes": 179415
+      "size_bytes": 181150
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.mcp.config.jar",
-      "size_bytes": 614622
+      "size_bytes": 634385
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.mcp.runtime.jar",
-      "size_bytes": 770269
+      "size_bytes": 690273
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.mcp.server.jar",
-      "size_bytes": 254253
+      "size_bytes": 254250
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.mcp.tools.jar",
-      "size_bytes": 189166
+      "size_bytes": 189148
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.projection.api.jar",
-      "size_bytes": 175866
+      "size_bytes": 221521
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.projection.jar",
-      "size_bytes": 651053
+      "size_bytes": 715198
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.runtime.api.jar",
-      "size_bytes": 671453
+      "size_bytes": 787884
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.runtime.jar",
-      "size_bytes": 17533570
+      "size_bytes": 18453283
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.runtime.vcs.jar",
-      "size_bytes": 291100
+      "size_bytes": 310616
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.search.api.jar",
-      "size_bytes": 53448
+      "size_bytes": 53445
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.search.jar",
-      "size_bytes": 587794
+      "size_bytes": 588726
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.terminal.agentExtensions.jar",
-      "size_bytes": 95276
+      "size_bytes": 110253
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.terminal.hyperlinks.jar",
+      "size_bytes": 27497
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.terminal.jar",
-      "size_bytes": 632206
+      "size_bytes": 575147
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.ui.api.jar",
-      "size_bytes": 84137
+      "size_bytes": 88683
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.ui.jar",
-      "size_bytes": 1018778
+      "size_bytes": 1103123
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.view.gui.html.jar",
+      "size_bytes": 20579
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.view.gui.jar",
-      "size_bytes": 2473565
+      "size_bytes": 2317882
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.working.tree.api.jar",
-      "size_bytes": 312902
+      "size_bytes": 315963
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.working.tree.git.jar",
-      "size_bytes": 780492
+      "size_bytes": 918778
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.session.working.tree.jar",
@@ -3037,39 +3085,39 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.sessionList.api.jar",
-      "size_bytes": 264532
+      "size_bytes": 264088
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.sessionList.jar",
-      "size_bytes": 1566266
+      "size_bytes": 1631941
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.sessionList.paging.jar",
-      "size_bytes": 128118
+      "size_bytes": 131168
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.sessionNotes.jar",
-      "size_bytes": 1680742
+      "size_bytes": 1835508
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.settings.api.jar",
-      "size_bytes": 20369
+      "size_bytes": 22359
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.settings.jar",
-      "size_bytes": 217706
+      "size_bytes": 262226
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.terminal.threads.jar",
-      "size_bytes": 293455
+      "size_bytes": 294049
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.threads.toolwindow.jar",
-      "size_bytes": 919313
+      "size_bytes": 1231187
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.welcome.jar",
-      "size_bytes": 16935
+      "size_bytes": 15101
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.workflows.aiagentextensions.integration.jar",
@@ -3081,39 +3129,39 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.workflows.jar",
-      "size_bytes": 2107087
+      "size_bytes": 2103079
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.backend.worktree.jar",
-      "size_bytes": 3668804
+      "size_bytes": 3720533
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.codeNotes.api.jar",
-      "size_bytes": 720640
+      "size_bytes": 749791
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.codeNotes.data.backend.api.jar",
-      "size_bytes": 219221
+      "size_bytes": 228683
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.codeNotes.data.backend.jar",
-      "size_bytes": 812261
+      "size_bytes": 841379
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.codeNotes.ui.backend.jar",
-      "size_bytes": 187156
+      "size_bytes": 196316
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.codeNotes.ui.frontend.api.jar",
-      "size_bytes": 116302
+      "size_bytes": 141744
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.codeNotes.ui.frontend.jar",
-      "size_bytes": 1575100
+      "size_bytes": 1623731
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.codeNotes.ui.shared.jar",
-      "size_bytes": 462567
+      "size_bytes": 465760
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.acp.browser.auth.jar",
@@ -3121,99 +3169,107 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.acp.debug.jar",
-      "size_bytes": 2164527
+      "size_bytes": 2263694
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.acp.jar",
-      "size_bytes": 736059
+      "size_bytes": 739319
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.agents.jar",
-      "size_bytes": 1011949
+      "size_bytes": 1034763
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.aia.jar",
-      "size_bytes": 151960
+      "size_bytes": 151911
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.airControl.jar",
+      "size_bytes": 442258
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.claude.awb.jar",
-      "size_bytes": 131710
+      "size_bytes": 131703
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.cmake.jar",
-      "size_bytes": 213443
+      "size_bytes": 213456
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.core.jar",
-      "size_bytes": 3529647
+      "size_bytes": 3771697
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.figma.jar",
-      "size_bytes": 57361
+      "size_bytes": 162772
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.genui.api.jar",
-      "size_bytes": 30810
+      "size_bytes": 71744
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.genui.jcef.jar",
-      "size_bytes": 1285709
+      "size_bytes": 1586644
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.genui.swing.jar",
+      "size_bytes": 1736406
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.launch.api.jar",
-      "size_bytes": 689157
+      "size_bytes": 694358
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.launch.jar",
-      "size_bytes": 295989
+      "size_bytes": 309592
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.launch.presets.jar",
-      "size_bytes": 484264
+      "size_bytes": 482134
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.analytics.jcp.jar",
-      "size_bytes": 333519
+      "size_bytes": 317760
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.api.jar",
-      "size_bytes": 425103
+      "size_bytes": 430570
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.byok.anthropic.jar",
-      "size_bytes": 22559
+      "size_bytes": 22576
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.byok.api.jar",
-      "size_bytes": 104052
+      "size_bytes": 106669
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.byok.azure.jar",
-      "size_bytes": 22532
+      "size_bytes": 22549
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.byok.bedrock.jar",
-      "size_bytes": 26584
+      "size_bytes": 26601
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.byok.gemini.jar",
-      "size_bytes": 21818
+      "size_bytes": 21835
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.byok.openai.jar",
-      "size_bytes": 27083
+      "size_bytes": 27104
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.byok.openrouter.jar",
-      "size_bytes": 118316
+      "size_bytes": 124037
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.byok.vertex.jar",
-      "size_bytes": 59209
+      "size_bytes": 59227
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.governance.ideServices.jar",
-      "size_bytes": 303435
+      "size_bytes": 354896
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.governance.jcp.jar",
@@ -3221,11 +3277,15 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.llm.jar",
-      "size_bytes": 5469445
+      "size_bytes": 5674199
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.localLaunch.jar",
+      "size_bytes": 729440
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.loopback.proxy.jar",
-      "size_bytes": 257093
+      "size_bytes": 264632
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.mcp.api.jar",
@@ -3233,19 +3293,19 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.mcp.jar",
-      "size_bytes": 351192
+      "size_bytes": 351198
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.mcp.proxy.jar",
-      "size_bytes": 1001412
+      "size_bytes": 998809
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.mermaid.jar",
-      "size_bytes": 72538
+      "size_bytes": 121149
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.mobile.jar",
-      "size_bytes": 677009
+      "size_bytes": 797357
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.promoLink.jar",
@@ -3253,31 +3313,35 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.prompt.api.jar",
-      "size_bytes": 750925
+      "size_bytes": 814580
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.prompt.context.jar",
-      "size_bytes": 388218
+      "size_bytes": 477916
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.prompt.editor.api.jar",
+      "size_bytes": 6911
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.prompt.jar",
-      "size_bytes": 3950310
+      "size_bytes": 4829039
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.prompt.screenCapture.jar",
-      "size_bytes": 528589
+      "size_bytes": 528593
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.prompt.testrunner.jar",
-      "size_bytes": 163521
+      "size_bytes": 163807
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.prompt.ui.jar",
-      "size_bytes": 11908693
+      "size_bytes": 12489429
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.prompt.vcs.jar",
-      "size_bytes": 422529
+      "size_bytes": 423216
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.providers.junie.session.view.jar",
@@ -3285,39 +3349,43 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.quota.jar",
-      "size_bytes": 92585
+      "size_bytes": 92331
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.rpc.jar",
+      "size_bytes": 3223
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.actions.jar",
-      "size_bytes": 1476622
+      "size_bytes": 1502455
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.catalog.api.jar",
-      "size_bytes": 317824
+      "size_bytes": 321243
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.catalog.jar",
-      "size_bytes": 651362
+      "size_bytes": 671306
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.cost.estimated.jar",
-      "size_bytes": 43136
+      "size_bytes": 7345
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.preferences.api.jar",
-      "size_bytes": 572210
+      "size_bytes": 570787
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.preferences.jar",
-      "size_bytes": 2058005
+      "size_bytes": 2066010
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.terminal.jar",
-      "size_bytes": 985556
+      "size_bytes": 981165
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.toolwindow.jar",
-      "size_bytes": 10090601
+      "size_bytes": 12324273
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.toolwindow.terminal.jar",
@@ -3325,23 +3393,31 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.ui.api.jar",
-      "size_bytes": 326849
+      "size_bytes": 348584
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.api.jar",
-      "size_bytes": 419768
+      "size_bytes": 473740
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.debug.jar",
-      "size_bytes": 353782
+      "size_bytes": 356760
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.diagrams.jar",
-      "size_bytes": 34997
+      "size_bytes": 38346
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.html.jar",
+      "size_bytes": 419305
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.image.jar",
+      "size_bytes": 808019
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.jar",
-      "size_bytes": 13364820
+      "size_bytes": 16272482
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.mcp.render.api.jar",
@@ -3349,11 +3425,15 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.mcp.render.jar",
-      "size_bytes": 748719
+      "size_bytes": 325502
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.media.jar",
+      "size_bytes": 665673
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.showcase.jar",
-      "size_bytes": 2734667
+      "size_bytes": 2975288
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.gui.terminal.jar",
@@ -3361,15 +3441,15 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.jar",
-      "size_bytes": 3929821
+      "size_bytes": 4017844
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.session.view.tui.jar",
-      "size_bytes": 453209
+      "size_bytes": 509414
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.sessionNotes.jar",
-      "size_bytes": 1123552
+      "size_bytes": 1311521
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.settings.api.jar",
@@ -3377,7 +3457,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.settings.jar",
-      "size_bytes": 188540
+      "size_bytes": 277750
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.split.jar",
+      "size_bytes": 18268
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.storybook.jar",
@@ -3385,7 +3469,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.svg.jar",
-      "size_bytes": 206423
+      "size_bytes": 329472
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.terminal.api.jar",
@@ -3393,23 +3477,23 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.ui.jar",
-      "size_bytes": 314887
+      "size_bytes": 302452
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.welcome.jar",
-      "size_bytes": 16894
+      "size_bytes": 18595
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.workflows.jar",
-      "size_bytes": 1185349
+      "size_bytes": 1188881
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.frontend.worktree.jar",
-      "size_bytes": 2882091
+      "size_bytes": 3123415
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.kotlin.j2k.jar",
-      "size_bytes": 129930
+      "size_bytes": 129950
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.libraries.kmermaid.jar",
@@ -3421,19 +3505,27 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.light.extensions.jar",
-      "size_bytes": 1249988
+      "size_bytes": 1249952
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.placement.jar",
+      "size_bytes": 803
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.placement.remote.jar",
+      "size_bytes": 976
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.rider.profilers.jar",
-      "size_bytes": 56882
+      "size_bytes": 57132
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.sdd.wysiwyg.jar",
-      "size_bytes": 7537189
+      "size_bytes": 7489877
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.session.analysis.jar",
-      "size_bytes": 1110645
+      "size_bytes": 1110439
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.session.view.bootstrap.api.jar",
@@ -3445,35 +3537,51 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.acp.jar",
-      "size_bytes": 1324399
+      "size_bytes": 1529228
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.airControl.jar",
+      "size_bytes": 183662
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.airIde.jar",
+      "size_bytes": 411598
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.cmake.jar",
-      "size_bytes": 30126
+      "size_bytes": 30167
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.code.jar",
-      "size_bytes": 16346
+      "size_bytes": 16722
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.core.jar",
-      "size_bytes": 1510538
+      "size_bytes": 1827967
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.llm.jar",
-      "size_bytes": 988397
+      "size_bytes": 1152498
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.localPeer.consent.jar",
+      "size_bytes": 41987
+    },
+    {
+      "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.localPeer.jar",
+      "size_bytes": 224014
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.mcp.jar",
-      "size_bytes": 251517
+      "size_bytes": 415767
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.mobile.jar",
-      "size_bytes": 893705
+      "size_bytes": 992387
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.prompt.jar",
-      "size_bytes": 2032837
+      "size_bytes": 2290490
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.prompt.vcs.jar",
@@ -3481,7 +3589,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.sdd.jar",
-      "size_bytes": 33035
+      "size_bytes": 19896
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.sdd.skills.jar",
@@ -3497,55 +3605,55 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.core.jar",
-      "size_bytes": 2703547
+      "size_bytes": 2905872
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.cost.estimated.jar",
-      "size_bytes": 81646
+      "size_bytes": 71879
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.events.jar",
-      "size_bytes": 1689435
+      "size_bytes": 2081878
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.genui.jar",
-      "size_bytes": 415516
+      "size_bytes": 527469
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.jar",
-      "size_bytes": 5108450
+      "size_bytes": 5472100
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.mcp.jar",
-      "size_bytes": 182163
+      "size_bytes": 182007
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.surface.jar",
-      "size_bytes": 287303
+      "size_bytes": 288702
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.terminal.jar",
-      "size_bytes": 584739
+      "size_bytes": 582423
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.toolwindow.jar",
-      "size_bytes": 1699312
+      "size_bytes": 1766344
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.vcs.jar",
-      "size_bytes": 102658
+      "size_bytes": 234283
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.session.view.gui.jar",
-      "size_bytes": 2737826
+      "size_bytes": 2899555
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.sessionNotes.jar",
-      "size_bytes": 812986
+      "size_bytes": 848765
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.settings.jar",
-      "size_bytes": 564893
+      "size_bytes": 733494
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.settings.split.jar",
@@ -3553,15 +3661,15 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.workflows.jar",
-      "size_bytes": 793027
+      "size_bytes": 767170
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.shared.worktree.jar",
-      "size_bytes": 1051518
+      "size_bytes": 1103152
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.vcs.commit.frontend.jar",
-      "size_bytes": 157812
+      "size_bytes": 160038
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.vcs.commit.git.jar",
@@ -3569,11 +3677,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.vcs.commit.jar",
-      "size_bytes": 958344
+      "size_bytes": 1178507
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.air.vcs.merge.jar",
-      "size_bytes": 324231
+      "size_bytes": 324278
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.acp.jar",
@@ -3597,7 +3705,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.api.jar",
-      "size_bytes": 2530667
+      "size_bytes": 2524574
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.chronicles.externalSystem.jar",
@@ -3605,7 +3713,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.chronicles.jar",
-      "size_bytes": 850709
+      "size_bytes": 853116
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.chronicles.testRunner.jar",
@@ -3617,11 +3725,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.core.jar",
-      "size_bytes": 912183
+      "size_bytes": 911356
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.jar",
-      "size_bytes": 543439
+      "size_bytes": 410106
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.java.jar",
@@ -3629,7 +3737,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.mcp.jar",
-      "size_bytes": 24956
+      "size_bytes": 25099
     },
     {
       "path": "/opt/datagrip/plugins/air-plugin/lib/modules/intellij.junie.rpc.services.jar",
@@ -6209,15 +6317,15 @@
     },
     {
       "path": "/opt/datagrip/plugins/localization-ja/lib/localization-ja.jar",
-      "size_bytes": 18564808
+      "size_bytes": 18710997
     },
     {
       "path": "/opt/datagrip/plugins/localization-ko/lib/localization-ko.jar",
-      "size_bytes": 17114482
+      "size_bytes": 17234371
     },
     {
       "path": "/opt/datagrip/plugins/localization-zh/lib/localization-zh.jar",
-      "size_bytes": 15031420
+      "size_bytes": 15125444
     },
     {
       "path": "/opt/datagrip/plugins/markdown/lib/intellij.markdown.jar",
@@ -6569,11 +6677,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/jetbrainsd_linux_x86_64.tar.gz",
-      "size_bytes": 33180192
+      "size_bytes": 31736748
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.libraries.daemon.client.jar",
-      "size_bytes": 6542964
+      "size_bytes": 7241106
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.libraries.toolbox.remote.dev.jar",
@@ -6581,11 +6689,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.client.jar",
-      "size_bytes": 626261
+      "size_bytes": 626869
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.connection.jar",
-      "size_bytes": 1351062
+      "size_bytes": 1423248
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.connection.ssh.prompts.jar",
@@ -6593,7 +6701,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.frontend.split.jar",
-      "size_bytes": 239230
+      "size_bytes": 239525
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.light.jar",
@@ -6601,11 +6709,11 @@
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.plugins.jar",
-      "size_bytes": 1196411
+      "size_bytes": 1196410
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.statistics.jar",
-      "size_bytes": 131837
+      "size_bytes": 143780
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/modules/intellij.platform.daemon.workspaces.jar",
@@ -6613,7 +6721,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/platform-daemon-plugin/lib/platform-daemon-plugin.jar",
-      "size_bytes": 21234
+      "size_bytes": 21233
     },
     {
       "path": "/opt/datagrip/plugins/platform-execution-serviceView-plugin/lib/modules/intellij.platform.clouds.jar",
@@ -6765,7 +6873,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/platform-ssh-plugin/lib/modules/intellij.platform.ssh.jar",
-      "size_bytes": 2195786
+      "size_bytes": 2195861
     },
     {
       "path": "/opt/datagrip/plugins/platform-ssh-plugin/lib/modules/intellij.platform.ssh.ui.jar",
@@ -6957,7 +7065,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/plugin-classpath.txt",
-      "size_bytes": 4991153
+      "size_bytes": 5069198
     },
     {
       "path": "/opt/datagrip/plugins/profiler-asyncOne-plugin/lib/async-profiler/aarch64/dbghelp.dll",
@@ -7029,7 +7137,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/remdev-plugin/lib/frontend-split/frontend-split.jar",
-      "size_bytes": 14734825
+      "size_bytes": 15244862
     },
     {
       "path": "/opt/datagrip/plugins/remdev-plugin/lib/frontend-split/remote-dev-icons.jar",
@@ -7129,7 +7237,7 @@
     },
     {
       "path": "/opt/datagrip/plugins/remdev-plugin/lib/modules/intellij.platform.frontend.split.startup.jar",
-      "size_bytes": 542725
+      "size_bytes": 542771
     },
     {
       "path": "/opt/datagrip/plugins/remdev-plugin/lib/modules/intellij.platform.identifiers.highlighting.frontend.split.jar",
@@ -10357,7 +10465,7 @@
     },
     {
       "path": "/opt/datagrip/product-info.json",
-      "size_bytes": 351226
+      "size_bytes": 355674
     },
     {
       "path": "/usr/bin/datagrip -> /opt/datagrip/bin/datagrip",
@@ -10376,6 +10484,6 @@
       "size_bytes": 3881
     }
   ],
-  "filename": "datagrip-2026.3-1-any.pkg.tar.zst",
-  "sha256": "5ad11f94416badda98305e3f5a34987d837de8cfee237e4b39167bc6ba8a7fb8"
+  "filename": "datagrip-2026.3.0.1-1-any.pkg.tar.zst",
+  "sha256": "7465bac7632336eb0d5329baccd0c062fee4533f5b8d449be40f3f3cb3a4579e"
 }

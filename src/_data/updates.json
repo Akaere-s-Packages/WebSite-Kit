@@ -1,5 +1,10 @@
 [
   {
+    "name": "datagrip",
+    "version": "2026.3.0.1-1",
+    "date": "2026-11-24T21:53:32Z"
+  },
+  {
     "name": "google-chrome",
     "version": "158.0.8127.88-1",
     "date": "2026-11-24T01:33:52Z"
@@ -68,11 +73,6 @@
     "name": "infisical",
     "version": "0.45.1-1",
     "date": "2026-11-06T09:00:19Z"
-  },
-  {
-    "name": "datagrip",
-    "version": "2026.3-1",
-    "date": "2026-11-05T16:06:22Z"
   },
   {
     "name": "sparkle-bin",
