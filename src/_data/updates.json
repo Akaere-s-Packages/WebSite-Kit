@@ -1,5 +1,10 @@
 [
   {
+    "name": "1password",
+    "version": "8.12.48-25",
+    "date": "2026-11-25T04:49:21Z"
+  },
+  {
     "name": "python-zxing-cpp",
     "version": "3.2.0-1",
     "date": "2026-11-24T21:57:59Z"
@@ -58,11 +63,6 @@
     "name": "opencode-bin",
     "version": "1.19.6-1",
     "date": "2026-11-17T14:08:32Z"
-  },
-  {
-    "name": "1password",
-    "version": "8.12.46-29",
-    "date": "2026-11-17T14:04:24Z"
   },
   {
     "name": "zulu-17-bin",

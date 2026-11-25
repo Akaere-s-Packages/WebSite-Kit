@@ -4,10 +4,10 @@
     "pkgbase": "1password",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "8.12.46-29",
+    "version": "8.12.48-25",
     "description": "Password manager and secure wallet",
     "maintainer": "1Password",
-    "last_updated": "2026-11-17T14:04:24Z",
+    "last_updated": "2026-11-25T04:49:21Z",
     "build_status": "published",
     "detail_url": "/packages/1password/"
   },
