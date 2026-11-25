@@ -110,16 +110,16 @@
   ],
   "sources": [
     {
-      "name": "LICENSE-19.1.1-1",
-      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v19.1.1/LICENSE"
+      "name": "LICENSE-19.2.0-2",
+      "url": "https://raw.githubusercontent.com/can1357/oh-my-pi/v19.2.0/LICENSE"
     },
     {
-      "name": "omp-19.1.1-1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v19.1.1/omp-linux-x64"
+      "name": "omp-19.2.0-2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v19.2.0/omp-linux-x64"
     },
     {
-      "name": "omp-19.1.1-1",
-      "url": "https://github.com/can1357/oh-my-pi/releases/download/v19.1.1/omp-linux-arm64"
+      "name": "omp-19.2.0-2",
+      "url": "https://github.com/can1357/oh-my-pi/releases/download/v19.2.0/omp-linux-arm64"
     }
   ],
   "required_by": [],
