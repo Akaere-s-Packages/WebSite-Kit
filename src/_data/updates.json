@@ -1,5 +1,10 @@
 [
   {
+    "name": "oh-my-pi-bin",
+    "version": "19.2.0-2",
+    "date": "2026-11-25T15:23:37Z"
+  },
+  {
     "name": "github-copilot-cli",
     "version": "1.0.115-1",
     "date": "2026-11-25T15:19:36Z"
@@ -28,11 +33,6 @@
     "name": "google-chrome",
     "version": "158.0.8127.88-1",
     "date": "2026-11-24T01:33:52Z"
-  },
-  {
-    "name": "oh-my-pi-bin",
-    "version": "19.1.1-1",
-    "date": "2026-11-23T13:58:09Z"
   },
   {
     "name": "zulu-21-bin",
