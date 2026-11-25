@@ -1,5 +1,10 @@
 [
   {
+    "name": "claude-code",
+    "version": "2.1.332-1",
+    "date": "2026-11-25T04:53:16Z"
+  },
+  {
     "name": "1password",
     "version": "8.12.48-25",
     "date": "2026-11-25T04:49:21Z"
@@ -18,11 +23,6 @@
     "name": "google-chrome",
     "version": "158.0.8127.88-1",
     "date": "2026-11-24T01:33:52Z"
-  },
-  {
-    "name": "claude-code",
-    "version": "2.1.331-1",
-    "date": "2026-11-24T01:29:07Z"
   },
   {
     "name": "oh-my-pi-bin",
