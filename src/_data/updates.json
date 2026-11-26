@@ -1,5 +1,10 @@
 [
   {
+    "name": "infisical",
+    "version": "0.45.15-1",
+    "date": "2026-11-26T16:46:21Z"
+  },
+  {
     "name": "github-copilot-cli",
     "version": "1.0.116-1",
     "date": "2026-11-26T06:04:12Z"
@@ -73,11 +78,6 @@
     "name": "nexttrace-bin",
     "version": "1.7.6-1",
     "date": "2026-11-06T22:08:27Z"
-  },
-  {
-    "name": "infisical",
-    "version": "0.45.1-1",
-    "date": "2026-11-06T09:00:19Z"
   },
   {
     "name": "sparkle-bin",

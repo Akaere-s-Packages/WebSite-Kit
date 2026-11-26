@@ -6,7 +6,7 @@
     "source_type": "aur",
     "version": "8.12.48-25",
     "description": "Password manager and secure wallet",
-    "maintainer": "1Password",
+    "maintainer": null,
     "last_updated": "2026-11-25T04:49:21Z",
     "build_status": "published",
     "detail_url": "/packages/1password/"
@@ -30,7 +30,7 @@
     "source_type": "aur",
     "version": "2.1.332-1",
     "description": "An agentic coding tool that lives in your terminal",
-    "maintainer": "cg505",
+    "maintainer": null,
     "last_updated": "2026-11-25T04:53:16Z",
     "build_status": "published",
     "detail_url": "/packages/claude-code/"
@@ -42,7 +42,7 @@
     "source_type": "aur",
     "version": "2026.3.0.1-1",
     "description": "Smart SQL Editor and Advanced Database Client Packed Together for Optimum Productivity",
-    "maintainer": "freswa",
+    "maintainer": null,
     "last_updated": "2026-11-24T21:53:32Z",
     "build_status": "published",
     "detail_url": "/packages/datagrip/"
@@ -54,7 +54,7 @@
     "source_type": "aur",
     "version": "1.0.116-1",
     "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
-    "maintainer": "Dominiquini",
+    "maintainer": null,
     "last_updated": "2026-11-26T06:04:12Z",
     "build_status": "published",
     "detail_url": "/packages/github-copilot-cli/"
@@ -66,7 +66,7 @@
     "source_type": "aur",
     "version": "158.0.8127.88-1",
     "description": "The popular web browser by Google (Stable Channel)",
-    "maintainer": "gromit",
+    "maintainer": null,
     "last_updated": "2026-11-24T01:33:52Z",
     "build_status": "published",
     "detail_url": "/packages/google-chrome/"
@@ -76,10 +76,10 @@
     "pkgbase": "infisical",
     "distro": "archlinux",
     "source_type": "aur",
-    "version": "0.45.1-1",
+    "version": "0.45.15-1",
     "description": "Fetch and inject secrets into any framework in local development",
-    "maintainer": "lucashubner",
-    "last_updated": "2026-11-06T09:00:19Z",
+    "maintainer": null,
+    "last_updated": "2026-11-26T16:46:21Z",
     "build_status": "published",
     "detail_url": "/packages/infisical/"
   },
@@ -90,7 +90,7 @@
     "source_type": "aur",
     "version": "5:3.2.35_54395-1",
     "description": "New Linux QQ based on Electron",
-    "maintainer": "Integral",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/linuxqq/"
@@ -102,7 +102,7 @@
     "source_type": "aur",
     "version": "0.71.0-1",
     "description": "Fast, simple, and elegant one-click launch for LoliaFRP",
-    "maintainer": "Pysio",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/lolia-cli/"
@@ -114,7 +114,7 @@
     "source_type": "aur",
     "version": "0.83.2-1",
     "description": "WireGuard-based mesh network",
-    "maintainer": "tarball",
+    "maintainer": null,
     "last_updated": "2026-11-21T07:56:32Z",
     "build_status": "published",
     "detail_url": "/packages/netbird-bin/"
@@ -126,7 +126,7 @@
     "source_type": "aur",
     "version": "1.7.6-1",
     "description": "An open source visual route tracking CLI tool",
-    "maintainer": "ouuan",
+    "maintainer": null,
     "last_updated": "2026-11-06T22:08:27Z",
     "build_status": "published",
     "detail_url": "/packages/nexttrace-bin/"
@@ -138,7 +138,7 @@
     "source_type": "aur",
     "version": "2:20210430-2",
     "description": "Noto CJK-SC fonts for Simplified Chinese",
-    "maintainer": "xuanruiqi",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/noto-fonts-sc/"
@@ -150,7 +150,7 @@
     "source_type": "aur",
     "version": "19.2.1-1",
     "description": "Coding agent with the IDE wired in (release binary)",
-    "maintainer": "bjin",
+    "maintainer": null,
     "last_updated": "2026-11-26T00:08:52Z",
     "build_status": "published",
     "detail_url": "/packages/oh-my-pi-bin/"
@@ -162,7 +162,7 @@
     "source_type": "aur",
     "version": "1.0.0-1",
     "description": "OOPZ desktop client - third-party Electron package for the free online voice platform",
-    "maintainer": "Pysio",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/oopz/"
@@ -174,7 +174,7 @@
     "source_type": "aur",
     "version": "1.19.6-1",
     "description": "The AI coding agent built for the terminal.",
-    "maintainer": "thdxr",
+    "maintainer": null,
     "last_updated": "2026-11-17T14:08:32Z",
     "build_status": "published",
     "detail_url": "/packages/opencode-bin/"
@@ -186,7 +186,7 @@
     "source_type": "aur",
     "version": "2.2.1-1",
     "description": "Feature packed AUR helper",
-    "maintainer": "Morganamilo",
+    "maintainer": null,
     "last_updated": "2026-11-18T12:50:09Z",
     "build_status": "published",
     "detail_url": "/packages/paru/"
@@ -198,7 +198,7 @@
     "source_type": "aur",
     "version": "1.6.1-2",
     "description": "AI coding agent for the terminal — minimal, extensible and optimized for tool use",
-    "maintainer": "aminvakil",
+    "maintainer": null,
     "last_updated": "2026-11-26T00:01:31Z",
     "build_status": "published",
     "detail_url": "/packages/pi/"
@@ -210,7 +210,7 @@
     "source_type": "aur",
     "version": "3.2.0-1",
     "description": "Python bindings for zxing-cpp",
-    "maintainer": "yochananmarqos",
+    "maintainer": null,
     "last_updated": "2026-11-24T21:57:59Z",
     "build_status": "published",
     "detail_url": "/packages/python-zxing-cpp/"
@@ -222,7 +222,7 @@
     "source_type": "aur",
     "version": "0.2.1-1",
     "description": "A lightweight command-line client for the Repology API",
-    "maintainer": "Pysio",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/repoq/"
@@ -246,7 +246,7 @@
     "source_type": "aur",
     "version": "1.00.39-11",
     "description": "Samsung Unified Linux Driver for printers and scanners.",
-    "maintainer": "christoph.gysin",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/samsung-unified-driver/"
@@ -258,7 +258,7 @@
     "source_type": "aur",
     "version": "1.00.39-11",
     "description": "Samsung Unified Linux Driver (common files)",
-    "maintainer": "christoph.gysin",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/samsung-unified-driver-common/"
@@ -270,7 +270,7 @@
     "source_type": "aur",
     "version": "1.00.39-11",
     "description": "Samsung Unified Linux Driver for printers.",
-    "maintainer": "christoph.gysin",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/samsung-unified-driver-printer/"
@@ -282,7 +282,7 @@
     "source_type": "aur",
     "version": "1.00.39-11",
     "description": "Samsung Unified Linux Driver for scanners.",
-    "maintainer": "christoph.gysin",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/samsung-unified-driver-scanner/"
@@ -294,7 +294,7 @@
     "source_type": "aur",
     "version": "1.26.10-1",
     "description": "Another Mihomo GUI",
-    "maintainer": "xhuohai",
+    "maintainer": null,
     "last_updated": "2026-11-04T19:12:02Z",
     "build_status": "published",
     "detail_url": "/packages/sparkle-bin/"
@@ -306,7 +306,7 @@
     "source_type": "aur",
     "version": "5.2.7-2",
     "description": "A utility for Linux graphics switching on Intel/AMD iGPU + nVidia dGPU laptops",
-    "maintainer": "ModYokosuka",
+    "maintainer": null,
     "last_updated": "2026-11-01T05:39:05Z",
     "build_status": "published",
     "detail_url": "/packages/supergfxctl/"
@@ -318,7 +318,7 @@
     "source_type": "aur",
     "version": "1.148.0-1",
     "description": "Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)",
-    "maintainer": "dcelasun",
+    "maintainer": null,
     "last_updated": "2026-11-26T00:04:51Z",
     "build_status": "published",
     "detail_url": "/packages/visual-studio-code-bin/"
@@ -330,7 +330,7 @@
     "source_type": "aur",
     "version": "7.5.0-1",
     "description": "Yubico Authenticator for Desktop",
-    "maintainer": "yochananmarqos",
+    "maintainer": null,
     "last_updated": "2026-11-04T00:16:26Z",
     "build_status": "published",
     "detail_url": "/packages/yubico-authenticator/"
@@ -342,7 +342,7 @@
     "source_type": "aur",
     "version": "17.0.21.0.3-1",
     "description": "Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK.",
-    "maintainer": "linesofcodes",
+    "maintainer": null,
     "last_updated": "2026-11-08T10:59:12Z",
     "build_status": "published",
     "detail_url": "/packages/zulu-17-bin/"
@@ -354,7 +354,7 @@
     "source_type": "aur",
     "version": "21.0.13.1-1",
     "description": "Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK.",
-    "maintainer": "xiaoranya",
+    "maintainer": null,
     "last_updated": "2026-11-23T03:37:56Z",
     "build_status": "published",
     "detail_url": "/packages/zulu-21-bin/"
