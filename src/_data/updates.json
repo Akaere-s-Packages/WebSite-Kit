@@ -1,5 +1,10 @@
 [
   {
+    "name": "pi",
+    "version": "1.6.1-2",
+    "date": "2026-11-26T00:01:31Z"
+  },
+  {
     "name": "oh-my-pi-bin",
     "version": "19.2.0-2",
     "date": "2026-11-25T15:23:37Z"
@@ -43,11 +48,6 @@
     "name": "netbird-bin",
     "version": "0.83.2-1",
     "date": "2026-11-21T07:56:32Z"
-  },
-  {
-    "name": "pi",
-    "version": "1.6.0-1",
-    "date": "2026-11-20T18:18:10Z"
   },
   {
     "name": "visual-studio-code-bin",
