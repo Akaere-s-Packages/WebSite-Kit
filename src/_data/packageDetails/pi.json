@@ -3,10 +3,10 @@
   "pkgbase": "pi",
   "distro": "archlinux",
   "source_type": "aur",
-  "maintainer": null,
-  "submitter": null,
-  "votes": null,
-  "popularity": null,
+  "maintainer": "aminvakil",
+  "submitter": "aminvakil",
+  "votes": 22,
+  "popularity": 5.230067,
   "first_submitted": "2026-04-15T10:04:25Z",
   "description": "AI coding agent for the terminal — minimal, extensible and optimized for tool use",
   "url": "https://github.com/earendil-works/pi",
@@ -15,12 +15,12 @@
   ],
   "sources": [
     {
-      "name": "pi-1.6.1.tar.gz",
-      "url": "https://github.com/earendil-works/pi/archive/refs/tags/v1.6.1.tar.gz"
+      "name": "pi-1.7.0.tar.gz",
+      "url": "https://github.com/earendil-works/pi/archive/refs/tags/v1.7.0.tar.gz"
     },
     {
-      "name": "pi-ai-1.6.1.tgz",
-      "url": "https://registry.npmjs.org/@earendil-works/pi-ai/-/pi-ai-1.6.1.tgz"
+      "name": "pi-ai-1.7.0.tgz",
+      "url": "https://registry.npmjs.org/@earendil-works/pi-ai/-/pi-ai-1.7.0.tgz"
     }
   ],
   "build_status": "published",

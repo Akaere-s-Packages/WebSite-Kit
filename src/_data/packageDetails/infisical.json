@@ -3,15 +3,15 @@
   "pkgbase": "infisical",
   "distro": "archlinux",
   "source_type": "aur",
-  "maintainer": null,
-  "submitter": null,
-  "votes": null,
-  "popularity": null,
+  "maintainer": "lucashubner",
+  "submitter": "carsme",
+  "votes": 0,
+  "popularity": 0,
   "first_submitted": "2023-12-30T09:51:04Z",
   "description": "Fetch and inject secrets into any framework in local development",
   "url": "https://github.com/Infisical/cli",
   "licenses": [
-    "LicenseRef-Custom"
+    "LicenseRef-custom"
   ],
   "build_status": "published",
   "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/45860385062/job/140049657408",

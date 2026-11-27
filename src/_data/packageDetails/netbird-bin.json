@@ -3,10 +3,10 @@
   "pkgbase": "netbird-bin",
   "distro": "archlinux",
   "source_type": "aur",
-  "maintainer": null,
-  "submitter": null,
-  "votes": null,
-  "popularity": null,
+  "maintainer": "tarball",
+  "submitter": "tarball",
+  "votes": 14,
+  "popularity": 0.191245,
   "first_submitted": "2022-05-30T19:47:48Z",
   "description": "WireGuard-based mesh network",
   "url": "https://netbird.io",
@@ -14,9 +14,9 @@
     "BSD-3-Clause"
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/44882329809/job/136780160052",
-  "version": "0.83.2-1",
-  "last_updated": "2026-11-21T07:56:32Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/46055898785/job/140698264646",
+  "version": "0.84.0-1",
+  "last_updated": "2026-11-27T19:22:21Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -31,7 +31,7 @@
       "description": "Private DNS"
     }
   ],
-  "package_size_bytes": 43232078,
+  "package_size_bytes": 44537678,
   "files": [
     {
       "path": "/etc/default/netbird",
@@ -39,7 +39,7 @@
     },
     {
       "path": "/usr/bin/netbird",
-      "size_bytes": 43195456
+      "size_bytes": 44501056
     },
     {
       "path": "/usr/lib/systemd/system/netbird@.service",
@@ -65,30 +65,30 @@
   "sources": [
     {
       "name": "env",
-      "url": "https://raw.githubusercontent.com/netbirdio/netbird/refs/tags/v0.83.2/release_files/systemd/env"
+      "url": "https://raw.githubusercontent.com/netbirdio/netbird/refs/tags/v0.84.0/release_files/systemd/env"
     },
     {
       "name": "netbird@.service",
-      "url": "https://raw.githubusercontent.com/netbirdio/netbird/refs/tags/v0.83.2/release_files/systemd/netbird@.service"
+      "url": "https://raw.githubusercontent.com/netbirdio/netbird/refs/tags/v0.84.0/release_files/systemd/netbird@.service"
     },
     {
-      "name": "netbird_0.83.2_linux_386.tar.gz",
-      "url": "https://github.com/netbirdio/netbird/releases/download/v0.83.2/netbird_0.83.2_linux_386.tar.gz"
+      "name": "netbird_0.84.0_linux_386.tar.gz",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.84.0/netbird_0.84.0_linux_386.tar.gz"
     },
     {
-      "name": "netbird_0.83.2_linux_amd64.tar.gz",
-      "url": "https://github.com/netbirdio/netbird/releases/download/v0.83.2/netbird_0.83.2_linux_amd64.tar.gz"
+      "name": "netbird_0.84.0_linux_amd64.tar.gz",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.84.0/netbird_0.84.0_linux_amd64.tar.gz"
     },
     {
-      "name": "netbird_0.83.2_linux_arm64.tar.gz",
-      "url": "https://github.com/netbirdio/netbird/releases/download/v0.83.2/netbird_0.83.2_linux_arm64.tar.gz"
+      "name": "netbird_0.84.0_linux_arm64.tar.gz",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.84.0/netbird_0.84.0_linux_arm64.tar.gz"
     },
     {
-      "name": "netbird_0.83.2_linux_armv6.tar.gz",
-      "url": "https://github.com/netbirdio/netbird/releases/download/v0.83.2/netbird_0.83.2_linux_armv6.tar.gz"
+      "name": "netbird_0.84.0_linux_armv6.tar.gz",
+      "url": "https://github.com/netbirdio/netbird/releases/download/v0.84.0/netbird_0.84.0_linux_armv6.tar.gz"
     }
   ],
   "required_by": [],
-  "filename": "netbird-bin-0.83.2-1-x86_64.pkg.tar.zst",
-  "sha256": "631fdcaddbbdb683d3c8f400f2ae79d0e3e73c06bb7dfc9cc3fdd0e873f16630"
+  "filename": "netbird-bin-0.84.0-1-x86_64.pkg.tar.zst",
+  "sha256": "0abcdaf391136e68ea0e959abb134eacbeefd752fa7fc1f90097e5143d5a0963"
 }
