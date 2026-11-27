@@ -24,9 +24,9 @@
     }
   ],
   "build_status": "published",
-  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/45725256354/job/139593454103",
-  "version": "1.6.1-2",
-  "last_updated": "2026-11-26T00:01:31Z",
+  "build_run_url": "https://github.com/Akaere-s-Packages/Registry/actions/runs/46056305706/job/140699603432",
+  "version": "1.7.0-1",
+  "last_updated": "2026-11-27T19:26:36Z",
   "packager": "Lilithya <me@lilithya.su>",
   "dependencies": [
     {
@@ -64,7 +64,7 @@
       "repo": "extra"
     }
   ],
-  "package_size_bytes": 133131562,
+  "package_size_bytes": 133298469,
   "files": [
     {
       "path": "/usr/bin/pi -> /usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/cli.js",
@@ -55688,7 +55688,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/README.md",
-      "size_bytes": 110540
+      "size_bytes": 114442
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/anthropic-messages.d.ts",
@@ -55780,11 +55780,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/bedrock-converse-stream.js",
-      "size_bytes": 55702
+      "size_bytes": 56570
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/bedrock-converse-stream.js.map",
-      "size_bytes": 100099
+      "size_bytes": 101322
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/bedrock-converse-stream.lazy.d.ts",
@@ -55804,19 +55804,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/classifier-shared.d.ts",
-      "size_bytes": 1561
+      "size_bytes": 1474
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/classifier-shared.d.ts.map",
-      "size_bytes": 889
+      "size_bytes": 790
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/classifier-shared.js",
-      "size_bytes": 4767
+      "size_bytes": 2211
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/classifier-shared.js.map",
-      "size_bytes": 9911
+      "size_bytes": 4498
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/cloudflare-ai-binding.d.ts",
@@ -55995,6 +55995,22 @@
       "size_bytes": 499
     },
     {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/json-request.d.ts",
+      "size_bytes": 1251
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/json-request.d.ts.map",
+      "size_bytes": 770
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/json-request.js",
+      "size_bytes": 5424
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/json-request.js.map",
+      "size_bytes": 11047
+    },
+    {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/lazy.d.ts",
       "size_bytes": 1288
     },
@@ -56107,6 +56123,22 @@
       "size_bytes": 536
     },
     {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions-reasoning.d.ts",
+      "size_bytes": 3199
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions-reasoning.d.ts.map",
+      "size_bytes": 1642
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions-reasoning.js",
+      "size_bytes": 5205
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions-reasoning.js.map",
+      "size_bytes": 11822
+    },
+    {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions.d.ts",
       "size_bytes": 2183
     },
@@ -56116,11 +56148,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions.js",
-      "size_bytes": 66198
+      "size_bytes": 64544
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions.js.map",
-      "size_bytes": 121937
+      "size_bytes": 117528
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openai-completions.lazy.d.ts",
@@ -56244,11 +56276,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openrouter-images.js",
-      "size_bytes": 5547
+      "size_bytes": 7475
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openrouter-images.js.map",
-      "size_bytes": 12426
+      "size_bytes": 16555
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/openrouter-images.lazy.d.ts",
@@ -56276,11 +56308,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-decision.js",
-      "size_bytes": 6924
+      "size_bytes": 5338
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-decision.js.map",
-      "size_bytes": 14621
+      "size_bytes": 11271
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-decision.lazy.d.ts",
@@ -56297,6 +56329,38 @@
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-decision.lazy.js.map",
       "size_bytes": 611
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-image.d.ts",
+      "size_bytes": 938
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-image.d.ts.map",
+      "size_bytes": 773
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-image.js",
+      "size_bytes": 3783
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-image.js.map",
+      "size_bytes": 8102
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-image.lazy.d.ts",
+      "size_bytes": 149
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-image.lazy.d.ts.map",
+      "size_bytes": 208
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-image.lazy.js",
+      "size_bytes": 208
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-image.lazy.js.map",
+      "size_bytes": 607
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/api/pi-messages.d.ts",
@@ -56892,11 +56956,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/index.d.ts",
-      "size_bytes": 2232
+      "size_bytes": 2322
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/index.d.ts.map",
-      "size_bytes": 1475
+      "size_bytes": 1538
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/index.js",
@@ -56904,7 +56968,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/index.js.map",
-      "size_bytes": 3415
+      "size_bytes": 3508
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/lazy-bedrock-provider.d.ts",
@@ -57012,11 +57076,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/models.js",
-      "size_bytes": 33919
+      "size_bytes": 34327
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/models.js.map",
-      "size_bytes": 85934
+      "size_bytes": 86631
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/oauth.d.ts",
@@ -57340,19 +57404,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/compat-schema.d.ts",
-      "size_bytes": 24618
+      "size_bytes": 24959
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/compat-schema.d.ts.map",
-      "size_bytes": 2257
+      "size_bytes": 2264
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/compat-schema.js",
-      "size_bytes": 29372
+      "size_bytes": 29768
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/compat-schema.js.map",
-      "size_bytes": 47111
+      "size_bytes": 47605
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/.manifest.json",
@@ -57360,11 +57424,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/amazon-bedrock.json",
-      "size_bytes": 114824
+      "size_bytes": 113733
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/ant-ling.json",
-      "size_bytes": 1602
+      "size_bytes": 3304
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/anthropic.json",
@@ -57372,7 +57436,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/azure.json",
-      "size_bytes": 19603
+      "size_bytes": 22052
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/baseten.json",
@@ -57384,11 +57448,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/cloudflare-ai-gateway.json",
-      "size_bytes": 42558
+      "size_bytes": 37631
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/cloudflare-workers-ai.json",
-      "size_bytes": 15593
+      "size_bytes": 10736
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/deepseek.json",
@@ -57396,11 +57460,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/fireworks.json",
-      "size_bytes": 27621
+      "size_bytes": 32897
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/github-copilot.json",
-      "size_bytes": 29314
+      "size_bytes": 30471
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/google-vertex.json",
@@ -57416,7 +57480,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/huggingface.json",
-      "size_bytes": 51171
+      "size_bytes": 54208
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/kimi-coding.json",
@@ -57456,7 +57520,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/openai.json",
-      "size_bytes": 26690
+      "size_bytes": 29877
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/opencode-go.json",
@@ -57464,35 +57528,35 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/opencode.json",
-      "size_bytes": 51309
+      "size_bytes": 51858
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/openrouter.json",
-      "size_bytes": 305634
+      "size_bytes": 309187
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/qwen-token-plan-cn.json",
-      "size_bytes": 12531
+      "size_bytes": 11826
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/qwen-token-plan-individual-cn.json",
-      "size_bytes": 8174
+      "size_bytes": 8150
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/qwen-token-plan-individual.json",
-      "size_bytes": 8135
+      "size_bytes": 8111
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/qwen-token-plan.json",
-      "size_bytes": 12468
+      "size_bytes": 11766
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/radius.json",
-      "size_bytes": 26102
+      "size_bytes": 26294
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/together.json",
-      "size_bytes": 17172
+      "size_bytes": 15925
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/typesafe.json",
@@ -57500,7 +57564,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/vercel-ai-gateway.json",
-      "size_bytes": 163362
+      "size_bytes": 163678
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/data/xai.json",
@@ -57948,19 +58012,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/model-schema.d.ts",
-      "size_bytes": 4245
+      "size_bytes": 4283
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/model-schema.d.ts.map",
-      "size_bytes": 1636
+      "size_bytes": 1637
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/model-schema.js",
-      "size_bytes": 3791
+      "size_bytes": 4062
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/model-schema.js.map",
-      "size_bytes": 8178
+      "size_bytes": 8543
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/moonshotai-cn.d.ts",
@@ -58204,19 +58268,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/openrouter-api.d.ts",
-      "size_bytes": 1494
+      "size_bytes": 1930
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/openrouter-api.d.ts.map",
-      "size_bytes": 1017
+      "size_bytes": 1140
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/openrouter-api.js",
-      "size_bytes": 1830
+      "size_bytes": 2270
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/openrouter-api.js.map",
-      "size_bytes": 4334
+      "size_bytes": 5214
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/openrouter.d.ts",
@@ -58380,19 +58444,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/radius-config.d.ts",
-      "size_bytes": 1690
+      "size_bytes": 2225
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/radius-config.d.ts.map",
-      "size_bytes": 1620
+      "size_bytes": 2139
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/radius-config.js",
-      "size_bytes": 3290
+      "size_bytes": 4666
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/radius-config.js.map",
-      "size_bytes": 8271
+      "size_bytes": 11522
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/radius.d.ts",
@@ -58404,11 +58468,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/radius.js",
-      "size_bytes": 3872
+      "size_bytes": 4303
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/radius.js.map",
-      "size_bytes": 7456
+      "size_bytes": 8376
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/providers/radius.models.d.ts",
@@ -58796,11 +58860,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/types.d.ts",
-      "size_bytes": 33858
+      "size_bytes": 34457
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/types.d.ts.map",
-      "size_bytes": 18675
+      "size_bytes": 18816
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/types.js",
@@ -58808,7 +58872,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/types.js.map",
-      "size_bytes": 36465
+      "size_bytes": 37070
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/ai/dist/utils/abort-signals.d.ts",
@@ -59648,7 +59712,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/CHANGELOG.md",
-      "size_bytes": 744590
+      "size_bytes": 751478
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/README.md",
@@ -59719,7 +59783,7 @@
       "size_bytes": 402
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/anthropic-messages-22H2E23B.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/anthropic-messages-VOAE66ME.js",
       "size_bytes": 36999
     },
     {
@@ -59727,40 +59791,28 @@
       "size_bytes": 14498
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/azure-openai-responses-JJ726GYJ.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/azure-openai-responses-FWQRNMCY.js",
       "size_bytes": 6215
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/bedrock-converse-stream.js",
-      "size_bytes": 898579
+      "size_bytes": 898989
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-2BKJ4UF2.js",
       "size_bytes": 1513
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-36QC74V4.js",
-      "size_bytes": 30071
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-2HV66XRA.js",
+      "size_bytes": 3041
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-52KD6VTT.js",
-      "size_bytes": 4699
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-4RDFYA35.js",
+      "size_bytes": 1391655
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-5AGIVGSV.js",
       "size_bytes": 112077
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-5GJXA75I.js",
-      "size_bytes": 1382910
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-65LZPN67.js",
-      "size_bytes": 3176
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-6BFP5YI5.js",
-      "size_bytes": 11964
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-6QGV3IWD.js",
@@ -59779,28 +59831,48 @@
       "size_bytes": 406
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-DPMEYYP2.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-AIIDHDL2.js",
+      "size_bytes": 55243
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-ARDROFM7.js",
       "size_bytes": 96598
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-EQ2BR3SF.js",
-      "size_bytes": 44749
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-B5VNXULW.js",
+      "size_bytes": 11964
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-ESCXDUHA.js",
-      "size_bytes": 41440
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-D5E4JUBX.js",
+      "size_bytes": 30225
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-D5U74ZAG.js",
+      "size_bytes": 17801
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-E3GEPN3H.js",
+      "size_bytes": 5664
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-FFMDRXC4.js",
       "size_bytes": 16900
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-GH2VPQ2P.js",
-      "size_bytes": 475446
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-G5K7SYL7.js",
+      "size_bytes": 41537
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-HID5BUPP.js",
-      "size_bytes": 6861
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-GBB3EUD7.js",
+      "size_bytes": 21545
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-GMDZZCKH.js",
+      "size_bytes": 1340
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-HFTJRRFR.js",
+      "size_bytes": 44914
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-IEBK4HQA.js",
@@ -59809,6 +59881,14 @@
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-INODY4DR.js",
       "size_bytes": 5287
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-IOF7AZCL.js",
+      "size_bytes": 6861
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-J35HXFD7.js",
+      "size_bytes": 3612
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-JXWJOIH4.js",
@@ -59831,12 +59911,12 @@
       "size_bytes": 670473
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-O5MXS5TI.js",
-      "size_bytes": 193154
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-MDJ5LWZA.js",
+      "size_bytes": 1080538
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-ORY5MLDF.js",
-      "size_bytes": 2623577
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-O5MXS5TI.js",
+      "size_bytes": 193154
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-OVXT2WQH.js",
@@ -59845,10 +59925,6 @@
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-P7FPUEYA.js",
       "size_bytes": 1042
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-PB5262RA.js",
-      "size_bytes": 5664
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-PGXDEOVV.js",
@@ -59863,8 +59939,20 @@
       "size_bytes": 297
     },
     {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-PST3NXKM.js",
+      "size_bytes": 4732
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-Q6QBNASS.js",
+      "size_bytes": 2625750
+    },
+    {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-RDZVAGPR.js",
       "size_bytes": 810
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-S2GRKWHT.js",
+      "size_bytes": 10097
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-TMTOQ7H7.js",
@@ -59875,63 +59963,47 @@
       "size_bytes": 624
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-VARKPLD5.js",
-      "size_bytes": 21545
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-V7D5E4XS.js",
+      "size_bytes": 477002
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-VUDMZO5Q.js",
-      "size_bytes": 17801
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-VUZTGLGT.js",
-      "size_bytes": 55243
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-WLFBMTZ5.js",
-      "size_bytes": 10097
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-YXY4M7CD.js",
-      "size_bytes": 3041
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-ZCDRM3TR.js",
-      "size_bytes": 1080538
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-Z2XZSUHM.js",
+      "size_bytes": 1175
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/chunk-ZG74NES2.js",
       "size_bytes": 603
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/cli-3M6SYLOW.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/cli-VMQIKEKH.js",
       "size_bytes": 16788
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/cloudflare-workers-ai-system-one-XWHRMCHY.js",
-      "size_bytes": 1713
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/cloudflare-workers-ai-system-one-Z73UPEZ7.js",
+      "size_bytes": 1741
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/codemode-worker.js",
       "size_bytes": 78709
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/easter-egg-3d-JQSUSCKG.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/easter-egg-3d-BOWYTYMI.js",
       "size_bytes": 26110
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/execute-GM225T4M.js",
-      "size_bytes": 51162
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/execute-UXTJZEKY.js",
+      "size_bytes": 52402
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/github-copilot.js",
-      "size_bytes": 39890
+      "size_bytes": 40895
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/google-generative-ai-YKXQ53ZT.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/google-generative-ai-VI7CGXA2.js",
       "size_bytes": 9340
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/google-vertex-MUCLHVXZ.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/google-vertex-UGCMSJWH.js",
       "size_bytes": 11378
     },
     {
@@ -59959,7 +60031,7 @@
       "size_bytes": 966765
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/llama-cpp-classify-WIKNSO3N.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/llama-cpp-classify-SKDW7RUG.js",
       "size_bytes": 10584
     },
     {
@@ -59967,7 +60039,7 @@
       "size_bytes": 6717
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/mistral-conversations-P4MOPI2E.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/mistral-conversations-F2GKIAZI.js",
       "size_bytes": 19251
     },
     {
@@ -59987,7 +60059,7 @@
       "size_bytes": 12028
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-codex-responses-C5LXA4X5.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-codex-responses-B54DADY4.js",
       "size_bytes": 38298
     },
     {
@@ -59995,31 +60067,35 @@
       "size_bytes": 18698
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-completions-DWXQWGRR.js",
-      "size_bytes": 38517
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-completions-5UNXROMA.js",
+      "size_bytes": 39227
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-decisions-OKDRL5TQ.js",
-      "size_bytes": 4649
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-decisions-IN2F5D4R.js",
+      "size_bytes": 4682
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-responses-VJY3MQZW.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openai-responses-2567WJBU.js",
       "size_bytes": 11120
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openrouter-images-7M2P66JO.js",
-      "size_bytes": 3837
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openrouter-images-MPCL4RTO.js",
+      "size_bytes": 5244
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/openrouter.js",
       "size_bytes": 11592
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/pi-decision-KNTK2XHG.js",
-      "size_bytes": 5038
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/pi-decision-GZ2BG2JB.js",
+      "size_bytes": 3924
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/pi-messages-QJYPAHJF.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/pi-image-CXEQM6AW.js",
+      "size_bytes": 2620
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/pi-messages-PDCTBGXV.js",
       "size_bytes": 7967
     },
     {
@@ -60027,7 +60103,7 @@
       "size_bytes": 14793
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/runtime-T6TR2GDO.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/runtime-JESTW74H.js",
       "size_bytes": 512
     },
     {
@@ -60035,11 +60111,11 @@
       "size_bytes": 30182
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/typesafe-system-one-H25HBWGT.js",
-      "size_bytes": 1012
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/typesafe-system-one-6M47QHZX.js",
+      "size_bytes": 1040
     },
     {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/virtual-modules-VWKYRS23.js",
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/bundle/chunks/virtual-modules-GF5EVBST.js",
       "size_bytes": 11971
     },
     {
@@ -60079,20 +60155,36 @@
       "size_bytes": 438
     },
     {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/agent-dir-arg.d.ts",
+      "size_bytes": 932
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/agent-dir-arg.d.ts.map",
+      "size_bytes": 412
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/agent-dir-arg.js",
+      "size_bytes": 1488
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/agent-dir-arg.js.map",
+      "size_bytes": 2927
+    },
+    {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/args.d.ts",
-      "size_bytes": 1908
+      "size_bytes": 2234
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/args.d.ts.map",
-      "size_bytes": 2127
+      "size_bytes": 2172
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/args.js",
-      "size_bytes": 22137
+      "size_bytes": 23465
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/args.js.map",
-      "size_bytes": 34861
+      "size_bytes": 37199
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/auth-check.d.ts",
@@ -60248,11 +60340,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/list-models.js",
-      "size_bytes": 3690
+      "size_bytes": 3498
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/list-models.js.map",
-      "size_bytes": 8064
+      "size_bytes": 7682
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/cli/project-trust.d.ts",
@@ -60320,19 +60412,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/config.d.ts",
-      "size_bytes": 6576
+      "size_bytes": 6875
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/config.d.ts.map",
-      "size_bytes": 3065
+      "size_bytes": 3112
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/config.js",
-      "size_bytes": 23698
+      "size_bytes": 24522
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/config.js.map",
-      "size_bytes": 44960
+      "size_bytes": 46030
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/agent-session-runtime.d.ts",
@@ -60360,11 +60452,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/agent-session-services.js",
-      "size_bytes": 5629
+      "size_bytes": 5951
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/agent-session-services.js.map",
-      "size_bytes": 13297
+      "size_bytes": 13814
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/agent-session.d.ts",
@@ -60496,19 +60588,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/client-identity.d.ts",
-      "size_bytes": 435
+      "size_bytes": 306
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/client-identity.d.ts.map",
-      "size_bytes": 295
+      "size_bytes": 227
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/client-identity.js",
-      "size_bytes": 594
+      "size_bytes": 432
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/client-identity.js.map",
-      "size_bytes": 1155
+      "size_bytes": 795
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/compaction/branch-summarization.d.ts",
@@ -60536,11 +60628,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/compaction/compaction.js",
-      "size_bytes": 32200
+      "size_bytes": 32347
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/compaction/compaction.js.map",
-      "size_bytes": 60155
+      "size_bytes": 60338
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/compaction/index.d.ts",
@@ -61016,11 +61108,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/model-config.d.ts",
-      "size_bytes": 102441
+      "size_bytes": 104386
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/model-config.d.ts.map",
-      "size_bytes": 2898
+      "size_bytes": 2934
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/model-config.js",
@@ -61056,11 +61148,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/model-resolver.js",
-      "size_bytes": 19790
+      "size_bytes": 19773
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/model-resolver.js.map",
-      "size_bytes": 40992
+      "size_bytes": 40977
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/model-runtime.d.ts",
@@ -61144,11 +61236,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/pi-ai-schemas.d.ts",
-      "size_bytes": 6975
+      "size_bytes": 7148
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/pi-ai-schemas.d.ts.map",
-      "size_bytes": 611
+      "size_bytes": 615
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/pi-ai-schemas.js",
@@ -61232,11 +61324,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/provider-composer.js",
-      "size_bytes": 24918
+      "size_bytes": 25000
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/provider-composer.js.map",
-      "size_bytes": 55254
+      "size_bytes": 55403
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/provider-matching.d.ts",
@@ -61360,11 +61452,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/sdk.js",
-      "size_bytes": 15964
+      "size_bytes": 15896
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/sdk.js.map",
-      "size_bytes": 31040
+      "size_bytes": 30962
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/session-cwd.d.ts",
@@ -61416,19 +61508,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-defaults.d.ts",
-      "size_bytes": 2327
+      "size_bytes": 2284
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-defaults.d.ts.map",
-      "size_bytes": 1107
+      "size_bytes": 1094
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-defaults.js",
-      "size_bytes": 1918
+      "size_bytes": 1884
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-defaults.js.map",
-      "size_bytes": 3267
+      "size_bytes": 3211
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-diagnostics.d.ts",
@@ -61448,35 +61540,35 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-manager.d.ts",
-      "size_bytes": 12726
+      "size_bytes": 12629
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-manager.d.ts.map",
-      "size_bytes": 9582
+      "size_bytes": 9506
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-manager.js",
-      "size_bytes": 46909
+      "size_bytes": 46589
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-manager.js.map",
-      "size_bytes": 93469
+      "size_bytes": 92890
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-schema.d.ts",
-      "size_bytes": 13284
+      "size_bytes": 13225
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-schema.d.ts.map",
-      "size_bytes": 2509
+      "size_bytes": 2508
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-schema.js",
-      "size_bytes": 17631
+      "size_bytes": 17406
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/settings-schema.js.map",
-      "size_bytes": 36548
+      "size_bytes": 36169
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/skills.d.ts",
@@ -61541,22 +61633,6 @@
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/system-prompt.js.map",
       "size_bytes": 16776
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/telemetry.d.ts",
-      "size_bytes": 230
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/telemetry.d.ts.map",
-      "size_bytes": 255
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/telemetry.js",
-      "size_bytes": 425
-    },
-    {
-      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/telemetry.js.map",
-      "size_bytes": 1049
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/timings.d.ts",
@@ -61984,11 +62060,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/usage-totals.js",
-      "size_bytes": 3287
+      "size_bytes": 3470
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/usage-totals.js.map",
-      "size_bytes": 7090
+      "size_bytes": 7467
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/core/virtual-models.d.ts",
@@ -62016,11 +62092,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/extensions/codemode/execute.js",
-      "size_bytes": 34675
+      "size_bytes": 36447
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/extensions/codemode/execute.js.map",
-      "size_bytes": 66793
+      "size_bytes": 70382
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/extensions/codemode/execute.lazy.d.ts",
@@ -62192,11 +62268,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/extensions/llama/ui.js",
-      "size_bytes": 17858
+      "size_bytes": 17982
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/extensions/llama/ui.js.map",
-      "size_bytes": 41674
+      "size_bytes": 41842
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/extensions/mcp/cli.d.ts",
@@ -62424,7 +62500,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/main.d.ts",
-      "size_bytes": 780
+      "size_bytes": 783
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/main.d.ts.map",
@@ -62432,11 +62508,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/main.js",
-      "size_bytes": 41883
+      "size_bytes": 42829
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/main.js.map",
-      "size_bytes": 78225
+      "size_bytes": 79631
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/migrations.d.ts",
@@ -62580,11 +62656,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/bash-execution.js",
-      "size_bytes": 7798
+      "size_bytes": 7794
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/bash-execution.js.map",
-      "size_bytes": 14780
+      "size_bytes": 14774
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/bordered-loader.d.ts",
@@ -62644,11 +62720,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/config-selector.js",
-      "size_bytes": 32436
+      "size_bytes": 32447
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/config-selector.js.map",
-      "size_bytes": 67556
+      "size_bytes": 67569
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/countdown-timer.d.ts",
@@ -62676,11 +62752,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/custom-editor.js",
-      "size_bytes": 5498
+      "size_bytes": 6018
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/custom-editor.js.map",
-      "size_bytes": 10557
+      "size_bytes": 11352
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/custom-entry.d.ts",
@@ -62796,7 +62872,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/extension-editor.d.ts",
-      "size_bytes": 1143
+      "size_bytes": 1174
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/extension-editor.d.ts.map",
@@ -62804,11 +62880,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/extension-editor.js",
-      "size_bytes": 3939
+      "size_bytes": 3968
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/extension-editor.js.map",
-      "size_bytes": 8189
+      "size_bytes": 8218
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/extension-input.d.ts",
@@ -63076,27 +63152,27 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/session-selector.js",
-      "size_bytes": 37284
+      "size_bytes": 37330
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/session-selector.js.map",
-      "size_bytes": 73737
+      "size_bytes": 73835
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/settings-selector.d.ts",
-      "size_bytes": 4895
+      "size_bytes": 4794
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/settings-selector.d.ts.map",
-      "size_bytes": 4307
+      "size_bytes": 4226
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/settings-selector.js",
-      "size_bytes": 37011
+      "size_bytes": 36550
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/settings-selector.js.map",
-      "size_bytes": 67154
+      "size_bytes": 66385
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/settings-submenu.d.ts",
@@ -63108,11 +63184,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/settings-submenu.js",
-      "size_bytes": 6676
+      "size_bytes": 6770
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/settings-submenu.js.map",
-      "size_bytes": 15659
+      "size_bytes": 15908
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/components/show-images-selector.d.ts",
@@ -63324,19 +63400,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/interactive-mode.d.ts",
-      "size_bytes": 19547
+      "size_bytes": 20794
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/interactive-mode.d.ts.map",
-      "size_bytes": 9192
+      "size_bytes": 9498
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/interactive-mode.js",
-      "size_bytes": 294259
+      "size_bytes": 296085
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/interactive-mode.js.map",
-      "size_bytes": 535943
+      "size_bytes": 539060
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/model-catalog-refresh.d.ts",
@@ -63369,6 +63445,22 @@
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/model-search.js.map",
       "size_bytes": 3320
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/program-resume-reporter.d.ts",
+      "size_bytes": 1623
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/program-resume-reporter.d.ts.map",
+      "size_bytes": 687
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/program-resume-reporter.js",
+      "size_bytes": 2493
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/program-resume-reporter.js.map",
+      "size_bytes": 4225
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/modes/interactive/program-status-reporter.d.ts",
@@ -64148,19 +64240,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/utils/tools-manager.d.ts",
-      "size_bytes": 593
+      "size_bytes": 691
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/utils/tools-manager.d.ts.map",
-      "size_bytes": 518
+      "size_bytes": 519
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/utils/tools-manager.js",
-      "size_bytes": 13667
+      "size_bytes": 13835
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/utils/tools-manager.js.map",
-      "size_bytes": 26181
+      "size_bytes": 26356
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/dist/utils/version-check.d.ts",
@@ -64248,11 +64340,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/cli.md",
-      "size_bytes": 19318
+      "size_bytes": 19643
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/codemode.md",
-      "size_bytes": 14899
+      "size_bytes": 15352
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/compaction.md",
@@ -64276,7 +64368,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/environment-variables.md",
-      "size_bytes": 6046
+      "size_bytes": 6314
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/extensions.md",
@@ -64328,11 +64420,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/models-configuration.md",
-      "size_bytes": 22874
+      "size_bytes": 23598
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/models.md",
-      "size_bytes": 15272
+      "size_bytes": 15331
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/nvidia-rtx-llama-cpp.md",
@@ -64384,7 +64476,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/settings.md",
-      "size_bytes": 14793
+      "size_bytes": 14614
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/shell-aliases.md",
@@ -64400,7 +64492,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/terminal-setup.md",
-      "size_bytes": 9420
+      "size_bytes": 13616
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/coding-agent/docs/termux.md",
@@ -66392,19 +66484,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/components/editor.d.ts",
-      "size_bytes": 10264
+      "size_bytes": 10736
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/components/editor.d.ts.map",
-      "size_bytes": 4687
+      "size_bytes": 4795
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/components/editor.js",
-      "size_bytes": 95809
+      "size_bytes": 95687
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/components/editor.js.map",
-      "size_bytes": 172104
+      "size_bytes": 171920
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/components/h-stack.d.ts",
@@ -66544,11 +66636,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/components/settings-list.js",
-      "size_bytes": 11081
+      "size_bytes": 11229
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/components/settings-list.js.map",
-      "size_bytes": 23105
+      "size_bytes": 23490
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/components/spacer.d.ts",
@@ -66664,19 +66756,19 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/index.d.ts",
-      "size_bytes": 4695
+      "size_bytes": 4858
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/index.d.ts.map",
-      "size_bytes": 3677
+      "size_bytes": 3785
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/index.js",
-      "size_bytes": 3176
+      "size_bytes": 3325
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/index.js.map",
-      "size_bytes": 8083
+      "size_bytes": 8390
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/keybindings.d.ts",
@@ -66839,6 +66931,22 @@
       "size_bytes": 21490
     },
     {
+      "path": "/usr/lib/node_modules/pi/packages/tui/dist/program-resume.d.ts",
+      "size_bytes": 1909
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/tui/dist/program-resume.d.ts.map",
+      "size_bytes": 646
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/tui/dist/program-resume.js",
+      "size_bytes": 3437
+    },
+    {
+      "path": "/usr/lib/node_modules/pi/packages/tui/dist/program-resume.js.map",
+      "size_bytes": 6599
+    },
+    {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/program-status.d.ts",
       "size_bytes": 1335
     },
@@ -66888,7 +66996,7 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/terminal-image.d.ts",
-      "size_bytes": 6781
+      "size_bytes": 6800
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/terminal-image.d.ts.map",
@@ -66896,11 +67004,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/terminal-image.js",
-      "size_bytes": 27691
+      "size_bytes": 27820
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/terminal-image.js.map",
-      "size_bytes": 55552
+      "size_bytes": 55693
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/terminal.d.ts",
@@ -66944,11 +67052,11 @@
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/tui-main-screen.js",
-      "size_bytes": 28023
+      "size_bytes": 28116
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/tui-main-screen.js.map",
-      "size_bytes": 49682
+      "size_bytes": 49679
     },
     {
       "path": "/usr/lib/node_modules/pi/packages/tui/dist/tui.d.ts",
@@ -67036,7 +67144,7 @@
     },
     {
       "path": "/usr/share/doc/pi/CHANGELOG.md",
-      "size_bytes": 744590
+      "size_bytes": 751478
     },
     {
       "path": "/usr/share/doc/pi/README.md",
@@ -67048,11 +67156,11 @@
     },
     {
       "path": "/usr/share/doc/pi/cli.md",
-      "size_bytes": 19318
+      "size_bytes": 19643
     },
     {
       "path": "/usr/share/doc/pi/codemode.md",
-      "size_bytes": 14899
+      "size_bytes": 15352
     },
     {
       "path": "/usr/share/doc/pi/compaction.md",
@@ -67076,7 +67184,7 @@
     },
     {
       "path": "/usr/share/doc/pi/environment-variables.md",
-      "size_bytes": 6046
+      "size_bytes": 6314
     },
     {
       "path": "/usr/share/doc/pi/examples/README.md",
@@ -67664,11 +67772,11 @@
     },
     {
       "path": "/usr/share/doc/pi/models-configuration.md",
-      "size_bytes": 22874
+      "size_bytes": 23598
     },
     {
       "path": "/usr/share/doc/pi/models.md",
-      "size_bytes": 15272
+      "size_bytes": 15331
     },
     {
       "path": "/usr/share/doc/pi/nvidia-rtx-llama-cpp.md",
@@ -67720,7 +67828,7 @@
     },
     {
       "path": "/usr/share/doc/pi/settings.md",
-      "size_bytes": 14793
+      "size_bytes": 14614
     },
     {
       "path": "/usr/share/doc/pi/shell-aliases.md",
@@ -67736,7 +67844,7 @@
     },
     {
       "path": "/usr/share/doc/pi/terminal-setup.md",
-      "size_bytes": 9420
+      "size_bytes": 13616
     },
     {
       "path": "/usr/share/doc/pi/termux.md",
@@ -67771,6 +67879,6 @@
       "size_bytes": 1069
     }
   ],
-  "filename": "pi-1.6.1-2-x86_64.pkg.tar.zst",
-  "sha256": "5f95bcba5983c72ba3e774c60edde13d91976a4a09bf0f61eace280728ccfe63"
+  "filename": "pi-1.7.0-1-x86_64.pkg.tar.zst",
+  "sha256": "584fd8a2eb2b2eae3e05776fe03fa152b5fb476a33863044c089813b1f93fae7"
 }
